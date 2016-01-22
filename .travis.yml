@@ -1,0 +1,27 @@
+language: ruby
+cache:
+  bundler: true
+  directories:
+    - _site/images/resized
+    - node_modules/
+    - lib/
+    - vendor/bundle
+    - _smugmug_cache/
+    - tmp/
+    - .sass-cache
+install:
+  - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
+  - npm install
+  - bower install
+before_script:
+ - _bin/prep.sh # rake ?
+script:
+ - bundle exec rake build
+ - bundle exec rake test
+after_success:
+ - _bin/deploy.sh # rake ?
+branches:
+  only:
+  - master
+rvm:
+- 2.1.2

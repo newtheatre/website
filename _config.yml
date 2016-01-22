@@ -1,0 +1,69 @@
+# Site settings
+title: The Nottingham New Theatre
+email: boxoffice@newtheatre.org.uk
+twitter: thenewtheatre
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://alpha.newtheatre.org.uk" # the base hostname & protocol for your site
+ntbot_endpoint: "https://ntbot.flatcar.xyz/post_issue" # For issue posting
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+gems:
+- jekyll-sitemap
+- jekyll-redirect-from
+- jekyll-coffeescript
+- jekyll-jsminify
+
+exclude:
+- bower.json
+- CNAME
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- node_modules
+- package.json
+- Rakefile
+- README.md
+- vendor
+
+include:
+- lib
+
+# sass:
+#   style: :compressed
+
+lib:
+  js:
+    - lib/jquery/dist/jquery.js
+    - lib/underscore/underscore.js
+    - lib/mousetrap/mousetrap.min.js
+    - lib/lunr.js/lunr.min.js
+
+collections:
+  pages:
+    output: true
+    permalink: :path/
+
+# Config for the prose editor
+prose:
+  ignore:
+    - .bowerrc
+    - _bin
+    - _coffee
+    - _config.yml
+    - _site
+    - bower.json
+    - css
+    - feeds
+    - Gemfile
+    - Gemfile.lock
+    - js
+    - lib
+    - package.json
+    - robots.txt
+  siteurl: "https://alpha.newtheatre.org.uk"
+  media: "images"
+  # metadata:

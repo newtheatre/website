@@ -1,0 +1,15 @@
+_site/
+.sass-cache/
+lib/
+node_modules/
+.jekyll-metadata
+_smugmug_cache/
+tmp/
+.vagrant/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
