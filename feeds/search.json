@@ -1,0 +1,19 @@
+---
+layout: null
+---
+{% assign first = true %}
+[
+{% for page in site.content %}
+    {% if page.title != null and page.title != empty %}
+    {% unless first %},{% endunless %}{
+        "title": {{ page.title | jsonify }},
+        "type": "page",
+        "group": {{ page.group | jsonify}},
+        "link": {{ page.url | replace: 'index.html', '' | jsonify}},
+        "date": {{ page.date | jsonify }},
+        "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify}}
+    }
+    {% assign first = false %}
+    {% endif %}
+{% endfor %}
+]

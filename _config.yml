@@ -29,9 +29,6 @@ exclude:
 - README.md
 - vendor
 
-include:
-- lib
-
 # sass:
 #   style: :compressed
 
