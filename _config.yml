@@ -43,17 +43,29 @@ lib:
     - lib/lunr.js/lunr.min.js
 
 collections:
-  pages:
+  content:
     output: true
     permalink: :path/
 
+defaults:
+  # Defaults for pages
+  - scope:
+      type: content
+    values:
+      layout: default
 # Config for the prose editor
 prose:
   ignore:
     - .bowerrc
+    - .gitignore
+    - .travis.yml
     - _bin
     - _coffee
     - _config.yml
+    - _includes
+    - _layouts
+    - _plugins
+    - _sass
     - _site
     - bower.json
     - css
