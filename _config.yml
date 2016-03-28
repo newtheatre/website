@@ -50,6 +50,24 @@ defaults:
       type: content
     values:
       layout: default
+
+smug_picture:
+  url: "https://photos.newtheatre.org.uk"
+  output: "generated"
+  test:
+    ppi: [1, 1.5]
+    attr:
+      class: "test-pict"
+      itemprop: "image"
+    source_medium:
+      media: "(min-width: 40em)"
+      width: "600"
+      height: "300"
+    source_default:
+      width: "300"
+
+
+
 # Config for the prose editor
 prose:
   ignore:
