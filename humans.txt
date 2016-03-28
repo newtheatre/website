@@ -1,0 +1,23 @@
+---
+---
+/* TEAM */
+  Project Lead / Developer: Will Pimblett
+  Bio: https://history.newtheatre.org.uk/people/will_pimblett/
+  Contact: webmaster [at] newtheatre.org.uk
+  Twitter: @willpimblett
+  From: Cambridge, UK
+
+  Editor: Nathan Penney
+  Bio: https://history.newtheatre.org.uk/people/nathan_penney/
+  Twitter: @nhyty96
+
+  TODO - THIS LIST NOT YET COMPLETE!!
+
+/* THANKS */
+
+/* SITE */
+  Last update: {{site.time | date: "%Y-%m-%d" }}
+  Language: English
+  Doctype: HTML5
+  Build System: Jekyll
+  IDE: Sublime Text, Prose.io

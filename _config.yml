@@ -19,7 +19,6 @@ gems:
 
 exclude:
 - bower.json
-- CNAME
 - CONTRIBUTING.md
 - Gemfile
 - Gemfile.lock

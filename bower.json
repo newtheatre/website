@@ -1,0 +1,29 @@
+{
+  "name": "nntweb",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Will Pimblett <will@fullaf.com>"
+  ],
+  "license": "(C) Nottingham New Theatre",
+  "homepage": "https://github.com/newtheatre/website",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.6",
+    "font-awesome": "~4.5.0",
+    "ionicons": "~2.0.1",
+    "jquery": "~2.2.0",
+    "lunr.js": "~0.6.0",
+    "mousetrap": "~1.5.3",
+    "underscore": "~1.8.3"
+  }
+}
