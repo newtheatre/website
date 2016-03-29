@@ -19,6 +19,7 @@ gems:
 
 exclude:
 - bower.json
+- CNAME.staging
 - CONTRIBUTING.md
 - Gemfile
 - Gemfile.lock
@@ -26,6 +27,7 @@ exclude:
 - package.json
 - Rakefile
 - README.md
+- robots.txt.staging
 - vendor
 
 # sass:
