@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'jekyll', '~> 3.0.0'
+gem 'jekyll', '~> 3.1.0'
 gem 'liquid-c'
 gem 'jekyll-sitemap'
 gem 'jekyll-redirect-from'
