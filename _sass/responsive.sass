@@ -1,0 +1,19 @@
+// Responsive
+
+@mixin breakpoint($point)
+  // Respond to $point and bigger
+  @if $point == XL
+    @media (min-width: 1600px)
+      @content
+  @if $point == L
+    @media (min-width: 1100px)
+      @content
+  @else if $point == M
+    @media (min-width: 760px)
+      @content
+  @else if $point == S
+    @media (min-width: 520px)
+      @content
+  @else if $point == XS
+    @media (min-width: 320px)
+      @content

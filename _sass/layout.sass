@@ -19,5 +19,16 @@
   padding: 0
 
 .wrapper
-  width: 80%
+  // These widths specify the width of wrapper content elements in the viewport.
+  width: 99%
+  @include breakpoint(XS)
+    width: 96%
+  @include breakpoint(S)
+    width: 93%
+  @include breakpoint(M)
+    width: 88%
+  @include breakpoint(L)
+    width: 75%
+  @include breakpoint(XL)
+    width: 68%
 
