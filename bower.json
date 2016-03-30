@@ -24,6 +24,8 @@
     "jquery": "~2.2.0",
     "lunr.js": "~0.6.0",
     "mousetrap": "~1.5.3",
-    "underscore": "~1.8.3"
+    "underscore": "~1.8.3",
+    "montserrat-webfont": "~1.0.3",
+    "open-sans-fontface": "~1.4.2"
   }
 }
