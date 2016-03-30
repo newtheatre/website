@@ -80,7 +80,7 @@ Sed sit amet nibh lorem. Pellentesque habitant morbi tristique senectus et netus
 
 </div>
 
-<div class="wrapper" markdown="1">
+<div class="site-content wrapper" markdown="1">
 
 ## Tables
 

@@ -1,0 +1,23 @@
+// General layout
+
+@mixin column-layout-container
+  display: flex
+  flex-direction: column
+  align-items: center
+
+// .site is top level flex container, all children strung in column.
+// Items centre aligned so width dictates padding
+// Children of site should be .wrapper or specify a width (such as .site-header
+// and .site-footer).
+.site
+  @include column-layout-container
+
+
+*, *:before, *:after
+  // Layout reset
+  margin: 0
+  padding: 0
+
+.wrapper
+  width: 80%
+
