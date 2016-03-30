@@ -1,0 +1,241 @@
+// Typography
+
+// Set global type on body and inherit, prevents need for !important when
+// overriding styles
+
+body
+  font-family: $body-font-stack
+  color: $color-text
+
+*, *:before, *:after
+  font-family: inherit
+  color: inherit
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+// Style text selection
+::selection
+  background: $color-selection
+  color: $color-text-black
+
+// HEADER STYLING
+
+h1, h2, h3, h4, h5, h6, p, li, th, td, ul
+  &:last-child
+    // Remove bottom margins if element is last in it's container.
+    // The container should set it's own padding for this.
+    margin-bottom: 0
+
+h1, h2, h3, h4, h5, h6
+  font-family: $header-font-stack
+  margin-bottom: $baseline
+
+  // HACK correction from moving from GF Montserrat to latest
+  letter-spacing: $montserrat-letter-spacing
+
+.h1-baseline
+  line-height: $baseline * 3
+.h2-baseline
+  line-height: $baseline * 2
+.h3-baseline
+  line-height: $baseline
+.h4-baseline
+  line-height: $baseline
+.h5-baseline
+  line-height: $baseline
+.h6-baseline
+  line-height: $baseline
+
+h1
+  @extend .h1-baseline
+  font-size: 2.9rem
+  // @include respond-down(mob-port)
+  //   font-size: 2.4rem
+h2
+  @extend .h2-baseline
+  font-size: 2.4rem
+h3
+  @extend .h3-baseline
+  font-size: 1.5rem
+h4
+  @extend .h4-baseline
+  font-size: 1.4rem
+h5
+  @extend .h5-baseline
+  font-size: 1rem
+h6
+  @extend .h6-baseline
+  font-size: 1rem
+
+.headerlite
+  font-size: 0.7em
+  font-weight: $font-weight-light
+
+// GENERIC TEXT STYLING
+
+@mixin normal-text-nobr
+  line-height: $baseline
+  font-size: $base-font-size
+  margin-bottom: 0
+
+@mixin normal-text
+  @include normal-text-nobr
+  margin-bottom: $baseline
+
+@mixin compact-text-nobr
+  line-height: $baseline
+  font-size: $base-font-size-compact
+  margin-bottom: 0
+
+@mixin compact-text
+  @include compact-text-nobr
+  margin-bottom: $baseline
+
+p
+  @include normal-text
+
+.compact
+  @include compact-text
+
+.no-line-height
+  line-height: 1em
+
+.aside
+  @include compact-text
+  font-style: italic
+  color: $color-grey
+
+.rhs
+  text-align: right
+
+// ELEMENT INTERFACES
+
+.nobr
+  // No break
+  margin-bottom: 0
+
+p + h1, p + h2, p + h3
+  // Big headings after paragraphs
+  margin-top: $baseline * 2
+p + h4, p + h5, p + h6
+  // Small headings after paragraphs, padding is just what p has for margin-bottom
+
+@mixin header-top-nobr
+  p + h1, p + h2, p + h3
+    // Big headings after paragraphs
+    margin-top: 0
+  p + h4, p + h5, p + h6
+    // Small headings after paragraphs, padding is just what p has for margin-bottom
+
+// LINK STYLING
+
+$link-border-bottom-opacity: 0.2
+
+@mixin link-colour($color)
+  color: $color
+  text-decoration: none
+
+  &:visited
+    color: darken($color-link, 10%)
+
+  &:hover
+    color: lighten($color, 20%)
+    text-decoration: underline
+
+@mixin link-focus
+  background: $color-focus
+  outline: 4px solid $color-focus
+
+@mixin no-focus
+  &:focus
+    background: none
+    outline: none
+
+@mixin no-underline($on-hover: false)
+  // No underlines on normal and hover states
+  text-decoration: none
+  &:hover
+    @if $on-hover
+      text-decoration: underline
+    @else
+      text-decoration: none
+
+a
+  font-weight: $font-weight-bold
+  @include link-colour($color-link)
+
+  &:focus
+    @include link-focus
+
+@mixin anti-content-a-hover
+  background: inherit
+  margin: inherit
+  padding: inherit
+
+a.pagelink
+  &:before
+    // content: "\x9B "
+  &:after
+    content: "\x85"
+
+// INLINE STYLES
+
+strong
+  font-weight: $font-weight-bold
+
+
+@mixin text-shadow-effect($background)
+  text-shadow: 0 -1px 0 darken($background, 20%)
+
+// BLOCK LEVEL ELEMENTS
+
+ul, ol
+  margin-left: $baseline
+  margin-bottom: $baseline
+  li
+    padding-bottom: $baseline
+    &:last-child
+      margin-bottom: 0
+  &.minimal
+    margin-left: 0
+  h3, h4, h5, h6
+    font-weight: $font-weight-bold
+
+ul
+  list-style: square
+
+@mixin list-unformatted
+  margin-left: 0
+  li
+    padding-bottom: 0
+  list-style: none
+
+blockquote
+  margin-left: 3em
+  margin-right: 3em
+  margin-bottom: $baseline
+
+  $blockquote-border: 4px
+
+  padding-left: $blockquote-border * 4
+  border-left: $blockquote-border solid $color-grey
+
+  font-style: italic
+
+pre
+  margin-bottom: $baseline
+
+code
+  // Monospace :)
+  &, *
+    // Override the body font stack
+    font-family: monospace
+  background: $color-background-alt
+  padding: 2px 3px
+  white-space: pre-wrap
+  word-wrap: break-word
+
+dl
+  dt
+    font-weight: $font-weight-bold
+  dd
+    margin-bottom: $baseline / 2

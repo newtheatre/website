@@ -3,24 +3,32 @@
 ---
 @charset "utf-8"
 
+// ///////////////// //
+// PROJECT VARIABLES //
+// ///////////////// //
+
 $site-url: "{{ site.url }}"
 
 // Our variables
 $body-font-stack: 'Open Sans', Helvetica, sans-serif
 $header-font-stack: 'Montserrat', sans-serif
+$montserrat-letter-spacing: -0.7px
+
 $base-font-size: 17px
 $base-font-size-compact:  $base-font-size * 0.875
 $baseline-multiplier: 1.6
-$baseline: $base-font-size * $baseline-multiplier
+$baseline: 1rem * $baseline-multiplier
+
+$font-weight-bold: 600
+$font-weight-light: 300
 
 $color-nnt-purple: #A54499
 $color-nnt-orange: #FFC425
 
 $color-black: #1c1c1c
-
 $color-text-white: #eee
-$color-text:       $color-text-white
 $color-text-black: #111
+$color-text:       $color-text-black
 
 $color-white: #f1f1f1
 
@@ -44,5 +52,41 @@ $color-grey-light: lighten($color-grey, 40%)
 $color-grey-dark:  darken($color-grey, 25%)
 
 $color-selection: $color-nnt-orange
+
+// /////////////// //
+// LIBRARY IMPORTS //
+// /////////////// //
+
+@import "../lib/bourbon/app/assets/stylesheets/bourbon"
+
+$fa-font-path: "/lib/font-awesome/fonts"
+@import "../lib/font-awesome/scss/font-awesome"
+
+$ionicons-font-path: "/lib/ionicons/fonts"
+@import "../lib/ionicons/scss/ionicons"
+
+$octicons-font-path: "/lib/octicons/octicons/"
+@import "../lib/octicons/octicons/sprockets-octicons.scss"
+
+$montserrat-font-path: "/lib/montserrat-webfont/fonts/"
+@import "../lib/montserrat-webfont/scss/montserrat-webfont"
+
+$OpenSansPath: "/lib/open-sans-fontface/fonts"
+@import "../lib/open-sans-fontface/sass/variables"
+@import "../lib/open-sans-fontface/sass/mixins"
+@import "../lib/open-sans-fontface/sass/Light"
+// @import "../lib/open-sans-fontface/sass/LightItalic"
+@import "../lib/open-sans-fontface/sass/Regular"
+@import "../lib/open-sans-fontface/sass/Italic"
+@import "../lib/open-sans-fontface/sass/Semibold"
+// @import "../lib/open-sans-fontface/sass/SemiboldItalic"
+// @import "../lib/open-sans-fontface/sass/Bold"
+// @import "../lib/open-sans-fontface/sass/BoldItalic"
+// @import "../lib/open-sans-fontface/sass/ExtraBold"
+// @import "../lib/open-sans-fontface/sass/ExtraBoldItalic"
+
+// ////////////// //
+// PROJECT STYLES //
+// ////////////// //
 
 @import "type"
