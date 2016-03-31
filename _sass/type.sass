@@ -1,11 +1,53 @@
 // Typography
 
+// Responsive typography
+
+$scale-XS: 2
+$scale-S:  1.5
+$scale-M:  1
+$scale-L:  0.75
+$scale-XL: 0.5
+
+@mixin responsive-text($size: 1, $lines: 1)
+  // $size is a multiplier, equiv to ems
+  // $lines should be an int, when size is too big the line-height should
+  //        be a multiple of the base.
+  $scaled-size: $size * $base-font-size
+  $scaled-baseline: $base-font-size * $baseline-multiplier * $lines
+  @include breakpoint(XS)
+    font-size: $scaled-size * $scale-XS
+    line-height: $scaled-baseline * $scale-XS
+  @include breakpoint(S)
+    font-size: $scaled-size * $scale-S
+    line-height: $scaled-baseline * $scale-S
+  @include breakpoint(M)
+    font-size: $scaled-size * $scale-M
+    line-height: $scaled-baseline * $scale-M
+  @include breakpoint(L)
+    font-size: $scaled-size * $scale-L
+    line-height: $scaled-baseline * $scale-L
+  @include breakpoint(XL)
+    font-size: $scaled-size * $scale-XL
+    line-height: $scaled-baseline * $scale-XL
+
+@mixin set-to-baseline($property, $lines: 1)
+  $scaled-baseline: $base-font-size * $baseline-multiplier * $lines
+  #{$property}: $scaled-baseline
+
+.block
+  @include set-to-baseline(margin-bottom)
+
 // Set global type on body and inherit, prevents need for !important when
 // overriding styles
 
 body
   font-family: $body-font-stack
   color: $color-text
+
+  font-size: 17px
+
+  // Responsive typography
+  @include responsive-text()
 
 *, *:before, *:after
   font-family: inherit
@@ -26,45 +68,26 @@ h1, h2, h3, h4, h5, h6, p, li, th, td, ul
     margin-bottom: 0
 
 h1, h2, h3, h4, h5, h6
+  @extend .block
   font-family: $header-font-stack
-  margin-bottom: $baseline
 
   // HACK correction from moving from GF Montserrat to latest
   letter-spacing: $montserrat-letter-spacing
 
-.h1-baseline
-  line-height: $baseline * 3
-.h2-baseline
-  line-height: $baseline * 2
-.h3-baseline
-  line-height: $baseline
-.h4-baseline
-  line-height: $baseline
-.h5-baseline
-  line-height: $baseline
-.h6-baseline
-  line-height: $baseline
-
 h1
-  @extend .h1-baseline
-  font-size: 2.9rem
+  @include responsive-text(2.9, 3)
   // @include respond-down(mob-port)
   //   font-size: 2.4rem
 h2
-  @extend .h2-baseline
-  font-size: 2.4rem
+  @include responsive-text(2.4, 2)
 h3
-  @extend .h3-baseline
-  font-size: 1.5rem
+  @include responsive-text(1.5)
 h4
-  @extend .h4-baseline
-  font-size: 1.4rem
+  @include responsive-text(1.4)
 h5
-  @extend .h5-baseline
-  font-size: 1rem
+  @include responsive-text(1)
 h6
-  @extend .h6-baseline
-  font-size: 1rem
+  @include responsive-text(1)
 
 .headerlite
   font-size: 0.7em
@@ -73,13 +96,11 @@ h6
 // GENERIC TEXT STYLING
 
 @mixin normal-text-nobr
-  line-height: $baseline
-  font-size: $base-font-size
   margin-bottom: 0
 
 @mixin normal-text
   @include normal-text-nobr
-  margin-bottom: $baseline
+  @include set-to-baseline(margin-bottom)
 
 @mixin compact-text-nobr
   line-height: $baseline
@@ -88,7 +109,7 @@ h6
 
 @mixin compact-text
   @include compact-text-nobr
-  margin-bottom: $baseline
+  @include set-to-baseline(margin-bottom)
 
 p
   @include normal-text
@@ -115,7 +136,7 @@ p
 
 p + h1, p + h2, p + h3
   // Big headings after paragraphs
-  margin-top: $baseline * 2
+  @include set-to-baseline(margin-top, 2)
 p + h4, p + h5, p + h6
   // Small headings after paragraphs, padding is just what p has for margin-bottom
 
@@ -189,10 +210,11 @@ strong
 // BLOCK LEVEL ELEMENTS
 
 ul, ol
-  margin-left: $baseline
-  margin-bottom: $baseline
+  @extend .block
+
+  @set-to-baseline(margin-left)
   li
-    padding-bottom: $baseline
+    @set-to-baseline(padding-bottom)
     &:last-child
       margin-bottom: 0
   &.minimal
@@ -210,9 +232,9 @@ ul
   list-style: none
 
 blockquote
+  @extend .block
   margin-left: 3em
   margin-right: 3em
-  margin-bottom: $baseline
 
   $blockquote-border: 4px
 
@@ -222,7 +244,7 @@ blockquote
   font-style: italic
 
 pre
-  margin-bottom: $baseline
+  @extend .block
 
 code
   // Monospace :)
