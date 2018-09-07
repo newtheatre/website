@@ -6,6 +6,8 @@ node_modules/
 _smugmug_cache/
 tmp/
 .vagrant/
+vendor/
+.bundle/
 
 # Windows
 Thumbs.db

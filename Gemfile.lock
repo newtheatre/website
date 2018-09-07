@@ -129,7 +129,7 @@ DEPENDENCIES
   git
   html-proofer (~> 2.6)
   httparty
-  jekyll
+  jekyll (~> 3.8.3)
   jekyll-coffeescript
   jekyll-jsminify
   jekyll-redirect-from
