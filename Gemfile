@@ -11,3 +11,6 @@ gem 'mini_magick'
 gem 'git'
 gem 'html-proofer', '~>2.6'
 gem 'httparty'
+
+gem 'compass'
+gem 'bootstrap'

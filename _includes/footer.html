@@ -1,0 +1,101 @@
+  <div class="container-fluid footer bg-primary mt-3">
+    <div class="container">
+      <div class="row small align-items-center py-1">
+        <div class="col-md-4 text-center text-md-left">
+          <ul class="list-inline my-2">
+            <li class="list-inline-item align-bottom"><a href="mailto:{{ site.email }}"><i class="fa fa-2x fa-envelope fa-fw"></i></a></li>
+            <li class="list-inline-item align-bottom"><a href="http://facebook.com/{{ site.facebook }}"><i class="fab fa-2x fa-facebook fa-fw"></i></a></li>
+            <li class="list-inline-item align-bottom"><a href="http://twitter.com/{{ site.twitter }}"><i class="fab fa-2x fa-twitter fa-fw"></i></a></li>
+            <li class="list-inline-item align-bottom"><a href="http://instagram.com/{{ site.instagram }}"><i class="fab fa-2x fa-fw fa-instagram"></i></a></li>
+            <li class="list-inline-item align-top"><a href="{{ site.uonsu }}"><img src="{{ site.baseurl }}/images/logos/UoNSU_orange.png" style="max-height:25px" class="uonsu-orange" /></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-center text-md-center">
+          <span><em>&copy; The Nottingham New Theatre, 2018</em></span>
+        </div>
+        <div class="col-md-4 text-center text-md-right">
+          <ul class="list-unstyled my-0">
+            {% for node in site.data.footer %}
+              <li {% if node.href == page.permalink %}active{% endif %}">
+                {% assign first_char = node.href | slice: 0 %}
+                <a href="{% if first_char == '/' %}{{ site.baseurl }}{% endif %}{{ node.href }}">
+                  {{ node.name }} 
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Bootstrap JS --> 
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<!-- JQuery -->
+ <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<script>
+  //Add class to TOC anchors (must have this class for Scrollspy to work 
+  $('.toc-item a').addClass('nav-link'); 
+  $('body').scrollspy({ selector: '.toc-item', offset: 40 });
+
+  // Smooth scrolling
+  // Select all links with hashes
+  $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 500, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+  $(document).ready(function() { // Insert horizontal rule before each subsequent h1 to visually separate sections
+    $("<hr>").insertBefore('h1:nth-of-type(n+2)')
+  });
+
+  // Make UoNSU logo go darker on hover 
+  $(document).ready(function() {
+    $('.uonsu-orange').on( {
+      mouseenter: function() {
+        $(this).attr('src', '{{ site.baseurl }}/images/logos/UoNSU_orange_dark.png');
+      },
+      mouseleave: function() {
+        $(this).attr('src', '{{ site.baseurl }}/images/logos/UoNSU_orange.png');
+      }
+    });
+  });
+</script>
