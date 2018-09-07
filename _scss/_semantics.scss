@@ -1,0 +1,98 @@
+// Semantic classes used to extend and humanise Bootstrap's styles.
+
+
+// Colours
+.bg-purple {
+  @extend .bg-primary;
+}
+.text-purple {
+  @extend .text-primary;
+}
+.btn-purple {
+  @extend .btn-primary;
+  @extend .btn 
+}
+.border-purple {
+  @extend .border-primary; 
+}
+
+.bg-orange {
+  @extend .bg-secondary; 
+}
+.text-orange {
+  @extend .text-secondary; 
+}
+.btn-orange {
+  @extend .btn-secondary;
+  @extend .btn; 
+}
+.border-orange {
+  @extend .border-secondary;
+}
+
+// Layout 
+
+/// Navbar 
+.nt-navbar {
+  @extend .navbar, .navbar-expand-md, .navbar-dark, .bg-nnt-purple-dark, .px-0;
+}
+.nt-navbar-nav { // The actual navigation menu
+  @extend .navbar-nav, .w-100, .align-items-center, .nav-fill;
+}
+.brand-mobile {
+  @extend .ml-2, .d-block, .d-md-none, .navbar-brand;
+}
+.brand-large {
+  @extend .navbar-brand, .d-none, .d-md-block;
+}
+
+/// Banner 
+.banner {
+  @extend .jumbotron, .jumbotron-fluid;
+}
+h1.banner-text {
+  @extend .display-3, .nnt-purple-light, .text-center
+}
+
+/// Table of Contents 
+.toc-column {
+  @extend .col-lg-3, .col-md-4, .order-md-12, .sticky-top, .float-right;
+}
+.toc-list {
+  @extend .nav, .flex-column
+}
+.toc-item {
+  @extend .nav-item, .p-0; 
+  a {
+    @extend .py-0; 
+  }
+}
+
+// Components
+/// Card 
+.nt-card {
+  @extend .card;
+  p, ul {
+    // @extend .card-body;
+  }
+  > h1, > h2 {
+    @extend .card-header;
+  }
+  &.nt-card-purple {
+    .card-header {
+      @extend .bg-nnt-purple-dark;
+    }
+    @extend .bg-nnt-purple;
+  }
+  &.nt-card-orange {
+    .card-header {
+      @extend .bg-nnt-orange-dark;
+    }
+    @extend .border-orange;
+    @extend .bg-nnt-orange;
+    .card-body {
+      @extend .text-dark;      
+    }
+  }
+}
+
