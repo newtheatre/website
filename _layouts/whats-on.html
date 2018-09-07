@@ -1,0 +1,297 @@
+--- 
+layout: default 
+--- 
+
+<script type="text/javascript" src="{{ site.baseurl }}/feeds/tickets.json"></script>
+
+<!-- For additional content before the shows list --> 
+{{ content }}
+
+<div id="whats-on">
+</div>
+<!-- The new Javascript bit --> 
+<script>
+  var the_shows = whats_on;
+  var this_week = ''; 
+  var coming_soon = '';
+  // Separate the shows 
+  for (var i = 0; i < the_shows.length; i++) {
+    if (the_shows[i].this_week == true) {
+      this_week = this_week+the_shows[i];
+    }
+    else {
+      coming_soon = coming_soon+the_shows[i];
+    }
+  }
+  // To Do: split the `for` loop below to have two variables, `shows_this_week` and `shows_coming_soon` for displaying on the home page.
+
+
+  var show_html = '';
+  show_html = show_html + ('<div class="row">');
+  for (var i = 0; i < the_shows.length; i++) {
+    // Build the card, colours based on the season
+    show_html = show_html + ('<div class="col-md-6"><div class="nt-card bg-body ');
+    if (the_shows[i].season == "Fringe") {
+      show_html = show_html + ('border-orange');
+    }
+    else {
+      show_html = show_html + ('border-purple');
+    }
+    show_html = show_html + ('">')
+    // Poster
+    + '<div class="row"><div class="col-4 pr-0"><img class="img-fluid" src="' + the_shows[i].poster + '" />'
+    + '<button class="btn mt-3 ';
+    if (the_shows[i].season == "Fringe") {
+      show_html = show_html + 'btn-orange ';
+    }
+    else {
+      show_html = show_html + 'btn-purple ';
+    }
+    show_html = show_html + 
+    'rounded-0 w-100">Reserve tickets</button>'
+    + '</div><div class="col-8 pl-0">'
+    // Card title 
+    + '<div class="card-header">'+
+        '<h1>' + the_shows[i].title 
+        // Dates
+        + '&nbsp;<small class="text-muted">'+ the_shows[i].date_start +' - '+the_shows[i].date_end + '</small></h1>'
+        // Season and Venue 
+        + '<h5 class="text-muted">' + (the_shows[i].season) + ' | ' + the_shows[i].venue + '</h5>'
+      + '</div><div class="card-body">'
+        // Short description 
+        + '<p>' + the_shows[i].short_desc + '</p>'
+
+      // End card body 
+      + '</div>'
+    // End column, row, card
+    + '</div></div></div>'
+    // End column
+    + '</div>';
+
+  }
+  show_html = show_html + '</div>'; // End row 
+  document.getElementById('whats-on').innerHTML = show_html;
+</script>
+
+
+<!-- The prototyping pure HTML bit -->
+<h1 class="border-0 p-0 mb-2">Shows This Week</h1>
+<div class="row">
+  <div class="col-md">
+    <div class="card bg-body mb-3 rounded-0">
+      <div class="card-header">
+        <h2>Show Title <small class="text-muted">14-15th January, 2019</small></h2>
+        <h5 class="text-muted">In House | NNT Auditorium</h5>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-primary rounded-0 w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md">
+    <div class="card bg-body mb-3 rounded-0 border-secondary">
+      <div class="card-header border-secondary">
+        <h2>Show Title <small class="text-muted">16th-17th January, 2019</small></h2>
+        <h5 class="text-muted">Fringe | NNT Auditorium</h5>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-primary rounded-0 w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h1 class="border-0 p-0 mb-2">Shows Coming Soon</h1>
+<div class="row">
+  <div class="col-xl-4 col-md-6">        
+    <div class="card bg-body border-secondary rounded-0 mb-3">
+      <div class="card-header border-secondary">
+        <h2>Show Title <small class="text-muted">16th-17th January, 2019</small></h2>
+        <h5 class="text-muted">Fringe | NNT Studio A</h5>
+      </div>
+      <div class="card-body px-2 py-2">
+        <div class="row">
+          <div class="col-sm-5 py-1">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-secondary rounded-0 w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-md-6">        
+    <div class="card bg-body border-secondary rounded-0 mb-3">
+      <div class="card-header border-secondary">
+        <h2>Show Title <small class="text-muted">16th-17th January, 2019</small></h2>
+        <h5 class="text-muted">Fringe | NNT Studio A</h5>
+      </div>
+      <div class="card-body px-2 py-2">
+        <div class="row">
+          <div class="col-sm-5 py-1">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-secondary rounded-0  w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-md-6">        
+    <div class="card bg-body border-secondary rounded-0 mb-3">
+      <div class="card-header border-secondary">
+        <h2>Show Title <small class="text-muted">16th-17th January, 2019</small></h2>
+        <h5 class="text-muted">Fringe | NNT Studio A</h5>
+      </div>
+      <div class="card-body px-2 py-2">
+        <div class="row">
+          <div class="col-sm-5 py-1">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-secondary rounded-0  w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-md-6">        
+    <div class="card bg-body border-primary rounded-0 mb-3">
+      <div class="card-header border-primary">
+        <h2>Show Title <small class="text-muted">16th-17th January, 2019</small></h2>
+        <h5 class="text-muted">In House | NNT Auditorium</h5>
+      </div>
+      <div class="card-body px-2 py-2">
+        <div class="row">
+          <div class="col-sm-5 py-1">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-primary rounded-0  w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-md-6">        
+    <div class="card bg-body border-primary rounded-0 mb-3">
+      <div class="card-header border-primary">
+        <h2>Show Title <small class="text-muted">16th-17th January, 2019</small></h2>
+        <h5 class="text-muted">In House | NNT Auditorium</h5>
+      </div>
+      <div class="card-body px-2 py-2">
+        <div class="row">
+          <div class="col-sm-5 py-1">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-primary rounded-0  w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-md-6">        
+    <div class="card bg-body border-primary rounded-0 mb-3">
+      <div class="card-header border-primary">
+        <h2>Show Title <small class="text-muted">16th-17th January, 2019</small></h2>
+        <h5 class="text-muted">In House | NNT Auditorium</h5>
+      </div>
+      <div class="card-body px-2 py-2">
+        <div class="row">
+          <div class="col-sm-5 py-1">
+            <img src="http://placekitten.com/g/353/500?image=3" class="img-fluid" />
+            <button class="btn btn-primary rounded-0  w-100 mt-3">Reserve tickets</button>
+          </div>
+          <div class="col-sm-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
