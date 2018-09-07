@@ -1,0 +1,18 @@
+--- 
+# Specifies the links for the navbar 
+
+- name: What's On 
+  href: / 
+- name: Get Involved 
+  href: /get-involved/
+- name: StuFF 
+  href: /stuff/
+- name: Nottingham New Theatre 
+  href: / 
+  logo: true 
+- name: Alumni
+  href: /alumni/ 
+- name: Technical 
+  href: /technical/
+- name: About 
+  href: /about/

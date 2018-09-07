@@ -1,5 +1,7 @@
 ---
 title: Register
+banner_text: "Sign up for our Alumni Network"
+banner_image: "alumni.jpg"
 redirect_from: /alumni/registration/
 ---
 

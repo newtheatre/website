@@ -1,0 +1,33 @@
+{%- unless include.role or include.group  -%}
+  {%- assign person = site.data.committee -%}
+{%- endunless -%}
+{%- if include.group -%}
+  {%- assign person = site.data.committee | where: "group", include.group -%}
+{%- endif -%}
+{%- if include.role -%}
+  {%- assign person = site.data.committee | where: "email", include.role -%}
+{%- endif -%}
+
+{%- if include.format == "inline" -%}
+
+{%- for person in person -%}<a href="mailto:{%- if person.alias_email == include.alias and include.alias -%}{{ person.alias_email }}{%- else -%}{{ person.email }}{%- endif -%}@newtheatre.org.uk">{% unless person.name == "NONE" %}<strong>{{ person.name }}</strong>,&nbsp;{% endunless %}{%- if person.alias_email == include.alias and include.alias-%}{{ person.alias_role }}{%- else -%}{{ person.role }}{%- endif -%}</a>{%- unless forloop.last == true -%},&nbsp;{%- endunless -%}{%- endfor -%}
+
+{% elsif include.format == "list" %}
+<ul>
+{%- for person in person -%}<li><a href="mailto:{%- if person.alias_email == include.alias and include.alias -%}{{ person.alias_email }}{%- else -%}{{ person.email }}{%- endif -%}@newtheatre.org.uk">{% unless person.name == "NONE" %}<strong>{{ person.name }}</strong>,&nbsp;{% endunless %}{%- if person.alias_email == include.alias and include.alias-%}{{ person.alias_role }}{%- else -%}{{ person.role }}{%- endif -%}</a></li>{%- endfor -%}
+</ul>
+
+{%- else -%}
+  <div class="row">
+    {%- for person in person -%}
+      <div class="col-lg-3 col-md-4 col-6">
+        <dl class="text-center">
+          <dd><img src="{{ person.img }}" class="img-fluid rounded-circle" /></dd>
+          {% unless person.name == "NONE" %}<dd><strong>{{ person.name }}</strong></dd>{% endunless %}
+          <dd>{%- if include.alias == person.alias_email and include.alias -%}{{ person.alias_role }}{%- else -%}{{ person.role }}{%- endif -%}</dd>
+          <dd><i class="fa fa-envelope fa-fw"></i>&nbsp;<a href="mailto:{%- if person.alias_email == include.alias and include.alias-%}{{ person.alias_email }}{%- else -%}{{ person.email }}{%- endif -%}@newtheatre.org.uk">{%- if person.alias_email == include.alias and include.alias-%}<em>{{ person.alias_email }}</em>{%- else -%}<em>{{ person.email }}</em>{%- endif -%}</a></dd>
+        </dl>
+      </div>
+    {%- endfor -%}
+  </div>
+{%- endif -%}

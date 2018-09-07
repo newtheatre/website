@@ -1,34 +1,97 @@
+---
+
+# The Nottingham New Theatre Committee 
+
+
 - role: President
-  name: Nick Gill
+  name: Miguel Barrulas 
+  email: president 
+  img: http://placekitten.com/g/150/150
+
 - role: Treasurer
-  name: Laura Jayne Bateman
+  name: Jonathan Taylor Davies 
+  email: treasurer 
+  img: http://placekitten.com/g/150/150
+
 - role: Theatre Manager
-  name: Gus Herbert
+  name: Sam Osborne 
+  email: theatremanager 
+  img: http://placekitten.com/g/150/150
+  group: backstage
+
 - role: Secretary
-  name: Ollie Shortt
-- role: Productions Coordinator
-  name: Eden Phillips Harrington
-- role: Front of House Manager
-  name: Matt Standen
-- role: Company Stage Manager
-  name: Darcey Graham
-- role: Workshop Manager
-  name: Joe Strickland
-- role: Workshop Manager
-  name: Beth Wilson
-- role: Company Technical Director
-  name: Joanne Blunt
-- role: Technical Manager
-  name: Nathan Penney
-- role: Publicity and Internal Marketing Manager
-  name: Max Miller
-- role: Publicity and External Marketing Manager
-  name: Omid Faramarzi
-- role: Fundraising Coordinator
-  name: Emma Kendall
+  name: Grace Williams 
+  email: secretary 
+  img: http://placekitten.com/g/150/150
+
+- role: In House Coordinator 
+  name: Jess Donn 
+  email: inhouse 
+  img: http://placekitten.com/g/150/150
+  group: coordinator
+
 - role: Fringe Coordinator
-  name: Niamh Caines
+  name: Daniel McVey 
+  email: fringe 
+  img: http://placekitten.com/g/150/150
+  group: coordinator 
+  alias_email: stuff 
+  alias_role: StuFF Coordinator
+
+- role: Front of House Manager
+  name: Cameron Brett 
+  email: boxoffice 
+  img: http://placekitten.com/g/150/150
+
+- role: Company Stage Manager
+  name: Nadia Elalfi 
+  email: csm 
+  img: http://placekitten.com/g/150/150
+  group: backstage 
+
+- role: Company Set Technician 
+  name: Jack Ellis 
+  email: cst 
+  img: http://placekitten.com/g/150/150
+  group: backstage 
+
+- role: Company Technical Director
+  name: Zoe Smith 
+  email: tech 
+  img: http://placekitten.com/g/150/150
+  group: backstage 
+
+- role: Technical Manager
+  name: NONE 
+  email: techmanager 
+  img: http://placekitten.com/g/150/150
+  group: backstage 
+
+- role: Participation Coordinator 
+  name: Jonny Khan 
+  email: participation
+  img: http://placekitten.com/g/150/150
+
+- role: Publicity Managers
+  name: Rohan Rakhit and Beth Carter 
+  email: publicity 
+  img: http://placekitten.com/g/150/150
+
+- role: External Coordinator 
+  name: Joe Strickland 
+  email: external 
+  img: http://placekitten.com/g/150/150
+  group: coordinator  
+  alias_email: edinburgh 
+  alias_role: Edinburgh Coordinator
+
 - role: Costume and Props Manager
-  name: Charlotte Kirkman
-- role: Social Secretary
-  name: Shannon Smith
+  name: Charlie Basley 
+  email: costume 
+  img: http://placekitten.com/g/150/150
+  group: backstage 
+
+- role: Social and Fundraising Coordinator 
+  name: Lucy Chandler 
+  email: social 
+  img: http://placekitten.com/g/150/150
