@@ -2,7 +2,7 @@
 layout: default 
 --- 
 
-<script type="text/javascript" src="{{ site.baseurl }}/feeds/tickets.json"></script>
+<!-- <script type="text/javascript" src="{{ site.baseurl }}/feeds/tickets.json"></script> -->
 
 <!-- For additional content before the shows list --> 
 {{ content }}
@@ -11,66 +11,73 @@ layout: default
 </div>
 <!-- The new Javascript bit --> 
 <script>
-  var the_shows = whats_on;
-  var this_week = ''; 
-  var coming_soon = '';
-  // Separate the shows 
-  for (var i = 0; i < the_shows.length; i++) {
-    if (the_shows[i].this_week == true) {
-      this_week = this_week+the_shows[i];
-    }
-    else {
-      coming_soon = coming_soon+the_shows[i];
-    }
-  }
-  // To Do: split the `for` loop below to have two variables, `shows_this_week` and `shows_coming_soon` for displaying on the home page.
+  $( document ).ready(function() {
+    $.getJSON("https://ticketing.newtheatre.org.uk/api/shows").done(function(data){
+      console.log(data);
+      var the_shows = data.results;
+      var this_week = ''; 
+      var coming_soon = '';
+      // Separate the shows 
+      for (var i = 0; i < the_shows.length; i++) {
+        if (the_shows[i].this_week == true) {
+          this_week = this_week+the_shows[i];
+        }
+        else {
+          coming_soon = coming_soon+the_shows[i];
+        }
+      }
+      // To Do: split the `for` loop below to have two variables, `shows_this_week` and `shows_coming_soon` for displaying on the home page.
 
 
-  var show_html = '';
-  show_html = show_html + ('<div class="row">');
-  for (var i = 0; i < the_shows.length; i++) {
-    // Build the card, colours based on the season
-    show_html = show_html + ('<div class="col-md-6"><div class="nt-card bg-body ');
-    if (the_shows[i].season == "Fringe") {
-      show_html = show_html + ('border-orange');
-    }
-    else {
-      show_html = show_html + ('border-purple');
-    }
-    show_html = show_html + ('">')
-    // Poster
-    + '<div class="row"><div class="col-4 pr-0"><img class="img-fluid" src="' + the_shows[i].poster + '" />'
-    + '<button class="btn mt-3 ';
-    if (the_shows[i].season == "Fringe") {
-      show_html = show_html + 'btn-orange ';
-    }
-    else {
-      show_html = show_html + 'btn-purple ';
-    }
-    show_html = show_html + 
-    'rounded-0 w-100">Reserve tickets</button>'
-    + '</div><div class="col-8 pl-0">'
-    // Card title 
-    + '<div class="card-header">'+
-        '<h1>' + the_shows[i].title 
-        // Dates
-        + '&nbsp;<small class="text-muted">'+ the_shows[i].date_start +' - '+the_shows[i].date_end + '</small></h1>'
-        // Season and Venue 
-        + '<h5 class="text-muted">' + (the_shows[i].season) + ' | ' + the_shows[i].venue + '</h5>'
-      + '</div><div class="card-body">'
-        // Short description 
-        + '<p>' + the_shows[i].short_desc + '</p>'
+      var show_html = '';
+      show_html = show_html + ('<div class="row">');
+      for (var i = 0; i < the_shows.length; i++) {
+        // Build the card, colours based on the season
+        show_html = show_html + ('<div class="col-md-6"><div class="nt-card bg-body ');
+        if (the_shows[i].category.name == "Fringe") {
+          show_html = show_html + ('border-orange');
+        }
+        else {
+          show_html = show_html + ('border-purple');
+        }
+        show_html = show_html + ('">')
+        // Poster
+        + '<div class="row"><div class="col-4 pr-0"><img class="img-fluid" src="' + the_shows[i].poster + '" />'
+        + '<a class="btn mt-3 ';
+        if (the_shows[i].category.name == "Fringe") {
+          show_html = show_html + 'btn-orange ';
+        }
+        else {
+          show_html = show_html + 'btn-purple ';
+        }
+        show_html = show_html + 
+        'rounded-0 w-100" href="https://ticketing.newtheatre.org.uk/book/'+the_shows[i].id+'">Reserve tickets</a>'
+        + '</div><div class="col-8 pl-0">'
+        // Card title 
+        + '<div class="card-header">'+
+            '<h1>' + the_shows[i].name 
+            // Dates
+            + '&nbsp;<small class="text-muted">'+ the_shows[i].start_date +' - '+the_shows[i].end_date + '</small></h1>'
+            // Season and Venue 
+            + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
+          + '</div><div class="card-body">'
+            // Short description 
+            + '<p>' + the_shows[i].description + '</p>'
 
-      // End card body 
-      + '</div>'
-    // End column, row, card
-    + '</div></div></div>'
-    // End column
-    + '</div>';
+          // End card body 
+          + '</div>'
+        // End column, row, card
+        + '</div></div></div>'
+        // End column
+        + '</div>';
 
-  }
-  show_html = show_html + '</div>'; // End row 
-  document.getElementById('whats-on').innerHTML = show_html;
+      }
+      show_html = show_html + '</div>'; // End row 
+      document.getElementById('whats-on').innerHTML = show_html;
+    }).fail(function(){
+      document.getElementById('whats-on').innerHTML = "Unable to load shows";
+    });
+  });
 </script>
 
 
