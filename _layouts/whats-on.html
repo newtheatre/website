@@ -26,7 +26,6 @@ layout: default
       }
       // To Do: split the `for` loop below to have two variables, `shows_this_week` and `shows_coming_soon` for displaying on the home page.
 
-
       var show_html = '';
       show_html = show_html + ('<div class="row">');
       for (var i = 0; i < the_shows.length; i++) {
@@ -65,7 +64,7 @@ layout: default
         + '<div class="card-header">'+
             '<h1>' + the_shows[i].name 
             // Dates
-            + '&nbsp;<small class="text-muted">'+ date_string + '</small></h1>'
+            + '<br /><small class="text-muted">'+ date_string + '</small></h1>'
             // Season and Venue 
             + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
           + '</div><div class="card-body">'
