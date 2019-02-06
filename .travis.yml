@@ -21,7 +21,7 @@ script:
 after_success:
 - _bin/deploy.sh
 rvm:
-- 2.1.2
+- 2.2.5
 env:
   global:
     secure: a6h+R8ZMKEwCWmirjXwnlrjBpdVqO/ZA8UmtFhtqstqKe7spAcXGOpRP9ggc+DVc9VLpUmoH7KtY/ky8K8XXBHmCNctPvNOv8uV0Qj7VJPhcjJ8IFq78081jfiKW+8KnHdVpvz3UuLp98XA7WyhCxuQ+pIJSK6WhpRdepydOUBXvNdpKBJ0k2OXx7UuhsQ7VavWj6ULfplRDDslcK6nXNZtIthqQ5BllBC0dPd2VDxgI45YIColEP9MlqoxS3dYQIe86HmA4YRsNJNK71ZXy/35RYvTskXOUSzGlUVIBML3C/ZM+XdeE1cxGlpH2G244D5kzGOqM+H8/BVq+p+bgqFZb5hUhWfm3PqnEfk1eGy/5HhpfV46EerRs+3U5XEtIiwIcdyKRSTOpkSYE+5jYUnFC+4k+6qmGfcKfymi+kTCfNrpcN5ahPwsHnuRoDhy/DBxqlSqu8q98ryXIT2P1GjnNf4Ct0ViaQYvjI9n/OEffNeaxHF/aXwQedW6vgi33bCaW0OYdjpCLXDcvL/0O+kfanohafmCmSqTpimmnS45FQo8ejqKIHDg25u1te51XDkkZQA1UhN04LG+QtvzwMNQ/ZS+bgWUdfv+vTLRy3Twe4wF28aEUNmJw9s7n0RAI4XdV4VkDCBXC/1+LDWCcOQua+HH24bXjkPm090aueiM=
