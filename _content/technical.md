@@ -90,20 +90,20 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 
 |Fixture|Quantity|
 |---|:---:|
-|Selecon Rama 1k Fresnel | 3
-|Selecon Acclaim 750W Fresnel| 3
+|Selecon Rama 1k Fresnel | 12
+|Selecon Acclaim 750W Fresnel| 16
 |CCT Minuette 650W Fresnel| 3
-|Strand Patt 223 1k| 3
-|Strand Patt 123 1k| 3
-|ETC Source 4 Jr Zoom 575W| 3
-|ETC Source 4 750W 1 | 3
-|Selecon Condenser| 3
-|Selecon Acclaim Zoomspot| 3
-|Chauvet ColorDash PARQuad 18| 3
-|PAR 64| 3
-|PAR 16| 3
-|Strand Patt 137| 3
-|Martin Atomic 3000 Strobe | 3
+|Strand Patt 743 1k| 8
+|Strand Patt 123 1k| 2
+|ETC Source 4 Jr Zoom 575W| 9
+|ETC Source 4 750W| 1
+|Selecon Condenser| 2
+|Selecon Acclaim Zoomspot| 5
+|Chauvet ColorDash PARQuad 18| 6
+|PAR 64| 8
+|PAR 16| 14
+|Strand Patt 137| 2
+|Martin Atomic 3000 Strobe | 1
 
 </div>
 <div class="col-lg" markdown="1">
