@@ -306,7 +306,7 @@ Being a part of the tech team is super rewarding, and you get to be involved wit
 <div class="row">
   <div class="col-md-6" markdown="1">
 
-### Technical Director 
+## Technical Director 
 
 The Technical Director holds the oversight of all the tech parts of a show, such as rigging, focusing and organising. They run the technical rehearsals and are often found shouting "Stop!" just before a climactic moment. 
 
@@ -315,7 +315,7 @@ The TD is responsible for making sure all of the tech things get done on time, a
 
 </div><div class="col-md-6" markdown="1">
 
-### Lighting Design 
+## Lighting Design 
 
 Using [lights, colours, smoke and haze]({{ site.baseurl }}/technical/#lighting) is the domain of the lighting designer. As a lighting designer, you'll work with almost everyone else on the show and their ideas to create the 'look' of the show. 
 
@@ -327,7 +327,7 @@ Once it's all in the air, it's time to focus (point the lights in the right dire
 
 </div><div class="col-md-6" markdown="1">
 
-### Sound Design 
+## Sound Design 
 
 Some shows want some sound effects, others want underscores, and some even benefit from composition work - all of which fall under sound design.
 
@@ -355,7 +355,7 @@ At the get-in, you'll rig any projectors and screens you might need, followed by
 
 <div class="col-md-6" markdown="1">
 
-### Operators 
+## Operators 
 
 Operators of a show sit at the tech desk with the [Technical Director](#technical-director) to run the show. They press the 'Go' button to fire any lighting, sound or video cues during the show.
 
