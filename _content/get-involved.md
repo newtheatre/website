@@ -341,7 +341,7 @@ During the get-in, you'll install the speakers and focus them (point them in the
 
 </div><div class="col-md-6" markdown="1">
 
-### Video Design 
+## Video Design 
 
 ![The stage for 'Revolt. She Said. Revolt Again.']({{ site.baseurl }}/images/revolt_stage.jpg)
 
@@ -355,7 +355,7 @@ At the get-in, you'll rig any projectors and screens you might need, followed by
 
 <div class="col-md-6" markdown="1">
 
-## Operators 
+### Operators 
 
 Operators of a show sit at the tech desk with the [Technical Director](#technical-director) to run the show. They press the 'Go' button to fire any lighting, sound or video cues during the show.
 
