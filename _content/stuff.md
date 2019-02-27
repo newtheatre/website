@@ -3,6 +3,7 @@ title: StuFF
 permalink: /stuff/
 redirect_from: /stuff/
 banner_text: StuFF - Student Fringe Festival 
+banner_image: "stuff.jpg"
 ---
 
 # StuFF 

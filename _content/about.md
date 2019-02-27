@@ -4,6 +4,7 @@ permalink: /about/
 redirect_from: /about-us/
 layout: toc 
 banner_text: "All about the University of Nottingham's student-run theatre"
+banner_image: "about.jpg"
 ---
 
 Based on University Park, Nottingham, we are the only student run theatre in England. We produce over 30 plays per year, across two venues (an 80-seat Auditorium and 30-seat Studio); send shows to the [National Student Drama Festival](http://nsdf.org.uk) and [Edinburgh Festival Fringe](http://edfringe.com); and even host our own [Student Fringe Festival](/stuff/) every June.
