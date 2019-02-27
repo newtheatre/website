@@ -24,5 +24,5 @@ An archive such as this is completely unique among both student and professional
 
 ---
 
-If you have any queries contact the Network Coordinators Phil Geller and Nick Stevenson at [alumni@newtheatre.org.uk](mailto:alumni@newtheatre.org.uk).
+If you have any queries email the Network at [alumni@newtheatre.org.uk](mailto:alumni@newtheatre.org.uk).
 
