@@ -292,36 +292,36 @@ If you're interested in being a stage manager, please get in touch with {% inclu
 </div>
 <div class="col-lg-8 col-sm-7" markdown="1">
 
-With all those pretty lights, sound effects and fancy videos, someone's got to be in charge of it and that could be you. 
+With all those pretty lights, sound effects and fancy videos; someone's got to be in charge of it and that could be you. 
 
-We've got a modern and large stock of [technical equipment]({{ site.baseurl }}/technical/#equipment) that is ever expanding with alumni funding, so there's plenty to sink your teeth into. 
+We've got a large and modern stock of [technical equipment]({{ site.baseurl }}/technical/#equipment) that is ever expanding, so there's plenty to sink your teeth into. 
 
-Throughout the year, we run extensive training on how to use our equipment, as well as creative workshops on how to get the most out of a lighting or sound design, including some from industry professionals. 
+Throughout the year, we run extensive training on how to use our equipment, as well as creative workshops from industry professionals on lighting or sound designs.
 
 </div>
 </div>
 
-Being a part of the tech team is super rewarding, and you get to be involved with as many productions as you want, working with directors, actors and set teams to create a spectacular production with lots of fun along the way. 
+Being part of the tech team is super rewarding, and you get to be involved with as many productions as you want. You will be working with directors, actors and set designers to create a spectacular production with lots of fun along the way. 
 
 <div class="row">
   <div class="col-md-6" markdown="1">
 
 ## Technical Director 
 
-The Technical Director holds the oversight of all the tech parts of a show, such as rigging, focusing and organising. They run the technical rehearsals and are often found shouting "Stop!" just before a climactic moment. 
+The Technical Director (TD) oversees all the technical aspects of a show, such as rigging, focusing and organising. They run the technical rehearsals and are often found shouting "Stop!" just before a climactic moment. 
 
-The TD is responsible for making sure all of the tech things get done on time, as well as for 'calling the show' &ndash; following the script and cueing any operators to fire cues, or stage managers to move set.
+The TD is responsible for making sure all of the tech things get done on time, as well as for 'calling the show' (following the script and cueing any operators to fire cues, or stage managers to move set).
 ![The rig of '1984']({{ site.baseurl }}/images/1984_rig.jpg)
 
 </div><div class="col-md-6" markdown="1">
 
 ## Lighting Design 
 
-Using [lights, colours, smoke and haze]({{ site.baseurl }}/technical/#lighting) is the domain of the lighting designer. As a lighting designer, you'll work with almost everyone else on the show and their ideas to create the 'look' of the show. 
+Using [lights, colours, smoke and haze]({{ site.baseurl }}/technical/#lighting) is the domain of the lighting designer (LD). As a lighting designer, you'll work with the rest of the creative team of a show to create the 'look' of the show. 
 
-This role combines creativity and technical into one to create a visual marvel on-stage. This starts by meeting the director to figure out what they want from the show and how lighting can help that, aided by going to see rehearsals. 
+This role combines creative and technical aspects into one to create a visual marvel on-stage. This starts with meeting the director to figure out what they want from the show and how lighting can be used to realise that. 
 
-Before the get-in, the LD will make a lighting plan - a diagram showing where all the lights will be in the room and what colour they'll be. They will then lead the rigging part of the get-in, supervised by the TD.
+Before the get-in, the LD will make a lighting plan (a diagram showing where all the lights will be in the room and what colour they'll be). They will then lead the rigging part of the get-in, supervised by the TD.
 
 Once it's all in the air, it's time to focus (point the lights in the right direction) and plot (program the cues into the lighting desk).
 
@@ -331,11 +331,11 @@ Once it's all in the air, it's time to focus (point the lights in the right dire
 
 Some shows want some sound effects, others want underscores, and some even benefit from composition work - all of which fall under sound design.
 
-We've got [many speakers]({{ site.baseurl }}/technical/#sound) that sound designers can use to tackle designs from small to large scale, with some previous shows having 7 speakers for a fully immersive sound scape. 
+We've got [many speakers]({{ site.baseurl }}/technical/#sound) that sound designers (SD) can use to tackle designs from small to large scale, with shows using up to 7 speakers for a fully immersive sound scape. 
 
-Getting started in sound design involves meeting with the director and often watching a rehearsal to figure out how sound can help make the show better, and where you can (and can't) put speakers.
+Getting started in sound design involves meeting with the director and often watching a rehearsal to figure out how sound can help make the show better, and where you can (or can't) put speakers.
 
-During the get-in, you'll install the speakers and focus them (point them in the right direction) to achieve the sound you're looking for. Then comes the programming time, where all the sounds go onto the computer at the right level and in the right order. 
+During the get-in, you'll install the speakers and focus them (point them in the right direction) to achieve the sound you're looking for. Then it comes to programming, where you can realise your design. 
 
 ![The sound cue list for 'Revolt. She Said. Revolt Again.']({{ site.baseurl }}/images/revolt_qlab.jpg)
 
@@ -345,9 +345,9 @@ During the get-in, you'll install the speakers and focus them (point them in the
 
 ![The stage for 'Revolt. She Said. Revolt Again.']({{ site.baseurl }}/images/revolt_stage.jpg)
 
-A stunning video design can help a show really stand out amongst the crowd. We can do anything from projecting onto a screen at the back of the stage to unique mapping around smaller set pieces on-stage - whatever your imagination can come up with, using [our equipment]({{ site.baseurl }}/technical/#video) or hiring more in.
+A stunning video design can help a show really stand out amongst the crowd. We can do anything from projecting onto a screen at the back of the stage to unique mapping around smaller set pieces, whatever your imagination can come up with.
 
-Starting off in video design involves meeting with the director and going to a rehearsal to judge the tone of the play and make sure no one is going to walk in front of your projections!
+Some shows may just want to use premade content, such as existing TV clips, where as others may create their own hand drawn backdrops or animations.
 
 At the get-in, you'll rig any projectors and screens you might need, followed by focusing (pointing the projector(s) in the right place), mapping (making the image fill the surface) and programming (making the content actually appear). 
 
