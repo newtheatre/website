@@ -175,7 +175,9 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 
 ## Video 
 - VGA run permanently run from Auditorium Tech Box to SR wing
+- BenQ MH733 projector w/ rigging mount 
 - Epson EB-92 projector w/ rigging mount 
+
 
 </div>
 <div class="col-lg" markdown="1">
