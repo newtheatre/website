@@ -39,9 +39,8 @@ For loading into either of our venues, Cherry Tree Hill can be used, but parking
 #### Power
 
 - 63/3 and 32/1 supply in SR wing 
-- 64 IWB circuits in grid; 8 ground circuits, all with 15A sockets.
+- 64 IWB circuits in grid; 8 ground circuits, all with 15A sockets. 6 hard-powered channels in the patch bay.
 - RCD-protected 13A sockets: both wings and USR.
-- 48 dimmed channels and 6 hard-powered channels, all fused at 10A.
 
 </div>
 </div>
@@ -62,7 +61,6 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 #### Power 
 **Studio A**
 - 32/3 supply 
-- 18-channel dimmer with 3x socapex outs 
 - Various 13A sockets at floor level
 
 **Studio B**
@@ -115,6 +113,8 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 - Auditorium Tech Box is at the rear of the auditorium with room for 3 operators with a full view of the stage. Room is closed off wih a sliding window on the front.
 
 ### Dimmers 
+- 8x Zero88 Betapack 6-channel dimmers (total 48ch) with demux installed in Workshop
+- 18-way Datapak III dimmer installed in Studio A (3x Socapex out)
 - ETC Smartpack 12-channel w/ 32/3 tail 
 
 ### Effects 
@@ -130,8 +130,8 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 <div class="col-lg" markdown="1">
 
 ### Auditorium Install 
-- 2x RCF C3110 \| Auditorium FOH \| Yamaha P7000S 
-- 1x RCF S8015LP Subwoofer \| Auditorium under seats \| Yamaha P5000S 
+- 2x RCF C3110 \| FOH 
+- 1x RCF S8015LP Subwoofer \| Under seats 
 - 2x JBL Control 1 \| Tech Box 
 - 4x JBL Control 1 \| New Theatre Foyer 
 - Soundcraft Si Expression (24/8)
@@ -146,11 +146,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 - 2x RCF ART-310A powered speakers w/ flying brackets 
 - 2x Bose speakers 
 - 2x Stereo speakers 
-
-### Control
-- Yamaha MG16/6FX
-- 2x Mac Mini w/ QLab 4 Audio and Video License (8-out in the Auditorium; 2-out in the Studio)
-- Dual CD Players 
+- 1x P7000S in case
 
 </div>
 <div class="col-lg" markdown="1">
@@ -168,6 +164,10 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 - 1 headset in Auditorium SR wing 
 - 2 spare beltpacks and headsets 
 
+### Control
+- Yamaha MG16/6FX
+- 2x Mac Mini w/ QLab 4 Audio and Video License (8-out in the Auditorium; 2-out in the Studio)
+
 </div>
 </div>
 
@@ -177,8 +177,8 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 ## Video 
 - VGA run permanently run from Auditorium Tech Box to SR wing
 - BenQ MH733 projector w/ rigging mount 
-- Epson EB-92 projector w/ rigging mount 
-
+- Epson EB-92 projector w/ rigging mount
+- QLab with Video License  
 
 </div>
 <div class="col-lg" markdown="1">
@@ -199,6 +199,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 - Electrical or rigging equipment may be disallowed at any time if it is deemed dangerous or inappropriate.
 
 ## Scenic 
+For more information please contact {% include committee.html role="cst" format="inline" %}.
 
 - No safety curtain or house tabs in any space
 - 2x 4 x 3m blacks with clips to the top
@@ -206,5 +207,3 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 - 1x 8 x 4m gauze with ties to the top 
 - 1x 8 x 5m white cyc with eyelets to the top 
 - Various 4ft wide flats at 8 and 10ft height
-
-For more information please contact {% include committee.html role="cst" format="inline" %}.
