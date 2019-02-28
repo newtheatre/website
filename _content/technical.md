@@ -103,6 +103,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 |PAR 64| 8
 |PAR 16| 14
 |Strand Patt 137| 2
+|Chauvet Q Spot 460 LED| 4
 |Martin Atomic 3000 Strobe | 1
 
 </div>
