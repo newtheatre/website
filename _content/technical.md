@@ -194,7 +194,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 ## Safety 
 - All scenery, drapes and backdrops must be fire resistant
 - We may carry out controlled flame tests and disallow any materials that are not suitably flame retardant. 
-- All electrical equipment must be in good condition, have appropriate protective circuits and wired in accordance with current IEE regulations. 
+- All electrical equipment must be in good condition, have a current PAT certificate, have appropriate protective circuits and wired in accordance with current IEE regulations. 
 - All equipment and staff must comply with the Electricity at Work Regulations 1989.
 - Electrical or rigging equipment may be disallowed at any time if it is deemed dangerous or inappropriate.
 
