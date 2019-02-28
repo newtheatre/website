@@ -2,6 +2,7 @@
 title: Show Resources
 permalink: /show-resources/
 layout: toc 
+banner_image: "show-resources.jpg"
 banner_text: "Useful packs and links for anyone involved in a show at the NNT"
 ---
 
