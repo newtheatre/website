@@ -10,9 +10,6 @@ banner_text: "Useful packs and links for anyone involved in a show at the NNT"
 
 Thinking of putting on a show? Already doing a show and looking for some help? You’re in the right place. We’ve got a wealth of resources about our forms, venues and just about everything else involved in putting on a show at the Nottingham New Theatre.
 
-{% include file-download.html file="pack.pdf" name="In House Proposals Form" type="pdf" color="nnt-purple"  %}
-{% include file-download.html file="pack.pdf" name="Fringe Proposals Form" type="pdf" color="nnt-orange"  %}
-
 ## Pre-Proposals 
 
 ### Proposals Pack
@@ -51,6 +48,9 @@ This document must be read and signed by all production team members as the very
 # Proposals Forms 
 
 You'll need to fill in either of these forms and submit it to the relevant Season Co-ordinator by email before the deadline for your proposal to be considered.
+
+{% include file-download.html file="static/Spring-In-House-Proposals-Form.docx" name="In House Proposals Form" type="file-alt" color="nnt-purple"  %}
+{% include file-download.html file="static/Spring-Fringe-Proposals-Form.docx" name="Fringe Proposals Form" type="file-alt" color="nnt-orange"  %}
 
 ### Tips and Rules 
 - The Proposal Form must be used exactly (no modification to questions)
