@@ -61,7 +61,7 @@ You'll need to fill in either of these forms and submit it to the relevant Seaso
 # Useful Links 
 
 - [New Theatre Room Booking Website](http://rooms.newtheatre.org.uk)
-- UoNSU Room Booking Website 
+- [UoNSU Room Booking Website](https://eu.jotform.com/uonsusocs/roombookings)
 - [Training Site](http://training.newtheatre.org.uk)
 - [Members' Site](http://members.newtheatre.org.uk) 
 - [Technical Specification]({{ site.baseurl }}/technical/) 
