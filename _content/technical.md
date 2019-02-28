@@ -16,10 +16,10 @@ For loading into either of our venues, Cherry Tree Hill can be used, but parking
 ||Auditorium|Studio A|Studio B
 ---|---|---
 **Capacity** | 86 (max.) | 30 | 30 
-**Stage Dimensions** | 7.2 x 7.8m (Can be extended by 2.5m at the front) | 9 x 5m | TBC
+**Stage Dimensions** | 7.2 x 7.8m (Can be extended by 2.5m at the front) | 9 x 5m | 10 x 5.4m
 **Stage Floor** | MDF | Dance floor | Dance floor 
 **Grid Height** | 3.8m | 3m | 2.5m 
-**Largest entrance to stage** | 1.3 x 1.9m | 1.4 x 1.9m | Unknown 
+**Largest entrance to stage** | 1.3 x 1.9m | 1.4 x 1.9m | 0.8m x 1.9m 
 **Load in via** | Main foyer | Fire escape | Studio foyer door 
 
 <div class="row">
