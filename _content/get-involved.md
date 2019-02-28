@@ -2,6 +2,20 @@
 title: Get Involved 
 hide_title: false 
 permalink: /get-involved/
+redirect_from:
+- /get-involved/act
+- /get-involved/construct-2
+- /get-involved/costume-props-makeup
+- /get-involved/direct
+- /get-involved/lighting
+- /get-involved/produce
+- /get-involved/publicise
+- /get-involved/set-design
+- /get-involved/sound-design
+- /get-involved/stage-manage
+- /get-involved/tech
+- /get-involved/write
+
 layout: toc 
 pre_toc: | 
   Have you ever wondered what it would be like to rig lights in a theatre? Ever toyed with the idea of directing a play? Pondered what it might be like to get up on stage in front of hundreds of people? Longed to design and build an entire set?

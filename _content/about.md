@@ -1,7 +1,9 @@
 ---
 title: About
 permalink: /about/
-redirect_from: /about-us/
+redirect_from:
+- /about-us/
+- /about-us/committee
 layout: toc 
 banner_text: "All about the University of Nottingham's student-run theatre"
 banner_image: "about.jpg"
