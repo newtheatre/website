@@ -2,19 +2,6 @@
 title: Get Involved 
 hide_title: false 
 permalink: /get-involved/
-redirect_from:
-- /get-involved/act
-- /get-involved/construct-2
-- /get-involved/costume-props-makeup
-- /get-involved/direct
-- /get-involved/lighting
-- /get-involved/produce
-- /get-involved/publicise
-- /get-involved/set-design
-- /get-involved/sound-design
-- /get-involved/stage-manage
-- /get-involved/tech
-- /get-involved/write
 
 layout: toc 
 pre_toc: | 

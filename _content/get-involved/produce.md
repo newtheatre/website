@@ -1,5 +1,7 @@
 ---
 title: Produce
+redirect_from: /get-involved/produce
+redirect_to: /get-involved/#producing
 ---
 
 # Producing
