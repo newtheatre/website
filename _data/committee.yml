@@ -6,34 +6,34 @@
 - role: President
   name: Miguel Barrulas 
   email: president 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-RrV8MMm/A
 
 - role: Treasurer
   name: Jonathan Taylor Davies 
   email: treasurer 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-gqJFVCT/A
 
 - role: Theatre Manager
   name: Sam Osborne 
   email: theatremanager 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-8wm6Rnj/A
   group: backstage
 
 - role: Secretary
   name: Grace Williams 
   email: secretary 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-QGvHNGZ/A
 
 - role: In House Coordinator 
   name: Jess Donn 
   email: inhouse 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-qz3SbcJ/A
   group: coordinator
 
 - role: Fringe Coordinator
   name: Daniel McVey 
   email: fringe 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-dmnqSDN/A
   group: coordinator 
   alias_email: stuff 
   alias_role: StuFF Coordinator
@@ -41,46 +41,46 @@
 - role: Front of House Manager
   name: Cameron Brett 
   email: boxoffice 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-tTwHk4g/A
 
 - role: Company Stage Manager
   name: Nadia Elalfi 
   email: csm 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-G7r6FZX/A
   group: backstage 
 
 - role: Company Set Technician 
   name: Jack Ellis 
   email: cst 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-BxFHbkk/A
   group: backstage 
 
 - role: Company Technical Director
   name: Zoe Smith 
   email: tech 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-N8jgbNd/A
   group: backstage 
 
 - role: Technical Manager
   name: Izzy de Bono 
   email: techmanager 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-XGBFvFV/A
   group: backstage 
 
 - role: Participation Coordinator 
   name: Jonny Khan 
   email: participation
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-57fjNcq/A
 
 - role: Publicity Managers
   name: Rohan Rakhit and Beth Carter 
   email: publicity 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-nsxMRf7/A
 
 - role: External Coordinator 
   name: Joe Strickland 
   email: external 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-ttjk8tD/A
   group: coordinator  
   alias_email: edinburgh 
   alias_role: Edinburgh Coordinator
@@ -88,10 +88,10 @@
 - role: Costume and Props Manager
   name: Charlie Basley 
   email: costume 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-4Xb8X4X/A
   group: backstage 
 
 - role: Social and Fundraising Coordinator 
   name: Lucy Chandler 
   email: social 
-  img: http://placekitten.com/g/150/150
+  img: https://photos.newtheatre.org.uk/Website-Photos/Committee-Headshots/n-PNnKmf/i-PSrmqL6/A
