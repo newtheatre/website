@@ -95,7 +95,7 @@ This document must be read and signed by all production team members as the very
 
 </div><div class="col-lg-4 text-lg-right" markdown="1">
 
-{% include file-download.html file="postproposal/Code-of-Conduct.pdf" name="Code of Conduct" type="pdf" color="nnt-orange"  %}
+{% include file-download.html file="postproposal/Code-of-Conduct.pdf" name="Code of Conduct" type="pdf" color="nnt-purple"  %}
 
 </div></div>
 
@@ -107,7 +107,7 @@ For everything you need to publicise your show, complete with deadlines and guid
 
 </div><div class="col-lg-4 text-lg-right" markdown="1">
 
-{% include file-download.html file="postproposal/Publicity-Pack-2018_19.pdf" name="Publicity Pack" type="pdf" color="nnt-purple"  %}
+{% include file-download.html file="postproposal/Publicity-Pack-2018_19.pdf" name="Publicity Pack" type="pdf" color="nnt-orange"  %}
 
 </div></div>
 
