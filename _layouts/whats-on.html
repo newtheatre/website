@@ -49,7 +49,7 @@ layout: default
         }
         show_html = show_html + ('">')
         // Poster
-        + '<div class="row"><div class="col-4 pr-0"><img class="img-fluid" src="'
+        + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid" src="'
         if (the_shows[i].poster == null) {
           the_shows[i].poster = "https://ticketing.newtheatre.org.uk/static/images/no_image.png"
         }
@@ -62,8 +62,8 @@ layout: default
           show_html = show_html + 'btn-purple ';
         }
         show_html = show_html + 
-        'rounded-0 w-100">Reserve tickets</a>'
-        + '</div><div class="col-8 pl-0">'
+        'rounded-0 w-100 h3 d-none d-sm-block">Reserve tickets</a>'
+        + '</div><div class="col-sm-8 pl-sm-0">'
         // Card title 
         + '<div class="card-header">'+
             '<h2>' + the_shows[i].name 
@@ -73,8 +73,16 @@ layout: default
             + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
           + '</div><div class="card-body">'
             // Short description 
-            + '<p>' + the_shows[i].long_description + '</p>'
-
+            + '<p>' + the_shows[i].long_description + '</p>' +
+        '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
+        if (the_shows[i].category.name == "Fringe") {
+          show_html = show_html + 'btn-orange ';
+        }
+        else {
+          show_html = show_html + 'btn-purple ';
+        }
+        show_html = show_html + 
+        'rounded-0 w-100 h3 d-sm-none">Reserve tickets</a>'
           // End card body 
           + '</div>'
         // End column, row, card
