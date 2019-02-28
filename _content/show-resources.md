@@ -21,7 +21,7 @@ You'll need to fill in either of these forms and submit it to the relevant Seaso
 - Draft it in Word or Google Docs and then paste it into the form - very useful if you're working as a team
 - More detailed advice can be found in the [Pre-Proposals pack](#pre-proposals)
 
-</div><div class="col-lg-4" markdown="1">
+</div><div class="col-lg-4 text-lg-right" markdown="1">
 
 {% include file-download.html file="preproposal/Spring-In-House-Proposals-Form.docx" name="In House Proposals Form" type="word" color="nnt-purple"  %} <br />
 {% include file-download.html file="preproposal/Spring-Fringe-Proposals-Form.docx" name="Fringe Proposals Form" type="word" color="nnt-orange"  %}
@@ -42,7 +42,7 @@ Thinking of putting on a show? Already doing a show and looking for some help? Y
 
 If you’re looking to propose, check out our Proposals Pack. It’s a handy guide to filling in the proposals form for both the In House and Fringe seasons.
 
-</div><div class="col-lg-4" markdown="1">
+</div><div class="col-lg-4 text-lg-right" markdown="1">
 
 {% include file-download.html file="preproposal/Proposals-Pack-2018-19.pdf" name="Proposals Pack" type="pdf" color="nnt-purple" %}
 </div></div>
@@ -53,7 +53,7 @@ If you’re looking to propose, check out our Proposals Pack. It’s a handy gui
 
 If you’re proposing for the Fringe season, you may be interested in our External Venues Pack, which has information about off-site venues that we’ve worked in before. Don’t feel you’re limited to these though – just about anywhere can be a performance venue!
 
-</div><div class="col-lg-4" markdown="1">
+</div><div class="col-lg-4 text-lg-right" markdown="1">
 
 {% include file-download.html file="preproposal/External-Venues-Pack-2018-19.pdf" name="External Venues Pack" type="pdf" color="nnt-orange"  %}
 
@@ -65,7 +65,7 @@ If you’re proposing for the Fringe season, you may be interested in our Extern
 
 During the Q&A part of the Proposals Day, the committee will be posing questions to you. We’ve prepared a list of some of the most common – but by no means the only ones you may face!
 
-</div><div class="col-lg-4" markdown="1">
+</div><div class="col-lg-4 text-lg-right" markdown="1">
 
 {% include file-download.html file="preproposal/Sample-Questions.pdf" name="Sample Questions" type="pdf" color="nnt-purple"  %}
 
@@ -77,7 +77,7 @@ During the Q&A part of the Proposals Day, the committee will be posing questions
 
 The Content Warnings and Welfare Considerations section of the Proposals Form needs to be quite involved, so we have a separate pack of resources and things you may wish to consider.
 
-</div><div class="col-lg-4" markdown="1">
+</div><div class="col-lg-4 text-lg-right" markdown="1">
 
 {% include file-download.html file="preproposal/Welfare-Pack.pdf" name="Welfare Pack" type="pdf" color="nnt-orange"  %}
 
@@ -93,7 +93,7 @@ So, you’ve got your show – congratulations! The work’s only just begun, an
 
 This document must be read and signed by all production team members as the very first thing you do for your show. It’s here in case you need a reminder.
 
-</div><div class="col-lg-4" markdown="1">
+</div><div class="col-lg-4 text-lg-right" markdown="1">
 
 {% include file-download.html file="postproposal/Code-of-Conduct.pdf" name="Code of Conduct" type="pdf" color="nnt-orange"  %}
 
@@ -105,7 +105,7 @@ This document must be read and signed by all production team members as the very
 
 For everything you need to publicise your show, complete with deadlines and guides for production shots, rehearsal videos, and social media tips.
 
-</div><div class="col-lg-4" markdown="1">
+</div><div class="col-lg-4 text-lg-right" markdown="1">
 
 {% include file-download.html file="postproposal/Publicity-Pack-2018_19.pdf" name="Publicity Pack" type="pdf" color="nnt-purple"  %}
 
