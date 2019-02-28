@@ -120,26 +120,19 @@ toc_max: 2
   </div>
 </div>
 
-# Fonts 
+# Fonts and Vocabulary 
 
 <div class="row">
   <div class="col-lg-6" markdown="1">
 
-## Headers 
+## Fonts
+- Standard print: Montserrat
+- Theatre logo: Akkurat
+- StuFF logo: Avenir
 
-  <div class="list-group bg-purple rounded">
-    <p class="h1 list-group-item bg-purple">h1 - Montserrat</p> <!-- Classed such as to not appear in ToC -->
-    <p class="h2 list-group-item bg-purple">h2 - Montserrat</p>
-    <p class="h3 list-group-item bg-purple">h3 - Montserrat</p>
-    <p class="h4 list-group-item bg-purple">h4 - Montserrat</p>
-    <p class="h5 list-group-item bg-purple">h5 - Montserrat</p>
-    <p class="h6 list-group-item bg-purple">h6 - Montserrat</p>
-    <p class="list-group-item bg-purple">Paragraph - Open Sans</p>
-  </div>
-  </div>
   <div class="col-lg-6" markdown="1">
 
-## Words
+## Vocabulary
 
 We have a number of 'branded' vocabulary, that are as follows:
 - In House 
