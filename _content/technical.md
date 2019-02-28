@@ -21,6 +21,7 @@ For loading into either of our venues, Cherry Tree Hill can be used, but parking
 **Grid Height** | 3.8m | 3m | 2.5m 
 **Largest entrance to stage** | 1.3 x 1.9m | 1.4 x 1.9m | 0.8m x 1.9m 
 **Load in via** | Main foyer | Fire escape | Studio foyer door 
+**CAD Drawings** | - [Theatre Rig (pdf)]({{ site.baseurl }}/static/Theatre-Rig.pdf) <br /> - [Theatre Stage Floor (pdf)]({{ site.baseurl }}/static/Theatre-Stage-Floor.pdf) | - [Studio A (pdf)]({{ site.baseurl }}/static/Studio-A-Full.pdf)
 
 <div class="row">
 <div class="col-lg">
@@ -29,7 +30,6 @@ For loading into either of our venues, Cherry Tree Hill can be used, but parking
 ## NNT Auditorium
 
 <div class="card-body" markdown="1">
-
 
 - There is no built-in crossover, or internal access to the dressing room from stage left.
 - SR Wing Dimensions: 4.8 x 3.8m 
@@ -119,8 +119,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 
 ### Effects 
 - LookSolutions Unique 2.1 Hazer w/ DMX control 
-- Martin Magnum 650 Smoke Machine w/ remote control 
-- Double gobo rotator (currently broken)
+- Martin Magnum 650 Smoke Machine w/ remote control
 
 </div>
 </div>
@@ -130,29 +129,31 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 <div class="row">
 <div class="col-lg" markdown="1">
 
-### PA
-
+### Auditorium Install 
 - 2x RCF C3110 \| Auditorium FOH \| Yamaha P7000S 
 - 1x RCF S8015LP Subwoofer \| Auditorium under seats \| Yamaha P5000S 
+- 2x JBL Control 1 \| Tech Box 
+- 4x JBL Control 1 \| New Theatre Foyer 
+- Soundcraft Si Expression (24/8)
+
+#### Multicore
+- 12-ways (9/3) to SR wing 
+- 3-ways to SL wing 
+- 3-ways to Row D of the Auditorium 
+
+### PA
+
 - 2x RCF ART-310A powered speakers w/ flying brackets 
 - 2x Bose speakers 
 - 2x Stereo speakers 
-- JBL Control \| Tech Box \| Yamaha P7000S
-
 
 ### Control
-- Soundcraft Si Expression (24/8)
 - Yamaha MG16/6FX
-- Mac Mini w/ QLab 4 Audio and Video License (8-out in the Auditorium; 2-out in the Studio)
+- 2x Mac Mini w/ QLab 4 Audio and Video License (8-out in the Auditorium; 2-out in the Studio)
 - Dual CD Players 
 
 </div>
 <div class="col-lg" markdown="1">
-
-### Inputs (Auditorium)
-- 12-ways (9/3) to SR wing 
-- 3-ways to SL wing 
-- 3-ways to Row D of the Auditorium 
 
 ### Microphones
 - 2x Shure SM58
@@ -187,11 +188,8 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 - Prolyte StageDex 1x1m - 2 
 - Legs available at 20, 40, 60 and 80cm.
 
-
 </div>
 </div>
-
-
 
 ## Safety 
 - All scenery, drapes and backdrops must be fire resistant
@@ -202,9 +200,11 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 
 ## Scenic 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- No safety curtain or house tabs in any space
+- 2x 4 x 3m blacks with clips to the top
+- 8m tab track, in 3 sections, with runners 
+- 1x 8 x 4m gauze with ties to the top 
+- 1x 8 x 5m white cyc with eyelets to the top 
+- Various 4ft wide flats at 8 and 10ft height
+
+For more information please contact {% include committee.html role="cst" format="inline" %}.
