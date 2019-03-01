@@ -10,10 +10,10 @@ banner_text: "Useful packs and links for anyone involved in a show at the NNT"
 
 You'll need to fill in either of these forms and submit it to the relevant Season Co-ordinator by email before the deadline for your proposal to be considered.
 
+<div class="row"><div class="col-lg-8" markdown="1">
+
 **Season Coordinators**
 {% include committee.html group="coordinator" format="list" %}
-
-<div class="row"><div class="col-lg-8" markdown="1">
 
 ### Tips and Rules 
 - The Proposal Form must be used exactly (no modification to questions)
@@ -21,7 +21,7 @@ You'll need to fill in either of these forms and submit it to the relevant Seaso
 - Draft it in Word or Google Docs and then paste it into the form - very useful if you're working as a team
 - More detailed advice can be found in the [Pre-Proposals pack](#pre-proposals)
 
-</div><div class="col-lg-4 text-lg-right" markdown="1">
+</div><div class="col-lg-4 text-lg" markdown="1">
 
 {% include file-download.html file="preproposal/Spring-In-House-Proposals-Form.docx" name="In House Proposals Form" type="word" color="nnt-purple"  %} <br />
 {% include file-download.html file="preproposal/Spring-Fringe-Proposals-Form.docx" name="Fringe Proposals Form" type="word" color="nnt-orange"  %}
