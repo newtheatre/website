@@ -206,7 +206,8 @@ There is no experience necessary, and any training you need will be provided.
 
 
 
-  </div><div class="col-sm" markdown="1">
+  </div>
+  <div class="col-sm" markdown="1">
 
 
 ### Who to talk to 
