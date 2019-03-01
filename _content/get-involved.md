@@ -96,6 +96,8 @@ We have four seasons that you can propose for: In House, Fringe, External and Ed
   </div>
   <div class="col-sm" markdown="1">
 
+![Directing]({{ site.baseurl }}/images/directing.jpg)
+
 ### Who to talk to 
 
 If you have any questions about directing for any of our seasons, contact one of our Season Co-ordinators: 
