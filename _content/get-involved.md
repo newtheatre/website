@@ -5,15 +5,13 @@ permalink: /get-involved/
 
 layout: toc 
 pre_toc: | 
-  Have you ever wondered what it would be like to rig lights in a theatre? Ever toyed with the idea of directing a play? Pondered what it might be like to get up on stage in front of hundreds of people? Longed to design and build an entire set?
-
-  The Nottingham New Theatre is one of the biggest student-run groups at Nottingham, and the only student-run theatre in England, and if any of the above is true for you, come and get involved!
+  Have you ever wondered what it would be like to rig lights in a theatre? Ever toyed with the idea of directing a play? Pondered what it might be like to get up on stage in front of hundreds of people? Longed to design and build an entire set? The Nottingham New Theatre is one of the biggest student-run groups at Nottingham, and the only student-run theatre in England, and if any of the above is true for you, come and get involved!
 banner: true 
 banner_text: "Be a part of the Nottingham New Theatre"
 banner_image: "get-involved.jpg"
 ---
 
-**Season Launches** are the best opportunity to see all of the roles available in all of our shows for a season. You will find out what plays are in the season, and they'll all be looking for actors, technicians, designers, builders and so on.
+**Season Launches** are the best opportunity to see all of the roles available in our shows for that season. You will find out what plays are in the season, and they'll all be looking for actors, technicians, designers, builders and so on.
 
 {% include date.html date="launch" %}
 
@@ -27,17 +25,17 @@ If you can't make a Season Launch, don't fret - email {% include committee.html 
 
 # Acting 
 
-At the New Theatre, we welcome all actors to be in at least one play per semester and want to give as many opportunities to tread our boards. Whether you've never acted before, were the sheep in your Nativity, have done some school acting, are a seasoned pro at the RSC &mdash; or simply just dabble &mdash; please come along an audition.
+At the New Theatre, we welcome all actors to be in up to two plays per semester and want to give as many opportunities to tread our boards. Whether you've never acted before, were the sheep in your Nativity, have done some school acting, are a seasoned pro at the RSC &mdash; or simply just dabble &mdash; please come along an audition.
 
 <div class="row">
   <div class="col-sm" markdown="1">
 
 ## Auditions 
 
-Each season's plays hold open auditions over 2 days, and anyone can audition for free. Head to the audition room (or the theatre foyer if you're not sure) and give it a go.
+Each season holds open auditions over 2 days, and anyone can audition for free. Head to the audition room (or the theatre foyer if you're not sure) and give it a go.
 
 1. When you arrive, you'll be given a piece. Take this away and become familiar with it (most people take around 10-15 minutes).
-2. Come back and perform it for the director (and usually producer). You don't need to learn it, just give it your best shot.
+2. Come back and perform it for the team. You don't need to learn it, just give it your best shot.
 3. That's it! Take a rest before heading to your next audition.
 
 It is a good idea to sign-up and audition for everything &mdash; provided you can do the show dates, of course! This means you will get more experience of auditions and stand a greater chance of being cast in a play.
@@ -170,7 +168,7 @@ If you have any questions about writing for one of our seasons, contact the rele
 
 # Costume, Props and Make-up 
 
-An integral part of any show, and one where no experience is necessary, costume, props and make-up is a creative and rewarding role. You can work on designing and execution of these 3 key areas with the director, producer and stage management to make the show look as good as it can on stage.
+An integral part of any show, costume, props and make-up is a creative and rewarding role. You can work on the design and execution of these 3 key areas with the production team to make the show look as good as it can on stage.
 
 There is no experience necessary, and any training you need will be provided. 
 
@@ -199,7 +197,7 @@ If you're interested in any of this, want some training, or have any questions, 
 
 ## Publicity Manager 
 
-Being the publicity manager for a show is an integral part of the team, working primarily with the producer to make sure everyone knows about the play. 
+Being the publicity manager for a show is an integral part of the team, working primarily with the producer to make sure everyone knows about the production.
 
 You'll be involved in the organisation of publicity such as printing and distributing posters, flyering, social media publicity, and any other novel marking ideas you can think of!
 
@@ -218,7 +216,7 @@ If you have any questions or need advice about publicity for a show, do get in t
 
 # Set 
 
-Set is a key part of any show, whether it's a few chairs on a desolate stage or a full 1940s apartment loft, we can do it all. Set is one of the main components that helps transport the audience into the world of the play. 
+Set is a key part of any show, helping transport the audience into the world of the play. Whether it's a few chairs on a desolate stage or a full 1940s apartment loft, we can do it all. 
 
 You can get involved in designing a set for a production, or just come along at the get-in to help put it all together!
 
@@ -229,22 +227,16 @@ You can get involved in designing a set for a production, or just come along at 
 
 ## Set Design
 
-As a set designer, you'll work with the director and lighting designer to create the visual concept of how the set will be on stage, and make sure it works with any blocking. 
-
-You'll also work with the producer to source materials and stay within budget. 
-
-Over the course of the process, you'll make a number of plans and also have meetings with the Theatre and Technical Managers to ensure the set's safety.
+As a set designer, you'll work with the production team to create the visual concept of how the set will be on stage, and make sure it works with any blocking, as well as sourcing materials whilst staying within budget. 
 
 </div>
 <div class="col-sm" markdown="1">
 
 ## Set Construction 
 
-If you're interested in getting your hands on our hammers, drills, spanners or paints, you'd love to be a part of our set construction team. 
+If you're interested in getting your hands on our hammers, drills, spanners or paints, our set construction team is the place for you. 
 
 Don't worry if you've never done anything like it before, we can provide all the training you need.
-
-During the get-in, the set designer will lead the build, supervised by the Theatre Manager who leads the entire get-in. 
 
 </div></div>
 
@@ -258,11 +250,9 @@ If you're interested in anything set-wise, speak to {% include committee.html ro
 <div class="row">
   <div class="col-sm" markdown="1">
 
-As a stage manager, you'll work with the set designer during the get-in to help build the set according to their plan.
+Once the show's get-in is complete, the stage manager's job really comes to life, making sure the show runs as smoothly as possible. They are in charge of the set and props during the show, making sure everything is where it needs to be. 
 
-However, once the show's get-in is complete, the stage manager's job really comes to life. They are in charge of the set and props during the running of the show, making sure everything is where it needs to be. 
-
-During the show, you can get to manage where props and set pieces are going, sort costumes for quick-changes or activate special effects like smoke machines.
+During the show, you might manage where props and set pieces are going, sort costumes for quick-changes or activate special effects like smoke machines.
 
 </div><div class="col-sm" markdown="1">
 
