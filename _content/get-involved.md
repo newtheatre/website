@@ -128,6 +128,7 @@ It's fantastic fun, and if you like the sound of it, come on board. You can talk
   <div class="col-sm" markdown="1">
 
 >My favourite part of producing is finding the most cost-effective (and sometimes safest!) ways to bring to life the vision of the director. It allows you to be creative as well as presenting the challenge of thinking on your feet.
+
 >You are the glue holding everything together (sometimes quite literally) both on and off stage!
 
 <footer class="quote-source">Emily Sterling, Producer '16-'17</footer>
@@ -175,6 +176,7 @@ If you have any questions about writing for one of our seasons, contact the rele
   <div class="col-sm" markdown="1">
 
 >Playwriting at the New Theatre is the best way to flex your writing muscles. At the NNT, I’ve been given the opportunity to stretch myself with structure, plot, dialogue, character and setting. Seeing your work on stage can be nerve-wracking, but it’s an invaluable and thrilling experience.
+
 >It feels so invigorating to be writing in an environment where lots of other students are writing plays – sometimes very similar, sometimes very different, to your own.
 
 <footer class="quote-source">Florence Bell, Writer '18-'19</footer>
