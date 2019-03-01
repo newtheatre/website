@@ -93,6 +93,12 @@ We have four seasons that you can propose for: In House, Fringe, External and Ed
 
 1. **Propose!** Fill in the [proposal form]({{ site.baseurl }}/productions-resources/#pre-proposals) and come on the day for a 15-minute Q&A from the committee. You can propose on your own or as a team (typically a director-producer pair). Afterwards, the committee go away and discuss and you'll be phoned later that day with the decision.
 
+### Key Dates 
+
+{% include date.html date="proposal-deadline" %}
+
+**Best of luck!**
+
   </div>
   <div class="col-sm" markdown="1">
 
@@ -103,12 +109,6 @@ We have four seasons that you can propose for: In House, Fringe, External and Ed
 If you have any questions about directing for any of our seasons, contact one of our Season Co-ordinators: 
 
 {% include committee.html group="coordinator" format="list" %}
-
-### Key Dates 
-
-{% include date.html date="proposal-deadline" %}
-
-**Best of luck!**
 
   </div>
 </div>
@@ -204,11 +204,15 @@ There is no experience necessary, and any training you need will be provided.
 - **Props**: Have a great idea to rework one of our props into something new? Want to use the workshop to create something new? Join the team.
 - **Make-up**: An art and science, with both natural and stylised looks available in our shows.
 
+
+
+  </div><div class="col-sm" markdown="1">
+
+
 ### Who to talk to 
 If you're interested in any of this, want some training, or have any questions, please get in touch with {% include committee.html role="costume" format="inline" %}.
 
-  </div>
-</div>
+</div></div>
 
 # Marketing and Publicity
 
