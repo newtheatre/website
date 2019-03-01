@@ -163,11 +163,24 @@ You can put your writing on the stage in any of our seasons, and we're eager to 
   </div>
 </div>
 
+<div class="row">
+  <div class="col-sm" markdown="1">
+
 ### Who to talk to 
 If you have any questions about writing for one of our seasons, contact the relevent Season Co-ordinator:
 
 {% include committee.html group="coordinator" format="list" %}
 
+  </div>
+  <div class="col-sm" markdown="1">
+
+>Playwriting at the New Theatre is the best way to flex your writing muscles. At the NNT, I’ve been given the opportunity to stretch myself with structure, plot, dialogue, character and setting. Seeing your work on stage can be nerve-wracking, but it’s an invaluable and thrilling experience.
+>It feels so invigorating to be writing in an environment where lots of other students are writing plays – sometimes very similar, sometimes very different, to your own.
+
+<footer class="quote-source">Florence Bell, Writer '18-'19</footer>
+
+  </div>
+</div>
 # Costume, Props and Make-up 
 
 An integral part of any show, costume, props and make-up is a creative and rewarding role. You can work on the design and execution of these 3 key areas with the production team to make the show look as good as it can on stage.
