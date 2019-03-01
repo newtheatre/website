@@ -196,7 +196,7 @@ There is no experience necessary, and any training you need will be provided.
 ![Costume]({{ site.baseurl }}/images/costume.jpg)
 
 </div>
-<div class="col-sm" markdown="1">
+  <div class="col-sm" markdown="1">
 
 ### What you can do
 
@@ -212,7 +212,8 @@ There is no experience necessary, and any training you need will be provided.
 ### Who to talk to 
 If you're interested in any of this, want some training, or have any questions, please get in touch with {% include committee.html role="costume" format="inline" %}.
 
-</div></div>
+  </div>
+</div>
 
 # Marketing and Publicity
 
