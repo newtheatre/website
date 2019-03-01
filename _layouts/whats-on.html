@@ -49,7 +49,7 @@ layout: default
         }
         show_html = show_html + ('">')
         // Poster
-        + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid" src="'
+        + '<div class="row"><div class="col-sm-4 m-sm-1 pr-sm-0"><img class="img-fluid" src="'
         if (the_shows[i].poster == null) {
           the_shows[i].poster = "https://ticketing.newtheatre.org.uk/static/images/no_image.png"
         }
@@ -62,7 +62,7 @@ layout: default
           show_html = show_html + 'btn-purple ';
         }
         show_html = show_html + 
-        'rounded-0 w-100 h3 d-none d-sm-block">Reserve tickets</a>'
+        'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">Reserve tickets</a>'
         + '</div><div class="col-sm-8 pl-sm-0">'
         // Card title 
         + '<div class="card-header">'+
