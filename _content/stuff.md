@@ -26,7 +26,7 @@ The best place to find out everything you need to know as a performing company a
 <div class="row">
   <div class="col-md">
 
-{% include cta.html colour="purple" link="http://newtheatre.org.uk/stuff/info-pack" text="StuFF Info Pack (pdf)" %} 
+{% include cta.html colour="purple" link="http://newtheatre.org.uk/stuff/info-pack" text="StuFF Info Pack (online)" %} 
 
   </div>
   <div class="col-md">
