@@ -204,12 +204,6 @@ There is no experience necessary, and any training you need will be provided.
 - **Props**: Have a great idea to rework one of our props into something new? Want to use the workshop to create something new? Join the team.
 - **Make-up**: An art and science, with both natural and stylised looks available in our shows.
 
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-sm" markdown="1">
-
 ### Who to talk to 
 If you're interested in any of this, want some training, or have any questions, please get in touch with {% include committee.html role="costume" format="inline" %}.
 
