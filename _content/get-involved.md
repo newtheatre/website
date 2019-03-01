@@ -155,11 +155,10 @@ You can put your writing on the stage in any of our seasons, and we're eager to 
   </div>
   <div class="col-sm" markdown="1">
 
-### What to do 
-1. **Write a draft!** This is the most important step, we need to see a play with a beginning, middle and end to be able to consider it - but it can still be a work in progress! 
-2. **Find a director.** You can direct your own work, or have someone else stage it, it's entirely up to you.
-3. **Get it read.** The best way to find advice to improve your script is to get people to read it. 
-4. **Propose!** Once you're ready, check out our guide to [putting on a play](#how-to-put-on-a-play).
+### Who to talk to 
+If you have any questions about writing for one of our seasons, contact the relevent Season Co-ordinator:
+
+{% include committee.html group="coordinator" format="list" %}
 
   </div>
 </div>
@@ -167,10 +166,11 @@ You can put your writing on the stage in any of our seasons, and we're eager to 
 <div class="row">
   <div class="col-sm" markdown="1">
 
-### Who to talk to 
-If you have any questions about writing for one of our seasons, contact the relevent Season Co-ordinator:
-
-{% include committee.html group="coordinator" format="list" %}
+### What to do 
+1. **Write a draft!** This is the most important step, we need to see a play with a beginning, middle and end to be able to consider it - but it can still be a work in progress! 
+2. **Find a director.** You can direct your own work, or have someone else stage it, it's entirely up to you.
+3. **Get it read.** The best way to find advice to improve your script is to get people to read it. 
+4. **Propose!** Once you're ready, check out our guide to [putting on a play](#how-to-put-on-a-play).
 
   </div>
   <div class="col-sm" markdown="1">
