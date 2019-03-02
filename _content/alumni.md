@@ -7,7 +7,7 @@ banner_image: "alumni.jpg"
 
 Keep in touch, build connections, and be part of the NNT Alumni Network during this exciting time in the history of the Nottingham New Theatre.
 
-We produce bi-annual newsletters, alongside our [Facebook]({{ site.facebook }}) and [Twitter]({{ site.twitter }}) accounts. Our network has expanded over the last few years to include over 200 members, with our earliest members graduating back in 1953!
+We produce bi-annual newsletters, alongside our [Facebook](https://facebook.com/{{ site.facebook }}) and [Twitter](https://twitter.com/{{ site.twitter }}) accounts. Our network has expanded over the last few years to include over 200 members, with our earliest members graduating back in 1953!
 
 The Alumni Network was founded in 2013 on 3 principles:
  - To build a stronger sense of the history of the theatre 
