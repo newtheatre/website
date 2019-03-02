@@ -185,7 +185,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 
 ## Staging 
 - Prolyte StageDex 2x1m - 19
-- Prolyte StageDex 1x1m - 2 
+- Prolyte StageDex 1x1m - 3 
 - Legs available at 20, 40, 60 and 80cm.
 
 </div>
