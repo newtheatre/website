@@ -190,8 +190,7 @@ An integral part of any show, costume, props and make-up is a creative and rewar
 
 There is no experience necessary, and any training you need will be provided. 
 
-<div class="row">
-  <div class="col-sm" markdown="1">
+<div class="row"><div class="col-sm" markdown="1">
 
 ![Costume]({{ site.baseurl }}/images/costume.jpg)
 
@@ -203,15 +202,10 @@ There is no experience necessary, and any training you need will be provided.
 - **Props**: Have a great idea to rework one of our props into something new? Want to use the workshop to create something new? Join the team.
 - **Make-up**: An art and science, with both natural and stylised looks available in our shows.
 
-
-
-</div></div><div class="col-sm" markdown="1">
+</div></div>
 
 ### Who to talk to 
 If you're interested in any of this, want some training, or have any questions, please get in touch with {% include committee.html role="costume" format="inline" %}.
-
-  </div>
-</div>
 
 # Marketing and Publicity
 
