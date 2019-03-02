@@ -1,0 +1,118 @@
+--- 
+layout: default 
+--- 
+
+<!-- For additional content before the shows list --> 
+{{ content }}
+
+<div id="whats-on">
+</div>
+<!-- The new Javascript bit --> 
+<script>
+  $( document ).ready(function() {
+    $.getJSON("https://ticketing.newtheatre.org.uk/api/shows").done(function(data){
+      console.log(data);
+      var the_shows = data.results;
+      var this_week = ''; 
+      var coming_soon = '';
+      // Separate the shows 
+      for (var i = 0; i < the_shows.length; i++) {
+        if (the_shows[i].this_week == true) {
+          this_week = this_week+the_shows[i];
+        }
+        else {
+          coming_soon = coming_soon+the_shows[i];
+        }
+      }
+      // To Do: split the `for` loop below to have two variables, `shows_this_week` and `shows_coming_soon` for displaying on the home page.
+
+      var show_html = '';
+      show_html = show_html + ('<div class="row">');
+      for (var i = 0; i < the_shows.length; i++) {
+        // Figure out how to display the date range
+        var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        start_date = new Date(the_shows[i].start_date)
+        end_date = new Date(the_shows[i].end_date)
+        date_string = days[start_date.getDay()] + ' ' + start_date.getDate().toString() + ' ';
+        if (start_date.getMonth() != end_date.getMonth()) {
+          date_string = date_string + months[start_date.getMonth()] + ' ';
+        };
+        date_string = date_string + '- ' + days[end_date.getDay()] + ' ' + end_date.getDate().toString() + ' ' + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
+        // Build the card, colours based on the season
+        show_html = show_html + ('<div class="col-md-6"><div class="nt-card bg-body ');
+        if (the_shows[i].category.name == "Fringe") {
+          show_html = show_html + ('border-orange');
+        }
+        else {
+          show_html = show_html + ('border-purple');
+        }
+        show_html = show_html + ('">')
+        // Poster
+        + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid m-sm-1" src="'
+        if (the_shows[i].poster == null) {
+          the_shows[i].poster = "https://ticketing.newtheatre.org.uk/static/images/no_image.png"
+        }
+        show_html = show_html + the_shows[i].poster + '" />'
+        + '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
+        if (the_shows[i].category.name == "Fringe") {
+          show_html = show_html + 'btn-orange text-dark ';
+        }
+        else {
+          show_html = show_html + 'btn-purple ';
+        }
+        show_html = show_html + 
+        'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">Reserve tickets</a>'
+        + '</div><div class="col-sm-8 pl-sm-1">'
+        // Card title 
+        + '<div class="card-header">'+
+            '<h2>' + the_shows[i].name 
+            // Dates
+            + '<br /><small class="text-muted">'+ date_string + '</small></h2>'
+            // Season and Venue 
+            + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
+          + '</div><div class="card-body">'
+            // Short description 
+            + '<p>' + the_shows[i].long_description + '</p>' +
+        '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
+        if (the_shows[i].category.name == "Fringe") {
+          show_html = show_html + 'btn-orange ';
+        }
+        else {
+          show_html = show_html + 'btn-purple ';
+        }
+        show_html = show_html + 
+        'rounded-0 w-100 h3 d-sm-none">Reserve tickets</a>'
+          // End card body 
+          + '</div>'
+        // End column, row, card
+        + '</div></div></div>'
+        // End column
+        + '</div>';
+
+      }
+      show_html = show_html + '</div>'; // End row 
+      document.getElementById('whats-on').innerHTML = show_html;
+
+      $('a.reserve_button').click(function(event) {
+        document.getElementById('show_modal_iframe').src = ("http://ticketing.newtheatre.org.uk/book/"+this.id);
+      });
+    }).fail(function(){
+      document.getElementById('whats-on').innerHTML = "Unable to load shows";
+    });
+  });
+</script>
+
+<div class="modal fade" id="show_modal" tabindex="-1" role="dialog" aria-labelledby="Reserve Tickets" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="show_modal_title">Reserve Tickets</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <iframe id="show_modal_iframe" src="about:blank" style="height:408px"></iframe>
+    </div>
+  </div>
+</div>

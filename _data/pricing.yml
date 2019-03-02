@@ -1,0 +1,19 @@
+pricing:
+  - member: 4
+    type: in-house
+  - concession: 5
+    type: in-house
+  - public: 6
+    type: in-house
+  - season-pass: 38
+    type: all
+  - member-season-pass: 32
+    type: all
+  - fringe: 3
+    type: fringe
+  - stuff: 3
+    type: stuff
+  - stuff-day-pass: 15
+    type: stuff 
+  - stuff-festival-pass: 25
+    type: stuff 

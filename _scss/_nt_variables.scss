@@ -1,0 +1,72 @@
+// ---
+// # Only the main Sass file needs front matter (the dashes are enough)
+// ---
+
+// @charset "utf-8"
+
+$site-url: "{{ site.url }}";
+
+// Our variables;
+$body-font-stack: Open Sans, Helvetica, Roboto, Arial, sans-serif;
+$header-font-stack: Montserrat, sans-serif;
+// $header-nav-font-stack: Montserrat, sans-serif;
+$base-font-size: 1rem;
+$base-font-size-compact:  $base-font-size * 0.875;
+$baseline-multiplier: 1.6;
+$baseline: $base-font-size * $baseline-multiplier;
+
+
+// Branding Colours 
+// Purple
+$color-nnt-purple: #A54499;
+$color-nnt-purple-dark:        darken($color-nnt-purple, 20%);
+$color-nnt-purple-light:       lighten($color-nnt-purple, 10%);
+$color-nnt-purple-lighter:       lighten($color-nnt-purple, 20%);
+
+// Orange 
+$color-nnt-orange: #FFC425;
+$color-nnt-orange-dark:        darken($color-nnt-orange, 20%);
+$color-nnt-orange-light:       lighten($color-nnt-orange, 10%);
+$color-nnt-orange-lighter:       lighten($color-nnt-orange, 20%);
+
+//StuFF
+$color-nnt-stuff-crimson: #E80025; // Crimson 
+$color-nnt-stuff-yellow: #FDA038; // Yellow sea 
+$color-nnt-stuff-violet: #D1009B; // Medium violet red 
+$color-nnt-stuff-turq: #00C4CB; // Dark turquoise
+
+//Alt 
+$color-brand-alt: #2D9189;
+
+
+$color-black: #1c1c1c;
+
+$color-text-white: #eee;
+$color-text:       $color-text-white;
+$color-text-black: #111;
+
+$color-white: #f1f1f1;
+
+// Body colour 
+$color-background: darken($color-nnt-purple, 40%);
+$color-background-alt: darken($color-nnt-purple, 23%);
+
+$color-link: $color-nnt-orange;
+$color-link-visited: darken($color-link, 07%);
+$color-link-bg-hover: $color-nnt-orange-dark;
+$color-focus: rgba($color-text-white, 0.3);
+
+$color-decades-base: #601111;
+
+$color-error: #601111;
+$color-warning: #864116;
+$color-success: #116019;
+$color-info: #114560;
+
+$color-grey:       #828282;
+$color-grey-light: lighten($color-grey, 40%);
+$color-grey-dark:  darken($color-grey, 25%);
+
+$color-selection: $color-nnt-orange;
+
+@import "type"

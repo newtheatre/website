@@ -1,0 +1,13 @@
+--- 
+# Specifies the links for the footer nav 
+
+- name: Show Resources
+  href: /show-resources/
+- name: Branding 
+  href: /branding/
+- name: Members' Site 
+  href: http://members.newtheatre.org.uk/
+- name: History Site 
+  href: http://history.newtheatre.org.uk/
+- name: Photo Gallery
+  href: http://photos.newtheatre.org.uk/

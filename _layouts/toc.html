@@ -1,0 +1,33 @@
+--- 
+layout: default 
+toc: true
+--- 
+
+{% unless page.toc_max %}{% assign toc_max = 2 %}{% else %}{% assign toc_max = page.toc_max %}{% endunless %}
+{% if page.pre_toc %}
+  <div class="row">
+    <div class="col">
+      {{ page.pre_toc | markdownify }}
+    </div>
+  </div>
+{% endif %}
+
+<div class="row">
+  <div class="clearfix">
+    <div class="toc-column">
+      <div class="card mb-2">
+        <div class="card-header bg-primary">
+          <!-- Table of Contents --> 
+          <h4>{{ page.title }}</h4>
+        </div>
+        <div class="toc-wrapper card-body bg-nnt-purple-dark px-2">
+          {% include toc.html html=content class="toc-list" sanitize=true item_class="toc-item" h_max=toc_max %}
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-9 col-md-8 content">
+      {{ content }}
+    </div>
+  </div>
+</div>
+

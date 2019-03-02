@@ -1,0 +1,98 @@
+--- 
+# Key Dates for the Academic Year
+
+# Auditions and Casting 
+## In House 
+- alias: ih-proposal-deadline
+  name: In House Proposal Deadline
+  date: 30th January, 2019
+- alias: ih-auditions 
+  name: In House Auditions 
+  date: 7-8th February, 2019 
+- alias: ih-auditions-callbacks 
+  name: In House Callbacks 
+  date: 9th February, 2019 
+- alias: ih-auditions-casting 
+  name: In House Casting 
+  date: 10th February, 2019 
+- alias: ih-season-launch
+  name: In House Season Launch 
+  date: 6th February, 2019
+## Fringe
+- alias: fringe-proposal-deadline
+  name: Fringe Proposal Deadline 
+  date: 13th February, 2019
+- alias: fr-auditions 
+  name: Fringe Auditions 
+  date: 21st-22nd February, 2019 
+- alias: fr-auditions-callbacks 
+  name: Fringe Callbacks 
+  date: 23rd February, 2019 
+- alias: fr-auditions-casting 
+  name: Fringe Casting 
+  date: 24th February, 2019 
+- alias: fr-season-launch 
+  name: Fringe Season Launch 
+  date: 20th February, 2019
+
+# Show Slots 
+## In House
+- alias: ih-slot-1
+  name: In House Slot 1
+  date: 6-9th March, 2019 
+- alias: ih-slot-2 
+  name: In House Slot 2
+  date: 13-16th March, 2019 
+- alias: ih-slot-3
+  name: In House Slot 3
+  date: 20th-23rd March, 2019 
+- alias: ih-slot-4
+  name: In House Slot 4
+  date: 27-30th March, 2019 
+- alias: ih-slot-5
+  name: In House Slot 5
+  date: 3rd-6th April, 2019 
+- alias: ih-slot-6
+  name: In House Slot 6
+  date: 9-12th April, 2019 
+- alias: ih-slot-7
+  name: In House Slot 7
+  date: 15-18th May, 2019 
+- alias: ih-slot-8
+  name: In House Slot 8
+  date: 12-15th June, 2019 
+
+## Fringe
+- alias: fr-slot-1
+  name: Fringe Slot 1
+  date: 11-12th March, 2019 
+- alias: fr-slot-2
+  name: Fringe Slot 2
+  date: 17-19th March, 2019 
+- alias: fr-slot-3
+  name: Fringe Slot 3
+  date: 25-26th March, 2019 
+- alias: fr-slot-4
+  name: Fringe Slot 4
+  date: 1st-2nd April, 2019 
+- alias: fr-slot-5
+  name: Fringe Slot 5
+  date: 7-8th April, 2019 
+- alias: fr-slot-6
+  name: Fringe Slot 6
+  date: 13-14th May, 2019 
+- alias: fr-slot-7
+  name: Fringe Slot 7
+  date: 9-11th June, 2019 
+
+## Unscripted 
+- alias: unscripted-1
+
+## External 
+- alias: external-spring
+- alias: external-summer
+
+## StuFF 
+- alias: stuff 
+  name: StuFF
+  date: 16-17th June, 2019

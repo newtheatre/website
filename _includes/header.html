@@ -1,0 +1,23 @@
+  <nav class="nt-navbar">
+    <div class="brand-mobile">
+      <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logos/nt_logo-web.png" height="50px" alt="New Theatre Logo" /></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ntNavbar" aria-controls="ntNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse w-100" id="ntNavbar">
+      <ul class="nt-navbar-nav">
+        {% for node in site.data.header %}
+          <li class="nav-item {% if node.href == page.permalink %}active{% endif %}">
+            <a class="{% if node.logo == true %}brand-large{% else %}nav-link{% endif %}" href="{{ node.href | prepend: site.baseurl }}">
+              {% unless node.logo == true %}{{ node.name }}
+              {% else %}<img src="{{ site.baseurl }}/images/logos/nt_logo-web.png" height="80px" alt="New Theatre Logo" /> 
+              {% endunless %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </nav>

@@ -3,7 +3,24 @@
 {% include head.html %}
 <body>
   {% include header.html %}
-  {{ content }}
+  {% unless page.banner == false %} 
+    <div class="banner">
+      <div class="banner-image" style="background-image: url({{ site.baseurl }}/images/banner/{% if page.banner_image %}{{ page.banner_image }}{% else %}default.jpg{% endif %}">
+      </div>
+      <div class="container">
+        <h1 class="banner-text">
+          {% if page.banner_text %}
+            {{ page.banner_text }}
+          {% else %} 
+            England's only fully student-run theatre
+          {% endif %} 
+        </h1>
+      </div>
+    </div>
+  {% endunless %}
+  <div class="container {% if page.layout == "default" %}content{% endif %}">
+    {{ content }} 
+  </div>
   {% include footer.html %}
 </body>
 </html>

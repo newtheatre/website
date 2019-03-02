@@ -1,34 +1,97 @@
+---
+
+# The Nottingham New Theatre Committee 
+
+
 - role: President
-  name: Nick Gill
+  name: Miguel Barrulas 
+  email: president 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-RrV8MMm/0/b7b46097/O/i-RrV8MMm.jpg"
+
 - role: Treasurer
-  name: Laura Jayne Bateman
+  name: Jonathan Taylor Davies 
+  email: treasurer 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-gqJFVCT/0/d40d303b/O/i-gqJFVCT.jpg"
+
 - role: Theatre Manager
-  name: Gus Herbert
+  name: Sam Osborne 
+  email: theatremanager 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-8wm6Rnj/3/82e9bff7/O/i-8wm6Rnj.jpg"
+  group: backstage
+
 - role: Secretary
-  name: Ollie Shortt
-- role: Productions Coordinator
-  name: Eden Phillips Harrington
-- role: Front of House Manager
-  name: Matt Standen
-- role: Company Stage Manager
-  name: Darcey Graham
-- role: Workshop Manager
-  name: Joe Strickland
-- role: Workshop Manager
-  name: Beth Wilson
-- role: Company Technical Director
-  name: Joanne Blunt
-- role: Technical Manager
-  name: Nathan Penney
-- role: Publicity and Internal Marketing Manager
-  name: Max Miller
-- role: Publicity and External Marketing Manager
-  name: Omid Faramarzi
-- role: Fundraising Coordinator
-  name: Emma Kendall
+  name: Grace Williams 
+  email: secretary 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-QGvHNGZ/2/06a9e851/O/i-QGvHNGZ.jpg"
+
+- role: In House Coordinator 
+  name: Jess Donn 
+  email: inhouse 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-qz3SbcJ/0/f2348aa5/O/i-qz3SbcJ.jpg"
+  group: coordinator
+
 - role: Fringe Coordinator
-  name: Niamh Caines
+  name: Daniel McVey 
+  email: fringe 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-dmnqSDN/0/24e9598c/O/i-dmnqSDN.jpg"
+  group: coordinator 
+  alias_email: stuff 
+  alias_role: StuFF Coordinator
+
+- role: Front of House Manager
+  name: Cameron Brett 
+  email: boxoffice 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-tTwHk4g/0/93dbe13f/O/i-tTwHk4g.jpg"
+
+- role: Company Stage Manager
+  name: Nadia Elalfi 
+  email: csm 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-G7r6FZX/0/8dc9c24d/O/i-G7r6FZX.jpg"
+  group: backstage 
+
+- role: Company Set Technician 
+  name: Jack Ellis 
+  email: cst 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-BxFHbkk/0/a1d29ef2/O/i-BxFHbkk.jpg"
+  group: backstage 
+
+- role: Company Technical Director
+  name: Zoe Smith 
+  email: tech 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-N8jgbNd/1/c732d3ca/O/i-N8jgbNd.jpg"
+  group: backstage 
+
+- role: Technical Manager
+  name: Izzy de Bono 
+  email: techmanager 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-XGBFvFV/3/8661f0fc/XL/i-XGBFvFV-XL.jpg"
+  group: backstage 
+
+- role: Participation Coordinator 
+  name: Jonny Khan 
+  email: participation
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-57fjNcq/0/af573c5d/O/i-57fjNcq.jpg"
+
+- role: Publicity Managers
+  name: Rohan Rakhit and Beth Carter 
+  email: publicity 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-nsxMRf7/0/dff89601/O/i-nsxMRf7.jpg"
+
+- role: External Coordinator 
+  name: Joe Strickland 
+  email: external 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-ttjk8tD/0/c050d05f/O/i-ttjk8tD.jpg"
+  group: coordinator  
+  alias_email: edinburgh 
+  alias_role: Edinburgh Coordinator
+
 - role: Costume and Props Manager
-  name: Charlotte Kirkman
-- role: Social Secretary
-  name: Shannon Smith
+  name: Charlie Basley 
+  email: costume 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-4Xb8X4X/0/d9fefb5b/O/i-4Xb8X4X.jpg"
+  group: backstage 
+
+- role: Social and Fundraising Coordinator 
+  name: Lucy Chandler 
+  email: social 
+  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-PSrmqL6/2/82474892/O/i-PSrmqL6.jpg "

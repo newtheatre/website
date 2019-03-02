@@ -1,0 +1,228 @@
+// Custom NT Styles 
+
+// Colours 
+// Purple 
+.nnt-purple {
+  color: theme-color("primary");
+}
+.nnt-purple-light {
+  color: $color-nnt-purple-light;
+}
+.nnt-purple-lighter {
+  color: $color-nnt-purple-lighter; 
+}
+.nnt-purple-dark {
+  color: $color-nnt-purple-dark;
+}
+.bg-nnt-purple {
+  background: theme-color("primary");
+}
+.bg-nnt-purple-light {
+  background: $color-nnt-purple-light;
+}
+.bg-nnt-purple-lighter {
+  background: $color-nnt-purple-lighter; 
+}
+.bg-nnt-purple-dark {
+  background: $color-nnt-purple-dark;
+}
+
+// Orange
+.nnt-orange {
+  color: theme-color("secondary");
+}
+.nnt-orange-light {
+  color: $color-nnt-orange-light;
+}
+.nnt-orange-lighter {
+  color: $color-nnt-orange-lighter; 
+}
+.nnt-orange-dark {
+  color: $color-nnt-orange-dark;
+}
+.bg-nnt-orange {
+  background: theme-color("secondary");
+}
+.bg-nnt-orange-light {
+  background: $color-nnt-orange-light;
+  color: $gray-900;
+}
+.bg-nnt-orange-lighter {
+  background: $color-nnt-orange-lighter; 
+  color: $gray-900;
+}
+.bg-nnt-orange-dark {
+  background: $color-nnt-orange-dark;
+}
+a[class*='bg-nnt-orange']{
+  color: $color-nnt-purple;
+  :hover {
+    color: $color-nnt-purple-dark;
+  }
+}
+
+// StuFF 
+.bg-stuff-crimson {
+  background: $color-nnt-stuff-crimson;
+}
+.bg-stuff-yellow {
+  background: $color-nnt-stuff-yellow;
+}
+.bg-stuff-violet {
+  background: $color-nnt-stuff-violet;
+}
+.bg-stuff-turq {
+  background: $color-nnt-stuff-turq;
+}
+
+// Alt 
+.nnt-alt {
+  color: $color-brand-alt; 
+}
+.bg-nnt-alt {
+  background: $color-brand-alt !important;
+}
+
+.bg-body {
+  background: $color-background;
+}
+
+// Navigation 
+.nt-navbar {
+  box-shadow: 0px 7px 7px 0 hsla(311, 73%, 3%, 0.3);
+  z-index: 300;
+}
+.nt-navbar-nav li,
+.toc-item { // Make nav lists appear like headers 
+  font-family: $header-font-stack; 
+  font-weight: 600; // Match History Site
+}
+
+.nt-navbar-nav .active {
+  font-weight: 700; // More contrast then the colour change
+}
+
+.toc-item a.active { // Table of Contents highlighter
+  border-right: 4px solid $color-nnt-orange;
+  margin-left: -1rem;
+}
+
+.toc-column { // Don't float TOCs on mobile 
+  @media (max-width: map-get($grid-breakpoints, "md")){
+    position: relative !important;
+  }
+}
+
+.btn {
+  white-space: normal;
+}
+
+// Hero images
+.banner {
+  @media (min-width: map-get($grid-breakpoints, "md")){
+    min-height: 250px;
+  }
+  position: relative;
+  background: $color-background;
+  // box-shadow: 0px 7px 7px 0 hsla(311, 73%, 3%, 0.3)
+  // Box-shadow looks more artificial than as layer. Can be reinstated if this can be improved.
+}
+h1.banner-text {
+  @include black-font-border;
+  position: relative;
+  z-index: 2;
+
+  @media (max-width: map-get($grid-breakpoints, "lg")){
+    line-height: 1.0;
+    font-size: 2.75rem;
+  }
+}
+.banner-image {
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;  
+  width: 100%;
+  height: 100%;
+}
+
+// Body images 
+p img {
+  @extend .img-fluid;
+}
+
+.content {
+  > h1, [class*="col"] > h1 {
+    border-left: 6px solid $color-nnt-purple;
+    padding-left: 1rem;
+  }
+  > h2, [class*="col"] > h2 {
+    border-left: 3px solid $color-nnt-orange;
+    padding-left: 0.5rem;
+  }
+  table { // Make Markdown tables work with Bootstrap 
+    @extend .table-responsive, .table-hover, .table, .table-striped, .table-sm;
+  }
+  ul, ol {
+    margin-left: -1rem;
+  }
+}
+
+hr {
+  border-color: $color-nnt-purple-dark;
+  &.small {
+    max-width: 100px;
+  }
+  &.medium {
+    max-width: 300px;
+  }
+}
+
+// Typography
+
+blockquote {
+  margin-left: 1rem;
+  border-left: 3px solid $color-grey;
+  padding-left: 0.5rem;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+.quote-source {
+  text-align: right;
+  @extend .text-muted;
+  text-transform: none;
+  &:before {
+    content: "\2014 \00A0";
+  }
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.bg-nnt-orange { 
+  a {
+    @extend .text-purple;
+  } 
+}
+
+// Layout
+
+// Components 
+/// Cards 
+.card-header {
+  background: rgba($color-background, .2);
+  border-bottom: none;
+}
+.nt-card {
+  @extend .mb-3;
+}
+
+
+/// Table 
+.content table th {
+  border: none;
+}

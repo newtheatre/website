@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'jekyll', '~> 3.0.0'
+gem 'jekyll', '~> 3.8.3'
 gem 'liquid-c'
 gem 'jekyll-sitemap'
 gem 'jekyll-redirect-from'
@@ -11,3 +11,6 @@ gem 'mini_magick'
 gem 'git'
 gem 'html-proofer', '~>2.6'
 gem 'httparty'
+
+gem 'compass'
+gem 'bootstrap'
