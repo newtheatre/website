@@ -12,12 +12,16 @@ cache:
 install:
 - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
 - npm install
+- curl https://s3-eu-west-1.amazonaws.com/wjdp-lib/htmltest > _bin/htmltest
+- chmod +x _bin/htmltest
+- _bin/htmltest --version
 # - bower install
 before_script:
 - _bin/prep.sh
 script:
 - bundle exec rake build
-- bundle exec rake test
+- _bin/htmltest
+# - bundle exec rake test
 after_success:
 - _bin/deploy.sh
 rvm:
