@@ -115,7 +115,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 ### Dimmers 
 - 8x Zero88 Betapack 6-channel dimmers (total 48ch) with demux installed in Workshop
 - 18-way Datapak III dimmer installed in Studio A (3x Socapex out)
-- ETC Smartpack 12-channel w/ 32/3 tail 
+- ETC Smartpack 12-channel w/ 63/3 tail 
 
 ### Effects 
 - LookSolutions Unique 2.1 Hazer w/ DMX control 
