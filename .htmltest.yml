@@ -1,0 +1,9 @@
+DirectoryPath: _site
+CheckDoctype: false
+IgnoreURLs:
+- "history.newtheatre.org.uk"
+- "photos.smugmug.com"
+- "photos.newtheatre.org.uk"
+IgnoreDirs:
+- "^lib"
+
