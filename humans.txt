@@ -6,14 +6,20 @@
   Contact: webmaster [at] newtheatre.org.uk
   Twitter: @willpimblett
   From: Cambridge, UK
+  
+  Designer / Developer: Sam Osborne
+  Bio: http://history.newtheatre.org.uk/people/sam_osborne/
+  Contact: sam [at] samosborne.me
 
   Editor: Nathan Penney
   Bio: https://history.newtheatre.org.uk/people/nathan_penney/
   Twitter: @nhyty96
 
-  TODO - THIS LIST NOT YET COMPLETE!!
-
 /* THANKS */
+  David Taylor
+  Bio: https://history.newtheatre.org.uk/people/david_taylor
+  
+  Izzy de Bono
 
 /* SITE */
   Last update: {{site.time | date: "%Y-%m-%d" }}
