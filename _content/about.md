@@ -45,5 +45,5 @@ If taking the tram, get off at the University of Nottingham stop and enter the S
 
 There is step-free access for our main foyer, Auditorium and Studio A (where most of our Fringe shows take place). We have one accessible toilet in the main foyer.
 
-We strive for accessibility and access to all, so please [contact us](boxoffice@newtheatre.org.uk) if you have any questions. Due to the varying seating arrangements for our shows, please let us know if you have any access requirements.
+We strive for accessibility and access to all, so please [contact us](mailto:boxoffice@newtheatre.org.uk) if you have any questions. Due to the varying seating arrangements for our shows, please let us know if you have any access requirements.
 
