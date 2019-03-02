@@ -10,7 +10,7 @@ toc_max: 2
 <div class="row">
   <div class="col-md-6">
     <div class="nt-card border-purple">
-      <h2 class="h1 bg-purple text-center">New Theatre Purple<br />
+      <h2 id="nt-purple" class="h1 bg-purple text-center">New Theatre Purple<br />
       <small>#A54499</small></h2>
       <div class="list-group-flush">
         <div class="list-group-item bg-nnt-purple-dark">
@@ -42,7 +42,7 @@ toc_max: 2
   </div>
   <div class="col-md-6">
     <div class="nt-card border-orange">
-      <h2 class="h1 bg-orange text-center">New Theatre Orange<br />
+      <h2 id="nt-orange" class="h1 bg-orange text-center">New Theatre Orange<br />
       <small>#FFC425</small></h2>
       <div class="list-group-flush">
         <div class="list-group-item bg-nnt-orange-dark">
@@ -76,7 +76,7 @@ toc_max: 2
 <div class="row">
   <div class="col-lg-6">
     <div class="nt-card">
-      <h2 class="h1 text-center bg-nnt-alt">Alternative<br />
+      <h2 id="nt-alternative" class="h1 text-center bg-nnt-alt">Alternative<br />
         <small class="text-muted">#2D9189</small>
       </h2>
       <div class="list-group-flush">
@@ -88,7 +88,7 @@ toc_max: 2
   </div>
   <div class="col-lg-6">
     <div class="nt-card">
-      <h2 class="h1 text-center">StuFF<br />
+      <h2 id="nt-stuff" class="h1 text-center">StuFF<br />
       <small class="text-muted">Our StuFF branding features 4 colours</small></h2>
       <div class="list-group-flush">
         <div class="list-group-item bg-stuff-crimson">
