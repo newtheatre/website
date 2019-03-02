@@ -1,6 +1,8 @@
 DirectoryPath: _site
 CheckDoctype: false
 IgnoreURLs:
+- "newtheatre.org.uk"
+- "alpha.newtheatre.org.uk"
 - "history.newtheatre.org.uk"
 - "photos.smugmug.com"
 - "photos.newtheatre.org.uk"
