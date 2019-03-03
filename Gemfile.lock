@@ -14,17 +14,12 @@ GEM
       autoprefixer-rails (>= 6.0.3)
       popper_js (>= 1.12.9, < 2)
       sass (>= 3.5.2)
-    chunky_png (1.3.10)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
     colored (1.2)
-    compass (0.12.2)
-      chunky_png (~> 1.2)
-      fssm (>= 0.2.7)
-      sass (~> 3.1)
     concurrent-ruby (1.0.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -35,7 +30,6 @@ GEM
     execjs (2.7.0)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
-    fssm (0.2.10)
     git (1.4.0)
     html-proofer (2.6.4)
       activesupport (~> 4.2)
@@ -125,7 +119,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap
-  compass
   git
   html-proofer (~> 2.6)
   httparty
@@ -139,4 +132,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
