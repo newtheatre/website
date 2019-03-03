@@ -1,12 +1,6 @@
 ---
 ---
 /* TEAM */
-  Project Lead / Developer: Will Pimblett
-  Bio: https://history.newtheatre.org.uk/people/will_pimblett/
-  Contact: webmaster [at] newtheatre.org.uk
-  Twitter: @willpimblett
-  From: Cambridge, UK
-  
   Designer / Developer: Sam Osborne
   Bio: http://history.newtheatre.org.uk/people/sam_osborne/
   Contact: sam [at] samosborne.me
@@ -15,10 +9,13 @@
   Bio: https://history.newtheatre.org.uk/people/nathan_penney/
   Twitter: @nhyty96
 
+  Developer: Will Pimblett
+  Bio: https://history.newtheatre.org.uk/people/will_pimblett/
+
 /* THANKS */
   David Taylor
   Bio: https://history.newtheatre.org.uk/people/david_taylor
-  
+
   Izzy de Bono
 
 /* SITE */
