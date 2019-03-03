@@ -3,13 +3,13 @@
 
 // NNT SCSS
   @import "mixins";
-  @import "nt_variables"; 
+  @import "nt_variables";
   @import "semantics";
 
 // Bootstrap
   // Import custom Bootstrap variables
   @import "bootstrap_variables";
-  
+
   // Import Bootstrap
   @import "bootstrap";
   // or Import Bootstrap Flex
@@ -20,4 +20,5 @@
   // @import "bootstrap-reboot";
 
 // Custom CSS
+  @import "layout";
   @import "nt_style";
