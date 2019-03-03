@@ -19,7 +19,7 @@ For loading into either of our venues, Cherry Tree Hill can be used, but parking
 **Stage Dimensions** | 7.2 x 7.8m (Can be extended by 2.5m at the front) | 9 x 5m | 10 x 5.4m
 **Stage Floor** | MDF | Dance floor | Dance floor 
 **Grid Height** | 3.8m | 3m | 2.5m 
-**Largest entrance to stage** | 1.3 x 1.9m | 1.4 x 1.9m | 0.8m x 1.9m 
+**Largest entrance to stage** | 1.3 x 1.9m | 1.4 x 1.9m | 0.8 x 1.9m 
 **Load in via** | Main foyer | Fire escape | Studio foyer door 
 **CAD Drawings** | - [Theatre Rig (pdf)]({{ site.baseurl }}/static/technical/Theatre-Rig.pdf) <br /> - [Theatre Stage Floor (pdf)]({{ site.baseurl }}/static/technical/Theatre-Stage-Floor.pdf) | - [Studio A (pdf)]({{ site.baseurl }}/static/technical/Studio-A-Full.pdf)
 
@@ -202,8 +202,8 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 For more information please contact {% include committee.html role="cst" format="inline" %}.
 
 - No safety curtain or house tabs in any space
-- 2x 4 x 3m blacks with clips to the top
+- 4x3m blacks with clips to the top - 2
 - 8m tab track, in 3 sections, with runners 
-- 1x 8 x 4m gauze with ties to the top 
-- 1x 8 x 5m white cyc with eyelets to the top 
+- 8x4m gauze with ties to the top 
+- 8x5m white cyc with eyelets to the top 
 - Various 4ft wide flats at 8 and 10ft height
