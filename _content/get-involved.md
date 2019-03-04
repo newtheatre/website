@@ -17,6 +17,8 @@ banner_image: "get-involved.jpg"
 
 If you can't make a Season Launch, don't fret - email {% include committee.html role="secretary" format="inline" %}, and you'll get up to speed.
 
+For all the latest updates, please do sign up to our [mailing list](/mailinglist/)!
+
 <hr> 
 
 ### With fifteen shows a semester, and dedicated casts and crews for each, there's an opportunity for **everyone**!
