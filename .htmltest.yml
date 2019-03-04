@@ -6,6 +6,7 @@ IgnoreURLs:
 - "history.newtheatre.org.uk"
 - "photos.smugmug.com"
 - "photos.newtheatre.org.uk"
+- "newtheatre.us3.list-manage.com"
 IgnoreDirs:
 - "^lib"
 
