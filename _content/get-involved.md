@@ -17,7 +17,7 @@ banner_image: "get-involved.jpg"
 
 If you can't make a Season Launch, don't fret - email {% include committee.html role="secretary" format="inline" %}, and you'll get up to speed.
 
-Also, please sign up to our [mailing list](/mailinglist)!
+Also, please sign up to our [mailing list](/mailinglist/)!
 
 <hr> 
 
