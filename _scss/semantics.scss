@@ -56,7 +56,7 @@ h1.banner-text {
 
 /// Table of Contents 
 .toc-column {
-  @extend .col-lg-3, .col-md-4, .order-md-12, .sticky-top, .float-right;
+  @extend .col-lg-3, .sticky-top, .float-right;
 }
 .toc-list {
   @extend .nav, .flex-column

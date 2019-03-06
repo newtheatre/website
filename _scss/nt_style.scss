@@ -108,7 +108,7 @@ a[class*='bg-nnt-orange']{
 }
 
 .toc-column { // Don't float TOCs on mobile or tablet
-  @media (max-width: map-get($grid-breakpoints, "xl")){
+  @media (max-width: map-get($grid-breakpoints, "lg")){
     position: relative !important;
   }
 }
