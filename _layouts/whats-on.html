@@ -38,7 +38,7 @@ layout: default
         if (start_date.getMonth() != end_date.getMonth()) {
           date_string = date_string + months[start_date.getMonth()] + ' ';
         };
-        if (start_date != end_date){
+        if (start_date.toString() != end_date.toString()){
           date_string = date_string + '- ' + days[end_date.getDay()] + ' ' + end_date.getDate().toString() + ' ';
         };
         date_string = date_string + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
