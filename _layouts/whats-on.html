@@ -38,7 +38,10 @@ layout: default
         if (start_date.getMonth() != end_date.getMonth()) {
           date_string = date_string + months[start_date.getMonth()] + ' ';
         };
-        date_string = date_string + '- ' + days[end_date.getDay()] + ' ' + end_date.getDate().toString() + ' ' + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
+        if (start_date != end_date){
+          date_string = date_string + '- ' + days[end_date.getDay()] + ' ' + end_date.getDate().toString() + ' ';
+        };
+        date_string = date_string + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
         // Build the card, colours based on the season
         show_html = show_html + ('<div class="col-md-6"><div class="nt-card bg-body ');
         if (the_shows[i].category.name == "Fringe") {
