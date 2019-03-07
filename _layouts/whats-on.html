@@ -98,7 +98,7 @@ layout: default
       document.getElementById('whats-on').innerHTML = show_html;
 
       $('a.reserve_button').click(function(event) {
-        document.getElementById('show_modal_iframe').src = ("http://ticketing.newtheatre.org.uk/book/"+this.id);
+        document.getElementById('show_modal_iframe').src = ("https://ticketing.newtheatre.org.uk/book/"+this.id);
       });
     }).fail(function(){
       document.getElementById('whats-on').innerHTML = "Unable to load shows";
