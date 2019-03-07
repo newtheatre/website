@@ -21,7 +21,7 @@ For loading into either of our venues, Cherry Tree Hill can be used, but parking
 **Grid Height** | 3.8m | 3m | 2.5m 
 **Largest entrance to stage** | 1.3 x 1.9m | 1.4 x 1.9m | 0.8 x 1.9m 
 **Load in via** | Main foyer | Fire escape | Studio foyer door 
-**CAD Drawings** | - [Theatre Rig (pdf)]({{ site.baseurl }}/static/technical/Theatre-Rig.pdf) <br /> - [Theatre Stage Floor (pdf)]({{ site.baseurl }}/static/technical/Theatre-Stage-Floor.pdf) | - [Studio A (pdf)]({{ site.baseurl }}/static/technical/Studio-A-Full.pdf)
+**CAD Drawings** | [Theatre Rig (pdf)]({{ site.baseurl }}/static/technical/Theatre-Rig.pdf) <br /> [Theatre Stage Floor (pdf)]({{ site.baseurl }}/static/technical/Theatre-Stage-Floor.pdf) | [Studio A (pdf)]({{ site.baseurl }}/static/technical/Studio-A-Full.pdf)
 
 <div class="row">
 <div class="col-lg">
