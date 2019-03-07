@@ -22,7 +22,7 @@
     {%- for person in person -%}
       <div class="col-lg-3 col-md-4 col-6">
         <dl class="text-center">
-          <dd><img src="{{ person.img }}" class="img-fluid rounded-circle" alt="{{person.name}}" /></dd>
+          <dd><img src="{{ person.img }}" class="img-fluid rounded-circle" alt="{{person.name}}" {% if person.rollover %}onmouseover="this.src='{{ person.rollover }}'" onmouseout="this.src='{{ person.img }}'"{% endif %} /></dd>
           {% unless person.name == "NONE" %}<dd><strong>{{ person.name }}</strong></dd>{% endunless %}
           <dd>{%- if include.alias == person.alias_email and include.alias -%}{{ person.alias_role }}{%- else -%}{{ person.role }}{%- endif -%}</dd>
           <dd><i class="fa fa-envelope fa-fw"></i>&nbsp;<a href="mailto:{%- if person.alias_email == include.alias and include.alias-%}{{ person.alias_email }}{%- else -%}{{ person.email }}{%- endif -%}@newtheatre.org.uk">{%- if person.alias_email == include.alias and include.alias-%}<em>{{ person.alias_email }}</em>{%- else -%}<em>{{ person.email }}</em>{%- endif -%}</a></dd>
