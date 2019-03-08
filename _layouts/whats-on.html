@@ -53,10 +53,10 @@ layout: default
         show_html = show_html + ('">')
         // Poster
         + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid m-sm-1" src="'
-        if (the_shows[i].poster == null) {
-          the_shows[i].poster = "https://ticketing.newtheatre.org.uk/static/images/no_image.png"
+        if (the_shows[i].small_poster == null) {
+          the_shows[i].small_poster = "https://ticketing.newtheatre.org.uk/static/images/no_image.png"
         }
-        show_html = show_html + the_shows[i].poster + '" />'
+        show_html = show_html + the_shows[i].small_poster + '" />'
         + '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
         if (the_shows[i].category.name == "Fringe") {
           show_html = show_html + 'btn-orange text-dark ';

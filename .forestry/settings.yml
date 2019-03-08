@@ -1,0 +1,31 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/admin"
+webhook_url: 
+sections:
+- type: document
+  path: _data/dates.yml
+  label: Key Dates
+- type: document
+  path: _data/committee.yml
+  label: Committee
+- type: directory
+  path: _content
+  label: Content
+  create: all
+  match: "**/*"
+upload_dir: images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
+  publish_command: bundle exec jekyll build -d _site
+  preview_env:
+  - JEKYLL_ENV=staging
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: _site
+  output_directory: _site
