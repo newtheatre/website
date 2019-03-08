@@ -7,11 +7,9 @@ sections:
 - type: document
   path: _data/dates.yml
   label: Key Dates
-  match: "**/*"
 - type: document
   path: _data/committee.yml
   label: Committee
-  match: "**/*"
 - type: directory
   path: _content
   label: Content
