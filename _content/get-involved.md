@@ -27,7 +27,7 @@ For all the latest updates, please do sign up to our [mailing list](/mailinglist
 
 # Acting 
 
-At the New Theatre, we welcome all actors to be in up to two plays per semester and want to give as many opportunities to tread our boards. Whether you've never acted before, were the sheep in your Nativity, have done some school acting, are a seasoned pro at the RSC &mdash; or simply just dabble &mdash; please come along an audition.
+At the New Theatre, we welcome all actors to be in up to two plays per semester and want to give as many opportunities to tread our boards. Whether you've never acted before, were the sheep in your Nativity, have done some school acting, are a seasoned pro at the RSC &mdash; or simply just dabble &mdash; please come along and audition.
 
 <div class="row">
   <div class="col-sm" markdown="1">
