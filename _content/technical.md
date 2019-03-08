@@ -11,6 +11,8 @@ By default, we do not permanently install any equipment into our spaces other th
 
 For loading into either of our venues, Cherry Tree Hill can be used, but parking is only available in University Visitors' Car Parks (restrictions apply).
 
+For more information on any of the below, please contact {% include committee.html role="theatremanager" format="inline" %}.
+
 # Venues
 
 ||Auditorium|Studio A|Studio B
@@ -40,7 +42,7 @@ For loading into either of our venues, Cherry Tree Hill can be used, but parking
 
 - 63/3 and 32/1 supply in SR wing 
 - 64 IWB circuits in grid; 8 ground circuits, all with 15A sockets. 6 hard-powered channels in the patch bay.
-- RCD-protected 13A sockets: both wings and USR.
+- RCD-protected 13A sockets in both wings and USR.
 
 </div>
 </div>
@@ -160,9 +162,9 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 
 ### Communication 
 - TecPro and Altair comms 
-- 3 headsets in Auditorium Tech Box 
-- 1 headset in Auditorium SR wing 
-- 2 spare beltpacks and headsets 
+- 3x headsets in Auditorium Tech Box 
+- 1x headset in Auditorium SR wing 
+- 2x spare beltpacks and headsets 
 
 ### Control
 - Yamaha MG16/6FX
@@ -175,35 +177,40 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 <div class="col-lg" markdown="1">
 
 ## Video 
-- VGA run permanently run from Auditorium Tech Box to SR wing
+- VGA and SDI run permanently run from Auditorium Tech Box to SR wing
 - BenQ MH733 projector w/ rigging mount 
 - Epson EB-92 projector w/ rigging mount
 - QLab with Video License  
 
 </div>
-<div class="col-lg" markdown="1">
+</div>
+
+# Set and Scenery
+
+<div class="row"><div class="col-lg" markdown="1">
+
+## Scenic 
+
+- No safety curtain or house tabs in any space
+- 2x black drapes with clips to the top measuring 4 x 3m
+- 8m tab track, in 3 sections, with runners 
+- 8x4m gauze with ties to the top 
+- 8x5m white cyc with eyelets to the top 
+- Various 4ft wide flats at 8 and 10ft height
+
+</div><div class="col-lg" markdown="1">
 
 ## Staging 
-- Prolyte StageDex 2x1m - 19
-- Prolyte StageDex 1x1m - 3 
+- 19x Prolyte StageDex 2 x 1m
+- 3x Prolyte StageDex 1 x 1m  
 - Legs available at 20, 40, 60 and 80cm.
 
-</div>
-</div>
+</div></div>
 
-## Safety 
+# Safety 
 - All scenery, drapes and backdrops must be fire resistant
 - We may carry out controlled flame tests and disallow any materials that are not suitably flame retardant. 
 - All electrical equipment must be in good condition, have a current PAT certificate, have appropriate protective circuits and wired in accordance with current IEE regulations. 
 - All equipment and staff must comply with the Electricity at Work Regulations 1989.
 - Electrical or rigging equipment may be disallowed at any time if it is deemed dangerous or inappropriate.
 
-## Scenic 
-For more information please contact {% include committee.html role="cst" format="inline" %}.
-
-- No safety curtain or house tabs in any space
-- 4x3m blacks with clips to the top - 2
-- 8m tab track, in 3 sections, with runners 
-- 8x4m gauze with ties to the top 
-- 8x5m white cyc with eyelets to the top 
-- Various 4ft wide flats at 8 and 10ft height
