@@ -11,7 +11,7 @@ banner_text: "Be a part of the Nottingham New Theatre"
 banner_image: "get-involved.jpg"
 ---
 
-**Season Launches** are the best opportunity to see all of the roles available in our shows for that season. You will find out what plays are in the season, and they'll all be looking for actors, technicians, designers, builders and so on.
+**Season Launches** are the best opportunity to see all of the roles available in our shows for that season. You will find out what plays are in the season, and they'll all be looking for actors, technicians, designers, builders, and so on.
 
 {% include date.html date="launch" %}
 
@@ -66,9 +66,9 @@ If you have any questions about acting or auditioning, contact one of our Season
 <div class="row">
   <div class="col-sm" markdown="1">
 
-Directing is full of challenges and great fun for anyone at the New Theatre. You can propose any play you like, and innovation and new writing are encouraged.
+Directing is full of challenges and great fun for anyone at the New Theatre. You can propose any play you like, innovation and new writing are encouraged.
 
-Anything you can think of, we can stage: whether it's physical, in the round, absurd, or in some weird building in the middle of town, we'd love to hear your ideas.
+Anything you can think of, we can stage: whether it's physical, in the round, absurd, or in some weird building in the middle of town &mdash; we'd love to hear your ideas.
 
   </div>
   <div class="col-sm" markdown="1">
@@ -89,11 +89,11 @@ Directing at the NNT has meant working closely with some of the most talented pe
 It's totally up to you! You can put on a play you've loved reading, watching, or being a part of elsewhere &mdash; or an original work! 
 
 1. **Decide on the season**:
-We have four seasons that you can propose for: In House, Fringe, External and Edinburgh, all with their own challenges to bear in mind. Have a think before you propose which is best for your show!
+We have four seasons that you can propose for: In House, Fringe, Edinburgh, and External, all with their own challenges to bear in mind. Have a think before you propose which is best for your show!
 
 1. **Rights**: It needs to be possible to get the rights to put the play on. The company to contact is usually written in the first few pages of the script. 
 
-1. **Propose!** Fill in the [proposal form]({{ site.baseurl }}/show-resources/#pre-proposals) and come on the day for a 15-minute Q&A from the committee. You can propose on your own or as a team (typically a director-producer pair). Afterwards, the committee go away and discuss and you'll be phoned later that day with the decision.
+1. **Propose!** Fill in the [proposal form]({{ site.baseurl }}/show-resources/#pre-proposals) and come on the day for a 15-minute Q&A from the committee. You can propose on your own or as a team (typically a director-producer pair). Afterwards, the committee go away and discuss: you'll be phoned later that day with the decision.
 
 ### Key Dates 
 
@@ -169,7 +169,7 @@ If you have any questions about writing for one of our seasons, contact the rele
   <div class="col-sm" markdown="1">
 
 ### What to do 
-1. **Write a draft!** This is the most important step, we need to see a play with a beginning, middle and end to be able to consider it - but it can still be a work in progress! 
+1. **Write a draft!** This is the most important step, we need to see a play with a beginning, middle, and end to be able to consider it - but it can still be a work in progress! 
 2. **Find a director.** You can direct your own work, or have someone else stage it, it's entirely up to you.
 3. **Get it read.** The best way to find advice to improve your script is to get people to read it. 
 4. **Propose!** Once you're ready, check out our guide to [putting on a play](#how-to-put-on-a-play).
@@ -177,7 +177,7 @@ If you have any questions about writing for one of our seasons, contact the rele
   </div>
   <div class="col-sm" markdown="1">
 
->Playwriting at the New Theatre is the best way to flex your writing muscles. At the NNT, I’ve been given the opportunity to stretch myself with structure, plot, dialogue, character and setting. Seeing your work on stage can be nerve-wracking, but it’s an invaluable and thrilling experience.
+>Playwriting at the New Theatre is the best way to flex your writing muscles. At the NNT, I’ve been given the opportunity to stretch myself with structure, plot, dialogue, character, and setting. Seeing your work on stage can be nerve-wracking, but it’s an invaluable and thrilling experience.
 
 >It feels so invigorating to be writing in an environment where lots of other students are writing plays – sometimes very similar, sometimes very different, to your own.
 
@@ -186,9 +186,9 @@ If you have any questions about writing for one of our seasons, contact the rele
   </div>
 </div>
 
-# Costume, Props and Make-up 
+# Costume, Props, and Make-up 
 
-An integral part of any show, costume, props and make-up is a creative and rewarding role. You can work on the design and execution of these 3 key areas with the production team to make the show look as good as it can on stage.
+An integral part of any show, costume, props, and make-up is a creative and rewarding role. You can work on the design and execution of these 3 key areas with the production team to make the show look as good as it can on stage.
 
 There is no experience necessary, and any training you need will be provided. 
 
@@ -200,7 +200,7 @@ There is no experience necessary, and any training you need will be provided.
 
 ### What you can do
 
-- **Costume**: The actors need to wear something, and you can design, source or even make it if you're a dab hand with a sewing machine. 
+- **Costume**: The actors need to wear something, and you can design, source, or even make it if you're a dab hand with a sewing machine. 
 - **Props**: Have a great idea to rework one of our props into something new? Want to use the workshop to create something new? Join the team.
 - **Make-up**: An art and science, with both natural and stylised looks available in our shows.
 
@@ -253,7 +253,7 @@ As a set designer, you'll work with the production team to create the visual con
 
 ## Set Construction 
 
-If you're interested in getting your hands on our hammers, drills, spanners or paints, our set construction team is the place for you. 
+If you're interested in getting your hands on our hammers, spanners, or paints, our set construction team is the place for you. 
 
 Don't worry if you've never done anything like it before, we can provide all the training you need.
 
@@ -271,7 +271,7 @@ If you're interested in anything set-wise, speak to {% include committee.html ro
 
 Once the show's get-in is complete, the stage manager's job really comes to life, making sure the show runs as smoothly as possible. They are in charge of the set and props during the show, making sure everything is where it needs to be. 
 
-During the show, you might manage where props and set pieces are going, sort costumes for quick-changes or activate special effects like smoke machines.
+During the show, you might move around the set and props, sort costumes for quick-changes, or activate special effects like smoke machines.
 
 </div><div class="col-sm" markdown="1">
 
@@ -302,7 +302,7 @@ If you're interested in being a stage manager, please get in touch with {% inclu
 </div>
 <div class="col-lg-8 col-sm-7" markdown="1">
 
-With all those pretty lights, sound effects and fancy videos; someone's got to be in charge of it and that could be you. 
+With all those pretty lights, sound effects, and fancy videos; someone's got to be in charge of it and that could be you. 
 
 We've got a large and modern stock of [technical equipment]({{ site.baseurl }}/technical/#equipment) that is ever expanding, so there's plenty to sink your teeth into. 
 
@@ -311,14 +311,14 @@ Throughout the year, we run extensive training on how to use our equipment, as w
 </div>
 </div>
 
-Being part of the tech team is super rewarding, and you get to be involved with as many productions as you want. You will be working with directors, actors and set designers to create a spectacular production with lots of fun along the way. 
+Being part of the tech team is super rewarding, and you get to be involved with as many productions as you want. You will be working with directors, actors, and set designers to create a spectacular production with lots of fun along the way. 
 
 <div class="row">
   <div class="col-md-6" markdown="1">
 
 ## Technical Director 
 
-The Technical Director (TD) oversees all the technical aspects of a show, such as rigging, focusing and organising. They run the technical rehearsals and are often found shouting "Stop!" just before a climactic moment. 
+The Technical Director (TD) oversees all the technical aspects of a show, such as rigging, focusing, and organising. They run the technical rehearsals and are often found shouting "Stop!" just before a climactic moment. 
 
 The TD is responsible for making sure all of the tech things get done on time, as well as for 'calling the show' (following the script and cueing any operators to fire cues, or stage managers to move set).
 ![The rig of '1984']({{ site.baseurl }}/images/1984_rig.jpg)
@@ -359,7 +359,7 @@ A stunning video design can help a show really stand out amongst the crowd. We c
 
 Some shows may just want to use premade content, such as existing TV clips, where as others may create their own hand drawn backdrops or animations.
 
-At the get-in, you'll rig any projectors and screens you might need, followed by focusing (pointing the projector(s) in the right place), mapping (making the image fill the surface) and programming (making the content actually appear). 
+At the get-in, you'll rig any projectors and screens you might need, followed by focusing (pointing the projector(s) in the right place), mapping (making the image fill the surface), and programming (making the content actually appear). 
 
 </div>
 
