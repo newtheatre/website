@@ -11,23 +11,7 @@ banner_image: "about.jpg"
 
 Based on University Park, Nottingham, we are the only student run theatre in England. We produce over 30 plays per year, across two venues (an 80-seat Auditorium and 30-seat Studio); send shows to the [National Student Drama Festival](http://nsdf.org.uk) and [Edinburgh Festival Fringe](http://edfringe.com); and even host our own [Student Fringe Festival]({{ site.baseurl }}/stuff/) every June.
 
-We are part of the [University of Nottingham Students' Union]({{ site.uonsu }}) and have a membership of over 200 students every year, across a variety of courses and disciplines from English to Engineering, undergraduate and postgraduate. All of our activities are student-run and student-led, from acting, directing and set design, to lighting, publicity and even front of house.
-
-# Committee 
-
-The Nottingham New Theatre is run by an elected committee &ndash; all still students! The committee keep the theatre running day-to-day and more long term, so if you have a question just contact one of these lovely people and they'll help you out.
-
-{% include committee.html %}
-
-# History
-
-The history of theatre at the University of Nottingham begins in the 1920s with Dramsoc, though the building we call home wasn't created (converted from the old Engineering block) until the 60s, with raked seating and a proscenium arch begin installed in the 70s.
-
-Our logo moved from swirls to two yellow squares in 2007, before moving to our beloved orange and purple in 2008. The Nottingham New Theatre brand has been tweaked and finessed over the past few years and is now consistently found on all of our publicity.
-
-More recently, our two Studio spaces were built in 2013 and our newest season &ndash; Unscripted &ndash; began in 2017. 
-
-{% include cta.html colour="orange" link="http://history.newtheatre.org.uk" text="Read more about our past on the History Site" %}
+We are part of the [University of Nottingham Students' Union]({{ site.uonsu }}) and have a membership of over 200 students every year, across a variety of courses and disciplines from English to Engineering, undergraduate and postgraduate. All of our activities are student-run and student-led, from acting, directing, and set design; to lighting, publicity, and even front of house.
 
 # Visiting The Theatre
 
@@ -46,4 +30,21 @@ If taking the tram, get off at the University of Nottingham stop and enter the S
 There is step-free access for our main foyer, Auditorium and Studio A (where most of our Fringe shows take place). We have one accessible toilet in the main foyer.
 
 We strive for accessibility and access to all, so please [contact us](mailto:boxoffice@newtheatre.org.uk) if you have any questions. Due to the varying seating arrangements for our shows, please let us know if you have any access requirements.
+
+# Committee 
+
+The Nottingham New Theatre is run by an elected committee &ndash; all still students! The committee keep the theatre running day-to-day and more long term, so if you have a question just contact one of these lovely people and they'll help you out.
+
+{% include committee.html %}
+
+# History
+
+The history of theatre at the University of Nottingham begins in the 1920s with Dramsoc, though the building we call home wasn't created (converted from the old Engineering block) until the 60s, with raked seating and a proscenium arch begin installed in the 70s.
+
+Our logo moved from swirls to two yellow squares in 2007, before moving to our beloved orange and purple in 2008. The Nottingham New Theatre brand has been tweaked and finessed over the past few years and is now consistently found on all of our publicity.
+
+More recently, our two Studio spaces were built in 2013 and our newest season &ndash; Unscripted &ndash; began in 2017. 
+
+{% include cta.html colour="orange" link="http://history.newtheatre.org.uk" text="Read more about our past on the History Site" %}
+
 
