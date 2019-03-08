@@ -63,6 +63,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 #### Power 
 **Studio A**
 - 32/3 supply 
+- 18 channels of dimming via 3x socapex outputs
 - Various 13A sockets at floor level
 
 **Studio B**
