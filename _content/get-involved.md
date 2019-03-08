@@ -51,7 +51,7 @@ Callbacks and casting happen over the weekend after auditions.
 
 ### Who to talk to 
 
-If you have any questions about acting or auditioning, contact one of our Season Co-ordinators: 
+If you have any questions about acting or auditioning, contact one of our Season Coordinators: 
 
 {% include committee.html group="coordinator" format="list" %}
 
@@ -108,7 +108,7 @@ We have four seasons that you can propose for: In House, Fringe, External and Ed
 
 ### Who to talk to 
 
-If you have any questions about directing for any of our seasons, contact one of our Season Co-ordinators: 
+If you have any questions about directing for any of our seasons, contact one of our Season Coordinators: 
 
 {% include committee.html group="coordinator" format="list" %}
 
@@ -136,7 +136,7 @@ It's fantastic fun, and if you like the sound of it, come on board. You can talk
 <footer class="quote-source">Emily Sterling, Producer '16-'17</footer>
 
 ### Who to talk to
-If you have any questions about producing, contact one of our Season Co-ordinators: 
+If you have any questions about producing, contact one of our Season Coordinators: 
 
 {% include committee.html group="coordinator" format="list" %}
 
@@ -158,7 +158,7 @@ You can put your writing on the stage in any of our seasons, and we're eager to 
   <div class="col-sm" markdown="1">
 
 ### Who to talk to 
-If you have any questions about writing for one of our seasons, contact the relevent Season Co-ordinator:
+If you have any questions about writing for one of our seasons, contact the relevent Season Coordinator:
 
 {% include committee.html group="coordinator" format="list" %}
 
