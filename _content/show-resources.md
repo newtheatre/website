@@ -96,6 +96,7 @@ So, you’ve got your show – congratulations! The work’s only just begun, an
 
 {% include file-download.html file="postproposal/Show-Pack-2018-19.pdf" name="Show Pack" type="pdf" color="nnt-purple"  %}
 
+</div></div>
 
 ### Code of Conduct 
 
