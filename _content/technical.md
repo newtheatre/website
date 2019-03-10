@@ -11,7 +11,7 @@ By default, we do not permanently install any equipment into our spaces other th
 
 For loading into either of our venues, Cherry Tree Hill can be used, but parking is only available in University Visitors' Car Parks (restrictions apply).
 
-For more information on any of the below, please contact {% include committee.html role="theatremanager" format="inline" %}.
+For more information on any of our spaces, please contact {% include committee.html role="theatremanager" format="inline" %}. For further information on our Technical Specification, please contact {% include committee.html role="techmanager" format="inline" %} 
 
 # Venues
 
