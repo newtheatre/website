@@ -2,6 +2,7 @@
 title: Show Resources
 permalink: /show-resources/
 layout: toc 
+redirect_from: /production-resources
 banner_image: "show-resources.jpg"
 banner_text: "Useful packs and links for anyone involved in a show at the NNT"
 ---
@@ -85,7 +86,16 @@ The Content Warnings and Welfare Considerations section of the Proposals Form ne
 
 ## Post-Proposals 
 
+### Show Pack
+
+<div class="row"><div class="col-lg-8" markdown="1">
+
 So, you’ve got your show – congratulations! The work’s only just begun, and we know that putting on a show can be a daunting experience for even the most seasoned of production teams. To help, we’ve put together a Show Pack, which contains information about publicity, front of house, tech, and lots of other things we think will be useful. It’s new for 2018, and has information relevant for both brand new teams and people who’ve done a show before, so do take a look.
+
+</div><div class="col-lg-4 text-lg-right" markdown="1">
+
+{% include file-download.html file="postproposal/Show-Pack-2018-19.pdf" name="Show Pack" type="pdf" color="nnt-purple"  %}
+
 
 ### Code of Conduct 
 
@@ -95,7 +105,7 @@ This document must be read and signed by all production team members as the very
 
 </div><div class="col-lg-4 text-lg-right" markdown="1">
 
-{% include file-download.html file="postproposal/Code-of-Conduct.pdf" name="Code of Conduct" type="pdf" color="nnt-purple"  %}
+{% include file-download.html file="postproposal/Code-of-Conduct.pdf" name="Code of Conduct" type="pdf" color="nnt-orange"  %}
 
 </div></div>
 
@@ -107,7 +117,7 @@ For everything you need to publicise your show, complete with deadlines and guid
 
 </div><div class="col-lg-4 text-lg-right" markdown="1">
 
-{% include file-download.html file="postproposal/Publicity-Pack-2018_19.pdf" name="Publicity Pack" type="pdf" color="nnt-orange"  %}
+{% include file-download.html file="postproposal/Publicity-Pack-2018_19.pdf" name="Publicity Pack" type="pdf" color="nnt-purple"  %}
 
 </div></div>
 
