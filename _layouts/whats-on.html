@@ -75,8 +75,8 @@ layout: default
             // Season and Venue 
             + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
           + '</div><div class="card-body">'
-            // Short description 
-            + '<p>' + the_shows[i].long_markdown + '</p>' +
+            // Description 
+            + the_shows[i].long_markdown +
         '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
         if (the_shows[i].category.name == "Fringe") {
           show_html = show_html + 'btn-orange text-dark ';
