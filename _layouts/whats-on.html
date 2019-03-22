@@ -79,18 +79,21 @@ layout: default
             + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
           + '</div><div class="card-body">'
             // Description 
-            + the_shows[i].long_markdown +
-        '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
-        if (the_shows[i].category.name == "Fringe") {
-          show_html = show_html + 'btn-orange text-dark ';
+            + the_shows[i].long_markdown;
+
+        if(the_shows[i].occurrence_set.length > 0){
+          show_html += '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
+          if (the_shows[i].category.name == "Fringe") {
+            show_html = show_html + 'btn-orange text-dark ';
+          }
+          else {
+            show_html = show_html + 'btn-purple ';
+          }
+          show_html = show_html + 
+          'rounded-0 w-100 h3 d-sm-none">Reserve tickets</a>';
         }
-        else {
-          show_html = show_html + 'btn-purple ';
-        }
-        show_html = show_html + 
-        'rounded-0 w-100 h3 d-sm-none">Reserve tickets</a>'
           // End card body 
-          + '</div>'
+        show_html += '</div>'
         // End column, row, card
         + '</div></div></div>'
         // End column
