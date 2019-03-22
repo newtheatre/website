@@ -1,7 +1,6 @@
 --- 
 layout: default 
 --- 
-
 <!-- For additional content before the shows list --> 
 {{ content }}
 
@@ -10,7 +9,7 @@ layout: default
 <!-- The new Javascript bit --> 
 <script>
   $( document ).ready(function() {
-    $.getJSON("https://ticketing.newtheatre.org.uk/api/shows").done(function(data){
+    $.getJSON("{{ page.shows_url }}").done(function(data){
       console.log(data);
       var the_shows = data.results;
       var this_week = ''; 

@@ -2,6 +2,8 @@
 title: StuFF 
 permalink: /stuff/
 redirect_from: /stuff/
+layout: whats-on
+shows_url: "https://ticketing.newtheatre.org.uk/api/shows/filter/stuff"
 banner_text: StuFF - Student Fringe Festival 
 banner_image: "stuff.jpg"
 ---
@@ -23,7 +25,7 @@ For 2019, we have two theatre venues at The Nottingham New Theatre, the NNT Audi
 The best place to find out everything you need to know as a performing company about StuFF is to check out the Info Pack. If you’d like to perform at StuFF (and we’d love you to), fill in our Application Form, and we’ll be in touch.
 
 
-<div class="row">
+<div class="row stuff-buttons">
   <div class="col-md">
 
 {% include cta.html colour="purple" link="http://newtheatre.org.uk/stuff/info-pack" text="StuFF Info Pack (online)" %} 
