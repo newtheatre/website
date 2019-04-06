@@ -17,7 +17,7 @@ We are part of the [University of Nottingham Students' Union]({{ site.uonsu }}) 
 
 ![New Theatre front]({{ site.baseurl }}/images/nnt_front.jpg)
 
-We're easily accessible both by car and public transport. If you're driving you should enter University Park via the south entrance, and park in the Trent Building car park. From the car park walk up the steps at the back and a short way up the hill you'll find us on the left. The visitors’ car park operates free parking during our shows.
+We're easily accessible both by car and public transport. If you're driving you should enter University Park via the south entrance, and park in the Trent Building car park. From the car park walk up the steps at the back and a short way up the hill you'll find us on the left. The visitors' car park operate parking charges from 8:30am-4:15pm Monday-Friday, so is free for the majority of our performances.
 
 The 34 bus takes you directly onto campus from the city centre. Alight at the Portland Hill stop and walk up the hill. You'll find us down the second road on the left.
 
