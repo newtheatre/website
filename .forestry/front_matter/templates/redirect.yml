@@ -1,0 +1,19 @@
+---
+label: Redirect
+hide_body: false
+display_field: redirect_to
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of your post
+  config:
+    required: true
+- type: text
+  name: redirect_from
+  label: Redirect from
+  description: Other NNT links which will redirect to this page
+- type: text
+  name: redirect_to
+  label: Redirect to
+  description: 'Another URL that this page will link to '
