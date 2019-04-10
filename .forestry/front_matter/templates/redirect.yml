@@ -1,7 +1,6 @@
 ---
 label: Redirect
 hide_body: false
-display_field: redirect_to
 fields:
 - type: text
   name: title
