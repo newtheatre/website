@@ -16,3 +16,5 @@ fields:
   name: redirect_to
   label: Redirect to
   description: 'Another URL that this page will link to '
+pages:
+- _content/assassins.md
