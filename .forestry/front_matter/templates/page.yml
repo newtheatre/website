@@ -1,22 +1,40 @@
 ---
 label: Page
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  description: 'The title of the page '
+  config:
+    required: true
 - type: text
   name: permalink
   label: permalink
+  description: The link to this page (default is page title, lowercase with spaces
+    replaced with dashes)
 - type: list
   name: redirect_from
-  label: redirect_from
-- type: text
-  name: layout
-  label: layout
+  label: Redirect From...
+  description: Other NNT URL(s) that will redirect TO this page
 - type: text
   name: banner_text
   label: banner_text
+  description: Text to appear in the banner of the page
+  default: 'England''s only fully student-run theatre '
 - type: file
   name: banner_image
   label: banner_image
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - default
+    - toc
+  label: Layout
+  description: How you would like the page to display (current options are with or
+    without a table of contents, 'toc')
+  default: default
