@@ -18,7 +18,7 @@ For more information on any of our spaces, please contact {% include committee.h
 ||Auditorium|Studio A|Studio B
 ---|---|---
 **Capacity** | 86 (max.) | 30 | 30 
-**Stage Dimensions** | 7.2 x 7.8m (Can be extended by 2.5m at the front) | 9 x 5m | 10 x 5.4m
+**Stage Dimensions** | 7.2 x 7.8m (Can be extended by 1.2m at the front) | 9 x 5m | 10 x 5.4m
 **Stage Floor** | MDF | Dance floor | Dance floor 
 **Grid Height** | 3.8m | 3m | 2.5m 
 **Largest entrance to stage** | 1.3 x 1.9m | 1.4 x 1.9m | 0.8 x 1.9m 
