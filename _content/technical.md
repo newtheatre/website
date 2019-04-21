@@ -1,7 +1,9 @@
 ---
 title: Technical Specification
 permalink: /technical/
-redirect_from: /about-us/technical/
+redirect_from:
+- /about-us/technical/
+- /about/technical/
 layout: toc 
 banner_text: "Nottingham New Theatre: Full Technical Specification"
 banner_image: "tech.jpg"
