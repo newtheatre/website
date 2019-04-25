@@ -39,7 +39,7 @@ The Nottingham New Theatre is run by an elected committee &ndash; all still stud
 
 # History
 
-The history of theatre at the University of Nottingham begins in the 1920s with Dramsoc, though the building we call home wasn't created (converted from the old Engineering block) until the 60s, with raked seating and a proscenium arch begin installed in the 70s.
+The history of theatre at the University of Nottingham begins in the 1920s with Dramsoc, though the building we call home wasn't created (converted from the old Engineering block) until the 60s, with raked seating and a proscenium arch installed in the 70s.
 
 Our logo moved from swirls to two yellow squares in 2007, before moving to our beloved orange and purple in 2008. The Nottingham New Theatre brand has been tweaked and finessed over the past few years and is now consistently found on all of our publicity.
 
