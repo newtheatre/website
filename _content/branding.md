@@ -77,7 +77,7 @@ toc_max: 2
   <div class="col-lg-6">
     <div class="nt-card">
       <h2 id="nt-alternative" class="h1 text-center bg-nnt-alt">Alternative<br />
-        <small class="text-muted">#2D9189</small>
+        <small>#2D9189</small>
       </h2>
       <div class="list-group-flush">
         <div class="list-group-item bg-body">
@@ -120,17 +120,11 @@ toc_max: 2
   </div>
 </div>
 
-# Fonts and Vocabulary 
+# Vocabulary and Fonts
 
 <div class="row">
-  <div class="col-lg-6" markdown="1">
 
-## Fonts
-- Standard print: Montserrat
-- Theatre logo: Akkurat
-- StuFF logo: Avenir
-
-  <div class="col-lg-6" markdown="1">
+<div class="col-lg-6" markdown="1">
 
 ## Vocabulary
 
@@ -142,7 +136,14 @@ We have a number of 'branded' vocabulary, that are as follows:
 
 Note the casing on both StuFF and Unscripted, and the lack of hyphen on In House. 
 
-  </div>
+</div><div class="col-lg-6" markdown="1">
+
+## Fonts
+- Standard print: Montserrat
+- Theatre logo: Akkurat
+- StuFF logo: Avenir
+
+</div>
 </div>
 
 # Logos
