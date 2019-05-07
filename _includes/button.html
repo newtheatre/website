@@ -1,0 +1,8 @@
+{% comment %}
+Required: link, text
+Optional: 
+	- color: purple or orange (default: purple)
+	- file-type: font-awesome file type icon code
+	- wide: boolean (default: false). Set to true to make button take container width.
+{% endcomment %}
+<a role="button" class="btn btn-lg btn-{% if include.color %}{{ include.color }}{% else %}purple{% endif %} mb-2 {% if include.wide %}btn-block{% endif %}" href="{{ include.link }}">{% if include.file-type %}<i class="fa fa-fw fa-file-{{ include.file-type }}"></i>&nbsp;{% endif %}{{ include.text }}</a>
