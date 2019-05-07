@@ -28,12 +28,12 @@ The best place to find out everything you need to know as a performing company a
 <div class="row stuff-buttons">
   <div class="col-md">
 
-{% include cta.html colour="purple" link="http://newtheatre.org.uk/stuff/info-pack" text="StuFF Info Pack (online)" %} 
+{% include button.html link="http://newtheatre.org.uk/stuff/info-pack" text="StuFF Info Pack (online)" wide=true %} 
 
   </div>
   <div class="col-md">
 
-{% include cta.html colour="orange" link="http://newtheatre.org.uk/stuff/apply" text="StuFF Application Form (online)" %}
+{% include button.html color="orange" link="http://newtheatre.org.uk/stuff/apply" text="StuFF Application Form (online)" wide=true %}
 
   </div>
 </div>

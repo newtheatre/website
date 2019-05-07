@@ -46,4 +46,4 @@ Our logo moved from swirls to two yellow squares in 2007, before moving to our b
 
 More recently, our two Studio spaces were built in 2013 and our newest season &ndash; Unscripted &ndash; began in 2017. 
 
-{% include cta.html colour="orange" link="http://history.newtheatre.org.uk" text="Read more about our past on the History Site" %}
+{% include button.html color="orange" link="https://history.newtheatre.org.uk" text="Read more about our past on the History Site" wide=true %}
