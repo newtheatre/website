@@ -93,7 +93,7 @@ We have four seasons that you can propose for: In House, Fringe, Edinburgh, and 
 
 1. **Rights**: It needs to be possible to get the rights to put the play on. The company to contact is usually written in the first few pages of the script. 
 
-1. **Propose!** Fill in the [proposal form]({{ site.baseurl }}/show-resources/#pre-proposals) and come on the day for a 15-minute Q&A from the committee. You can propose on your own or as a team (typically a director-producer pair). Afterwards, the committee go away and discuss: you'll be phoned later that day with the decision.
+1. **Propose!** Fill in the [proposal form]({{ site.baseurl }}/show-resources/#proposals-forms) and come on the day for a 15-minute Q&A from the committee. You can propose on your own or as a team (typically a director-producer pair). Afterwards, the committee go away and discuss: you'll be phoned later that day with the decision.
 
 ### Key Dates 
 

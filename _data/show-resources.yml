@@ -98,3 +98,10 @@
 #   file-type: folder 
 #   group: backstage 
 #   description: Risk Assessments, Method Statements and all the other documentation that keeps this theatre safe.
+
+# - title: Backstage Pack 
+#   link: "#"
+#   color: purple 
+#   file-type: pdf
+#   group: backstage 
+#   description: From sets to stage, this pack has tips, tricks and how-tos for bringing your set to life and avoiding set dressing pitfals. 
