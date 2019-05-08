@@ -2,7 +2,8 @@
 Required: link, text
 Optional: 
 	- color: purple or orange (default: purple)
-	- file-type: font-awesome file type icon code
+	- filetype: font-awesome file type icon code
 	- wide: boolean (default: false). Set to true to make button take container width.
+	- nogap: boolean (default: false). Remove the bottom margin
 {% endcomment %}
-<a role="button" class="btn btn-lg btn-{% if include.color %}{{ include.color }}{% else %}purple{% endif %} mb-2 {% if include.wide %}btn-block{% endif %}" href="{{ include.link }}">{% if include.file-type %}<i class="fa fa-fw fa-file-{{ include.file-type }}"></i>&nbsp;{% endif %}{{ include.text }}</a>
+<a role="button" class="btn btn-lg btn-{{ include.color | default: "purple" }} {% unless include.nogap %}mb-2{% endunless %} {% if include.wide %}btn-block{% endif %}" href="{{ include.link }}">{% if include.filetype %}<i class="far fa-fw fa-{% unless include.filetype == "folder" %}file-{% endunless %}{{ include.filetype }}"></i>&nbsp;{% endif %}{{ include.text }}</a>
