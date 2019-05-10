@@ -1,7 +1,7 @@
 ---
 title: StuFF 
 permalink: /stuff/
-redirect_from: /stuff/
+redirect_from: /StuFF/
 layout: whats-on
 shows_url: "https://ticketing.newtheatre.org.uk/api/shows/filter/stuff"
 banner_text: StuFF - Student Fringe Festival 
