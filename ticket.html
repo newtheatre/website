@@ -1,0 +1,58 @@
+---
+title: ticket
+permalink: /ticket
+--- 
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-5">
+        <img class="img-fluid vh-100" id="show_poster" src="https://ticketing.newtheatre.org.uk/static/images/no_image.png" />
+      </div>
+      <div class="col text-center align-center">
+        <img src="{{ site.baseurl }}/images/logos/nt_logo-web.png" class="img-fluid my-4" alt="New Theatre Logo" /> 
+        <div id="whats-on"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  $( document ).ready(function() {
+    $.getJSON("http://localhost:8000/api/shows/").done(function(data){
+      console.log(data);
+      var the_show = data.results[0];
+
+      var show_html = '';
+      show_html = show_html + '<h1 class="display-1">' + the_show.name + '</h1>';
+      // Running time coming soon... 
+      // if the_show.runtime {
+      //   show_html += '<h2 class="display-2 mb-4"><em>' + the_show.runtime + '</h2>';
+      // };
+      show_html += '<h1 class="my-4">Pleae note, this show contains ';
+      // Todo: Sort warnings by category, then alphabetically. They current appear to be sorted by pk.
+      for (var i = 0; i < the_show.warnings.length; i++) {
+        if (i == the_show.warnings.length - 1) {
+          show_html += ' and ' 
+        }
+        else if (i == 0) {
+        }
+        else {
+          show_html += ', '
+        }
+        show_html += the_show.warnings[i].title.toLowerCase() 
+      }
+      show_html += '</h1>'
+
+      document.getElementById('whats-on').innerHTML = show_html;
+      document.getElementById('show_poster').src = the_show.small_poster;
+
+    }).fail(function(){
+      document.getElementById('whats-on').innerHTML = "Unable to load shows";
+    });
+  });
+</script>
+</body>
+</html>
