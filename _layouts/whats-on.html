@@ -76,8 +76,20 @@ layout: default
             // Dates
             + '<br /><small class="text-muted">'+ date_string + '</small></h2>'
             // Season and Venue 
-            + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
-          + '</div><div class="card-body">'
+            + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>';
+            if (the_shows[i].runtime){
+              show_html += '<h6 class="text-muted">' + the_shows[i].runtime + ' minutes, with'
+              if (the_shows[i].interval_number > 0){
+                show_html += ' ' + the_shows[i].interval_number
+                if (the_shows[i].interval_number > 1){ show_html += ' intervals' }
+                if (the_shows[i].interval_number == 1){ show_html += ' interval' }
+              }
+              else {
+                show_html += 'out interval'
+              }
+              show_html += '</h6>';
+            }
+          show_html = show_html + '</div><div class="card-body">'
             // Description 
             + the_shows[i].long_markdown;
 

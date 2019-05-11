@@ -26,12 +26,20 @@ permalink: /ticket
       var the_show = data.results[0];
 
       var show_html = '';
-      show_html = show_html + '<h1 class="display-1">' + the_show.name + '</h1>';
-      // Running time coming soon... 
-      // if the_show.runtime {
-      //   show_html += '<h2 class="display-2 mb-4"><em>' + the_show.runtime + '</h2>';
-      // };
-      show_html += '<h1 class="my-4">Pleae note, this show contains ';
+      show_html = show_html + '<h1 class="display-2 mb-4">' + the_show.name + '</h1>';
+      if (the_show.runtime){
+        show_html += '<h2 class="display-4 my-4"><em>' + the_show.runtime + ' minutes, with'
+        if (the_show.interval_number > 0){
+          show_html += ' ' + the_show.interval_number
+          if (the_show.interval_number > 1){ show_html += ' intervals' }
+          if (the_show.interval_number == 1){ show_html += ' interval' }
+        }
+        else {
+          show_html += 'out interval'
+        }
+        show_html += '</em></h2>';
+      }
+      show_html += '<h1 class="my-4">Please note, this show contains ';
       // Todo: Sort warnings by category, then alphabetically. They current appear to be sorted by pk.
       for (var i = 0; i < the_show.warnings.length; i++) {
         if (i == the_show.warnings.length - 1) {
@@ -47,7 +55,9 @@ permalink: /ticket
       show_html += '</h1>'
 
       document.getElementById('whats-on').innerHTML = show_html;
-      document.getElementById('show_poster').src = the_show.small_poster;
+      if (the_show.small_poster != null){
+        document.getElementById('show_poster').src = the_show.small_poster;
+      }
 
     }).fail(function(){
       document.getElementById('whats-on').innerHTML = "Unable to load shows";
