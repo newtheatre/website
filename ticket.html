@@ -21,7 +21,7 @@ permalink: /ticket
 
 <script>
   $( document ).ready(function() {
-    $.getJSON("http://localhost:8000/api/shows/").done(function(data){
+    $.getJSON("https://ticketing.newtheatre.org.uk/api/shows/").done(function(data){
       console.log(data);
       var the_show = data.results[0];
 
