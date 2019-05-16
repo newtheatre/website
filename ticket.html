@@ -22,7 +22,6 @@ permalink: /ticket
 <script>
   $( document ).ready(function() {
     $.getJSON("https://ticketing.newtheatre.org.uk/api/shows/").done(function(data){
-      console.log(data);
       var the_show = data.results[0];
 
       var show_html = '';
@@ -39,20 +38,44 @@ permalink: /ticket
         }
         show_html += '</em></h2>';
       }
-      show_html += '<h1 class="my-4">Please note, this show contains ';
-      // Todo: Sort warnings by category, then alphabetically. They current appear to be sorted by pk.
-      for (var i = 0; i < the_show.warnings.length; i++) {
-        if (i == the_show.warnings.length - 1) {
-          show_html += ' and ' 
+      // Todo: Sort warnings alphabetically?
+      if (the_show.warnings_technical[0] || the_show.warnings_action[0] || the_show.warnings_dialogue[0]) {
+        show_html += '<h1 class="my-4">Please note, this show contains ';
+        for (var i = 0; i < the_show.warnings_technical.length; i++) {
+          show_html += the_show.warnings_technical[i].title.toLowerCase()
+          if (i < the_show.warnings_technical.length - 1) {
+            show_html += ', '
+          } 
+          else if (i == the_show.warnings_technical.length - 1 && the_show.warnings_action[0] || the_show.warnings_dialogue[0]) { 
+            show_html += '; '
+          }
         }
-        else if (i == 0) {
+        if (the_show.warnings_action[0]) { 
+          show_html += 'scenes featuring ' 
+          for (var i = 0; i < the_show.warnings_action.length; i++) {
+            show_html += the_show.warnings_action[i].title.toLowerCase()
+            if (i < the_show.warnings_action.length - 1) {
+              show_html += ', '
+            } 
+            else if (i == the_show.warnings_action.length - 1 && the_show.warnings_dialogue[0]) { 
+              show_html += '; '
+            }
+          }
         }
-        else {
-          show_html += ', '
-        }
-        show_html += the_show.warnings[i].title.toLowerCase() 
+        if (the_show.warnings_dialogue[0]) {
+          show_html += 'discussions/themes of '
+          for (var i = 0; i < the_show.warnings_dialogue.length; i++) {
+            show_html += the_show.warnings_dialogue[i].title.toLowerCase()
+            if (i < the_show.warnings_dialogue.length - 1) {
+              show_html += ', '
+            } 
+          }
+        }        
       }
-      show_html += '</h1>'
+      else {
+        show_html += 'There are no warnings for this show'
+      }
+      show_html += '.</h1>';
 
       document.getElementById('whats-on').innerHTML = show_html;
       if (the_show.small_poster != null){
