@@ -1,0 +1,91 @@
+---
+title: ticket
+permalink: /ticket
+--- 
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-5">
+        <img class="img-fluid vh-100" alt="Show poster" id="show_poster" src="https://ticketing.newtheatre.org.uk/static/images/no_image.png" />
+      </div>
+      <div class="col text-center align-center">
+        <img src="{{ site.baseurl }}/images/logos/nt_logo-web.png" class="img-fluid my-4" alt="New Theatre Logo" /> 
+        <div id="whats-on"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  $( document ).ready(function() {
+    $.getJSON("https://ticketing.newtheatre.org.uk/api/shows/").done(function(data){
+      var the_show = data.results[0];
+
+      var show_html = '';
+      show_html = show_html + '<h1 class="display-2 mb-4">' + the_show.name + '</h1>';
+      if (the_show.runtime){
+        show_html += '<h2 class="display-4 my-4"><em>' + the_show.runtime + ' minutes, with'
+        if (the_show.interval_number > 0){
+          show_html += ' ' + the_show.interval_number
+          if (the_show.interval_number > 1){ show_html += ' intervals' }
+          if (the_show.interval_number == 1){ show_html += ' interval' }
+        }
+        else {
+          show_html += 'out interval'
+        }
+        show_html += '</em></h2>';
+      }
+      // Todo: Sort warnings alphabetically?
+      if (the_show.warnings_technical[0] || the_show.warnings_action[0] || the_show.warnings_dialogue[0]) {
+        show_html += '<h1 class="my-4">Please note, this show contains ';
+        for (var i = 0; i < the_show.warnings_technical.length; i++) {
+          show_html += the_show.warnings_technical[i].title.toLowerCase()
+          if (i < the_show.warnings_technical.length - 1) {
+            show_html += ', '
+          } 
+          else if (i == the_show.warnings_technical.length - 1 && the_show.warnings_action[0] || the_show.warnings_dialogue[0]) { 
+            show_html += '; '
+          }
+        }
+        if (the_show.warnings_action[0]) { 
+          show_html += 'scenes featuring ' 
+          for (var i = 0; i < the_show.warnings_action.length; i++) {
+            show_html += the_show.warnings_action[i].title.toLowerCase()
+            if (i < the_show.warnings_action.length - 1) {
+              show_html += ', '
+            } 
+            else if (i == the_show.warnings_action.length - 1 && the_show.warnings_dialogue[0]) { 
+              show_html += '; '
+            }
+          }
+        }
+        if (the_show.warnings_dialogue[0]) {
+          show_html += 'discussions/themes of '
+          for (var i = 0; i < the_show.warnings_dialogue.length; i++) {
+            show_html += the_show.warnings_dialogue[i].title.toLowerCase()
+            if (i < the_show.warnings_dialogue.length - 1) {
+              show_html += ', '
+            } 
+          }
+        }        
+      }
+      else {
+        show_html += 'There are no warnings for this show'
+      }
+      show_html += '.</h1>';
+
+      document.getElementById('whats-on').innerHTML = show_html;
+      if (the_show.small_poster != null){
+        document.getElementById('show_poster').src = the_show.small_poster;
+      }
+
+    }).fail(function(){
+      document.getElementById('whats-on').innerHTML = "Unable to load shows";
+    });
+  });
+</script>
+</body>
+</html>
