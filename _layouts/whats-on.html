@@ -57,7 +57,7 @@ layout: default
         }
         show_html = show_html + the_shows[i].small_poster + '" />'
 
-        if(the_shows[i].occurrence_set.length > 0){
+        if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
           show_html += '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
           if (the_shows[i].category.name == "Fringe") {
             show_html = show_html + 'btn-orange text-dark ';
@@ -67,6 +67,9 @@ layout: default
           }
           show_html = show_html + 
           'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">Reserve tickets</a>'
+        }
+        else if (the_shows[i].show_sold_out == true){
+          show_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
         }
 
         show_html += '</div><div class="col-sm-8 pl-sm-1">'
