@@ -77,7 +77,13 @@ layout: default
         + '<div class="card-header">'+
             '<h2>' + the_shows[i].name 
             // Dates
-            + '<br /><small class="text-muted">'+ date_string + '</small></h2>'
+            + '<br /><small class="text-muted">';
+            // If there is only one performance, display the time here.
+            if (the_shows[i].occurrence_set.length == 1) {
+              time_string = the_shows[i].occurrence_set[0].time.slice(0, -3) //Remove the seconds, API time is 19:30:00
+              show_html += time_string + ', ' 
+            }
+            show_html += date_string + '</small></h2>'
             // Season and Venue 
             + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>';
             if (the_shows[i].runtime){
