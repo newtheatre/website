@@ -10,7 +10,7 @@ layout: default
 <!-- The new Javascript bit --> 
 <script>
   $( document ).ready(function() {
-    $.getJSON("{{ page.shows_url }}").done(function(data){
+    $.getJSON("{{ site.ticket_baseurl }}{{ page.shows_url }}").done(function(data){
       console.log(data);
       var the_shows = data.results;
       var this_week = ''; 
@@ -55,7 +55,7 @@ layout: default
         // Poster
         + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid m-sm-1" width=100% src="'
         if (the_shows[i].small_poster == null) {
-          the_shows[i].small_poster = "https://ticketing.newtheatre.org.uk/static/images/no_image.png"
+          the_shows[i].small_poster = "{{ site.ticket_baseurl }}/static/images/no_image.png"
         }
         show_html = show_html + the_shows[i].small_poster + '" />'
 
@@ -138,7 +138,7 @@ layout: default
       {% endif %}
 
       $('a.reserve_button').click(function(event) {
-        document.getElementById('show_modal_iframe').src = ("https://ticketing.newtheatre.org.uk/book/"+this.id);
+        document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
       });
     }).fail(function(){
       document.getElementById('whats-on').innerHTML = "Unable to load shows";
