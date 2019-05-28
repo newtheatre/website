@@ -122,15 +122,15 @@ layout: default
         // End column
         + '</div>';
         if (i == 0) {
-          mini_list_html += '<div class="col-md-6"><h2>' + date_string + '</h2><ul>'
+          mini_list_html += '<div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
         }
         else if (the_shows[i - 1].end_date != the_shows[i].end_date) {
-          mini_list_html += '</ul></div><div class="col-md-6"><h2>' + date_string + '</h2><ul>'
+          mini_list_html += '</table></div><div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
         }
-        mini_list_html += '<li><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> '
-        + time_string + ' ' + the_shows[i].location + '</li>'
+        mini_list_html += '<tr><td>' + time_string + '</td><td><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> <br /><em>' + the_shows[i].location + '</em></td></tr>'
       }
-      mini_list_html += '</ul></div>';
+
+      mini_list_html += '</table></div>';
       show_html = show_html + '</div>'; // End row 
       document.getElementById('whats-on').innerHTML = show_html;
       {% if page.mini_list %}
