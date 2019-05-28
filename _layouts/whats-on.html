@@ -3,7 +3,8 @@ layout: default
 --- 
 <!-- For additional content before the shows list --> 
 {{ content }}
-
+<div id="mini_list" class="row">
+</div>
 <div id="whats-on">
 </div>
 <!-- The new Javascript bit --> 
@@ -26,6 +27,7 @@ layout: default
       // To Do: split the `for` loop below to have two variables, `shows_this_week` and `shows_coming_soon` for displaying on the home page.
 
       var show_html = '';
+      var mini_list_html = '';
       show_html = show_html + ('<div class="row">');
       for (var i = 0; i < the_shows.length; i++) {
         // Figure out how to display the date range
@@ -42,7 +44,7 @@ layout: default
         };
         date_string = date_string + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
         // Build the card, colours based on the season
-        show_html = show_html + ('<div class="col-md-6 mb-3"><div class="nt-card bg-body h-100 ');
+        show_html = show_html + '<div class="col-md-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 ';
         if (the_shows[i].category.name == "Fringe") {
           show_html = show_html + ('border-orange');
         }
@@ -80,7 +82,7 @@ layout: default
             + '<br /><small class="text-muted">';
             // If there is only one performance, display the time here.
             if (the_shows[i].occurrence_set.length == 1) {
-              time_string = the_shows[i].occurrence_set[0].time.slice(0, -3) //Remove the seconds, API time is 19:30:00
+              var time_string = the_shows[i].occurrence_set[0].time.slice(0, -3) //Remove the seconds, API time is 19:30:00
               show_html += time_string + ', ' 
             }
             show_html += date_string + '</small></h2>'
@@ -119,10 +121,21 @@ layout: default
         + '</div></div></div>'
         // End column
         + '</div>';
-
+        if (i == 0) {
+          mini_list_html += '<div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
+        }
+        else if (the_shows[i - 1].end_date != the_shows[i].end_date) {
+          mini_list_html += '</table></div><div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
+        }
+        mini_list_html += '<tr><td>' + time_string + '</td><td><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> <br /><em>' + the_shows[i].location + '</em></td></tr>'
       }
+
+      mini_list_html += '</table></div>';
       show_html = show_html + '</div>'; // End row 
       document.getElementById('whats-on').innerHTML = show_html;
+      {% if page.mini_list %}
+        document.getElementById('mini_list').innerHTML = mini_list_html;
+      {% endif %}
 
       $('a.reserve_button').click(function(event) {
         document.getElementById('show_modal_iframe').src = ("https://ticketing.newtheatre.org.uk/book/"+this.id);
