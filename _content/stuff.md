@@ -23,5 +23,13 @@ The festival is taking place at the Nottingham New Theatre, Cherry Tree Hill, Un
 
 For more information, please contact {% include committee.html role="fringe" alias="stuff" format="inline" %}.
 
-# StuFF 2019 Programme 
+<hr>
+
+<h1 class="text-center">StuFF 2019 Programme</h1>
+
+<p class="text-center">Shows are still being announced, so keep checking back - or follow the <a href="https://facebook.com/stuffnotts">StuFF Facebook Page</a> - for updates.</p>
+
+<hr>
+
+
 
