@@ -59,14 +59,14 @@ toc_max: 2
         </div>
         <div class="list-group-item bg-nnt-orange-light">
           <div class="row">
-            <div class="col-lg-6 text-center text-lg-left">Orange Light</div>
-            <div class="col-lg-6 text-center text-lg-right">#FFD258</div>
+            <div class="col-lg-6 text-center text-lg-left text-dark">Orange Light</div>
+            <div class="col-lg-6 text-center text-lg-right text-dark">#FFD258</div>
           </div>
         </div>
         <div class="list-group-item bg-nnt-orange-lighter">
           <div class="row">
-            <div class="col-lg-6 text-center text-lg-left">Orange Lighter</div>
-            <div class="col-lg-6 text-center text-lg-right">#FFE08B</div>
+            <div class="col-lg-6 text-center text-lg-left text-dark">Orange Lighter</div>
+            <div class="col-lg-6 text-center text-lg-right text-dark">#FFE08B</div>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ toc_max: 2
 <div class="row">
   <div class="col-lg-6">
     <div class="nt-card">
-      <h2 id="nt-alternative" class="h1 text-center bg-nnt-alt">Alternative<br />
+      <h2 id="nt-alternative" class="h1 text-center bg-nnt-brand-alt">Alternative<br />
         <small>#2D9189</small>
       </h2>
       <div class="list-group-flush">
@@ -91,25 +91,25 @@ toc_max: 2
       <h2 id="nt-stuff" class="h1 text-center">StuFF<br />
       <small class="text-muted">Our StuFF branding features 4 colours</small></h2>
       <div class="list-group-flush">
-        <div class="list-group-item bg-stuff-crimson">
+        <div class="list-group-item bg-nnt-stuff-crimson">
           <div class="row">
             <div class="col-lg-6 text-center text-lg-left">Crimson</div>
             <div class="col-lg-6 text-center text-lg-right">#EB0025</div>
           </div>
         </div>
-        <div class="list-group-item bg-stuff-yellow">
+        <div class="list-group-item bg-nnt-stuff-yellow">
           <div class="row">
             <div class="col-lg-6 text-center text-lg-left">Yellow Sea</div>
             <div class="col-lg-6 text-center text-lg-right">#FDA038</div>
           </div>
         </div>
-        <div class="list-group-item bg-stuff-violet">
+        <div class="list-group-item bg-nnt-stuff-violet">
           <div class="row">
             <div class="col-lg-6 text-center text-lg-left">Medium violet red</div>
             <div class="col-lg-6 text-center text-lg-right">#D1009B</div>
           </div>
         </div>
-        <div class="list-group-item bg-stuff-turq">
+        <div class="list-group-item bg-nnt-stuff-turq">
           <div class="row">
             <div class="col-lg-6 text-center text-lg-left">Dark turquoise</div>
             <div class="col-lg-6 text-center text-lg-right">#00C4CB</div>

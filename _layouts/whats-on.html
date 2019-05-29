@@ -44,13 +44,7 @@ layout: default
         };
         date_string = date_string + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
         // Build the card, colours based on the season
-        show_html = show_html + '<div class="col-md-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 ';
-        if (the_shows[i].category.name == "Fringe") {
-          show_html = show_html + ('border-orange');
-        }
-        else {
-          show_html = show_html + ('border-purple');
-        }
+        show_html = show_html + '<div class="col-md-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 card-' +the_shows[i].category.slug + ' ';
         show_html = show_html + ('">')
         // Poster
         + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid m-sm-1" width=100% src="'
@@ -61,12 +55,7 @@ layout: default
 
         if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
           show_html += '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
-          if (the_shows[i].category.name == "Fringe") {
-            show_html = show_html + 'btn-orange text-dark ';
-          }
-          else {
-            show_html = show_html + 'btn-purple ';
-          }
+
           show_html = show_html + 
           'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">Reserve tickets</a>'
         }

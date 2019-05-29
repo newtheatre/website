@@ -5,86 +5,45 @@
 .nnt-purple {
   color: theme-color("primary");
 }
-.nnt-purple-light {
-  color: $color-nnt-purple-light;
-}
-.nnt-purple-lighter {
-  color: $color-nnt-purple-lighter; 
-}
-.nnt-purple-dark {
-  color: $color-nnt-purple-dark;
-}
-.bg-nnt-purple {
-  background: theme-color("primary");
-}
-.bg-nnt-purple-light {
-  background: $color-nnt-purple-light;
-}
-.bg-nnt-purple-lighter {
-  background: $color-nnt-purple-lighter; 
-}
-.bg-nnt-purple-dark {
-  background: $color-nnt-purple-dark;
-}
 
-// Orange
-.nnt-orange {
-  color: theme-color("secondary");
-}
-.nnt-orange-light {
-  color: $color-nnt-orange-light;
-}
-.nnt-orange-lighter {
-  color: $color-nnt-orange-lighter; 
-}
-.nnt-orange-dark {
-  color: $color-nnt-orange-dark;
-}
-.bg-nnt-orange {
-  background: theme-color("secondary");
-}
-.bg-nnt-orange-light {
-  background: $color-nnt-orange-light;
-  color: $gray-900;
-}
-.bg-nnt-orange-lighter {
-  background: $color-nnt-orange-lighter; 
-  color: $gray-900;
-}
-.bg-nnt-orange-dark {
-  background: $color-nnt-orange-dark;
-}
-a[class*='bg-nnt-orange']{
-  color: $color-nnt-purple;
-  :hover {
-    color: $color-nnt-purple-dark;
+@each $name, $color in $color-nnt {
+  .nnt-#{$name} {
+    color: $color; 
+  }
+  .bg-nnt-#{$name} {
+    background-color: $color !important;
+  }
+  .border-nnt-#{$name} {
+    border-color: $color;
   }
 }
-
-// StuFF 
-.bg-stuff-crimson {
-  background: $color-nnt-stuff-crimson;
+@each $season, $color in $color-seasons {
+  .card-#{$season} {
+    border-color: $color; 
+    .reserve_button {
+      // @extend .btn-primary;
+      border-color: $color;
+      background-color: $color;
+      &:hover {
+        background-color: darken($color, 10%);
+        border-color: darken($color, 10%);
+      }
+    }
+  }
 }
-.bg-stuff-yellow {
-  background: $color-nnt-stuff-yellow;
-}
-.bg-stuff-violet {
-  background: $color-nnt-stuff-violet;
-}
-.bg-stuff-turq {
-  background: $color-nnt-stuff-turq;
-}
-
-// Alt 
-.nnt-alt {
-  color: $color-brand-alt; 
-}
-.bg-nnt-alt {
-  background: $color-brand-alt !important;
+.card-fringe .reserve_button, .card-stuff .reserve_button { // Special case for readability 
+  @extend .text-dark; 
 }
 
 .bg-body {
-  background: $color-background;
+  background-color: $color-background;
+}
+
+a[class*='bg-nnt-orange']{
+  color: map-get($color-nnt, "purple");
+  &:hover {
+    color: map-get($color-nnt, "purple-dark");
+  }
 }
 
 // Navigation 
@@ -158,11 +117,11 @@ p img {
 
 .content {
   > h1, [class*="col"] > h1 {
-    border-left: 6px solid $color-nnt-purple;
+    border-left: 6px solid map-get($color-nnt, "purple");
     padding-left: 1rem;
   }
   > h2, [class*="col"] > h2 {
-    border-left: 3px solid $color-nnt-orange;
+    border-left: 3px solid map-get($color-nnt, "orange");
     padding-left: 0.5rem;
   }
   table { // Make Markdown tables work with Bootstrap 
@@ -174,7 +133,7 @@ p img {
 }
 
 hr {
-  border-color: $color-nnt-purple-dark;
+  border-color: map-get($color-nnt, "purple-dark");
   &.small {
     max-width: 100px;
   }
