@@ -1,35 +1,6 @@
 // Semantic classes used to extend and humanise Bootstrap's styles.
 
 
-// Colours
-.bg-purple {
-  @extend .bg-primary;
-}
-.text-purple {
-  @extend .text-primary;
-}
-.btn-purple {
-  @extend .btn-primary;
-  @extend .btn 
-}
-.border-purple {
-  @extend .border-primary; 
-}
-
-.bg-orange {
-  @extend .bg-secondary; 
-}
-.text-orange {
-  @extend .text-secondary; 
-}
-.btn-orange {
-  @extend .btn-secondary;
-  @extend .btn; 
-}
-.border-orange {
-  @extend .border-secondary;
-}
-
 // Layout 
 
 /// Navbar 
@@ -72,9 +43,6 @@ h1.banner-text {
 /// Card 
 .nt-card {
   @extend .card;
-  p, ul {
-    // @extend .card-body;
-  }
   > h1, > h2 {
     @extend .card-header;
   }
@@ -88,7 +56,7 @@ h1.banner-text {
     .card-header {
       @extend .bg-nnt-orange-dark;
     }
-    @extend .border-orange;
+    @extend .border-nnt-orange;
     @extend .bg-nnt-orange;
     .card-body {
       @extend .text-dark;      

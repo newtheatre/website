@@ -1,11 +1,6 @@
 // Custom NT Styles 
 
-// Colours 
-// Purple 
-.nnt-purple {
-  color: theme-color("primary");
-}
-
+// Generate colour and card classes 
 @each $name, $color in $color-nnt {
   .nnt-#{$name} {
     color: $color; 
@@ -29,6 +24,10 @@
         border-color: darken($color, 10%);
       }
     }
+  }
+  span.season-#{$season} {
+    text-decoration: underline;
+    text-decoration-color: $color;
   }
 }
 .card-fringe .reserve_button, .card-stuff .reserve_button { // Special case for readability 
@@ -110,7 +109,7 @@ h1.banner-text {
   height: 100%;
 }
 
-// Body images 
+// Body images with Bootstrap
 p img {
   @extend .img-fluid;
 }
@@ -164,7 +163,7 @@ blockquote {
 
 .bg-nnt-orange { 
   a {
-    @extend .text-purple;
+    @extend .nnt-purple;
   } 
 }
 

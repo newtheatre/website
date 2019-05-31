@@ -76,7 +76,7 @@ layout: default
             }
             show_html += date_string + '</small></h2>'
             // Season and Venue 
-            + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>';
+            + '<h5 class="text-muted"><span class="season-' + the_shows[i].category.slug + '">' + (the_shows[i].category.name) + '</span> | ' + the_shows[i].location + '</h5>';
             if (the_shows[i].runtime){
               show_html += '<h6 class="text-muted">' + the_shows[i].runtime + ' minutes, with'
               if (the_shows[i].interval_number > 0){
