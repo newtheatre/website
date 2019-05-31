@@ -6,6 +6,7 @@ layout: whats-on
 shows_url: "/api/shows/filter/stuff"
 banner_text: StuFF - Student Fringe Festival 
 banner_image: "stuff.jpg"
+mini_list: true
 ---
 <hr>
 
