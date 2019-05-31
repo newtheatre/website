@@ -1,8 +1,4 @@
-// ---
-// # Only the main Sass file needs front matter (the dashes are enough)
-// ---
-
-// @charset "utf-8"
+// @charset "utf-8" - Unsure if needed 
 
 $site-url: "{{ site.url }}";
 
@@ -17,27 +13,42 @@ $baseline: $base-font-size * $baseline-multiplier;
 
 
 // Branding Colours 
+
+// Base Colours 
 // Purple
 $color-nnt-purple: #A54499;
-$color-nnt-purple-dark:        darken($color-nnt-purple, 20%);
-$color-nnt-purple-light:       lighten($color-nnt-purple, 10%);
-$color-nnt-purple-lighter:       lighten($color-nnt-purple, 20%);
 
 // Orange 
 $color-nnt-orange: #FFC425;
-$color-nnt-orange-dark:        darken($color-nnt-orange, 20%);
-$color-nnt-orange-light:       lighten($color-nnt-orange, 10%);
-$color-nnt-orange-lighter:       lighten($color-nnt-orange, 20%);
 
-//StuFF
-$color-nnt-stuff-crimson: #E80025; // Crimson 
-$color-nnt-stuff-yellow: #FDA038; // Yellow sea 
-$color-nnt-stuff-violet: #D1009B; // Medium violet red 
-$color-nnt-stuff-turq: #00C4CB; // Dark turquoise
+$color-nnt: (
+	"purple": $color-nnt-purple,
+	"purple-dark": darken($color-nnt-purple, 20%),
+	"purple-light": lighten($color-nnt-purple, 10%),
+	"purple-lighter": lighten($color-nnt-purple, 20%),
 
-//Alt 
-$color-brand-alt: #2D9189;
+	"orange": $color-nnt-orange,
+	"orange-dark": darken($color-nnt-orange, 20%),
+	"orange-light": lighten($color-nnt-orange, 10%),
+	"orange-lighter": lighten($color-nnt-orange, 20%),
 
+	"stuff-crimson": #E80025, // Crimson 
+	"stuff-yellow": #FDA038, // Yellow sea 
+	"stuff-violet": #D1009B, // Medium violet red 
+	"stuff-turq": #00C4CB, // Dark turquoise
+
+	"brand-alt": #2D9189,
+
+	"background": darken($color-nnt-purple, 40%),
+	"background-alt": darken($color-nnt-purple, 23%),
+);
+
+$color-seasons: (
+	"in-house": map-get($color-nnt, "purple"),
+	"fringe": map-get($color-nnt, "orange"),
+	"external": map-get($color-nnt, "brand-alt"),
+	"stuff": map-get($color-nnt, "stuff-yellow"),
+);
 
 $color-black: #1c1c1c;
 
@@ -48,12 +59,12 @@ $color-text-black: #111;
 $color-white: #f1f1f1;
 
 // Body colour 
-$color-background: darken($color-nnt-purple, 40%);
-$color-background-alt: darken($color-nnt-purple, 23%);
+$color-background: map-get($color-nnt, "background");
+$color-background-alt: map-get($color-nnt, "background-alt");
 
-$color-link: $color-nnt-orange;
+$color-link: map-get($color-nnt, "orange");
 $color-link-visited: darken($color-link, 07%);
-$color-link-bg-hover: $color-nnt-orange-dark;
+$color-link-bg-hover: map-get($color-nnt, "orange-dark");
 $color-focus: rgba($color-text-white, 0.3);
 
 $color-decades-base: #601111;
@@ -67,4 +78,4 @@ $color-grey:       #828282;
 $color-grey-light: lighten($color-grey, 40%);
 $color-grey-dark:  darken($color-grey, 25%);
 
-$color-selection: $color-nnt-orange;
+$color-selection: map-get($color-nnt, "orange");
