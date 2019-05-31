@@ -3,11 +3,10 @@ title: StuFF
 permalink: "/stuff/"
 redirect_from: "/StuFF/"
 layout: whats-on
-shows_url: https://ticketing.newtheatre.org.uk/api/shows/filter/stuff
-banner_text: StuFF - Student Fringe Festival
-banner_image: stuff.jpg
+shows_url: "/api/shows/filter/stuff"
+banner_text: StuFF - Student Fringe Festival 
+banner_image: "stuff.jpg"
 mini_list: true
-
 ---
 <hr>
 

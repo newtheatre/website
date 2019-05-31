@@ -1,6 +1,7 @@
 ---
 title: ticket
 permalink: /ticket
+shows_url: /api/shows/
 --- 
 
 <!DOCTYPE html>
@@ -10,7 +11,7 @@ permalink: /ticket
   <div class="container-fluid">
     <div class="row">
       <div class="col-5">
-        <img class="img-fluid vh-100" alt="Show poster" id="show_poster" src="https://ticketing.newtheatre.org.uk/static/images/no_image.png" />
+        <img class="img-fluid vh-100" alt="Show poster" id="show_poster" src="{{ site.ticket_baseurl }}/static/images/no_image.png" />
       </div>
       <div class="col text-center align-center">
         <img src="{{ site.baseurl }}/images/logos/nt_logo-web.png" class="img-fluid my-4" alt="New Theatre Logo" /> 
@@ -21,7 +22,7 @@ permalink: /ticket
 
 <script>
   $( document ).ready(function() {
-    $.getJSON("https://ticketing.newtheatre.org.uk/api/shows/").done(function(data){
+    $.getJSON("{{ site.ticket_baseurl }}{{ page.shows_url }}").done(function(data){
       var the_show = data.results[0];
 
       var show_html = '';
