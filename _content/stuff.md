@@ -4,9 +4,10 @@ permalink: "/stuff/"
 redirect_from: "/StuFF/"
 layout: whats-on
 shows_url: "/api/shows/filter/stuff"
-banner_text: StuFF - Student Fringe Festival 
-banner_image: "stuff.jpg"
+banner_text: StuFF - Student Fringe Festival
+banner_image: stuff.jpg
 mini_list: true
+
 ---
 <hr>
 
@@ -24,14 +25,12 @@ For more information, please contact {% include committee.html role="fringe" ali
 
 ### Festival and Day Passes
 
-Please note that the purchase of a festival or day pass does not guarantee entry to any given show. Passes can only be purchased in-person at the New Theatre Box Office from 10:30am each day, and individuals will be given a wristband, as well as their name being taken. 
+Please note that the purchase of a festival or day pass does not guarantee entry to any given show. Passes can only be purchased in-person at the New Theatre Box Office from 10:30am each day, and individuals will be given a wristband, as well as their name being taken.
 
-We recommend that you reserve tickets to every show that you wish to see. Passes will then grant you a free ticket to any given show. Ticket reservations can be collected from half an hour before the advertised start time, and will be released 5 minutes before the start time. 
+We recommend that you reserve tickets to every show that you wish to see. Passes will then grant you a free ticket to any given show. Ticket reservations can be collected from half an hour before the advertised start time, and will be released 5 minutes before the start time.
 
 <hr>
 
 <h1 class="text-center">StuFF 2019 Programme</h1>
-
-<p class="text-center">Shows are still being announced, so keep checking back - or follow the <a href="https://facebook.com/stuffnotts">StuFF Facebook Page</a> - for updates.</p>
 
 <hr>
