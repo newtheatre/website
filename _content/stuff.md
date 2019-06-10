@@ -31,15 +31,15 @@ We recommend that you reserve tickets to every show that you wish to see. Passes
 
 <hr>
 
-<div class="row"><div class="col-md-8" markdown="1">
+<div class="row"><div class="col-md-8 mb-4" markdown="1">
 
 ## Getting Around StuFF
 
 <iframe width="100%" height="80%" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/en/map/stuff-venue-map_333342?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/en/map/stuff-venue-map_333342">See full screen</a></p>
 
-</div><div class="col-md-4" markdown="1">
+</div><div class="col-md-4 mt-4 mt-md-0" markdown="1">
 
-# Books 
+## Books 
 
 ![Anna's Book Lounge poster]({{ site.baseurl }}/static/anna-stuff-2019.jpg)
 
