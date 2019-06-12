@@ -15,7 +15,7 @@
 @each $season, $color in $color-seasons {
   .card-#{$season} {
     border-color: $color; 
-    .reserve_button {
+    .reserve_button, .programme_button {
       // @extend .btn-primary;
       border-color: $color;
       background-color: $color;
