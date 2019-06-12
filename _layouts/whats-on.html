@@ -28,6 +28,7 @@ layout: default
 
       var show_html = '';
       var mini_list_html = '';
+      var programme_links = [];
       show_html = show_html + ('<div class="row">');
       for (var i = 0; i < the_shows.length; i++) {
         // Figure out how to display the date range
@@ -104,7 +105,12 @@ layout: default
           show_html = show_html + 
           'rounded-0 w-100 h3 d-sm-none">Reserve tickets</a>';
         }
-          // End card body 
+        if (the_shows[i].programme) {
+        	programme_links[the_shows[i].id] = the_shows[i].programme 
+        	show_html += '<br /><a data-toggle="modal" data-target="#programme_modal" id="' + the_shows[i].id +'" role="button" class="btn btn-purple w-100 rounded-0 programme_button">View programme</a>';
+        	console.log(programme_links)
+        }
+        // End card body 
         show_html += '</div>'
         // End column, row, card
         + '</div></div></div>'
@@ -129,6 +135,9 @@ layout: default
       $('a.reserve_button').click(function(event) {
         document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
       });
+      $('a.programme_button').click(function(event) {
+        document.getElementById('programme_iframe').src = (programme_links[this.id]);
+      });
     }).fail(function(){
       document.getElementById('whats-on').innerHTML = "Unable to load shows";
     });
@@ -145,6 +154,19 @@ layout: default
         </button>
       </div>
       <iframe id="show_modal_iframe" src="about:blank" style="height:408px"></iframe>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="programme_modal" tabindex="-1" role="dialog" aria-labelledby="Show programme" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="show_modal_title">Show programme</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <iframe id="programme_iframe" src="about:blank" style="height:500px"></iframe>
     </div>
   </div>
 </div>
