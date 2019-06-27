@@ -53,12 +53,25 @@ layout: default
           the_shows[i].small_poster = "{{ site.ticket_baseurl }}/static/images/no_image.png"
         }
         show_html = show_html + the_shows[i].small_poster + '" />'
-        if (the_shows[i].allow_reservations == true){
+        if (the_shows[i].allow_reservations == true || the_shows[i].external_link){
           if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
-            show_html += '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
+            if (the_shows[i].external_link) {
+              show_html += '<a href="' + the_shows[i].external_link + '" target="_blank"'
+            }
+            else {
+              show_html += '<a data-toggle="modal" data-target="#show_modal"' 
+            }
+            show_html += 'id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
 
             show_html = show_html + 
-            'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">Reserve tickets</a>'
+            'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">'
+            if (the_shows[i].external_link) {
+              show_html += 'Book tickets <em>(external website)</em>'
+            }
+            else {
+              show_html += 'Reserve tickets'
+            }
+            show_html += '</a>'
           }
           else if (the_shows[i].show_sold_out == true){
             show_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
@@ -93,17 +106,29 @@ layout: default
           show_html = show_html + '</div><div class="card-body">'
             // Description 
             + the_shows[i].long_markdown;
+        if (the_shows[i].allow_reservations == true || the_shows[i].external_link){
+          if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
+            if (the_shows[i].external_link) {
+              show_html += '<a href="' + the_shows[i].external_link + '" target="_blank"'
+            }
+            else {
+              show_html += '<a data-toggle="modal" data-target="#show_modal"' 
+            }
+            show_html += 'id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
 
-        if(the_shows[i].occurrence_set.length > 0){
-          show_html += '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
-          if (the_shows[i].category.name == "Fringe") {
-            show_html = show_html + 'btn-orange text-dark ';
+            show_html = show_html + 
+            'rounded-0 w-100 h3 d-sm-none">'
+            if (the_shows[i].external_link) {
+              show_html += 'Book tickets <em>(external website)</em>'
+            }
+            else {
+              show_html += 'Reserve tickets'
+            }
+            show_html += '</a>'
           }
-          else {
-            show_html = show_html + 'btn-purple ';
+          else if (the_shows[i].show_sold_out == true){
+            show_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
           }
-          show_html = show_html + 
-          'rounded-0 w-100 h3 d-sm-none">Reserve tickets</a>';
         }
         if (the_shows[i].programme) {
         	programme_links[the_shows[i].id] = the_shows[i].programme 
