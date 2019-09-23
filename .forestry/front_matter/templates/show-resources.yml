@@ -1,0 +1,23 @@
+---
+label: Show Resources
+hide_body: true
+fields:
+- type: field_group_list
+  name: Show resources
+  label: Show resources
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: color
+    label: color
+  - type: text
+    name: file-type
+    label: file-type
+  - type: text
+    name: group
+    label: group
