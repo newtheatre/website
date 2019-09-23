@@ -3,13 +3,14 @@ layout: default
 --- 
 <!-- For additional content before the shows list --> 
 {{ content }}
-
+<div id="mini_list" class="row">
+</div>
 <div id="whats-on">
 </div>
 <!-- The new Javascript bit --> 
 <script>
   $( document ).ready(function() {
-    $.getJSON("{{ page.shows_url }}").done(function(data){
+    $.getJSON("{{ site.ticket_baseurl }}{{ page.shows_url }}").done(function(data){
       console.log(data);
       var the_shows = data.results;
       var this_week = ''; 
@@ -26,6 +27,8 @@ layout: default
       // To Do: split the `for` loop below to have two variables, `shows_this_week` and `shows_coming_soon` for displaying on the home page.
 
       var show_html = '';
+      var mini_list_html = '';
+      var programme_links = [];
       show_html = show_html + ('<div class="row">');
       for (var i = 0; i < the_shows.length; i++) {
         // Figure out how to display the date range
@@ -42,69 +45,122 @@ layout: default
         };
         date_string = date_string + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
         // Build the card, colours based on the season
-        show_html = show_html + ('<div class="col-md-6 mb-3"><div class="nt-card bg-body h-100 ');
-        if (the_shows[i].category.name == "Fringe") {
-          show_html = show_html + ('border-orange');
-        }
-        else {
-          show_html = show_html + ('border-purple');
-        }
+        show_html = show_html + '<div class="col-md-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 card-' +the_shows[i].category.slug + ' ';
         show_html = show_html + ('">')
         // Poster
         + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid m-sm-1" width=100% src="'
         if (the_shows[i].small_poster == null) {
-          the_shows[i].small_poster = "https://ticketing.newtheatre.org.uk/static/images/no_image.png"
+          the_shows[i].small_poster = "{{ site.ticket_baseurl }}/static/images/no_image.png"
         }
         show_html = show_html + the_shows[i].small_poster + '" />'
+        if (the_shows[i].allow_reservations == true || the_shows[i].external_link){
+          if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
+            if (the_shows[i].external_link) {
+              show_html += '<a href="' + the_shows[i].external_link + '" target="_blank"'
+            }
+            else {
+              show_html += '<a data-toggle="modal" data-target="#show_modal"' 
+            }
+            show_html += 'id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
 
-        if(the_shows[i].occurrence_set.length > 0){
-          show_html += '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
-          if (the_shows[i].category.name == "Fringe") {
-            show_html = show_html + 'btn-orange text-dark ';
+            show_html = show_html + 
+            'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">'
+            if (the_shows[i].external_link) {
+              show_html += 'Book tickets <em>(external website)</em>'
+            }
+            else {
+              show_html += 'Reserve tickets'
+            }
+            show_html += '</a>'
           }
-          else {
-            show_html = show_html + 'btn-purple ';
+          else if (the_shows[i].show_sold_out == true){
+            show_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
           }
-          show_html = show_html + 
-          'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">Reserve tickets</a>'
         }
-
         show_html += '</div><div class="col-sm-8 pl-sm-1">'
         // Card title 
         + '<div class="card-header">'+
             '<h2>' + the_shows[i].name 
             // Dates
-            + '<br /><small class="text-muted">'+ date_string + '</small></h2>'
+            + '<br /><small class="text-muted">';
+            // If there is only one performance, display the time here.
+            if (the_shows[i].occurrence_set.length == 1) {
+              var time_string = the_shows[i].occurrence_set[0].time.slice(0, -3) //Remove the seconds, API time is 19:30:00
+              show_html += time_string + ', ' 
+            }
+            show_html += date_string + '</small></h2>'
             // Season and Venue 
-            + '<h5 class="text-muted">' + (the_shows[i].category.name) + ' | ' + the_shows[i].location + '</h5>'
-          + '</div><div class="card-body">'
+            + '<h5 class="text-muted"><span class="season-' + the_shows[i].category.slug + '">' + (the_shows[i].category.name) + '</span> | ' + the_shows[i].location + '</h5>';
+            if (the_shows[i].runtime){
+              show_html += '<h6 class="text-muted">' + the_shows[i].runtime + ' minutes, with'
+              if (the_shows[i].interval_number > 0){
+                show_html += ' ' + the_shows[i].interval_number
+                if (the_shows[i].interval_number > 1){ show_html += ' intervals' }
+                if (the_shows[i].interval_number == 1){ show_html += ' interval' }
+              }
+              else {
+                show_html += 'out interval'
+              }
+              show_html += '</h6>';
+            }
+          show_html = show_html + '</div><div class="card-body">'
             // Description 
             + the_shows[i].long_markdown;
+        if (the_shows[i].allow_reservations == true || the_shows[i].external_link){
+          if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
+            if (the_shows[i].external_link) {
+              show_html += '<a href="' + the_shows[i].external_link + '" target="_blank"'
+            }
+            else {
+              show_html += '<a data-toggle="modal" data-target="#show_modal"' 
+            }
+            show_html += 'id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
 
-        if(the_shows[i].occurrence_set.length > 0){
-          show_html += '<a data-toggle="modal" data-target="#show_modal" id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
-          if (the_shows[i].category.name == "Fringe") {
-            show_html = show_html + 'btn-orange text-dark ';
+            show_html = show_html + 
+            'rounded-0 w-100 h3 d-sm-none">'
+            if (the_shows[i].external_link) {
+              show_html += 'Book tickets <em>(external website)</em>'
+            }
+            else {
+              show_html += 'Reserve tickets'
+            }
+            show_html += '</a>'
           }
-          else {
-            show_html = show_html + 'btn-purple ';
+          else if (the_shows[i].show_sold_out == true){
+            show_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
           }
-          show_html = show_html + 
-          'rounded-0 w-100 h3 d-sm-none">Reserve tickets</a>';
         }
-          // End card body 
+        if (the_shows[i].programme) {
+        	programme_links[the_shows[i].id] = the_shows[i].programme 
+        	show_html += '<br /><a data-toggle="modal" data-target="#programme_modal" id="' + the_shows[i].id +'" role="button" class="btn btn-purple w-100 rounded-0 programme_button">View programme</a>';
+        }
+        // End card body 
         show_html += '</div>'
         // End column, row, card
         + '</div></div></div>'
         // End column
         + '</div>';
-
+        if (i == 0) {
+          mini_list_html += '<div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
+        }
+        else if (the_shows[i - 1].end_date != the_shows[i].end_date) {
+          mini_list_html += '</table></div><div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
+        }
+        mini_list_html += '<tr><td>' + time_string + '</td><td><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> <br /><em>' + the_shows[i].location + '</em></td></tr>'
       }
+
+      mini_list_html += '</table></div>';
       show_html = show_html + '</div>'; // End row 
       document.getElementById('whats-on').innerHTML = show_html;
+      {% if page.mini_list %}
+        document.getElementById('mini_list').innerHTML = mini_list_html;
+      {% endif %}
 
       $('a.reserve_button').click(function(event) {
-        document.getElementById('show_modal_iframe').src = ("https://ticketing.newtheatre.org.uk/book/"+this.id);
+        document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
+      });
+      $('a.programme_button').click(function(event) {
+        document.getElementById('programme_iframe').src = (programme_links[this.id]);
       });
     }).fail(function(){
       document.getElementById('whats-on').innerHTML = "Unable to load shows";
@@ -122,6 +178,19 @@ layout: default
         </button>
       </div>
       <iframe id="show_modal_iframe" src="about:blank" style="height:408px"></iframe>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="programme_modal" tabindex="-1" role="dialog" aria-labelledby="Show programme" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="show_modal_title">Show programme</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <iframe id="programme_iframe" src="about:blank" style="height:500px"></iframe>
     </div>
   </div>
 </div>

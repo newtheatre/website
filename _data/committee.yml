@@ -1,113 +1,94 @@
 ---
-
-# The Nottingham New Theatre Committee 
-
-
 - role: President
-  name: Miguel Barrulas 
-  email: president 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-RrV8MMm/0/b7b46097/O/i-RrV8MMm.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-4MjwKNp/1/d709ba14/XL/i-4MjwKNp-XL.jpg"
-
+  name: Rohan Rakhit
+  email: president
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-RrV8MMm/0/b7b46097/O/i-RrV8MMm.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-4MjwKNp/1/d709ba14/XL/i-4MjwKNp-XL.jpg
 - role: Treasurer
-  name: Jonathan Taylor Davies 
-  email: treasurer 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-gqJFVCT/0/d40d303b/O/i-gqJFVCT.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-f7s3sz6/1/9dbfdd9f/XL/i-f7s3sz6-XL.jpg"
-
+  name: Jonathan Taylor Davies
+  email: treasurer
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-gqJFVCT/0/d40d303b/O/i-gqJFVCT.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-f7s3sz6/1/9dbfdd9f/XL/i-f7s3sz6-XL.jpg
 - role: Theatre Manager
-  name: Sam Osborne 
-  email: theatremanager 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-CQK36CB/3/3f1c5f59/XL/i-CQK36CB-XL.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-LxjhZhP/1/c216e946/XL/i-LxjhZhP-XL.jpg"
+  name: Nadia Elalfi
+  email: theatremanager
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-CQK36CB/3/3f1c5f59/XL/i-CQK36CB-XL.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-LxjhZhP/1/c216e946/XL/i-LxjhZhP-XL.jpg
   group: backstage
-
 - role: Secretary
-  name: Grace Williams 
-  email: secretary 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-c52mDVc/3/b42a533e/XL/i-c52mDVc-XL.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-F83cB5G/1/1f42db62/L/i-F83cB5G-L.jpg"
-
-- role: In House Coordinator 
-  name: Jess Donn 
-  email: inhouse 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-qz3SbcJ/0/f2348aa5/O/i-qz3SbcJ.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-5gXKQbQ/1/d7bdb244/XL/i-5gXKQbQ-XL.jpg"
+  name: Boo Jackson
+  email: secretary
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-c52mDVc/3/b42a533e/XL/i-c52mDVc-XL.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-F83cB5G/1/1f42db62/L/i-F83cB5G-L.jpg
+- role: In-House Coordinator
+  name: Ellie Roberts
+  email: inhouse
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-qz3SbcJ/0/f2348aa5/O/i-qz3SbcJ.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-5gXKQbQ/1/d7bdb244/XL/i-5gXKQbQ-XL.jpg
   group: coordinator
-
 - role: Fringe Coordinator
-  name: Daniel McVey 
-  email: fringe 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-dmnqSDN/0/24e9598c/O/i-dmnqSDN.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-hJbMFhz/1/8753f555/XL/i-hJbMFhz-XL.jpg"
-  group: coordinator 
-  alias_email: stuff 
+  name: Cameron Brett
+  email: fringe
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-dmnqSDN/0/24e9598c/O/i-dmnqSDN.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-hJbMFhz/1/8753f555/XL/i-hJbMFhz-XL.jpg
+  group: coordinator
+  alias_email: stuff
   alias_role: StuFF Coordinator
-
 - role: Front of House Manager
-  name: Cameron Brett 
-  email: boxoffice 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-tTwHk4g/0/93dbe13f/O/i-tTwHk4g.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-96Lm8pq/1/e5a09a55/XL/i-96Lm8pq-XL.jpg"
-
+  name: Ellen Dennis
+  email: boxoffice
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-tTwHk4g/0/93dbe13f/O/i-tTwHk4g.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-96Lm8pq/1/e5a09a55/XL/i-96Lm8pq-XL.jpg
 - role: Company Stage Manager
-  name: Nadia Elalfi 
-  email: csm 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-G7r6FZX/0/8dc9c24d/O/i-G7r6FZX.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-ctwC8F8/1/43f7c324/XL/i-ctwC8F8-XL.jpg"
-  group: backstage 
-
-- role: Company Set Technician 
-  name: Jack Ellis 
-  email: cst 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-BxFHbkk/0/a1d29ef2/O/i-BxFHbkk.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-qpX2THH/1/e75c88d6/XL/i-qpX2THH-XL.jpg"
-  group: backstage 
-
+  name: Sophy Baxter
+  email: csm
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-G7r6FZX/0/8dc9c24d/O/i-G7r6FZX.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-ctwC8F8/1/43f7c324/XL/i-ctwC8F8-XL.jpg
+  group: backstage
+- role: Company Master Carpenter
+  name: Barney Hartwill
+  email: cmc
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-BxFHbkk/0/a1d29ef2/O/i-BxFHbkk.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-qpX2THH/1/e75c88d6/XL/i-qpX2THH-XL.jpg
+  group: backstage
 - role: Company Technical Director
-  name: Zoe Smith 
-  email: tech 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-N8jgbNd/2/8acf414e/XL/i-N8jgbNd-XL.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-5kHHBLF/1/143f73bd/L/i-5kHHBLF-L.jpg"
-  group: backstage 
-
+  name: Luwa Adebanjo
+  email: tech
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-N8jgbNd/2/8acf414e/XL/i-N8jgbNd-XL.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-5kHHBLF/1/143f73bd/L/i-5kHHBLF-L.jpg
+  group: backstage
 - role: Technical Manager
-  name: Izzy de Bono 
-  email: techmanager 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-6ZDz46w/3/c34a9b13/XL/i-6ZDz46w-XL.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-28cfxj2/1/02b53fb8/XL/i-28cfxj2-XL.jpg"
-  group: backstage 
-
-- role: Participation Coordinator 
-  name: Jonny Khan 
+  name: Skylar Hurd
+  email: techmanager
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-6ZDz46w/3/c34a9b13/XL/i-6ZDz46w-XL.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-28cfxj2/1/02b53fb8/XL/i-28cfxj2-XL.jpg
+  group: backstage
+- role: Unscripted Coordinator & Engagement Officer
+  name: Lillian Race
   email: participation
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-57fjNcq/0/af573c5d/O/i-57fjNcq.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-snQq9jV/1/135129a8/XL/i-snQq9jV-XL.jpg"
-
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-57fjNcq/0/af573c5d/O/i-57fjNcq.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-snQq9jV/1/135129a8/XL/i-snQq9jV-XL.jpg
 - role: Publicity Managers
-  name: Rohan Rakhit and Beth Carter 
-  email: publicity 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-nsxMRf7/0/dff89601/O/i-nsxMRf7.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-nwgFFvF/1/00d95887/XL/i-nwgFFvF-XL.jpg"
-
-- role: External Coordinator 
-  name: Joe Strickland 
-  email: external 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-ttjk8tD/0/c050d05f/O/i-ttjk8tD.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-XZPqBjM/1/dfeecee4/XL/i-XZPqBjM-XL.jpg"
-  group: coordinator  
-  alias_email: edinburgh 
+  name: 'Caitie Pardoe & Jake Levy '
+  email: publicity
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-nsxMRf7/0/dff89601/O/i-nsxMRf7.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-nwgFFvF/1/00d95887/XL/i-nwgFFvF-XL.jpg
+- role: External Coordinator
+  name: Zoe Smith
+  email: external
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-ttjk8tD/0/c050d05f/O/i-ttjk8tD.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-XZPqBjM/1/dfeecee4/XL/i-XZPqBjM-XL.jpg
+  group: coordinator
+  alias_email: edinburgh
   alias_role: Edinburgh Coordinator
-
 - role: Costume, Props and Make-Up Manager
-  name: Charlie Basley 
-  email: costume 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-4Xb8X4X/0/d9fefb5b/O/i-4Xb8X4X.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-m4czhjB/1/3c0abd68/XL/i-m4czhjB-XL.jpg"
-  group: backstage 
-
-- role: Social and Fundraising Coordinator 
-  name: Lucy Chandler 
-  email: social 
-  img: "https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-PSrmqL6/3/4aa64581/XL/i-PSrmqL6-XL.jpg"
-  rollover: "https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-Sz28dzK/1/9bd891da/XL/i-Sz28dzK-XL.jpg"
+  name: Alice Walker
+  email: costume
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-4Xb8X4X/0/d9fefb5b/O/i-4Xb8X4X.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-m4czhjB/1/3c0abd68/XL/i-m4czhjB-XL.jpg
+  group: backstage
+- role: Social and Fundraising Coordinator
+  name: Tara Phillips
+  email: social
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-PSrmqL6/3/4aa64581/XL/i-PSrmqL6-XL.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-Sz28dzK/1/9bd891da/XL/i-Sz28dzK-XL.jpg
