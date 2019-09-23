@@ -46,9 +46,3 @@ We recommend that you reserve tickets to every show that you wish to see. Passes
 In our Studio foyer, you will be able to peruse books alongside drinks and snacks from our bar with Anna's Book Lounge.
 
 </div></div>
-
-<hr>
-
-<h1 class="text-center">StuFF 2019 Programme</h1>
-
-<hr>

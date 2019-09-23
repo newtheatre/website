@@ -1,0 +1,107 @@
+## PROPOSAL FORMS ## 
+
+- title: In House Proposals Form 
+  link: /static/preproposal/Spring-In-House-Proposals-Form.docx
+  color: purple 
+  file-type: word 
+  group: proposal-form 
+
+- title: Fringe Proposals Form 
+  link: /static/preproposal/Spring-Fringe-Proposals-Form.docx
+  color: orange
+  file-type: word 
+  group: proposal-form
+
+## PROPOSING TEAMS ## 
+
+- title: Proposals Pack
+  link: /static/preproposal/Proposals-Pack-2018-19.pdf
+  color: purple 
+  file-type: pdf
+  group: proposing-team 
+  description: If you’re looking to propose, check out our Proposals Pack. It’s a handy guide to filling in the proposals form for both the In House and Fringe seasons.
+
+- title: Welfare Pack 
+  link: /static/preproposal/Welfare-Pack.pdf
+  color: purple 
+  file-type: pdf
+  group: proposing-team
+  description: The Content Warnings and Welfare Considerations section of the Proposals Form needs to be quite involved, so we have a separate pack of resources and things you may wish to consider.
+
+- title: External Venues Pack 
+  link: /static/preproposal/External-Venues-Pack-2018-19.pdf
+  color: orange 
+  file-type: pdf
+  group: proposing-team
+  description: If you’re proposing for the Fringe season, you may be interested in our External Venues Pack, which has information about off-site venues that we’ve worked in before. Don’t feel you’re limited to these though – just about anywhere can be a performance venue!
+
+- title: Sample Questions 
+  link: /static/preproposal/Sample-Questions.pdf 
+  color: purple 
+  file-type: pdf
+  group: proposing-team 
+  description: During the Q&A part of the Proposals Day, the committee will be posing questions to you. We’ve prepared a list of some of the most common – but by no means the only ones you may face!
+
+## PRODUCTION TEAMS ## 
+
+- title: Show Pack 
+  link: /static/postproposal/Show-Pack-2018-19.pdf
+  color: purple 
+  file-type: pdf
+  group: production-team 
+  description: To help put on your show, we’ve put together a Show Pack, which contains information about publicity, front of house, tech, and lots of other things we think will be useful. Whether you're a brand new team, or this is your fifth show, take a look.
+
+# Coming Soon 
+# - title: Tech for Production Teams 
+#   link: "#"
+#   color: purple
+#   file-type: pdf
+#   group: production-team 
+#   description: Tech week can be a stressful time, so we've put together this guide to help make things easier on you and your technical team. 
+
+- title: Code of Conduct
+  link: /static/postproposal/Code-of-Conduct.pdf 
+  color: purple 
+  file-type: pdf
+  group: production-team 
+  description: This document must be read and signed by all production team members as the very first thing you do for your show. It’s here in case you need a reminder.
+
+## BACKSTAGE ##
+
+- title: Publicity Pack 
+  link: /static/postproposal/Publicity-Pack-2018_19.pdf
+  color: purple 
+  file-type: pdf
+  group: backstage 
+  description: For everything you need to publicise your show, complete with deadlines and guides for production shots, rehearsal videos, and social media tips.
+
+
+# Coming Soon 
+
+# - title: Tech Guide 2019 
+#   link: "#"
+#   color: purple
+#   file-type: pdf
+#   group: backstage 
+#   description: Anything and everything there is to know about setting up and using all of the technical equipment in our spaces 
+
+# - title: Tech Resources 
+#   link: "#"
+#   color: purple 
+#   file-type: folder
+#   group: backstage 
+#   description: Our technical base files for lighting and sound are available for download to work on or practice with at home.
+
+# - title: Health and Safety
+#   link: "#"
+#   color: purple 
+#   file-type: folder 
+#   group: backstage 
+#   description: Risk Assessments, Method Statements and all the other documentation that keeps this theatre safe.
+
+# - title: Backstage Pack 
+#   link: "#"
+#   color: purple 
+#   file-type: pdf
+#   group: backstage 
+#   description: From sets to stage, this pack has tips, tricks and how-tos for bringing your set to life and avoiding set dressing pitfals. 

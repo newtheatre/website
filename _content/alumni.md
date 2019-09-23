@@ -14,7 +14,7 @@ The Alumni Network was founded in 2013 on 3 principles:
  - To build connections between current and previous members
  - To keep alumni informed of the progress of both the theatre and fellow alumni.
 
-{% include cta.html text="Register for the Alumni Network" link="register/" %}
+{% include button.html text="Register for the Alumni Network" wide=true link="register/" %}
 
 # New Theatre History Project {% include external-link.html link="http://history.newtheatre.org.uk" %}
 
