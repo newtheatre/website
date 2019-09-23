@@ -16,7 +16,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: _data/show_resources.yml
+  path: _data/show-resources.yml
   label: Show Resources
   match: "**/*"
 upload_dir: images
