@@ -15,6 +15,10 @@ sections:
   label: Content
   create: all
   match: "**/*"
+- type: document
+  path: _data/show_resources.yml
+  label: Show Resources
+  match: "**/*"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
