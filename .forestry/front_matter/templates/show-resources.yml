@@ -28,3 +28,5 @@ fields:
     name: group
     label: Group
     description: Which section does this belong to? (Proposing team; backstage; etc)
+pages:
+- _data/show-resources.yml
