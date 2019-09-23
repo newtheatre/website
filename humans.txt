@@ -5,10 +5,6 @@
   Bio: http://history.newtheatre.org.uk/people/sam_osborne/
   Contact: sam [at] samosborne.me
 
-  Editor: Nathan Penney
-  Bio: https://history.newtheatre.org.uk/people/nathan_penney/
-  Twitter: @nhyty96
-
   Developer: Will Pimblett
   Bio: https://history.newtheatre.org.uk/people/will_pimblett/
 
@@ -23,4 +19,4 @@
   Language: English
   Doctype: HTML5
   Build System: Jekyll
-  IDE: Sublime Text, Prose.io
+  IDE: Sublime Text, Forestry.io
