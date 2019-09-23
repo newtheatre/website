@@ -8,16 +8,23 @@ fields:
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: link
-    label: link
+    label: Link
+    description: Either /static/... for files on the website, or https:// ... for
+      files hosted elsewhere.
   - type: text
     name: color
-    label: color
+    label: Colour
+    description: What colour should the box be? Choice is any branded colour (typically
+      purple or orange)
+    default: purple
   - type: text
     name: file-type
     label: file-type
+    description: Should also correspond to an icon from this list https://fontawesome.com/icons?d=gallery&c=files&m=free
   - type: text
     name: group
-    label: group
+    label: Group
+    description: Which section does this belong to? (Proposing team; backstage; etc)
