@@ -15,8 +15,8 @@ Optional variables:
 <div class="row">
 {%- for file in resources -%}
 <div class="{{ columns }} mb-3">
-	<div class="card {% if file.description %}h-100{% endif %} border-{{ file.color | default: "purple" }}">
-		<div class="card-header p-0 bg-{{ file.color | default: "purple"}}">
+	<div class="card {% if file.description %}h-100{% endif %} border-nnt-{{ file.color | default: "purple" }}">
+		<div class="card-header p-0 bg-nnt-{{ file.color | default: "purple"}}">
 			{% assign btn_link = file.link %}
 			{% assign btn_color = file.color %}
 			{% capture btn_text %}{{ file.title }} ({{ file.file-type }}){% endcapture %}
