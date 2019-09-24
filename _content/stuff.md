@@ -41,7 +41,7 @@ We recommend that you reserve tickets to every show that you wish to see. Passes
 
 ## Books 
 
-![Anna's Book Lounge poster]({{ site.baseurl }}/static/anna-stuff-2019.jpg)
+![Anna's Book Lounge poster]({{ site.baseurl }}/static/images/anna-stuff-2019.jpg)
 
 In our Studio foyer, you will be able to peruse books alongside drinks and snacks from our bar with Anna's Book Lounge.
 

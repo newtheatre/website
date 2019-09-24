@@ -47,7 +47,7 @@ Callbacks and casting happen over the weekend after auditions.
 </div> 
   <div class="col-sm" markdown="1">
 
-![Acting]({{ site.baseurl }}/images/macbeth.jpg)
+![Acting]({{ site.baseurl }}/static/images/macbeth.jpg)
 
 ### Who to talk to 
 
@@ -104,7 +104,7 @@ We have four seasons that you can propose for: In House, Fringe, Edinburgh, and 
   </div>
   <div class="col-sm" markdown="1">
 
-![Directing]({{ site.baseurl }}/images/directing.jpg)
+![Directing]({{ site.baseurl }}/static/images/directing.jpg)
 
 ### Who to talk to 
 
@@ -194,7 +194,7 @@ There is no experience necessary, and any training you need will be provided.
 
 <div class="row"><div class="col-sm" markdown="1">
 
-![Costume]({{ site.baseurl }}/images/costume.jpg)
+![Costume]({{ site.baseurl }}/static/images/costume.jpg)
 
 </div><div class="col-sm" markdown="1">
 
@@ -239,7 +239,7 @@ Set is a key part of any show, helping transport the audience into the world of 
 
 You can get involved in designing a set for a production, or just come along at the get-in to help put it all together!
 
-![An example set design]({{ site.baseurl }}/images/set_design.png)
+![An example set design]({{ site.baseurl }}/static/images/set_design.png)
 
 <div class="row">
   <div class="col-sm" markdown="1">
@@ -287,7 +287,7 @@ If you're interested in being a stage manager, please get in touch with {% inclu
 
 # Tech
 
-![View from the tech desk from 'DEAD: A Musical']({{ site.baseurl }}/images/dead_desk.jpg)
+![View from the tech desk from 'DEAD: A Musical']({{ site.baseurl }}/static/images/dead_desk.jpg)
 
 <div class="row">
 <div class="col-lg-4 col-sm-5 order-sm-2" markdown="1">
@@ -321,7 +321,7 @@ Being part of the tech team is super rewarding, and you get to be involved with 
 The Technical Director (TD) oversees all the technical aspects of a show, such as rigging, focusing, and organising. They run the technical rehearsals and are often found shouting "Stop!" just before a climactic moment. 
 
 The TD is responsible for making sure all of the tech things get done on time, as well as for 'calling the show' (following the script and cueing any operators to fire cues, or stage managers to move set).
-![The rig of '1984']({{ site.baseurl }}/images/1984_rig.jpg)
+![The rig of '1984']({{ site.baseurl }}/static/images/1984_rig.jpg)
 
 </div><div class="col-md-6" markdown="1">
 
@@ -347,13 +347,13 @@ Getting started in sound design involves meeting with the director and often wat
 
 During the get-in, you'll install the speakers and focus them (point them in the right direction) to achieve the sound you're looking for. Then it comes to programming, where you can realise your design. 
 
-![The sound cue list for 'Revolt. She Said. Revolt Again.']({{ site.baseurl }}/images/revolt_qlab.jpg)
+![The sound cue list for 'Revolt. She Said. Revolt Again.']({{ site.baseurl }}/static/images/revolt_qlab.jpg)
 
 </div><div class="col-md-6" markdown="1">
 
 ## Video Design 
 
-![The stage for 'Revolt. She Said. Revolt Again.']({{ site.baseurl }}/images/revolt_stage.jpg)
+![The stage for 'Revolt. She Said. Revolt Again.']({{ site.baseurl }}/static/images/revolt_stage.jpg)
 
 A stunning video design can help a show really stand out amongst the crowd. We can do anything from projecting onto a screen at the back of the stage to unique mapping around smaller set pieces, whatever your imagination can come up with.
 
@@ -385,4 +385,4 @@ We also have an active [Tech Facebook Group](http://facebook.com/groups/nnt.tech
 
 ### Come and get involved!
 
-!['A Doll's House']({{ site.baseurl }}/images/dolls_house_group.jpg)
+!['A Doll's House']({{ site.baseurl }}/static/images/dolls_house_group.jpg)

@@ -159,13 +159,13 @@ Logos must always have a minimum distance to another object of **16px**. Logos w
 
 <div class="bg-dark p-3" markdown="1">
 
-![Logo for black backgrounds]({{ site.baseurl }}/images/logos/nnt_logo-dark.png)
+![Logo for black backgrounds]({{ site.baseurl }}/static/images/logos/nnt_logo-dark.png)
 
 </div>
 
 <div class="bg-light p-3" markdown="1">
 
-![Logo for light backgrounds]({{ site.baseurl }}/images/logos/nnt_logo-light.png)
+![Logo for light backgrounds]({{ site.baseurl }}/static/images/logos/nnt_logo-light.png)
 
 </div>
 
@@ -174,7 +174,7 @@ Logos must always have a minimum distance to another object of **16px**. Logos w
 
 ### Squares 
 
-![NNT Squares]({{ site.baseurl }}/images/logos/nnt_squares.png)
+![NNT Squares]({{ site.baseurl }}/static/images/logos/nnt_squares.png)
 
 </div>
 </div>
@@ -187,12 +187,12 @@ Should be used on the coloured background unless otherwise permitted. Layered ve
   <div class="col-lg" markdown="1">
 
 ### Square 
-![StuFF Logo Square]({{ site.baseurl }}/images/logos/stuff-square.png)
+![StuFF Logo Square]({{ site.baseurl }}/static/images/logos/stuff-square.png)
 
 </div><div class="col-lg" markdown="1">
 
 ### Rectangular 
 
-![StuFF Logo Rectangular]({{ site.baseurl }}/images/logos/stuff-rectangle.png)
+![StuFF Logo Rectangular]({{ site.baseurl }}/static/images/logos/stuff-rectangle.png)
 
 </div></div>
