@@ -17,5 +17,6 @@ fields:
   label: Redirect to
   description: 'Another URL that this page will link to '
 pages:
+- _content/about-committee.md
 - _content/festival-staff-site.md
 - _content/assassins.md
