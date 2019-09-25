@@ -17,14 +17,6 @@
   description: If you’re looking to propose, check out our Proposals Pack. It’s a
     handy guide to filling in the proposals form for both the In House and Fringe
     seasons.
-- title: Welfare Pack
-  link: "/static/preproposal/Welfare-Pack.pdf"
-  color: purple
-  file-type: pdf
-  group: proposing-team
-  description: The Content Warnings and Welfare Considerations section of the Proposals
-    Form needs to be quite involved, so we have a separate pack of resources and things
-    you may wish to consider.
 - title: External Venues Pack
   link: "/static/preproposal/External-Venues-Pack-2018-19.pdf"
   color: orange
