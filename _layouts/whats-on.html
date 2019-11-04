@@ -44,128 +44,118 @@ layout: default
           date_string = date_string + '- ' + days[end_date.getDay()] + ' ' + end_date.getDate().toString() + ' ';
         };
         date_string = date_string + months[end_date.getMonth()] + ', ' + end_date.getFullYear().toString();
-        // Build the card, colours based on the season
-        show_html = show_html + '<div class="col-md-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 card-' +the_shows[i].category.slug + ' ';
-        show_html = show_html + ('">')
-        // Poster
-        + '<div class="row"><div class="col-sm-4 pr-sm-0"><img class="img-fluid m-sm-1" width=100% src="'
-        if (the_shows[i].small_poster == null) {
-          the_shows[i].small_poster = "{{ site.ticket_baseurl }}/static/images/no_image.png"
-        }
-        show_html = show_html + the_shows[i].small_poster + '" />'
+        // Build the reserve button to use later
+        reserve_link_html = ''
         if (the_shows[i].allow_reservations == true || the_shows[i].external_link){
           if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
             if (the_shows[i].external_link) {
-              show_html += '<a href="' + the_shows[i].external_link + '" target="_blank"'
+              reserve_link_html += '<a href="' + the_shows[i].external_link + '" target="_blank"'
             }
             else {
-              show_html += '<a data-toggle="modal" data-target="#show_modal"' 
+              reserve_link_html += '<a data-toggle="modal" data-target="#show_modal"' 
             }
-            show_html += 'id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
-
-            show_html = show_html + 
-            'rounded-0 w-100 h3 d-none d-sm-block m-sm-1">'
+            reserve_link_html += 'id="'+the_shows[i].id+'" class="btn mt-3 reserve_button rounded-0 w-100 h3 m-sm-1">'
             if (the_shows[i].external_link) {
-              show_html += 'Book tickets <em>(external website)</em>'
+              reserve_link_html += 'Book tickets <em>(external website)</em>'
             }
             else {
-              show_html += 'Reserve tickets'
+              reserve_link_html += 'Reserve tickets'
             }
-            show_html += '</a>'
+            reserve_link_html += '</a>'
           }
           else if (the_shows[i].show_sold_out == true){
-            show_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
-          }
-        }
-        show_html += '</div><div class="col-sm-8 pl-sm-1">'
-        // Card title 
-        + '<div class="card-header">'+
-            '<h2>' + the_shows[i].name 
-            // Dates
-            + '<br /><small class="text-muted">';
-            // If there is only one performance, display the time here.
-            if (the_shows[i].occurrence_set.length == 1) {
-              var time_string = the_shows[i].occurrence_set[0].time.slice(0, -3) //Remove the seconds, API time is 19:30:00
-              show_html += time_string + ', ' 
-            }
-            show_html += date_string + '</small></h2>'
-            // Season and Venue 
-            + '<h5 class="text-muted"><span class="season-' + the_shows[i].category.slug + '">' + (the_shows[i].category.name) + '</span> | ' + the_shows[i].location + '</h5>';
-            if (the_shows[i].runtime){
-              show_html += '<h6 class="text-muted">' + the_shows[i].runtime + ' minutes, with'
-              if (the_shows[i].interval_number > 0){
-                show_html += ' ' + the_shows[i].interval_number
-                if (the_shows[i].interval_number > 1){ show_html += ' intervals' }
-                if (the_shows[i].interval_number == 1){ show_html += ' interval' }
-              }
-              else {
-                show_html += 'out interval'
-              }
-              show_html += '</h6>';
-            }
-          show_html = show_html + '</div><div class="card-body">'
-            // Description 
-            + the_shows[i].long_markdown;
-        if (the_shows[i].allow_reservations == true || the_shows[i].external_link){
-          if(the_shows[i].occurrence_set.length > 0 && the_shows[i].show_sold_out == false){
-            if (the_shows[i].external_link) {
-              show_html += '<a href="' + the_shows[i].external_link + '" target="_blank"'
-            }
-            else {
-              show_html += '<a data-toggle="modal" data-target="#show_modal"' 
-            }
-            show_html += 'id="'+the_shows[i].id+'" class="btn mt-3 reserve_button ';
-
-            show_html = show_html + 
-            'rounded-0 w-100 h3 d-sm-none">'
-            if (the_shows[i].external_link) {
-              show_html += 'Book tickets <em>(external website)</em>'
-            }
-            else {
-              show_html += 'Reserve tickets'
-            }
-            show_html += '</a>'
-          }
-          else if (the_shows[i].show_sold_out == true){
-            show_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
+            reserve_link_html += "<div class='col'><p class='text-muted small'><em>This show is fully reserved. A limited number of tickets may be available on the door.</em></p></div>"
           }
         }
         if (the_shows[i].programme) {
-        	programme_links[the_shows[i].id] = the_shows[i].programme 
-        	show_html += '<br /><a data-toggle="modal" data-target="#programme_modal" id="' + the_shows[i].id +'" role="button" class="btn btn-purple w-100 rounded-0 programme_button">View programme</a>';
+          programme_links[the_shows[i].id] = the_shows[i].programme 
+          reserve_link_html += '<br /><a data-toggle="modal" data-target="#programme_modal" id="' + the_shows[i].id +'" role="button" class="btn m-sm-1 w-100 rounded-0 programme_button">View programme</a>';
         }
-        // End card body 
-        show_html += '</div>'
-        // End column, row, card
-        + '</div></div></div>'
-        // End column
-        + '</div>';
-        if (i == 0) {
-          mini_list_html += '<div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
-        }
-        else if (the_shows[i - 1].end_date != the_shows[i].end_date) {
-          mini_list_html += '</table></div><div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
-        }
-        mini_list_html += '<tr><td>' + time_string + '</td><td><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> <br /><em>' + the_shows[i].location + '</em></td></tr>'
-      }
+        // Build the card, colours based on the season
+        show_html += '<div class="col-md-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 card-' +the_shows[i].category.slug + ' ';
+        show_html += ('">')
+        // Poster
+        + '<div class="row">'
+          + '<div class="col-sm-4 pr-sm-0">'
+            + '<img class="img-fluid m-sm-1" width=100% src="'
+              if (the_shows[i].small_poster == null) {
+                the_shows[i].small_poster = "{{ site.ticket_baseurl }}/static/images/no_image.png"
+              }
+            show_html += the_shows[i].small_poster + '" />'
+            // Render the reserve button
+            show_html += '<div class="d-none d-sm-block">' + reserve_link_html + '</div>';
+          show_html += '</div>' // column (for poster and large-screen button)
+          + '<div class="col-sm-8 pl-sm-1">'
+            // Card title 
+            + '<div class="card-header">'+
+              '<h2>' + the_shows[i].name 
+                // Dates
+                + '<br /><small class="text-muted">';
+                // If there is only one performance, display the time here.
+                if (the_shows[i].occurrence_set.length == 1) {
+                  var time_string = the_shows[i].occurrence_set[0].time.slice(0, -3) 
+                  //Remove the seconds, API time is 19:30:00
+                  show_html += time_string + ', ' 
+                }
+                show_html += date_string + '</small>'
+              + '</h2>'
+              // Season and Venue 
+              + '<h5 class="text-muted"><span class="season-' + the_shows[i].category.slug + '">' + (the_shows[i].category.name) + '</span> | ' + the_shows[i].location + '</h5>';
+              // Runtime and interval
+              if (the_shows[i].runtime){
+                show_html += '<h6 class="text-muted">' + the_shows[i].runtime + ' minutes, with'
+                if (the_shows[i].interval_number > 0){
+                  show_html += ' ' + the_shows[i].interval_number
+                  if (the_shows[i].interval_number > 1){ show_html += ' intervals' }
+                  if (the_shows[i].interval_number == 1){ show_html += ' interval' }
+                }
+                else {
+                  show_html += 'out interval'
+                }
+                show_html += '</h6>';
+              }
+            show_html += '</div>' // Card header 
+          + '</div>' // Column 
+        + '</div>' // Row 
+        + '<div class="row">'
+          + '<div class="col">'
+            + '<div class="card-body">'
+              // Description 
+              + the_shows[i].long_markdown
+              + '<div class="d-md-none">' + reserve_link_html + '</div>';
+            show_html += '</div>' // End body
+          + '</div>' //Col
+        + '</div>' // Row
+      + '</div>' // Card 
+    + '</div>' // Column 
 
-      mini_list_html += '</table></div>';
-      show_html = show_html + '</div>'; // End row 
-      document.getElementById('whats-on').innerHTML = show_html;
-      {% if page.mini_list %}
-        document.getElementById('mini_list').innerHTML = mini_list_html;
-      {% endif %}
+    if (i == 0) {
+      mini_list_html += '<div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
+    }
+    else if (the_shows[i - 1].end_date != the_shows[i].end_date) {
+      mini_list_html += '</table></div><div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
+    }
+    mini_list_html += '<tr><td>' + time_string + '</td><td><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> <br /><em>' + the_shows[i].location + '</em></td></tr>'
+  }
 
-      $('a.reserve_button').click(function(event) {
-        document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
-      });
-      $('a.programme_button').click(function(event) {
-        document.getElementById('programme_iframe').src = (programme_links[this.id]);
-      });
-    }).fail(function(){
-      document.getElementById('whats-on').innerHTML = "Unable to load shows";
-    });
+  mini_list_html += '</table></div>';
+  show_html = show_html + '</div>'; // End row 
+  document.getElementById('whats-on').innerHTML = show_html;
+  {% if page.mini_list %}
+    document.getElementById('mini_list').innerHTML = mini_list_html;
+  {% endif %}
+
+  $('a.reserve_button').click(function(event) {
+    document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
   });
+  $('a.programme_button').click(function(event) {
+    document.getElementById('programme_iframe').src = (programme_links[this.id]);
+  });
+  
+  }).fail(function(){
+    document.getElementById('whats-on').innerHTML = "Unable to load shows";
+  });
+});
 </script>
 
 <div class="modal fade" id="show_modal" tabindex="-1" role="dialog" aria-labelledby="Reserve Tickets" aria-hidden="true">
