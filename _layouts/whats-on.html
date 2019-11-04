@@ -3,10 +3,16 @@ layout: default
 --- 
 <!-- For additional content before the shows list --> 
 {{ content }}
-<div id="mini_list" class="row">
-</div>
-<div id="whats-on">
-</div>
+
+{% if page.mini_list %}
+  <div id="mini_list" class="row">
+    <div class="spinner mx-auto"></div>
+  </div>
+{% else %}
+  <div id="whats-on">
+    <div class="spinner mx-auto"></div>
+  </div>
+{% endif %}
 <!-- The new Javascript bit --> 
 <script>
   $( document ).ready(function() {
@@ -29,6 +35,10 @@ layout: default
       var show_html = '';
       var mini_list_html = '';
       var programme_links = [];
+      if (the_shows.length == 0) {
+        show_html += '<div class="col w-80 mx-auto text-center text-muted"><p>There are no shows coming up. Check back later or check our social media for more information!</p></div>'
+        mini_list_html = show_html
+      } 
       show_html = show_html + ('<div class="row">');
       for (var i = 0; i < the_shows.length; i++) {
         // Figure out how to display the date range
@@ -126,8 +136,8 @@ layout: default
             show_html += '</div>' // End body
           + '</div>' //Col
         + '</div>' // Row
-      + '</div>' // Card 
-    + '</div>' // Column 
+      + '</div><!-- card -->' // Card 
+    + '</div><!-- column -->' // Column 
 
     if (i == 0) {
       mini_list_html += '<div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
@@ -136,26 +146,27 @@ layout: default
       mini_list_html += '</table></div><div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
     }
     mini_list_html += '<tr><td>' + time_string + '</td><td><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> <br /><em>' + the_shows[i].location + '</em></td></tr>'
-  }
+    }
 
-  mini_list_html += '</table></div>';
-  show_html = show_html + '</div>'; // End row 
-  document.getElementById('whats-on').innerHTML = show_html;
-  {% if page.mini_list %}
-    document.getElementById('mini_list').innerHTML = mini_list_html;
-  {% endif %}
+    mini_list_html += '</table></div>';
+    show_html = show_html + '</div>'; // End row 
+    {% if page.mini_list %}
+      document.getElementById('mini_list').innerHTML = mini_list_html;
+    {% else %}
+      document.getElementById('whats-on').innerHTML = show_html;
+    {% endif %}
 
-  $('a.reserve_button').click(function(event) {
-    document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
+    $('a.reserve_button').click(function(event) {
+      document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
+    });
+    $('a.programme_button').click(function(event) {
+      document.getElementById('programme_iframe').src = (programme_links[this.id]);
+    });
+
+    }).fail(function(){
+      document.getElementById('whats-on').innerHTML = "Unable to load shows";
+    });
   });
-  $('a.programme_button').click(function(event) {
-    document.getElementById('programme_iframe').src = (programme_links[this.id]);
-  });
-  
-  }).fail(function(){
-    document.getElementById('whats-on').innerHTML = "Unable to load shows";
-  });
-});
 </script>
 
 <div class="modal fade" id="show_modal" tabindex="-1" role="dialog" aria-labelledby="Reserve Tickets" aria-hidden="true">
