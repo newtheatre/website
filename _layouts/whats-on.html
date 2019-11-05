@@ -82,7 +82,7 @@ layout: default
           reserve_link_html += '<br /><a data-toggle="modal" data-target="#programme_modal" id="' + the_shows[i].id +'" role="button" class="btn m-sm-1 w-100 rounded-0 programme_button">View programme</a>';
         }
         // Build the card, colours based on the season
-        show_html += '<div class="col-md-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 card-' +the_shows[i].category.slug + ' ';
+        show_html += '<div class="col-lg-6 mb-3"><div id="anchor_' + the_shows[i].id +'"  class="nt-card bg-body h-100 card-' +the_shows[i].category.slug + ' ';
         show_html += ('">')
         // Poster
         + '<div class="row">'
@@ -106,11 +106,14 @@ layout: default
                   var time_string = the_shows[i].occurrence_set[0].time.slice(0, -3) 
                   //Remove the seconds, API time is 19:30:00
                   show_html += time_string + ', ' 
-                }
+                } 
                 show_html += date_string + '</small>'
               + '</h2>'
+              if (the_shows[i].occurrence_set.length > 1){
+                show_html += '<h5 class="text-muted">' + the_shows[i].occurrences_formatted + '</h5>'
+              }
               // Season and Venue 
-              + '<h5 class="text-muted"><span class="season-' + the_shows[i].category.slug + '">' + (the_shows[i].category.name) + '</span> | ' + the_shows[i].location + '</h5>';
+              show_html += '<h5 class="text-muted"><span class="season-' + the_shows[i].category.slug + '">' + (the_shows[i].category.name) + '</span> | ' + the_shows[i].location + '</h5>';
               // Runtime and interval
               if (the_shows[i].runtime){
                 show_html += '<h6 class="text-muted">' + the_shows[i].runtime + ' minutes, with'
@@ -132,7 +135,7 @@ layout: default
             + '<div class="card-body">'
               // Description 
               + the_shows[i].long_markdown
-              + '<div class="d-md-none">' + reserve_link_html + '</div>';
+              + '<div class="d-sm-none">' + reserve_link_html + '</div>';
             show_html += '</div>' // End body
           + '</div>' //Col
         + '</div>' // Row
