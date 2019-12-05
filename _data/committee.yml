@@ -2,11 +2,11 @@
 - role: President
   name: Rohan Rakhit
   email: president
+  img: https://photos.smugmug.com/photos/i-8Xcgsjr/0/b9ec1260/X4/i-8Xcgsjr-X4.jpg
+  rollover: https://photos.smugmug.com/photos/i-VK22Wfb/0/963a0a0b/Th/i-VK22Wfb-Th.jpg
 - role: Treasurer
-  name: Jonathan Taylor Davies
+  name: Gabriella Teriaca
   email: treasurer
-  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-gqJFVCT/0/d40d303b/O/i-gqJFVCT.jpg
-  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-f7s3sz6/1/9dbfdd9f/XL/i-f7s3sz6-XL.jpg
 - role: Theatre Manager
   name: Nadia Elalfi
   email: theatremanager
@@ -16,37 +16,47 @@
 - role: Secretary
   name: Boo Jackson
   email: secretary
+  img: https://photos.smugmug.com/photos/i-5j3pMvD/0/46b84246/X4/i-5j3pMvD-X4.jpg
+  rollover: https://photos.smugmug.com/photos/i-q2wWDC3/0/91f290d5/O/i-q2wWDC3.jpg
 - role: In-House Coordinator
   name: Ellie Roberts
   email: inhouse
   group: coordinator
+  img: https://photos.smugmug.com/photos/i-DxCmkzX/0/5e21ce94/X4/i-DxCmkzX-X4.jpg
+  rollover: https://photos.smugmug.com/photos/i-BnZDFTm/0/489adafe/S/i-BnZDFTm-S.jpg
 - role: Fringe Coordinator
   name: Cameron Brett
   email: fringe
+  group: coordinator
   img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-tTwHk4g/0/93dbe13f/O/i-tTwHk4g.jpg
   rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-96Lm8pq/1/e5a09a55/XL/i-96Lm8pq-XL.jpg
-  group: coordinator
   alias_email: stuff
   alias_role: StuFF Coordinator
 - role: Front of House Manager
   name: Ellen Dennis
   email: boxoffice
+  img: https://photos.smugmug.com/photos/i-k9m9xC3/0/dbf4e821/X4/i-k9m9xC3-X4.jpg
 - role: Company Stage Manager
   name: Sophy Baxter
   email: csm
   group: backstage
+  img: https://photos.smugmug.com/photos/i-KmjCtp2/0/d5d87bbb/X4/i-KmjCtp2-X4.jpg
 - role: Company Master Carpenter
   name: Barney Hartwill
   email: cmc
   group: backstage
+  img: https://photos.smugmug.com/photos/i-c2z6Vdt/0/6bd949dd/X4/i-c2z6Vdt-X4.jpg
+  rollover: https://photos.smugmug.com/2018-19/Eve-and-Adam/i-KxSbvBH/0/22a84412/X3/JOSH8179-6-X3.jpg
 - role: Company Technical Director
-  name: Luwa Adebanjo
+  name: Tara Anegada
   email: tech
   group: backstage
 - role: Technical Manager
   name: Skylar Turnbull Hurd
   email: techmanager
   group: backstage
+  img: https://photos.smugmug.com/photos/i-bQv8R6D/0/9ac3a38d/X4/i-bQv8R6D-X4.jpg
+  rollover: https://photos.smugmug.com/photos/i-xV4QvD5/0/4953a7c9/L/i-xV4QvD5-L.jpg
 - role: Unscripted Coordinator & Engagement Officer
   name: Lillian Race
   email: participation
