@@ -22,7 +22,11 @@
     {%- for person in person -%}
       {% if person.img %}
         {% capture person_img %}{{ person.img }}{% endcapture %}
-        {% capture person_rollover %}{{ person.rollover }}{% endcapture %}
+        {% if person.rollover %}
+          {% capture person_rollover %}{{ person.rollover }}{% endcapture %}
+        {% else %}
+          {% capture person_rollover %}{{ person.img }}{% endcapture %}
+        {% endif %}
       {% else %}
         {% capture person_img %}{{ site.baseurl }}/static/person-placeholder.png{% endcapture %}
         {% capture person_rollover %}{{ site.baseurl }}/static/person-placeholder-alt.png{% endcapture %}
