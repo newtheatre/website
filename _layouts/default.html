@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
 {% include head.html %}
-<body>
+<body class="d-flex flex-column h-100">
+  <main class="flex-shrink-0">
   {% include header.html %}
   {% unless page.banner == false %} 
     <div class="banner">
@@ -21,6 +22,7 @@
   <div class="container {% if page.layout == "default" %}content{% endif %}">
     {{ content }} 
   </div>
+  </main>
   {% include footer.html %}
 </body>
 </html>
