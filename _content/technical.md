@@ -18,7 +18,6 @@ For more information on any of our spaces, please contact {% include committee.h
 # Venues
 
 ||Auditorium|Studio A|Studio B
-\---|---|---
 **Capacity** | 86 (max.) | 30 | 30
 **Stage Dimensions** | 7.2 x 7.8m (Can be extended by 1.2m at the front) | 9 x 5m | 10 x 5.4m
 **Stage Floor** | MDF | Dance floor | Dance floor
@@ -143,10 +142,10 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 
 ### Auditorium Install
 
-* 2x RCF C3110 | FOH
-* 1x RCF S8015LP Subwoofer | Under seats
-* 2x JBL Control 1 | Tech Box
-* 4x JBL Control 1 | New Theatre Foyer
+* 2x RCF C3110 \| FOH
+* 1x RCF S8015LP Subwoofer \| Under seats
+* 2x JBL Control 1 \| Tech Box
+* 4x JBL Control 1 \| New Theatre Foyer
 * Soundcraft Si Expression (24/8)
 
 #### Multicore
