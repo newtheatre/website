@@ -39,7 +39,7 @@
     text-decoration-color: $color;
   }
 }
-.card-fringe .reserve_button, .card-stuff .reserve_button, .btn-nnt-orange { // Special case for readability 
+.card-fringe .reserve_button, .card-fringe .programme_button, .card-stuff .reserve_button, .btn-nnt-orange { // Special case for readability 
   @extend .text-dark; 
 }
 
