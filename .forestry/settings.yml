@@ -23,7 +23,6 @@ public_path: "/static"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: true
 build:
   preview_env:
   - JEKYLL_ENV=staging
@@ -33,4 +32,3 @@ build:
   mount_path: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
-  preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site

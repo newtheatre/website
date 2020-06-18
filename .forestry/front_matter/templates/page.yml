@@ -34,7 +34,18 @@ fields:
     options:
     - default
     - toc
+    - whats-on
   label: Layout
   description: How you would like the page to display (current options are with or
     without a table of contents, 'toc')
   default: default
+- name: show_url
+  type: text
+  config:
+    required: false
+  label: Show Url
+  description: 'Ticketing API URL (ex: /api/shows/filter/stuff)'
+  showOnly:
+    field: layout
+    value: whats-on
+  default: "/api/shows"
