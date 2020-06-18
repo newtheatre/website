@@ -49,3 +49,11 @@ fields:
     field: layout
     value: whats-on
   default: "/api/shows"
+- name: mini_list
+  type: boolean
+  label: Mini List
+  description: Whether the list of shows should be full or a small summary
+  showOnly:
+    field: layout
+    value: whats-on
+  default: false
