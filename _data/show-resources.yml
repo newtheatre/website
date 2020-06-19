@@ -1,11 +1,18 @@
 ---
+- title: Quarantine Season Proposals Form
+  link: https://drive.google.com/file/d/1XfqyxDQaNcgwb4o1I-knOpsWRd8KAXjF/view?usp=sharing
+  description: Use this form to propose a show for the up-coming online Quarantine
+    season
+  color: purple
+  file-type: word
+  group: Quarantine-Season
 - title: Quarantine Season Proposal Pack
   link: "/static/proposals-pack-summer-quarantine-2020-1.pdf"
   description: If you’re looking to propose, check out our Proposals Pack. It’s a
     handy guide to filling in the proposals form for this Summer's Quarantine Season
   color: purple
   file-type: pdf
-  group: Proposing team
+  group: Quarantine-Season
 - title: In House Proposals Form
   link: https://drive.google.com/file/d/0BwgmYDc7GjUnTTFQT0FMcXBJSDd4dDBFX3hmenRzYUJDOWJz/view?usp=sharing
   color: purple
