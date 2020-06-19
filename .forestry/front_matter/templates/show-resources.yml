@@ -14,11 +14,22 @@ fields:
     label: Link
     description: Either /static/... for files on the website, or https:// ... for
       files hosted elsewhere.
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+    description: "(Optional) A little blurb about the resource"
   - type: text
     name: color
     label: Colour
     description: What colour should the box be? Choice is any branded colour (typically
-      purple or orange)
+      purple or orange)<br>(<a href="https://github.com/newtheatre/website/blob/master/_scss/nt_variables.scss"
+      title="nt_variables.scss" target="_blank">Full list under $color-nnt here</a>)
     default: purple
   - type: text
     name: file-type
