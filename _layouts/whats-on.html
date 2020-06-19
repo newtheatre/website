@@ -109,7 +109,7 @@ layout: default
                 } 
                 show_html += date_string + '</small>'
               + '</h2>'
-              if (the_shows[i].occurrence_set.length > 1){
+              if (the_shows[i].occurrence_set.length != 1){
                 show_html += '<h5 class="text-muted">' + the_shows[i].occurrences_formatted + '</h5>'
               }
               // Season and Venue 
