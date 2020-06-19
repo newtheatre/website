@@ -57,3 +57,5 @@ fields:
     field: layout
     value: whats-on
   default: false
+pages:
+- _content/summer-quarantine-season-2020.md
