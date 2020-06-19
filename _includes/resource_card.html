@@ -23,7 +23,7 @@ Optional variables:
 			{% assign btn_filetype = file.file-type %}
 			{% include button.html text=btn_text color=btn_color link=btn_link filetype=btn_filetype wide=true nogap=true %}
 		</div>
-		{% if file.description %}
+		{% if file.description and file.description != empty %}
 			<div class="card-body">
 				{{ file.description | markdownify }} 
 			</div>
