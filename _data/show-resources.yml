@@ -1,14 +1,23 @@
 ---
+- title: Quarantine Season Proposal Pack
+  link: "/static/proposals-pack-summer-quarantine-2020-1.pdf"
+  description: If you’re looking to propose, check out our Proposals Pack. It’s a
+    handy guide to filling in the proposals form for this Summer's Quarantine Season
+  color: purple
+  file-type: pdf
+  group: Proposing team
 - title: In House Proposals Form
   link: https://drive.google.com/file/d/0BwgmYDc7GjUnTTFQT0FMcXBJSDd4dDBFX3hmenRzYUJDOWJz/view?usp=sharing
   color: purple
   file-type: word
   group: proposal-form
+  description: ''
 - title: Fringe Proposals Form
   link: https://docs.google.com/document/d/1BO7lA3wKNx3uGBcRNwhttmyPLrvkzaSuD30rbO5M-6c/edit?usp=sharing
   color: orange
   file-type: word
   group: proposal-form
+  description: ''
 - title: Proposals Pack
   link: https://drive.google.com/file/d/0BwgmYDc7GjUnanR0SUY0djk0RjVMTkk0T2hNemJMUkFjUGpV/preview
   color: purple
