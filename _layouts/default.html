@@ -6,7 +6,7 @@
   {% include header.html %}
   {% unless page.banner == false %} 
     <div class="banner">
-      <div class="banner-image" style="background-image: url({{ site.baseurl }}/static/images/banner/{% if page.banner_image %}{{ page.banner_image }}{% else %}default.jpg{% endif %}">
+      <div class="banner-image" style="background-image: url({{ site.baseurl }}/static/images/banner/{% if page.banner_image and page.banner_image != empty %}{{ page.banner_image }}{% else %}default.jpg{% endif %}">
       </div>
       <div class="container">
         <h1 class="banner-text">
