@@ -3,7 +3,7 @@ banner_text: Resources for our Summer Quarantine Season
 layout: default
 show_url: "/api/shows"
 title: Summer Quarantine Season 2020
-permalink: quarantine
+permalink: "/quarantine"
 redirect_from: []
 banner_image: ''
 mini_list: false
