@@ -175,6 +175,13 @@ blockquote {
     @extend .nnt-purple;
   } 
 }
+.alert-danger a {
+  @extend .nnt-purple-dark;
+  @extend .font-weight-bold;
+  &:hover {
+    @extend .nnt-purple-darker;
+  }
+}
 
 // Layout
 
