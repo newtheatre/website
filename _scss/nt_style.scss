@@ -179,7 +179,7 @@ blockquote {
   @extend .nnt-purple-dark;
   @extend .font-weight-bold;
   &:hover {
-    @extend .nnt-purple-darker;
+    color: darken($color-nnt-purple-dark, 10%);
   }
 }
 
