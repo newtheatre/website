@@ -12,7 +12,9 @@ banner_text:
 ---
 <div class="alert alert-danger" markdown="1">
 
-# <i class="fa fa-fw fa-info-circle"></i> Covid-19 Announcement
+# <i class="fa fa-fw fa-info-circle"></i> Covid-19 Announcement 
+
+#### _Updated 20th June, 2020_
 
 Our devotion to the health and well being of our members takes priority. We take certain decisions with this at the forefront of our minds, and therefore have made the undesirable yet necessary decision to hereby close The Nottingham New Theatre until further notice, based on Government advice, and accept that we need to show responsibility in these unprecedented times.
 
