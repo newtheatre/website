@@ -7,6 +7,7 @@ permalink: quarantine
 redirect_from: []
 banner_image: ''
 mini_list: false
+published: false
 
 ---
 # Summer Quarantine Season
@@ -15,7 +16,7 @@ In light of the artistically cripping pandemic the Nottingham New Theatre has ta
 
 This process has the potential to be incredibly rewarding, not only for the actors involved, but also for the aspiring writer, the imaginative video designers and editors, and the inquisitive member who wants to learn new skills without having the same kind of intense pressure found in a normal production process.
 
-This will be a learning curve but we are very excited to get NNT up and running remotely. If you have any questions please contact one of the <a href="quarantine@newtheatre.org.uk" class="alert-link">coordinators</a>
+This will be a learning curve but we are very excited to get NNT up and running remotely. If you have any questions please contact one of the <a href="mailto:quarantine@newtheatre.org.uk" class="alert-link">coordinators</a>
 
 ## Resources
 
@@ -23,4 +24,4 @@ The following pack details how the ‘Quarantine Season’ will function as well
 
 {% include resource_card.html group="Quarantine-Season" columns=2 %}
 
-<a href="mailto:productions@newtheatre.org.uk" class="alert-link">Email your forms here</a>
+<a href="mailto:quarantine@newtheatre.org.uk" class="alert-link">Email your forms here</a>
