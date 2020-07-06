@@ -1,0 +1,23 @@
+---
+label: Committee Member
+hide_body: true
+fields:
+- type: field_group_list
+  name: Committee
+  label: Committee
+  fields:
+  - type: text
+    name: role
+    label: role
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: email
+    label: email
+  - type: file
+    name: img
+    label: img
+  - type: file
+    name: rollover
+    label: rollover
