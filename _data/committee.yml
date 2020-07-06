@@ -9,11 +9,6 @@
   email: treasurer
   img: https://photos.smugmug.com/Website-Photos/20-21/Committee-Headshots-20-21/n-SJkgPk/Committee-Headshots-20-21/i-sF7PbFG/0/1cd14c74/Th/Sofia%20Loreti-Th.png
   rollover: ''
-- role: IT Manager
-  name: Bill Hayes
-  email: itmanager@newtheatre.org.uk
-  img: https://photos.smugmug.com/Website-Photos/20-21/Committee-Headshots-20-21/n-SJkgPk/Committee-Headshots-20-21/i-GnZjhTS/0/8367ea79/Th/Bill%20Hayes-Th.png
-  rollover: ''
 - role: Theatre Manager
   name: Barney Hartwill
   email: theatremanager
@@ -88,3 +83,8 @@
   name: Sofia Bassani
   email: social
   img: https://photos.smugmug.com/Website-Photos/20-21/Committee-Headshots-20-21/n-SJkgPk/Committee-Headshots-20-21/i-rSsQppt/0/831f844e/Th/Sofia%20Bassani-Th.jpg
+- role: IT Manager
+  name: Bill Hayes
+  email: itmanager
+  img: https://photos.smugmug.com/Website-Photos/20-21/Committee-Headshots-20-21/n-SJkgPk/Committee-Headshots-20-21/i-GnZjhTS/0/8367ea79/Th/Bill%20Hayes-Th.png
+  rollover: ''
