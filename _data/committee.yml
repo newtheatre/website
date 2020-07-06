@@ -1,9 +1,9 @@
 ---
 - role: President
-  name: Rohan Rakhit
+  name: Nadia Elalfi
   email: president
-  img: https://photos.smugmug.com/photos/i-8Xcgsjr/0/b9ec1260/X4/i-8Xcgsjr-X4.jpg
-  rollover: https://photos.smugmug.com/photos/i-VK22Wfb/0/963a0a0b/Th/i-VK22Wfb-Th.jpg
+  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-G7r6FZX/0/8dc9c24d/O/i-G7r6FZX.jpg
+  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-ctwC8F8/1/43f7c324/XL/i-ctwC8F8-XL.jpg
 - role: Treasurer
   name: Gabriella Teriaca
   email: treasurer
