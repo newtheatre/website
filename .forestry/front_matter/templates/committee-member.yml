@@ -9,15 +9,45 @@ fields:
   - type: text
     name: role
     label: role
+    config:
+      required: true
   - type: text
     name: name
     label: name
+    config:
+      required: true
   - type: text
     name: email
     label: email
+    description: Everything before '@newtheatre.org.uk'. Must be a newtheatre email
+      address.
+    config:
+      required: true
   - type: file
     name: img
     label: img
+    description: Images are stored in Smugmug under a year folder under Website Photos.
   - type: file
     name: rollover
     label: rollover
+    description: Images are stored in Smugmug under WebsitePhotos/Year/Rollover
+  - name: group
+    type: text
+    config:
+      required: false
+    label: group
+    description: Group this committee member is part of (eg. backstage)
+  - name: alias_email
+    type: text
+    config:
+      required: false
+    label: alias_email
+    description: If this person has another email (eg edinburgh@ for external) you
+      can add that here.
+  - name: alias_role
+    type: text
+    config:
+      required: false
+    label: alias_role
+    description: The role corresponding to the alias email address (eg 'Edinburgh
+      Coordinator' for the edinburgh@ alias)
