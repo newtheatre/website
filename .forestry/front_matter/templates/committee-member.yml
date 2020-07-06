@@ -51,3 +51,5 @@ fields:
     label: alias_role
     description: The role corresponding to the alias email address (eg 'Edinburgh
       Coordinator' for the edinburgh@ alias)
+  config:
+    labelField: role
