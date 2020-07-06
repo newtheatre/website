@@ -1,4 +1,9 @@
 ---
+- role: IT Manager
+  name: Bill Hayes
+  email: itmanager@newtheatre.org.uk
+  img: https://photos.smugmug.com/Website-Photos/20-21/Committee-Headshots-20-21/n-SJkgPk/Committee-Headshots-20-21/i-GnZjhTS/0/8367ea79/Th/Bill%20Hayes-Th.png
+  rollover: ''
 - role: President
   name: Nadia Elalfi
   email: president
