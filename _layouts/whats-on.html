@@ -107,9 +107,12 @@ layout: default
                   //Remove the seconds, API time is 19:30:00
                   show_html += time_string + ', ' 
                 } 
+                else if (the_shows[i].occurrence_set.length == 0) {
+                  var time_string = '<i>TBC</i>'
+                }
                 show_html += date_string + '</small>'
               + '</h2>'
-              if (the_shows[i].occurrence_set.length > 1){
+              if (the_shows[i].occurrence_set.length != 1){
                 show_html += '<h5 class="text-muted">' + the_shows[i].occurrences_formatted + '</h5>'
               }
               // Season and Venue 
