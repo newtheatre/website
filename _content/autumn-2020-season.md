@@ -11,7 +11,7 @@ mini_list: false
 ---
 ### The Nottingham New Theatre will be showcasing an Online and In-House season this Autumn
 
-There will be two distinct season's this Autumn, one running entirely online similar to the quarantine season and one running In-House at the theatre. More Details of how each season will work and how to get involved in proposing shows for either season are below.
+There will be two distinct season's this Autumn, one running entirely online (similar to the quarantine season) and one running In-House at the Theatre. More details of how each season will work and how to get involved in proposing shows for either season are below.
 
 <hr>
 
