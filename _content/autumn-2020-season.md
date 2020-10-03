@@ -59,6 +59,6 @@ More information will follow regarding how to get involved in other aspects of t
 
 {% include resource_card.html group="Autumn-Online" columns=2 %}
 
-{% include button.html text="Email completed forms to [fringe@newtheatre.org.uk](mailto:fringe@newtheatre.org.uk)" link="mailto:[fringe@newtheatre.org.uk](mailto:fringe@newtheatre.org.uk)" colour="orange" wide="True" %}
+{% include button.html text="Email completed forms to [fringe@newtheatre.org.uk](mailto:fringe@newtheatre.org.uk)" link="mailto:fringe@newtheatre.org.uk" colour="orange" wide="True" %}
 
 <hr>
