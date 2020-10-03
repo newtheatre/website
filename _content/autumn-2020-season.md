@@ -41,7 +41,7 @@ If you have any questions, don’t hesitate to email productions@newtheatre.org.
 
 ### Online Season
 
-One of the Nottingham New Theatres seasons that we will be running is a continuation of the very successful Summer Quarantine Season.
+One of the Nottingham New Theatre's seasons that we will be running is a continuation of the very successful Summer Quarantine Season.
 
 This is the online creation of virtual theatre which will be posted on the NNT YouTube channel and shared across our platforms for all to watch. We do this with the ambition to have theatre being made all through the term regardless of possible future further restrictions, due to the Coronavirus Pandemic.
 
