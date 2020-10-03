@@ -1,4 +1,17 @@
 ---
+- title: ''
+  link: ''
+  description: ''
+  color: purple
+  file-type: ''
+  group: ''
+- title: Autumn 2020 In House Proposals Pack
+  link: "/static/in-house-autumn-pack-2020.pdf"
+  description: If you are looking to propose check out our Proposals Pack. It's a
+    handy guide to filling in the proposals form for this Autumn's In House season
+  color: purple
+  file-type: pdf
+  group: Autumn-Inhouse
 - title: Autumn Online Season Proposal Pack
   link: "/static/online-autumn-season-2020-proposals-pack.pdf"
   description: If you are looking to propose check out our Proposals Pack. It's a
