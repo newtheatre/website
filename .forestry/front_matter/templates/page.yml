@@ -58,4 +58,5 @@ fields:
     value: whats-on
   default: false
 pages:
+- _content/autumn-2020-season.md
 - _content/summer-quarantine-season-2020.md
