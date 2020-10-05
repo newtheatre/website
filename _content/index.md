@@ -8,7 +8,7 @@ shows_url: "/api/shows"
 banner: true
 banner_image: whats-on.jpg
 banner_text: 
-published: false
+published: true
 
 ---
 <div class="alert alert-danger" markdown="1">
