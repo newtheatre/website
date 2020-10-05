@@ -8,20 +8,23 @@ shows_url: "/api/shows"
 banner: true
 banner_image: whats-on.jpg
 banner_text: 
+published: false
 
 ---
 <div class="alert alert-danger" markdown="1">
 
-# <i class="fa fa-fw fa-info-circle"></i> Covid-19 Announcement 
+# <i class="fa fa-fw fa-info-circle"></i> The Nottingham New Theatre reopens _Updated 05th October, 2020_
 
-#### _Updated 20th June, 2020_
+With the start of a new university year comes the start of a new exciting term of Theatre here at the NNT.
 
-Our devotion to the health and well being of our members takes priority. We take certain decisions with this at the forefront of our minds, and therefore have made the undesirable yet necessary decision to hereby close The Nottingham New Theatre until further notice, based on Government advice, and accept that we need to show responsibility in these unprecedented times.
+The committee have carefully built two seasons that we think offer brilliant opportunities for getting involved in our Theatre, whilst also keeping the safety of our membership as our highest priority during the COVID-19 pandemic.
 
-We wish our membership well and express our extreme gratitude for everyone and their understanding, and we will ensure to keep you updated with any further developments in the future.
+Details on these seasons can be found on the [Autumn Season Page](autumn2020 "Autumn Season Page").
 
-However, we will not let this stop us from making theatre. We are launching a Quarantine Season of virtual shows over the summer. For more information about the season, check out the [Quarantine Season page](/quarantine/).
+This year is a fantastic opportunity for our membership to get creative with their shows and we hope that our many talented writers feel inspired to produce some really unique pieces of both traditional and online theatre.
 
-If you have any questions, please contact us via our [Facebook page](https://facebook.com/{{ site.facebook }}), or email {% include committee.html role='president' format='inline' %}. Members are still encouraged to keep in touch and connect with each other through our [Members' Facebook Group](https://facebook.com/groups/NNTmembers2019). We hope to see you soon.
+If you have any questions, please contact us via our [Facebook page](https://facebook.com/{{ site.facebook }}), or contact the relevant member of [committee](https://newtheatre.org.uk/about/ "Committee")
+
+As always we thank all of our membership both new and old for supporting us during this time and we hope to see your wonderful faces soon.
 
 </div>
