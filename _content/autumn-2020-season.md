@@ -19,9 +19,9 @@ There will be two distinct seasons this Autumn, one running entirely online (sim
 
 <hr>
 
-## Resources
+# Resources
 
-### In-House
+## In-House
 
 The Nottingham New Theatre is happy to announce that we intend to put a show on stage this semester!
 
@@ -31,15 +31,14 @@ This process will be challenging yet worthwhile, to attempt to bring back the sp
 
 We are extremely excited to bring back theatre to where it belongs; the stage.
 
-If you have any questions, don’t hesitate to email productions@newtheatre.org.uk
+If you have any questions, don’t hesitate to email [productions@newtheatre.org.uk](mailto:productions@newtheatre.org.uk)
 
 {% include resource_card.html group="Autumn-Inhouse" columns=2 %}
 
 {% include button.html text="Email completed forms to productions@newtheatre.org.uk" link="mailto:productions@newtheatre.org.uk" colour="orange" wide="True" %}
 
-<hr>
 
-### Online Season
+## Online Season
 
 One of the Nottingham New Theatre's seasons that we will be running is a continuation of the very successful Summer Quarantine Season.
 
@@ -47,7 +46,7 @@ This is the online creation of virtual theatre which will be posted on the NNT Y
 
 This process has the potential to be incredibly rewarding, not only for the actors involved, but also for aspiring writers, the imaginative video designers and editors, and the inquisitive members who want to learn new skills.
 
-If you have any questions at all please feel free to email Jack Titley, Fringe Season Coordinator ‘[fringe@newtheatre.org.uk](mailto:fringe@newtheatre.org.uk)’
+If you have any questions at all please feel free to email Jack Titley, Fringe Season Coordinator [fringe@newtheatre.org.uk](mailto:fringe@newtheatre.org.uk)
 
 The shows will be announced here and on our social media in the coming weeks, so keep your eye out for those.
 
@@ -59,6 +58,4 @@ More information will follow regarding how to get involved in other aspects of t
 
 {% include resource_card.html group="Autumn-Online" columns=2 %}
 
-{% include button.html text="Email completed forms to [fringe@newtheatre.org.uk](mailto:fringe@newtheatre.org.uk)" link="mailto:fringe@newtheatre.org.uk" colour="orange" wide="True" %}
-
-<hr>
+{% include button.html text="Email completed forms to fringe@newtheatre.org.uk" link="mailto:fringe@newtheatre.org.uk" colour="orange" wide="True" %}

@@ -2,7 +2,7 @@
 layout: default 
 --- 
 <!-- For additional content before the shows list --> 
-{{ content }}
+{{ content | markdownify }}
 
 {% if page.mini_list %}
   <div id="mini_list" class="row">
