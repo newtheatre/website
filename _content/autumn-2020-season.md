@@ -9,9 +9,9 @@ banner_image: ''
 mini_list: false
 
 ---
-### The Nottingham New Theatre will be showcasing an Online and In-House season this Autumn
+### The Nottingham New Theatre will be showcasing an Online Season this Autumn
 
-There will be two distinct seasons this Autumn, one running entirely online (similar to the quarantine season) and one running In-House at the Theatre. More details of how each season will work and how to get involved in proposing shows for either season are below.
+This Autumn The NNT is running an entirely online (similar to the quarantine season). More details of how the season will work and how to get involved in proposing shows are below.
 
 <hr>
 
@@ -19,28 +19,9 @@ There will be two distinct seasons this Autumn, one running entirely online (sim
 
 <hr>
 
-# Resources
-
-## In-House
-
-The Nottingham New Theatre is happy to announce that we intend to put a show on stage this semester!
-
-Following the rule of six, we are looking to create a couple of shows that can be done within social distancing guidelines, to then be filmed and uploaded to the NNT YouTube channel in the style of _National Theatre Live_.
-
-This process will be challenging yet worthwhile, to attempt to bring back the spirit of theatre to our stage. It also allows us to expand on opportunities offered during the Quarantine Season, such as editing and video designing.
-
-We are extremely excited to bring back theatre to where it belongs; the stage.
-
-If you have any questions, don’t hesitate to email [productions@newtheatre.org.uk](mailto:productions@newtheatre.org.uk)
-
-{% include resource_card.html group="Autumn-Inhouse" columns=2 %}
-
-{% include button.html text="Email completed forms to productions@newtheatre.org.uk" link="mailto:productions@newtheatre.org.uk" colour="orange" wide="True" %}
-
-
 ## Online Season
 
-One of the Nottingham New Theatre's seasons that we will be running is a continuation of the very successful Summer Quarantine Season.
+The Nottingham New Theatre is creating an Online Season.
 
 This is the online creation of virtual theatre which will be posted on the NNT YouTube channel and shared across our platforms for all to watch. We do this with the ambition to have theatre being made all through the term regardless of possible future further restrictions, due to the Coronavirus Pandemic.
 
