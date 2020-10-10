@@ -7,7 +7,6 @@ permalink: "/autumn2020/"
 redirect_from: []
 banner_image: ''
 mini_list: false
-published: false
 
 ---
 ### The Nottingham New Theatre will be showcasing an Online Season this Autumn
