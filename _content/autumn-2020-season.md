@@ -7,15 +7,12 @@ permalink: "/autumn2020/"
 redirect_from: []
 banner_image: ''
 mini_list: false
+published: false
 
 ---
 ### The Nottingham New Theatre will be showcasing an Online Season this Autumn
 
 This Autumn The NNT is running an entirely Online Season (similar to the Quarantine Season). More details of how the season will work and how to get involved in proposing shows are below.
-
-<hr>
-
-#### The shows will be announced here and on our social media in the coming weeks, so keep your eye out for those.
 
 <hr>
 
