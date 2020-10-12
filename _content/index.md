@@ -5,12 +5,12 @@ permalink: "/"
 redirect_from: "/whats-on/"
 layout: whats-on
 shows_url: "/api/shows"
-banner: false
+banner: true
 banner_image: whats-on.jpg
 banner_text: 
 
 ---
-# Reopening Announcement <small>(Updated 5th October, 2020)</small>
+# Reopening Announcement <small>(Updated 12th October, 2020)</small>
 
 With the start of a new university year comes the start of a new exciting term of Theatre here at the NNT.
 

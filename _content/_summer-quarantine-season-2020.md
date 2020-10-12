@@ -7,6 +7,7 @@ permalink: "/quarantine/"
 redirect_from: []
 banner_image: ''
 mini_list: false
+published: false
 
 ---
 
