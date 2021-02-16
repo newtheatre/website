@@ -18,8 +18,8 @@
 			<div class="col-lg-4 order-1 order-lg-2 col mb-4">
 				<div class="card">
 					<div class="card-header bg-primary"><strong>Production Team</strong>:</div>
-					<div class="card-body py-1">
-						<dl>
+					<div class="card-body py-2">
+						<dl class="mb-0">
 							{% for team in show.team %}
 								{% for team_member in team %}
 									<dd>{{ team_member[0] }}: {{ team_member[1] }}</dd>
@@ -31,7 +31,7 @@
 				{% if show.crew_roles %}
 					<div class="card border-nnt-orange mt-4">
 						<div class="card-header bg-secondary text-dark "><strong>Crew Needed:</strong></div>
-						<div class="card-body py-1">
+						<div class="card-body py-2">
 							{{ show.crew_roles | markdownify }}
 							<p><em>Speak to the relevant [backstage committee member](/about/#committee) for more information.</em></p>
 						</div>
