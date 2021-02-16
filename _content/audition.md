@@ -38,7 +38,7 @@ shows:
 
 --- 
 
-{% assign the_shows = page.shows | order_by: start_date | reverse %}
+{% assign the_shows = page.shows | sort: "start_date" %}
 
 <h3 class="text-center h1">Deadline for all auditions: {{ page.deadline | date_to_long_string: "ordinal" }} at {{ page.deadline | date: "%H:%M" }}</h3>
 
