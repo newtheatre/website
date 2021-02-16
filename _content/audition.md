@@ -1,6 +1,6 @@
 ---
 title: Audition for a Show
-permalink: /audition
+permalink: "/audition/"
 layout: default
 banner_text: Audition for a Show
 deadline: 2021-02-19 13:00
