@@ -33,7 +33,7 @@
 						<div class="card-header bg-secondary text-dark "><strong>Crew Needed:</strong></div>
 						<div class="card-body py-2">
 							{{ show.crew_roles | markdownify }}
-							<p><em>Speak to the relevant [backstage committee member](/about/#committee) for more information.</em></p>
+							<p><em>Speak to the relevant <a href="/about/#committee">backstage committee member</a> for more information.</em></p>
 						</div>
 					</div>
 				{% endif %}
@@ -47,10 +47,10 @@
 				{% if show.audition_link %}
 					<p><strong>Step 1: </strong><a href="{{ show.audition_link }}">Download the audition texts</a> and record yourself performing <strong>at most 2</strong> of them. They don't need to be learned but you should be familiar with them. Then:</p>
 				{% else %}
-					<p>Contact {% include committee.html role="inhouse" format="inline" %} to get hold of the audition extracts for you.</p>
+					<p><strong>Step 1: </strong>Contact {% include committee.html role="inhouse" format="inline" %} to get hold of the audition extracts for you.</p>
 				{% endif %}
 				{% if show.submission_form or show.contact_email %}
-					<dl><strong>Step 2</strong>
+					<dl><strong>Step 2:</strong>
 						{% if show.submission_form %}
 							<dd>Fill in <a href="{{ show.submission_form }}">this form</a> and upload your recording to it</dd>
 						{% endif %}

@@ -3,7 +3,7 @@ title: Audition for a Show
 permalink: "/audition/"
 layout: default
 banner_text: Audition for a Show
-deadline: 2021-02-19 13:00
+deadline: 2021-02-19 17:00
 shows:
   - title: "Self-ish"
     playwright: Cecilia Alexander and Caetano Capurro 
@@ -25,16 +25,23 @@ shows:
 
         Aesthetic: 90s sitcom mixed with cheesy Brady Bunch vibe
   - title: "Twenty Twenty One"
-    playwright: "Unknown"
+    playwright: "Charlotte Cox"
     team:
-      - Director: Someone I guess 
-    start_date: 2021-05-01
-    synopsis: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      - Director: Kishan Ganatra and Jasmine Butler
+      - Producer: Melina Williams
+    start_date: 2021-05-05
+    content_warnings: "Missing/dead persons, strong language, threatening/distressing themes"
+    submission_form: #
+    audition_link: # 
+    contact_email: digital-slot6@newtheatre.org.uk 
+    crew_roles: "Shadow/Assistant Director/Producer; Video Editor, Sound Designer"
+    performance_roles: 4GN (Alex Bradbury, tech company spokesperson, Government official (anonymous), news reporter )
+    synopsis: |
+        Do you trust the government to tell you everything? Do you feel as though you are being watched, even in the comfort of your own home? 
+
+        Dystopias concerned themselves with the future, and we are that future. Watch Alex Bradbury tackle modern-day privacy issues in his latest episode of 'Brave New World', as he uncovers the truth about yet another exposed corporate lie. NDAs and Confidentiality Clauses can only hide the truth to an extent, and as Alex ventures deeper into the issue of the new TJE phone update, they discover that all is not as discussed in the media, nor released to the public. What has been framed to be a step forward in personal security and privacy measures for all Iphone users, reveals a far more suspicious story concerning contracted data protection leaks in collusion with the government. 
+
+        Like, subscribe and attend for updates on this ground-breaking story.
 
 --- 
 
