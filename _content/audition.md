@@ -37,7 +37,7 @@ shows:
     audition_link: "https://docs.google.com/document/d/1i7tvhDo9NWBy0PuUAelp81jpQETGPoTH6lC5XXNuahM/edit?usp=sharing"
     contact_email: digital-slot6@newtheatre.org.uk 
     crew_roles: "Shadow/Assistant Director/Producer; Creative Assistant; Video Editor, Sound Designer; Publicity Assistant; Poster Designer"
-    performance_roles: 4GN (Alex Bradbury, tech company spokesperson, Government official (anonymous), news reporter)
+    performance_roles: 4GN (Alex Bradbury; tech company spokesperson; Government official (anonymous); news reporter)
     synopsis: |
         Do you trust the government to tell you everything? Do you feel as though you are being watched, even in the comfort of your own home? 
 
