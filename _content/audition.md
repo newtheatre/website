@@ -13,7 +13,7 @@ shows:
     start_date: 2021-03-24
     content_warnings: "Strong language throughout, sexual references, explores some sensitive topics such as loneliness and anxiety through a break up"
     contact_email: "digital-slot3@newtheatre.org.uk"
-    submission_form: "https://forms.google.com/"
+    submission_form: "https://forms.gle/aCmng7SA2DvtBmVr6"
     audition_link: "https://google.co.uk/"
     performance_roles: "8 GN roles: 
         Main Character, Happiness, Anger, Sadness, Nervousness, Envy, Love, Multi-role (Lust, Fatigue and others to be decided)"
@@ -31,7 +31,7 @@ shows:
       - Producer: Melina Williams
     start_date: 2021-05-05
     content_warnings: "Missing/dead persons, strong language, threatening/distressing themes"
-    submission_form: #
+    submission_form: "https://forms.gle/PJuUyZHf1UbEqm3T9"
     audition_link: # 
     contact_email: digital-slot6@newtheatre.org.uk 
     crew_roles: "Shadow/Assistant Director/Producer; Video Editor, Sound Designer"
