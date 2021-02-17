@@ -20,7 +20,7 @@ banner_image: get-involved.jpg
 
 {% include date.html date="launch" %}
 
-If you can't make a Season Launch, don't fret - email {% include committee.html role="secretary" format="inline" %}, and you'll get up to speed.
+This season's launch was online, check it out on our Facebook page!
 
 For all the latest updates, please do sign up to our [mailing list](/mailinglist/)!
 
