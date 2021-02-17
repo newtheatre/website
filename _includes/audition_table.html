@@ -1,0 +1,70 @@
+{% for show in include.shows %}
+<div class="card w-100 mb-4">
+	<div class="card-header bg-primary">
+		<h1 id="{{ show.title | slugify }}"><strong><em>{{ show.title }}</em>{% if show.playwright %} by {{ show.playwright }}{% endif %}</strong><br><small>{{ show.start_date | date_to_long_string: "ordinal" }}{% if show.end_date %}-{{ show.end_date | date_to_long_string: "ordinal" }}{% endif %}</small></h1>
+	</div>
+	<div class="card-body">
+		<div class="row">
+			<div class="col-lg-8 order-2 order-lg-1 col-12">
+				{{ show.synopsis | markdownify }}
+				{% if show.content_warnings %}
+					<strong>Content Warnings: {{ show.content_warnings | markdownify }}</strong>
+				{% endif %}
+				{% if show.performance_roles %}
+					<h2>Performance Roles:</h2>
+					{{ show.performance_roles }}
+				{% endif %}
+			</div>
+			<div class="col-lg-4 order-1 order-lg-2 col mb-4">
+				<div class="card">
+					<div class="card-header bg-primary"><strong>Production Team</strong>:</div>
+					<div class="card-body py-2">
+						<dl class="mb-0">
+							{% for team in show.team %}
+								{% for team_member in team %}
+									<dd>{{ team_member[0] }}: {{ team_member[1] }}</dd>
+								{% endfor %}
+							{% endfor %}
+						</dl>
+					</div>
+				</div>
+				{% if show.crew_roles %}
+					<div class="card border-nnt-orange mt-4">
+						<div class="card-header bg-secondary text-dark "><strong>Crew Needed:</strong></div>
+						<div class="card-body py-2">
+							{{ show.crew_roles | markdownify }}
+							<p><em>Speak to the relevant <a href="/about/#committee">backstage committee member</a> for more information.</em></p>
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+	<div class="card-footer">
+		<div class="row">
+			<div class="col-md-8 offset-md-2 col-12 text-center">
+				<h3><strong>Audition for <em>{{ show.title }}</em></strong></h3>
+				{% if show.audition_link %}
+					<p><strong>Step 1: </strong><a href="{{ show.audition_link }}">Download the audition texts</a> and record yourself performing <strong>at most 2</strong> of them. They don't need to be learned but you should be familiar with them. Then:</p>
+				{% else %}
+					<p><strong>Step 1: </strong>Contact {% include committee.html role="inhouse" format="inline" %} to get hold of the audition extracts for you.</p>
+				{% endif %}
+				{% if show.submission_form or show.contact_email %}
+					<dl><strong>Step 2:</strong>
+						{% if show.submission_form %}
+							<dd>Fill in <a href="{{ show.submission_form }}">this form</a> and upload your recording to it</dd>
+						{% endif %}
+						{% if show.submission_form and show.contact_email %}<em>OR</em>{% endif %}
+						{% if show.contact_email %}
+							<dd>Email <a href="mailto:{{ show.contact_email }}">{{ show.contact_email }}</a> with your name, email and phone number, and either attached the audition or upload to Google Drive (or similar) and send the link.</dd>
+						{% endif %}
+					</dl>
+				{% else %}
+					<dd>Email {% include committee.html role="inhouse" format="inline" %} with your name, email and phone number, and either attached the audition or upload to Google Drive (or similar) and send the link.</dd>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endfor %}
