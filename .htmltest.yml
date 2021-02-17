@@ -1,11 +1,15 @@
 DirectoryPath: _site
 CheckDoctype: false
+EnforceHTML5: true 
+EnfroceHTTPS: true 
 IgnoreURLs:
-- "newtheatre.org.uk"
-- "alpha.newtheatre.org.uk"
-- "history.newtheatre.org.uk"
-- "photos.smugmug.com"
-- "photos.newtheatre.org.uk"
+# CHECK: Feel like we do in fact want to check NT links...?
+# - "newtheatre.org.uk"
+# - "alpha.newtheatre.org.uk"
+# - "history.newtheatre.org.uk"
+# - "photos.smugmug.com"
+# - "photos.newtheatre.org.uk"
+- "twitter.com/thenewtheatre"
 - "newtheatre.us3.list-manage.com"
 IgnoreDirs:
 - "^lib"
