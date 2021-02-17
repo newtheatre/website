@@ -10,13 +10,11 @@ banner_image: whats-on.jpg
 banner_text: 
 
 ---
-# Reopening Announcement <small>(Updated 12th October, 2020)</small>
+# Digital Season Spring 2021
 
-With the start of a new university year comes the start of a new exciting term of Theatre here at the NNT.
+With the start of a new university year comes the start of a new exciting term of theatre here at the NNT.
 
-The committee have carefully built a season that we think offers brilliant opportunities for getting involved in our Theatre, whilst also keeping the safety of our membership as our highest priority during the COVID-19 pandemic.
-
-Details on the Online Season can be found on the [Autumn Season Page](/autumn2020/ "Autumn Season Page").
+**You can look how to get involved in the upcoming digital season on our [audition page](/audition).**
 
 This year is a fantastic opportunity for our membership to get creative with their shows and we hope that our many talented writers feel inspired to produce some really unique pieces of online theatre.
 
