@@ -14,7 +14,7 @@ banner_text:
 
 With the start of a new university year comes the start of a new exciting term of theatre here at the NNT.
 
-**You can look how to get involved in the upcoming digital season on our [audition page](/audition).**
+**You can look how to get involved in the upcoming digital season on our [audition page](/audition/).**
 
 This year is a fantastic opportunity for our membership to get creative with their shows and we hope that our many talented writers feel inspired to produce some really unique pieces of online theatre.
 
