@@ -77,7 +77,7 @@ Callbacks will be conducted in 30 minute slots via Zoom (videoconferencing servi
 
 On {% include date.html date="casting-2021" %} a casting meeting will take place. 
 
-We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. We will be posting on our [Facebook page]({{ site.facebook }}) throughout the day to keep you up to date with progress.
+We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. We will be posting on our [Facebook page](https://facebook.com/{{ site.facebook }}) throughout the day to keep you up to date with progress.
 
 This is a lengthy process so please stay by your phone all day. If a team wants to cast you, you will receive a phone call. If you do not answer we will keep trying to contact you, but after 15 minutes will need to move on. If you do not answer within that grace period, you may miss your opportunity to be cast.
 
