@@ -1,5 +1,5 @@
 ---
 title: Direct
-redirect_from: /get-involved/direct
+permalink: /get-involved/direct
 redirect_to: /get-involved/#directing
 ---

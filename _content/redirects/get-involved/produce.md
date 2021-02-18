@@ -1,6 +1,6 @@
 ---
 title: Produce
-redirect_from: /get-involved/produce
+permalink: /get-involved/produce
 redirect_to: /get-involved/#producing
 ---
 

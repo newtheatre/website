@@ -1,5 +1,5 @@
 ---
 title: Tech
-redirect_from: /get-involved/tech
+permalink: /get-involved/tech
 redirect_to: /get-involved/#tech
 ---

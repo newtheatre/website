@@ -1,6 +1,6 @@
 ---
 title: festival
-redirect_from: "/festival"
+permalink: "/festival"
 redirect_to: https://nt-festival.herokuapp.com/
 
 ---
