@@ -1,0 +1,16 @@
+---
+layout: default 
+---
+
+{% assign the_shows = page.shows | sort: "start_date" %}
+
+<h3 class="text-center h1">Deadline for all auditions: {% include date.html date="audition-deadline" %}</h3>
+
+We have {{ the_shows.size }} shows this season:
+<ul>
+{% for show in the_shows %}
+<li><a href="#{{ show.title | slugify }}">{{ show.title }} ({{ show.start_date | date_to_long_string: "ordinal" }}{% if show.end_date %}-{{ show.end_date | date_to_long_string: "ordinal" }}{% endif %})</a></li>
+{% endfor %}
+</ul>
+
+{{ content }}

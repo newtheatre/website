@@ -1,9 +1,8 @@
 ---
 title: Audition for a Show
 permalink: "/audition/"
-layout: default
+layout: audition
 banner_text: Audition for a Show
-deadline: 2021-02-19 17:00
 shows:
   - title: "Self-ish"
     playwright: Cecilia Alexander and Caetano Capurro 
@@ -46,17 +45,7 @@ shows:
         Like, subscribe and attend for updates on this ground-breaking story.
 
 --- 
-
 {% assign the_shows = page.shows | sort: "start_date" %}
-
-<h3 class="text-center h1">Deadline for all auditions: {{ page.deadline | date_to_long_string: "ordinal" }} at {{ page.deadline | date: "%H:%M" }}</h3>
-
-We have {{ the_shows.size }} shows this season:
-<ul>
-{% for show in the_shows %}
-<li><a href="#{{ show.title | slugify }}">{{ show.title }} ({{ show.start_date | date_to_long_string: "ordinal" }}{% if show.end_date %}-{{ show.end_date | date_to_long_string: "ordinal" }}{% endif %})</a></li>
-{% endfor %}
-</ul>
 
 Scroll through to read all about them, and learn how to audition. If you're having any trouble or need any questions answering, please email {% include committee.html role="inhouse" format="inline" %} or {% include committee.html role="fringe" format="inline" %}.
 
