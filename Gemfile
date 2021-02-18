@@ -13,3 +13,4 @@ gem 'html-proofer', '~>2.6'
 gem 'httparty'
 
 gem 'bootstrap'
+gem 'execjs'
