@@ -290,7 +290,7 @@ Stage managing is a great way to get involved in the backstage areas of the thea
 
 If you're interested in being a stage manager, please get in touch with {% include committee.html role="csm" format="inline" %}, or join our [backstage Facebook group](https://www.facebook.com/groups/218639774895331).
 
-</div></div>
+</div></div> 
 
 # Tech
 
@@ -385,7 +385,7 @@ This is a great place to start out in tech and full training is provided. Sign u
 
 There is **no experience necessary** to be part of the tech team, just enthusiasm and a will to learn. If you think this sounds like something you want to do, or you'd like some training, contact {% include committee.html role="tech" format="inline" %}.
 
-We also have an active [Tech Facebook Group](http://facebook.com/groups/nnt.tech) where all any opportunities or announcements are made.
+We also have an active [Tech Facebook Group](http://facebook.com/groups/nnt.tech) where any opportunities or announcements are made. 
 
 </div></div>
 
