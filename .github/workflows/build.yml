@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - master 
+  pull_request:
+    branches:
+      - master 
 
 jobs: 
   build:
@@ -29,6 +32,8 @@ jobs:
         run: bundle config path vendor/bundle
       - name: Install Ruby gems
         run: bundle install --jobs 4 --retry 3 --deployment
+      - name: Install node 
+        run: npm install 
 
       ### BUILD ###
       - name: Build Jekyll 
@@ -58,3 +63,5 @@ jobs:
           GIT_CONFIG_NAME: ntbot
           GIT_CONFIG_EMAIL: webmaster@newtheatre.org.uk
 
+      ### SUCCESS ### 
+      ## TODO: Can we add Telegram notifiers here? 
