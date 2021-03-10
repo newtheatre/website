@@ -51,7 +51,7 @@ jobs:
       ### DEPLOY ###
       - name: Publish to GH Pages 🚀
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
-        uses: JamesIves/github-pages-deploy-action@4.0.0
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           REPOSITORY_NAME: newtheatre/website-gh-pages-master
           GITHUB_TOKEN: ${{ secrets.DEPLOY_PAT }}
