@@ -61,7 +61,7 @@ prose:
   ignore:
     - .bowerrc
     - .gitignore
-    - .travis.yml
+    - .github
     - _bin
     - _coffee
     - _config.yml

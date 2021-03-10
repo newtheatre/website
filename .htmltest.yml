@@ -12,6 +12,4 @@ IgnoreURLs:
 - "twitter.com/thenewtheatre"
 - "instagram.com/nottinghamnewtheatre"
 - "newtheatre.us3.list-manage.com"
-IgnoreDirs:
-- "^lib"
 

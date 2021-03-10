@@ -1,0 +1,65 @@
+name: Build to GitHub pages
+on:
+  push:
+    branches:
+      - master 
+  pull_request:
+    branches:
+      - master 
+
+jobs: 
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      ### PREP ###
+      - name: Checkout repo
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false # needed for JamesIves/github-pages-deploy-action
+
+      ### RUBY ###
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6.3
+      - name: Cache Ruby gems
+        id: cache-gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-1-${{ hashFiles('Gemfile.lock') }}
+      - name: Set Ruby gems directory
+        run: bundle config path vendor/bundle
+      - name: Install Ruby gems
+        run: bundle install --jobs 4 --retry 3 --deployment
+
+      ### BUILD ###
+      - name: Build Jekyll 
+        run: bundle exec rake build 
+
+      ### TEST ###
+      - name: Cache htmltest files
+        uses: actions/cache@v2
+        with:
+          path: tmp/htmltest
+          key: htmltest-1
+      - name: Test built site with htmltest
+        uses: wjdp/htmltest-action@v0.13.0-rc1 
+        with:
+          config: .htmltest.yml 
+
+      ### DEPLOY ###
+      - name: Publish to GH Pages 🚀
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          REPOSITORY_NAME: newtheatre/website-gh-pages-master
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_PAT }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: _site # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
+          GIT_CONFIG_NAME: ntbot
+          GIT_CONFIG_EMAIL: webmaster@newtheatre.org.uk
+
+      ### SUCCESS ### 
+      ## TODO: Can we add Telegram notifiers here? 
