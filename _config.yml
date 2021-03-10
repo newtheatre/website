@@ -48,7 +48,7 @@ lib:
 collections:
   content:
     output: true
-    permalink: :path/
+    permalink: /:path/
 
 defaults:
   # Defaults for pages
