@@ -21,6 +21,7 @@ plugins:
 - jekyll-redirect-from
 - jekyll-coffeescript
 - jekyll-jsminify
+- jekyll-github-metadata
 
 exclude:
 - bower.json
