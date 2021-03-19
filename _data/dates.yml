@@ -1,4 +1,16 @@
 ---
+- alias: ef-casting
+  name: EdFringe Casting
+  date: 9th April, 2020
+- alias: ef-auditions-callbacks
+  name: EdFringe Callbacks
+  date: 8th April, 2020
+- alias: ef-auditions
+  name: 'EdFringe Auditions '
+  date: 6th - 7th April, 2020
+- alias: 'ef-proposals-deadline '
+  name: EdFringe Proposals Deadline
+  date: '28th April, 2020 '
 - alias: ih-proposal-deadline
   name: In House Proposal Deadline
   date: 29th January, 2020
@@ -89,8 +101,8 @@
   name: Callbacks Announcement for Spring 2021
   date: Friday 19th February
 - alias: callbacks-day-2021
-  name: Callbacks for Spring 2021 
-  date: Saturday 20th February 
+  name: Callbacks for Spring 2021
+  date: Saturday 20th February
 - alias: casting-2021
-  name: Casting for Spring 2021 
-  date: Sunday 21st February 
+  name: Casting for Spring 2021
+  date: Sunday 21st February
