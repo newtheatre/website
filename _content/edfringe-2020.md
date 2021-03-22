@@ -16,7 +16,7 @@ We take two shows up to the Edinburgh Fringe Festival who take turns to perform 
 
 > The festival is currently planning to go ahead as usual and thus this is our approach too.
 
-## Proposals 
+## Proposals
 
 With the ever changing nature of government restrictions and COVID-19 itself, we cannot guarantee that things will go ahead as planned. **By proposing you are accepting this risk.** We guarantee that you will not be negatively impacted in any financial capacity. It is unclear which restrictions we may need to follow during a real life performance. **Currently the most likely option is an outside performance.** The venue director will advise us on the safest way to perform and we will need to make the necessary adjustments. We ask for **flexibility and adaptability** in all proposing teams. We want the chosen shows to have the best chance at going ahead regardless of changing restrictions.
 
@@ -42,13 +42,13 @@ The deadline for self-tapes is **Friday 7th at 4pm**, any tapes sent after this 
 
 In your email you must include:
 
-* Your availability for callbacks on {% include date.html date="" %}
+* Your availability for callbacks on {% include date.html date="ef-auditions-callbacks" %}
 * Your phone number and your availability to be called on Sunday 9th. If you do not give us your phone number we will not be able to cast you as we conduct casting by calling actors throughout the day (09/05). We recommend that you use a site called WeTransfer to condense your video file if it is too large to send across email.
 
 If you are experiencing any difficulties do not hesitate to contact {% include committee.html role="external" format="inline" %}.
 
 ### Callbacks
 
-### Casting 
+### Casting
 
-Production Team 
+Production Team
