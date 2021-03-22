@@ -63,7 +63,7 @@ On {% include date.html date="ef-casting" %} a casting meeting will take place. 
 
 For each show going to Edinburgh, there are three compulsory roles: **Publicity Manager**, **Technical Stage Manager**, and **Show Assistant**. These individuals will travel up to Edinburgh with the cast, director and producer. The specifics of the show assistant role will be confirmed once the shows have been selected. This may take the form of an assistant director, production assistant or a combination.
 
-The team can also include a **Lighting Designer** and a **Sound Designer**. These roles will be Nottingham based, to help prep the show for StuFF and tidying up technical aspects before Edinburgh, where the Technical Manager will take over.
+The team can also include a **Lighting Designer** and a **Sound Designer**. These roles will be Nottingham based, to help prep the show for [StuFF](https://newtheatre.org.uk/stuff/) and tidying up technical aspects before Edinburgh, where the Technical Manager will take over.
 
 ![](/static/ofc-2.jpg)
 
