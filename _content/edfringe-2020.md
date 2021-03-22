@@ -18,7 +18,7 @@ We take two shows up to the Edinburgh Fringe Festival who take turns to perform 
 
 ## Proposals
 
-> Deadline for Proposals: {% include date.html date="ef-proposals-deadline" %}
+> Deadline for Proposals: 28th April 2021
 
 With the ever changing nature of government restrictions and COVID-19 itself, we cannot guarantee that things will go ahead as planned. **By proposing you are accepting this risk.** We guarantee that you will not be negatively impacted in any financial capacity. It is unclear which restrictions we may need to follow during a real life performance. **Currently the most likely option is an outside performance.** The venue director will advise us on the safest way to perform and we will need to make the necessary adjustments. We ask for **flexibility and adaptability** in all proposing teams. We want the chosen shows to have the best chance at going ahead regardless of changing restrictions.
 
@@ -46,8 +46,8 @@ The deadline for self-tapes is **Friday 7th May at 4pm**, any tapes sent after t
 
 In your email you must include:
 
-* Your availability for callbacks on {% include date.html date="ef-auditions-callbacks" %}
-* Your phone number and your availability to be called on {% include date.html date="ef-casting" %}. If you do not give us your phone number we will not be able to cast you as we conduct casting by calling actors throughout the day.
+* Your availability for callbacks on Saturday 8th May
+* Your phone number and your availability to be called on Sunday 9th May. If you do not give us your phone number we will not be able to cast you as we conduct casting by calling actors throughout the day.
 
 If you are experiencing any difficulties do not hesitate to contact {% include committee.html role="external" format="inline" %}.
 
@@ -57,7 +57,7 @@ On Friday (07/05) night a callbacks list will be released onto the [NNT Facebook
 
 ### Casting
 
-On {% include date.html date="ef-casting" %} a casting meeting will take place. We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. You can check the progression of the day on the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre). This is a lengthy process so **please stay by your phone all day.** If a team wants to cast you, you will receive a phone call. If you do not answer we will keep trying to contact you, but after 15 minutes will need to move on. You may be offered multiple parts so please take time after auditions / callbacks to consider which shows you would prefer to be in.
+On Sunday 9th May a casting meeting will take place. We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. You can check the progression of the day on the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre). This is a lengthy process so **please stay by your phone all day.** If a team wants to cast you, you will receive a phone call. If you do not answer we will keep trying to contact you, but after 15 minutes will need to move on. You may be offered multiple parts so please take time after auditions / callbacks to consider which shows you would prefer to be in.
 
 ## Production Team
 
