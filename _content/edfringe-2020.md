@@ -73,7 +73,7 @@ Applications will open on Friday 7th May. If you are interested you should submi
 * Technical roles - {% include committee.html role="techmanager" format="inline" %} & {% include committee.html role="tech" format="inline" %}
 * Show assistant - {% include committee.html role="external" format="inline" %}
 
-## Getting Involved
+## The Process
 
 This pack details how the EdFringe process works and should answer any questions you have. Please contact {% include committee.html role="external" format="inline" %} if there is anything else you want to know.
 
