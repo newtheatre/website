@@ -30,7 +30,7 @@ If you have any questions please get in touch with {% include committee.html rol
 
 {% include button.html text="Proposals Form" link="/static/edfringe-proposals-form-2021.docx" filetype= "word" %}
 
-## Auditions
+## Acting
 
 ### Auditions
 
