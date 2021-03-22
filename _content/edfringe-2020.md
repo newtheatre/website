@@ -7,7 +7,6 @@ permalink: "/edfringe/"
 redirect_from: []
 banner_image: "/static/dyk.jpg"
 mini_list: false
-published: false
 
 ---
 # How to Get Involved
