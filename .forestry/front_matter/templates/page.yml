@@ -13,7 +13,8 @@ fields:
   name: permalink
   label: permalink
   description: The link to this page (default is page title, lowercase with spaces
-    replaced with dashes)
+    replaced with dashes)<br><strong>Add a / before and after, eg '/about/' rather
+    than simply 'about'</strong>
 - type: list
   name: redirect_from
   label: Redirect From...
