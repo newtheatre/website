@@ -18,6 +18,12 @@ We will be taking **two shows** up to the Edinburgh Fringe Festival this year. W
 
 The festival is currently planning to go ahead as usual and thus this is our approach too. With the ever changing nature of government restrictions and COVID-19 itself, we cannot guarantee that things will go ahead as planned. **By proposing you are accepting this risk.** We guarantee that you will not be negatively impacted in any financial capacity. It is unclear which restrictions we may need to follow during a real life performance. **Currently the most likely option is an outside performance.** The venue director will advise us on the safest way to perform and we will need to make the necessary adjustments. We ask for **flexibility and adaptability** in all proposing teams. We want the chosen shows to have the best chance at going ahead regardless of changing restrictions.
 
-All the information you need in order to propose a show can be found in the Proposals Pack.
+If you have any questions please get in touch with {% include committee.html role="erm" format="inline" %}
 
-If you have any questions please get in touch with {% include committee.html role="externalcoordinator" format="inline" %}
+### Proposals Pack
+
+[edfringe-proposal-pack-2021.pdf](/static/edfringe-proposal-pack-2021.pdf "edfringe-proposal-pack-2021.pdf")
+
+### Proposals Form
+
+[edfringe-proposals-form-2021.docx](/static/edfringe-proposals-form-2021.docx "edfringe-proposals-form-2021.docx")
