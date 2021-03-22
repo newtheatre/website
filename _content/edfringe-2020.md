@@ -10,7 +10,7 @@ mini_list: false
 published: false
 
 ---
-## How to Get Involved 
+# How to Get Involved 
 
 We take two shows up to the Edinburgh Fringe Festival who take turns to perform in our allocated slot each evening (5:20pm - 6:20pm). We are performing in [Thespace venue: Perth Theatre.](https://www.thespaceuk.com/venue-specifications/thespace-on-north-bridge-perth/ "TheSpace venue: Perth Theatre")
 
@@ -18,7 +18,7 @@ We take two shows up to the Edinburgh Fringe Festival who take turns to perform 
 
 ## Proposals
 
-Deadline for Proposals: {% include date.html date="ef-proposals-deadline" %}
+> Deadline for Proposals: {% include date.html date="ef-proposals-deadline" %}
 
 With the ever changing nature of government restrictions and COVID-19 itself, we cannot guarantee that things will go ahead as planned. **By proposing you are accepting this risk.** We guarantee that you will not be negatively impacted in any financial capacity. It is unclear which restrictions we may need to follow during a real life performance. **Currently the most likely option is an outside performance.** The venue director will advise us on the safest way to perform and we will need to make the necessary adjustments. We ask for **flexibility and adaptability** in all proposing teams. We want the chosen shows to have the best chance at going ahead regardless of changing restrictions.
 
