@@ -3,7 +3,7 @@ banner_text: Getting Involved with EdFringe
 layout: default
 show_url: "/api/shows"
 title: 'EdFringe 2020 '
-permalink: edfringepage
+permalink: /edfringe/
 redirect_from: []
 banner_image: "/static/images/banner/whats-on.jpg"
 mini_list: false
