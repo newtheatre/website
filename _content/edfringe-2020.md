@@ -7,6 +7,7 @@ permalink: "/edfringe/"
 redirect_from: []
 banner_image: "/static/images/banner/whats-on.jpg"
 mini_list: false
+published: false
 
 ---
 # Deadline for Proposals: {% include date.html date="ef-proposals-deadline" %}
