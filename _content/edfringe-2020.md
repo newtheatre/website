@@ -10,7 +10,7 @@ mini_list: false
 published: false
 
 ---
-# How to Get Involved 
+# How to Get Involved
 
 We take two shows up to the Edinburgh Fringe Festival who take turns to perform in our allocated slot each evening (5:20pm - 6:20pm). We are performing in [Thespace venue: Perth Theatre.](https://www.thespaceuk.com/venue-specifications/thespace-on-north-bridge-perth/ "TheSpace venue: Perth Theatre")
 
