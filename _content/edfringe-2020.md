@@ -34,9 +34,9 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ### Auditions
 
-Auditions will be carried out using self-tapes. You can do a maximum of two self-tapes for each show, any more than this will not be considered by the production team. You can audition for both shows.
+Auditions will be carried out using self-tapes. You can do a maximum of two self-tapes for each show, any more than this will not be considered by the production team. You can audition for both shows. 
 
-A google drive folder containing audition extracts, character descriptions and content warnings for each show will be released on Thursday 6th May via the NNT members page. **_Please read all content warnings for each show before any extracts._** If you are uncomfortable with any aspect of the show you do not need to audition. If you have any questions about content warnings please contact the production team, our Welfare Officer Alice or Edinburgh Coordinator Caitie.
+Audition extracts, character descriptions and content warnings for each show will be released on Thursday morning via the [NNT members page](https://www.facebook.com/groups/2747053805538161 "NNT members page"). **Please read all content warnings for each show before any extracts.** If you are uncomfortable with any aspect of the show you do not need to audition. If you have any questions about content warnings please contact the production team, {% include committee.html role="welfare" format="inline" %} or {% include committee.html role="external" format="inline" %}. 
 
 The deadline for self-tapes is **Friday 7th at 4pm**, any tapes sent after this will not be considered. Please be considerate towards our production teams and do not wait until the last minute to send your videos. The videos you send will not be used for any other purpose than that of casting and will not be distributed further than each production team. In your video please clearly state your name and the part you are auditioning for.
 
