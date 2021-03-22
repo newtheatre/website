@@ -22,10 +22,10 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ### Proposals Pack
 
-[edfringe-proposal-pack-2021.pdf](/static/edfringe-proposal-pack-2021.pdf "edfringe-proposal-pack-2021.pdf")
-
 {% include button.html text="Proposals Pack" link="/static/edfringe-proposal-pack-2021.pdf" filetype= "pdf" %}
 
 ### Proposals Form
 
 [edfringe-proposals-form-2021.docx](/static/edfringe-proposals-form-2021.docx "edfringe-proposals-form-2021.docx")
+
+{% include button.html text="Proposals Form" link="/static/edfringe-proposals-form-2021.docx" filetype= "word" %}
