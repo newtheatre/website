@@ -5,7 +5,7 @@ show_url: "/api/shows"
 title: EdFringe 2021
 permalink: "/edfringe/"
 redirect_from: []
-banner_image: whats-on.jpg
+banner_image: "/static/ofc-2.jpg"
 mini_list: false
 published: false
 
