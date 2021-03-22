@@ -63,8 +63,8 @@ The team can also include a **Lighting Designer** and a **Sound Designer**. Thes
 
 Applications will open on Friday 7th May. If you are interested you should submit a **300-word application** by email, detailing why you are suitable for the role and why you want to take it on. Please consult the relevant committee member with any questions you have about the roles.
 
-* {% include committee.html role="publicity" format="inline" %}
-* Technical roles - {% include committee.html role="techmanager" format="inline" %} & {% include committee.html role="techdirector" format="inline" %}
+* Publicity roles - {% include committee.html role="publicity" format="inline" %}
+* Technical roles - {% include committee.html role="techmanager" format="inline" %} & {% include committee.html role="ctd" format="inline" %}
 * Show assistant - {% include committee.html role="external" format="inline" %}
 
 ## FAQs
