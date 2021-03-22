@@ -32,6 +32,8 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ## Acting
 
+![](/static/fm.jpg)
+
 ### Auditions
 
 Auditions will be carried out using self-tapes. You can do a maximum of two self-tapes for each show, any more than this will not be considered by the production team. You can audition for both shows.
@@ -60,6 +62,8 @@ On {% include date.html date="ef-casting" %} a casting meeting will take place. 
 For each show going to Edinburgh, there are three compulsory roles: **Publicity Manager**, **Technical Stage Manager**, and **Show Assistant**. These individuals will travel up to Edinburgh with the cast, director and producer. The specifics of the show assistant role will be confirmed once the shows have been selected. This may take the form of an assistant director, production assistant or a combination.
 
 The team can also include a **Lighting Designer** and a **Sound Designer**. These roles will be Nottingham based, to help prep the show for StuFF and tidying up technical aspects before Edinburgh, where the Technical Manager will take over.
+
+![](/static/ofc-2.jpg)
 
 Applications will open on Friday 7th May. If you are interested you should submit a **300-word application** by email, detailing why you are suitable for the role and why you want to take it on. Please consult the relevant committee member with any questions you have about the roles.
 
