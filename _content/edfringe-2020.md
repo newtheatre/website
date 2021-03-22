@@ -26,6 +26,4 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ### Proposals Form
 
-[edfringe-proposals-form-2021.docx](/static/edfringe-proposals-form-2021.docx "edfringe-proposals-form-2021.docx")
-
 {% include button.html text="Proposals Form" link="/static/edfringe-proposals-form-2021.docx" filetype= "word" %}
