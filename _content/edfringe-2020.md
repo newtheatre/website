@@ -32,7 +32,7 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ## Acting
 
-![](/static/fm.jpg)
+![](/static/ofc-3.jpg)
 
 ### Auditions
 
