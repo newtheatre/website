@@ -5,41 +5,56 @@ show_url: "/api/shows"
 title: EdFringe 2021
 permalink: "/edfringe/"
 redirect_from: []
-banner_image: "/static/images/directing.jpg"
+banner_image: "../../images/directing.jpg"
 mini_list: false
 
 ---
 # How to Get Involved
 
-We take two shows up to the Edinburgh Fringe Festival who take turns to perform in our allocated slot each evening (5:20pm - 6:20pm). We are performing in [Thespace venue: Perth Theatre.](https://www.thespaceuk.com/venue-specifications/thespace-on-north-bridge-perth/ "TheSpace venue: Perth Theatre")
+We take two shows up to the Edinburgh Fringe Festival who take turns to perform in our allocated slot each evening (5:20pm - 6:20pm). We are performing in [TheSpace venue: Perth Theatre.](https://www.thespaceuk.com/venue-specifications/thespace-on-north-bridge-perth/ "TheSpace venue: Perth Theatre")
 
 > The festival is currently planning to go ahead as usual and thus this is our approach too.
 
 ## Proposals
 
-> Deadline for Proposals: 28th April 2021
+> **Deadline for Proposals: 28th April 2021**
 
 With the ever changing nature of government restrictions and COVID-19 itself, we cannot guarantee that things will go ahead as planned. **By proposing you are accepting this risk.** We guarantee that you will not be negatively impacted in any financial capacity. It is unclear which restrictions we may need to follow during a real life performance. **Currently the most likely option is an outside performance.** The venue director will advise us on the safest way to perform and we will need to make the necessary adjustments. We ask for **flexibility and adaptability** in all proposing teams. We want the chosen shows to have the best chance at going ahead regardless of changing restrictions.
 
 If you have any questions please get in touch with {% include committee.html role="external" format="inline" %}
 
+<div class="row">
+<div class="col-sm" markdown="1">
+
 ### Proposals Pack
 
 {% include button.html text="Proposals Pack" link="/static/edfringe-proposal-pack-2021.pdf" filetype= "pdf" %}
+
+</div><div class="col-sm" markdown="1">
 
 ### Proposals Form
 
 {% include button.html text="Proposals Form" link="/static/edfringe-proposals-form-2021.docx" filetype= "word" %}
 
+</div>
+</div>
+
 ## Acting
 
-![](/static/ofc-3.jpg)
+<div class="row">
+<div class="col-sm-4 order-2" markdown="1">
+
+![Order From Chaos - Edinburgh Fringe 2019](/static/ofc-3.jpg)
+
+</div><div class="col-sm" markdown="1">
 
 ### Auditions
 
 Auditions will be carried out using self-tapes. You can do a maximum of two self-tapes for each show, any more than this will not be considered by the production team. You can audition for both shows.
 
 Audition extracts, character descriptions and content warnings for each show will be released on Thursday morning via the [NNT members page](https://www.facebook.com/groups/2747053805538161 "NNT members page"). **Please read all content warnings for each show before any extracts.** If you are uncomfortable with any aspect of the show you do not need to audition. If you have any questions about content warnings please contact the production team, {% include committee.html role="secretary" format="inline" %} or {% include committee.html role="external" format="inline" %}.
+
+</div></div>
 
 The deadline for self-tapes is **Friday 7th May at 4pm**, any tapes sent after this will not be considered. Please be considerate towards our production teams and do not wait until the last minute to send your videos. The videos you send will not be used for any other purpose than that of casting and will not be distributed further than each production team. In your video please clearly state your name and the part you are auditioning for. We recommend that you use a site called WeTransfer to condense your video file if it is too large to send across email.
 
@@ -64,13 +79,20 @@ For each show going to Edinburgh, there are three compulsory roles: **Publicity 
 
 The team can also include a **Lighting Designer** and a **Sound Designer**. These roles will be Nottingham based, to help prep the show for [StuFF](https://newtheatre.org.uk/stuff/) and tidying up technical aspects before Edinburgh, where the Technical Manager will take over.
 
+<div class="row">
+<div class="col-sm" markdown="1">
+
 ![](/static/ofc-2.jpg)
+
+</div><div class="col-sm" markdown="1">
 
 Applications will open on Friday 7th May. If you are interested you should submit a **300-word application** by email, detailing why you are suitable for the role and why you want to take it on. Please consult the relevant committee member with any questions you have about the roles.
 
 * Publicity roles - {% include committee.html role="publicity" format="inline" %}
 * Technical roles - {% include committee.html role="techmanager" format="inline" %} & {% include committee.html role="tech" format="inline" %}
 * Show assistant - {% include committee.html role="external" format="inline" %}
+
+</div></div>
 
 ## The Process
 
