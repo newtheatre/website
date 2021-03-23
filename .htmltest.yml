@@ -2,6 +2,7 @@ DirectoryPath: _site
 CheckDoctype: false
 EnforceHTML5: true 
 EnfroceHTTPS: true 
+IgnoreAltMissing: true 
 IgnoreURLs:
 # CHECK: Feel like we do in fact want to check NT links...?
 # - "newtheatre.org.uk"
