@@ -94,6 +94,8 @@ Applications will open on Friday 7th May. If you are interested you should submi
 
 </div></div>
 
+{% include button.html text="Crew Application" link="/static/edfringe-2021-crew-application.docx" filetype= "word" %}
+
 ## The Process
 
 This pack details how the EdFringe process works and should answer any questions you have. Please contact {% include committee.html role="external" format="inline" %} if there is anything else you want to know.
