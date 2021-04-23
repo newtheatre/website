@@ -86,7 +86,7 @@ The team can also include a **Lighting Designer** and a **Sound Designer**. Thes
 
 </div><div class="col-sm" markdown="1">
 
-Applications will open on Friday 7th May. If you are interested you should submit a **300-word application** by email, detailing why you are suitable for the role and why you want to take it on. Please consult the relevant committee member with any questions you have about the roles.
+Applications will open on Friday 7th May and close on the 21st May. If you are interested you should submit a **300-word application** by email, detailing why you are suitable for the role and why you want to take it on. Please consult the relevant committee member with any questions you have about the roles.
 
 * Publicity roles - {% include committee.html role="publicity" format="inline" %}
 * Technical roles - {% include committee.html role="techmanager" format="inline" %} & {% include committee.html role="tech" format="inline" %}
