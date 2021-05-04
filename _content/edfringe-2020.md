@@ -39,6 +39,44 @@ If you have any questions please get in touch with {% include committee.html rol
 </div>
 </div>
 
+## The Shows
+
+### It's not Rocket Science by Cecilia Alexander
+
+**Director:** Cecilia Alexander  
+**Producer:** Ylana Gibert
+
+Please send audition tapes to [itsnotrocketscience21@gmail.com](mailto:itsnotrocketscience21@gmail.com)
+
+> “It’s a man’s world” they say, looking around at Earth. But beyond that, in the vast expanse we call ‘space’, it’s largely unknown, unclaimed; a free for all. At least, that’s what it could be if my colleagues stopped calling me ‘sweetheart’.
+>
+> Eve Jackson’s just finished her new book, _It’s Not Rocket Science: A Woman’s Journey Into the World of Space_, all about her experiences getting into the aerospace industry as a woman, which is, even in this day and age, not as easy as you’d hope. From being a child, to a student, to a professional whose job it is to plan the mission to Mars, she’s been pushed back in all kinds of ways, but that hasn’t stopped her one bit.
+>
+> _It’s Not Rocket Science_ is a piece of verbatim theatre inspired by interviews with women who work in the aerospace industry and tells their real but powerful stories through the perspective of Eve.
+
+**This production includes mild language and discussions and depictions of sexism and misogyny. It also includes depictions of sexual harassment**.
+
+These might change as we are still writing the script, but if they do after casting and role distributions, all those involved will be able to say if they are uncomfortable with the new ones and if so, we are more than happy to take out that content.
+
+**Key Information**
+
+{% include button.html text="It's not Rocket Science" link="/static/it-s-not-rocket-science-key-information-docx.pdf" filetype= "pdf" %}
+
+### Madhouse by M Craig
+
+**Director:** Maddie Craig  
+**Producer:** Alex Hogg
+
+Please send audition tapes to [madhouse.edinburgh@hotmail.com](mailto:madhouse.edinburgh@hotmail.com)
+
+> Within the confines of a messy kitchen, six students grapple with modern struggles of youth. Overwhelmed by debt, perplexed by romance, and suffocated by chaos; for each student, life is an experiment, in which conflict is inevitable…Welcome to the Madhouse.
+
+**This production includes strong language, references to self-harm, questioning sexuality, sexual references, unwanted pregnancy and depiction of Marijuana.**
+
+**Key Information**
+
+{% include button.html text="Madhouse" link="/static/madhouse-key-information-docx.pdf" filetype= "pdf" %}
+
 ## Acting
 
 <div class="row">
@@ -52,7 +90,9 @@ If you have any questions please get in touch with {% include committee.html rol
 
 Auditions will be carried out using self-tapes. You can do a maximum of two self-tapes for each show, any more than this will not be considered by the production team. You can audition for both shows.
 
-Audition extracts, character descriptions and content warnings for each show will be released on Thursday morning via the [NNT members page](https://www.facebook.com/groups/2747053805538161 "NNT members page"). **Please read all content warnings for each show before any extracts.** If you are uncomfortable with any aspect of the show you do not need to audition. If you have any questions about content warnings please contact the production team, {% include committee.html role="secretary" format="inline" %} or {% include committee.html role="external" format="inline" %}.
+All the [Audition Extracts](https://drive.google.com/drive/folders/1AQaTjO3CosgeXE_xFKG9ccDJjiZ80HmM?usp=sharing) are available here.
+
+**Please read all content warnings for each show before any extracts.** If you are uncomfortable with any aspect of the show you do not need to audition. If you have any questions about content warnings please contact the production team, {% include committee.html role="secretary" format="inline" %} or {% include committee.html role="external" format="inline" %}.
 
 </div></div>
 
@@ -75,9 +115,9 @@ On Sunday 9th May a casting meeting will take place. We cast parts by working th
 
 ## Production Team
 
-For each show going to Edinburgh, there are three compulsory roles: **Publicity Manager**, **Technical Stage Manager**, and **Show Assistant**. These individuals will travel up to Edinburgh with the cast, director and producer. The specifics of the show assistant role will be confirmed once the shows have been selected. This may take the form of an assistant director, production assistant or a combination.
+For each show going to Edinburgh, there are three compulsory roles: **Publicity Manager**, **Technical Stage Manager**, and **Show Assistant**. These individuals will travel up to Edinburgh with the cast, director and producer. The specifics of the show assistant role is dependent on the show _(please see the key information packs)._
 
-The team can also include a **Lighting Designer** and a **Sound Designer**. These roles will be Nottingham based, to help prep the show for [StuFF](https://newtheatre.org.uk/stuff/) and tidying up technical aspects before Edinburgh, where the Technical Manager will take over.
+Our teams are also looking for some Nottingham based roles. These individuals will not travel to Edinburgh. They will help the show get up on its feet and help prep for [StuFF](https://newtheatre.org.uk/stuff/). This is perfect for anyone who wants to get involved but does not want  to commit to the time or expense. The roles being looked for are different in each show _(please see the key information packs)._
 
 <div class="row">
 <div class="col-sm" markdown="1">
