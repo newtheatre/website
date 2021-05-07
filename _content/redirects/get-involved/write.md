@@ -1,5 +1,5 @@
 ---
 title: Write
-redirect_from: /get-involved/write
+permalink: /get-involved/write/
 redirect_to: /get-involved/#writing
 ---

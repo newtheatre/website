@@ -5,17 +5,25 @@ fields:
 - type: text
   name: title
   label: Title
-  description: The title of your post
+  description: The title of the page
   config:
     required: true
 - type: text
+  name: permalink
+  label: permalink
+  description: The link to this page (probably the same as redirect_from)
+  config:
+    required: true 
+- type: list
   name: redirect_from
   label: Redirect from
   description: Other NNT links which will redirect to this page
 - type: text
   name: redirect_to
   label: Redirect to
-  description: 'Another URL that this page will link to '
+  description: 'Another URL that this page will link to'
+  config:
+    required: true 
 pages:
 - _content/assassins.md
 - _content/festival-staff-site.md
