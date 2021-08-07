@@ -60,4 +60,8 @@ They shared experiences of growing up, how they became interested in space, why 
 
 The interviews were fascinating and inspiring, and blended beautifully together to create a universal woman, Eve. Eve is a combination of all these women and all their experiences and we hope that _It's Not Rocket Science_ does them and their lives justice.
 
+## Resources
+
+Our play deals with potentially distressing themes, such as sexism and sexual harassment. Here are some resources we collated to help those who need them. 
+
 ## Production Shots
