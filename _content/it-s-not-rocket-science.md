@@ -1,6 +1,5 @@
 ---
-banner_text: 'The Nottingham New Theatre presents: It''s Not Rocket Science at this
-  year''s Edinburgh Festival Frigne'
+banner_text: 'The Nottingham New Theatre presents: It''s Not Rocket Science'
 layout: toc
 show_url: "/api/shows"
 title: It's Not Rocket Science
