@@ -26,13 +26,13 @@ Find us on Instagram @itsnotrocketscience21 & Twitter @INRS2021.
 
 Venue: **theSpace @ Surgeons’ Hall, Bevan Theatre**
 
-Dates: 17th, 19th, 21st, 24th, 26th and 28th August 2021
+    Dates: 17th, 19th, 21st, 24th, 26th and 28th August 2021
 
-Time: 13:30 (40 mins)
+    Time: 13:30 (40 mins)
 
-Ticket prices: £9 / £6 Concession
+    Ticket prices: £9 / £6 Concession
 
-Fringe box office: 0131 226 0000 / [www.edFringe.com](http://www.edfringe.com)![](/static/234505989_207094368042617_2183579280604845760_n-1.jpg)
+    Fringe box office: 0131 226 0000 / www.edFringe.com
 
 ## Cast and Crew
 
@@ -68,4 +68,4 @@ Our play deals with potentially distressing themes, such as sexism and sexual ha
 
 ## Production Shots
 
-[img_5496.HEIC](/static/img_5496.HEIC "img_5496.HEIC")[img_5531.HEIC](/static/img_5531.HEIC "img_5531.HEIC")[img_5134.HEIC](/static/img_5134.HEIC "img_5134.HEIC")[img_5174.HEIC](/static/img_5174.HEIC "img_5174.HEIC")![](/static/img_8574.JPG)![](/static/img_8587.JPG)![](/static/img_8680.JPG)![](/static/img_8700.JPG)
+![](/static/img_8574.JPG)![](/static/img_8587.JPG)![](/static/img_8680.JPG)![](/static/img_8700.JPG)
