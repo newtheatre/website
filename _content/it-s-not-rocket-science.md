@@ -31,3 +31,33 @@ Time: 13:30 (40 mins)
 Ticket prices: £9 / £6 Concession
 
 Fringe box office: 0131 226 0000 / [www.edFringe.com](http://www.edfringe.com)![](/static/234505989_207094368042617_2183579280604845760_n-1.jpg)
+
+## Cast and Crew
+
+Crew
+
+Writer and Director - Cecilia Alexander
+
+Producer - Ylana Gibert
+
+Show Assistant - Molly Symms
+
+Publicity Manager - Demi Idowu
+
+Cast
+
+Eve - India Agravat
+
+Female Multi-Role - Caitie Pardoe
+
+Male Multi-Role - Kishan Ganatra
+
+## The Stories Behind the Story
+
+Cecilia was inspired to write a play exploring female representation in the aerospace industry, but as an English student, she realised she had no experience. So, along with Ylana, she reached out to students and professionals in the industry, interviewing over twenty of them on Zoom and via an online form. 
+
+They shared experiences of growing up, how they became interested in space, why they pursued it, where they are now, and what challenges they've faced throughout their time. These have been integral to the plot, as nearly all of the play is based on these women's stories. 
+
+The interviews were fascinating and inspiring, and blended beautifully together to create a universal woman, Eve. Eve is a combination of all these women and all their experiences and we hope that _It's Not Rocket Science_ does them and their lives justice.
+
+## Production Shots
