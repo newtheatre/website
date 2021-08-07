@@ -22,7 +22,7 @@ Find us on Instagram @itsnotrocketscience21 & Twitter @INRS2021.
 
 ## Edinburgh Festival Fringe 2021
 
-Venue: **theSpace @ Surgeons’ Hall**
+Venue: **theSpace @ Surgeons’ Hall, Bevan Theatre**
 
 Dates: 17th, 19th, 21st, 24th, 26th and 28th August 2021
 
@@ -30,4 +30,4 @@ Time: 13:30 (40 mins)
 
 Ticket prices: £9 / £6 Concession
 
-Fringe box office: 0131 226 0000 / [www.edFringe.com](http://www.edfringe.com)
+Fringe box office: 0131 226 0000 / [www.edFringe.com](http://www.edfringe.com)![](/static/234505989_207094368042617_2183579280604845760_n-1.jpg)
