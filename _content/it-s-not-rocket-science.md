@@ -10,7 +10,7 @@ mini_list: false
 published: false
 
 ---
-# _It's Not Rocket Science_ by Cecilia Alexander 
+# _It's Not Rocket Science_ by Cecilia Alexander
 
 “It’s a man’s world” they say, looking at Earth. But beyond that, the vast expanse we call ‘space’, is largely unknown, unclaimed; a free for all. At least, it could be if my boss stopped calling me ‘sweetheart’. Eve always knew she belonged in the stars, but those on Earth keep bringing her down. Watch her grow up and grow wiser about how rocket science is the easy part, but being treated equally isn’t.
 
@@ -56,16 +56,16 @@ Male Multi-Role - Kishan Ganatra
 
 ## The Stories Behind the Story
 
-Cecilia was inspired to write a play exploring female representation in the aerospace industry, but as an English student, she realised she had no experience. So, along with Ylana, she reached out to students and professionals in the industry, interviewing over twenty of them on Zoom and via an online form. 
+Cecilia was inspired to write a play exploring female representation in the aerospace industry, but as an English student, she realised she had no experience. So, along with Ylana, she reached out to students and professionals in the industry, interviewing over twenty of them on Zoom and via an online form.
 
-They shared experiences of growing up, how they became interested in space, why they pursued it, where they are now, and what challenges they've faced throughout their time. These have been integral to the plot, as nearly all of the play is based on these women's stories. 
+They shared experiences of growing up, how they became interested in space, why they pursued it, where they are now, and what challenges they've faced throughout their time. These have been integral to the plot, as nearly all of the play is based on these women's stories.
 
 The interviews were fascinating and inspiring, and blended beautifully together to create a universal woman, Eve. Eve is a combination of all these women and all their experiences and we hope that _It's Not Rocket Science_ does them and their lives justice.
 
 ## Resources
 
-Our play deals with potentially distressing themes, such as sexism and sexual harassment. Here are some resources we collated to help those who need them. 
+Our play deals with potentially distressing themes, such as sexism and sexual harassment. Here are some resources we collated to help those who need them.
 
 ## Production Shots
 
-[img_5496.HEIC](/static/img_5496.HEIC "img_5496.HEIC")[img_5531.HEIC](/static/img_5531.HEIC "img_5531.HEIC")
+[img_5496.HEIC](/static/img_5496.HEIC "img_5496.HEIC")[img_5531.HEIC](/static/img_5531.HEIC "img_5531.HEIC")[img_5134.HEIC](/static/img_5134.HEIC "img_5134.HEIC")[img_5174.HEIC](/static/img_5174.HEIC "img_5174.HEIC")![](/static/img_8574.JPG)![](/static/img_8587.JPG)![](/static/img_8680.JPG)![](/static/img_8700.JPG)
