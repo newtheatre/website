@@ -20,6 +20,8 @@ This production contains: sexism, depiction of sexual harassment, and mild langu
 
 Find us on Instagram @itsnotrocketscience21 & Twitter @INRS2021.
 
+![](/static/inrsthespacebanner12-1.png)
+
 ## Edinburgh Festival Fringe 2021
 
 Venue: **theSpace @ Surgeons’ Hall, Bevan Theatre**
@@ -65,3 +67,5 @@ The interviews were fascinating and inspiring, and blended beautifully together 
 Our play deals with potentially distressing themes, such as sexism and sexual harassment. Here are some resources we collated to help those who need them. 
 
 ## Production Shots
+
+[img_5496.HEIC](/static/img_5496.HEIC "img_5496.HEIC")
