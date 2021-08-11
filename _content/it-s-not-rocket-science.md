@@ -7,7 +7,6 @@ permalink: "/INRS2021/"
 redirect_from: []
 banner_image: "/static/228011862_416096719830548_3453889080125454550_n.png"
 mini_list: false
-published: false
 
 ---
 # _It's Not Rocket Science_ by Cecilia Alexander
