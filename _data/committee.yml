@@ -1,14 +1,9 @@
 ---
-- role: Health and Safety Officer
-  name: Charlie Basley
-  email: health.safety@newtheatre.org.uk
+- role: President
+  name: Jack Titley
+  email: president@newtheatre.org.uk
   img: ''
   rollover: ''
-- role: President
-  name: Nadia Elalfi
-  email: president
-  img: https://photos.smugmug.com/Website-Photos/Committee-Headshots/n-PNnKmf/i-G7r6FZX/0/8dc9c24d/O/i-G7r6FZX.jpg
-  rollover: https://photos.smugmug.com/Website-Photos/Committee-Rollovers/n-VF6fWR/i-ctwC8F8/1/43f7c324/XL/i-ctwC8F8-XL.jpg
 - role: Treasurer
   name: Sofia Loreti
   email: treasurer
@@ -91,5 +86,10 @@
 - role: IT Manager
   name: Max Nichols
   email: itmanager
+  img: ''
+  rollover: ''
+- role: Health and Safety Officer
+  name: Charlie Basley
+  email: health.safety@newtheatre.org.uk
   img: ''
   rollover: ''
