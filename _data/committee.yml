@@ -10,10 +10,10 @@
   img: ''
   rollover: ''
 - role: Theatre Manager
-  name: Barney Hartwill
+  name: Pete Rouse
   email: theatremanager
-  img: https://photos.smugmug.com/photos/i-c2z6Vdt/0/6bd949dd/X4/i-c2z6Vdt-X4.jpg
-  rollover: https://photos.smugmug.com/photos/i-kV6BqTp/1/caed47dd/L/i-kV6BqTp-L.jpg
+  img: ''
+  rollover: ''
   group: backstage
 - role: Secretary
   name: Alice Walker
