@@ -16,9 +16,9 @@
   rollover: ''
   group: backstage
 - role: Secretary
-  name: Alice Walker
+  name: Pip Horn
   email: secretary
-  img: https://photos.smugmug.com/photos/i-VDzz8Mq/0/81e3e120/X4/i-VDzz8Mq-X4.jpg
+  img: ''
   rollover: ''
 - role: In-House Coordinator
   name: Jake Levy
