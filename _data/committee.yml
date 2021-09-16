@@ -1,7 +1,7 @@
 ---
 - role: President
   name: Jack Titley
-  email: president@newtheatre.org.uk
+  email: president
   img: ''
   rollover: ''
 - role: Treasurer
