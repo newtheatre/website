@@ -1,25 +1,25 @@
 ---
 - alias: ef-casting
   name: EdFringe Casting
-  date: 9th April
+  date: ''
 - alias: ef-auditions-callbacks
   name: EdFringe Callbacks
-  date: 8th April, 2021
+  date: ''
 - alias: ef-auditions
   name: 'EdFringe Auditions '
-  date: 6th - 7th April, 2021
+  date: ''
 - alias: 'ef-proposals-deadline '
   name: EdFringe Proposals Deadline
-  date: 28th April, 2021
+  date: ''
 - alias: ih-proposal-deadline
   name: In House Proposal Deadline
-  date: 29th January, 2020
+  date: 6th October, 2021
 - alias: ih-auditions
   name: In House Auditions
-  date: 6th-7th February, 2020
+  date: 14th-15th October, 2021
 - alias: ih-auditions-callbacks
   name: In House Callbacks
-  date: 8th February, 2020
+  date: 16th October, 2021
 - alias: ih-auditions-casting
   name: In House Casting
   date: 9th February, 2020
@@ -28,22 +28,22 @@
   date: 13th October, 2021
 - alias: fringe-proposal-deadline
   name: Fringe Proposal Deadline
-  date: 12th February, 2020
+  date: 20th October, 2021
 - alias: fr-auditions
   name: Fringe Auditions
-  date: 20th-21st February, 2020
+  date: 28th-29th October, 2021
 - alias: fr-auditions-callbacks
   name: Fringe Callbacks
-  date: 22nd February, 2020
+  date: 30th October, 2021
 - alias: fr-auditions-casting
   name: Fringe Casting
-  date: 23rd February, 2020
+  date: 31st October, 2021
 - alias: fr-season-launch
   name: Fringe Season Launch
-  date: 19th February, 2020
+  date: 27th October, 2021
 - alias: ih-slot-1
   name: In House Slot 1
-  date: 26th February - 29th February, 2019
+  date: 3rd November - 6th November, 2021
 - alias: ih-slot-2
   name: In House Slot 2
   date: 4th-7th March, 2020
