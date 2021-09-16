@@ -1,4 +1,9 @@
 ---
+- role: Health and Safety Officer
+  name: Charlie Basley
+  email: health.safety@newtheatre.org.uk
+  img: ''
+  rollover: ''
 - role: President
   name: Nadia Elalfi
   email: president
