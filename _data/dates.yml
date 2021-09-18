@@ -46,43 +46,37 @@
   date: 3rd November - 6th November, 2021
 - alias: ih-slot-2
   name: In House Slot 2
-  date: 4th-7th March, 2020
+  date: 10th-13th November, 2021
 - alias: ih-slot-3
   name: In House Slot 3
-  date: 11th-14th March, 2020
+  date: 17th-20th November, 2021
 - alias: ih-slot-4
   name: In House Slot 4
-  date: 18th-21st March, 2020
+  date: 24th-27th November, 2021
 - alias: ih-slot-5
   name: In House Slot 5
-  date: 25th-28th March, 2020
+  date: 1st-4th December, 2021
 - alias: ih-slot-6
   name: In House Slot 6
-  date: 31st March-3rd April, 2020
-- alias: ih-slot-7
-  name: In House Slot 7
-  date: 6th-9th May, 2020
-- alias: ih-slot-8
-  name: In House Slot 8
-  date: 13th-16th May, 2020
+  date: 8th-11th December, 2021
 - alias: fr-slot-1
   name: Fringe Slot 1
-  date: 8th-10th March, 2020
+  date: 14th-16th November, 2021
 - alias: fr-slot-2
   name: Fringe Slot 2
-  date: 15th-17th March, 2020
+  date: 14th-16th November, 2021
 - alias: fr-slot-3
   name: Fringe Slot 3
-  date: 22nd-24th March, 2020
+  date: 21st-23rd November, 2021
 - alias: fr-slot-4
   name: Fringe Slot 4
-  date: 29th-30th March, 2020
+  date: 28th-30th November, 2021
 - alias: fr-slot-5
   name: Fringe Slot 5
-  date: 4th-5th May, 2020
+  date: 5th-7th November, 2021
 - alias: fr-slot-6
   name: Fringe Slot 6
-  date: 10th-12th May, 2020
+  date: 12th-14th December, 2021
 - alias: fr-slot-7
   name: Fringe Slot 7
   date: ''
