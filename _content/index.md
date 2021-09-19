@@ -8,20 +8,17 @@ shows_url: "/api/shows"
 banner: true
 banner_image: whats-on.jpg
 banner_text: 
+published: false
 
 ---
-# Digital Season Spring 2021
+# Welcome!
 
-With the start of a new university year comes the start of a new exciting term of theatre here at the NNT.
+Welcome to the NNT! We are the only entirely student run theatre in England. Producing over thirty shows a year with more than one hundred performances. 
 
-**You can look how to get involved in the upcoming digital season on our** [**audition page**](/audition/)**.**
+We are really excited to be reopening our doors for in-person theatre and welcoming in a whole new batch of exciting theatre makers. Click on this [link](https://drive.google.com/file/d/1abpUGZepgRZKwcLlMa31-is_4L27Nwt8/view?usp=drivesdk) to see our reopening plans, or scan the QR code below: 
 
-This year is a fantastic opportunity for our membership to get creative with their shows and we hope that our many talented writers feel inspired to produce some really unique pieces of online theatre.
+![](/static/qr-code.jpg)
 
-We are also making preparations for this year's Edinburgh Fringe Festival in August. **If you want to get involved please find more information on our** [**EdFringe page**](/edfringe/)**.**
-
-If you have any questions, please contact us via our [Facebook page](https://facebook.com/{{ site.facebook }}), or contact the relevant member of [committee](/about/#committee "Committee").
-
-As always we thank all of our membership both new and old for supporting us during this time and we hope to see your wonderful faces soon.
+If you have any questions, please contact us via our [Facebook page](https://www.facebook.com/thenottinghamnewtheatre), or contact the relevant member of [committee](/about/#committee "Committee").
 
 <hr class="w-75">
