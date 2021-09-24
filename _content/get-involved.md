@@ -290,7 +290,7 @@ Stage managing is a great way to get involved in the backstage areas of the thea
 
 If you're interested in being a stage manager, please get in touch with {% include committee.html role="csm" format="inline" %}, or join our [backstage Facebook group](https://www.facebook.com/groups/218639774895331).
 
-</div></div> 
+</div></div>
 
 # Tech
 
@@ -329,6 +329,7 @@ Being part of the tech team is super rewarding, and you get to be involved with 
 The Technical Director (TD) oversees all the technical aspects of a show, such as rigging, focusing, and organising. They run the technical rehearsals and are often found shouting "Stop!" just before a climactic moment.
 
 The TD is responsible for making sure all of the tech things get done on time, as well as for 'calling the show' (following the script and cueing any operators to fire cues, or stage managers to move set).
+
 ![The rig of '1984']({{ site.baseurl }}/static/images/1984_rig.jpg)
 
 </div><div class="col-md-6" markdown="1">
@@ -385,7 +386,9 @@ This is a great place to start out in tech and full training is provided. Sign u
 
 There is **no experience necessary** to be part of the tech team, just enthusiasm and a will to learn. If you think this sounds like something you want to do, or you'd like some training, contact {% include committee.html role="tech" format="inline" %}.
 
-We also have an active [Tech Facebook Group](http://facebook.com/groups/nnt.tech) where any opportunities or announcements are made. 
+We also have an active [Tech Facebook Group](http://facebook.com/groups/nnt.tech) where any opportunities or announcements are made.
+
+If you're interested in any of this, want some training, or have any questions, please get in touch with {% include committee.html role="techdirector" format="inline" %} or {% include committee.html role="techmanager" format="inline" %}
 
 </div></div>
 
