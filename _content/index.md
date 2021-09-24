@@ -18,6 +18,8 @@ We are really excited to be reopening our doors for in-person theatre and welcom
 
 ![](/static/qr-code.jpg)
 
-If you have any questions, please contact us via our [Facebook page](https://www.facebook.com/thenottinghamnewtheatre), or contact the relevant member of [committee](/about/#committee "Committee").
+If you have any questions, please contact us via our [Facebook page](https://www.facebook.com/thenottinghamnewtheatre), or contact the relevant member of [committee](/about/#committee "Committee"). 
+
+Furthermore, make sure you sign up to our [mailing list](https://newtheatre.us3.list-manage.com/subscribe?u=ce5311ce46fe45638f90f4022&id=97e4899eb8) to keep up with all of our shows and news!
 
 <hr class="w-75">
