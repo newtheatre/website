@@ -14,7 +14,7 @@ banner_text:
 
 Welcome to the Nottingham New Theatre! We are the only entirely student-run theatre in England. Producing over thirty shows a year, they range from 'A Midsummer Night's Dream' to contemporaries plays, as well as a host of original student written pieces.
 
-We are really excited to be reopening our doors for in-person theatre and welcoming in a whole new batch of exciting theatre makers. Click on this [link](https://docs.google.com/document/d/18JqUZi8_5mV28pgSUmbcQG78xlYXP6D1GpWnE4wIMZQ/edit?usp=sharing) to see our reopening plans, or scan the QR code below:
+We are really excited to be reopening our doors for in-person theatre and welcoming in a whole new batch of exciting theatre makers. Click on this [link](https://drive.google.com/file/d/1abpUGZepgRZKwcLlMa31-is_4L27Nwt8/view?fbclid=IwAR1vAeK9X8JIQ_CV1ly1xhcliCa93xS5u8cyc3q14Qh3b12KlPP8NqWp98g) to see our reopening plans, or scan the QR code below:
 
 ![](/static/qr-code.jpg)
 
