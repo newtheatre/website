@@ -7,24 +7,24 @@
 - role: Treasurer
   name: Max Nichols
   email: treasurer
-  img: ''
+  img: https://i.ibb.co/fNsQk80/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
 - role: Theatre Manager
   name: Pete Rouse
   email: theatremanager
-  img: ''
+  img: https://i.ibb.co/Fxb4s4f/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
   group: backstage
 - role: Secretary
   name: Pip Horn
   email: secretary
-  img: ''
+  img: https://i.ibb.co/RQQk68F/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
 - role: In-House Coordinator
   name: Em Rule
   email: inhouse
   group: coordinator
-  img: ''
+  img: https://i.ibb.co/vdNG5bV/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
 - role: Fringe Coordinator
   name: Maddie Craig
@@ -32,44 +32,51 @@
   group: coordinator
   alias_email: stuff
   alias_role: StuFF Coordinator
+  img: https://i.ibb.co/HhRxWMk/Processed-with-VSCO-with-b1-preset.jpg
 - role: Front of House Manager
   name: Ellie Harding
   email: boxoffice
-  img: ''
+  img: https://i.ibb.co/qdsjMKM/244375770-4382736541843510-2098101422873318429-n.jpg
 - role: Company Stage Manager
   name: Jasmine Butler
   email: csm
   group: backstage
-  img: ''
+  img: https://i.ibb.co/ZKx0sXR/Processed-with-VSCO-with-b1-preset.jpg
 - role: Company Master Carpenter
   name: Nicholas Landon
   email: cmc
   group: backstage
-  img: ''
+  img: https://i.ibb.co/nz63mdC/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
 - role: Company Technical Director
   name: Annamarie Schooling
   email: techdirector
   group: backstage
-  img: ''
+  img: https://i.ibb.co/wSq5fJd/Processed-with-VSCO-with-b1-preset.jpg
 - role: Technical Manager
   name: James Appleby
   email: techmanager
   group: backstage
-  img: ''
+  img: https://i.ibb.co/pr1qKcS/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
 - role: Unscripted Coordinator & Engagement Officer
   name: Caetano Capurro
   email: participation
-  img: ''
+  img: https://i.ibb.co/NNktqx0/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
-- role: Publicity Managers
-  name: Ace Edwards & Demi Idowu
+- role: Publicity Manager
+  name: Ace Edwards
   email: publicity
+  img: https://i.ibb.co/dLkT7vD/Processed-with-VSCO-with-b1-preset.jpg
+- role: Publicity Manager
+  name: Demi Idowu
+  email: publicity
+  img: https://i.ibb.co/ZMVztr3/Processed-with-VSCO-with-b1-preset.jpg
+  rollover: ''
 - role: External Relations Manager
   name: Ylana Gibert
   email: external
-  img: ''
+  img: https://i.ibb.co/YNV4bqQ/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
   group: coordinator
   alias_email: edinburgh
@@ -78,18 +85,18 @@
   name: Lelah Gorgin
   email: costume
   group: backstage
-  img: ''
+  img: https://i.ibb.co/frKnXNd/Processed-with-VSCO-with-b1-preset.jpg
 - role: Social and Fundraising Coordinator
   name: Rachel Coussins
   email: social
-  img: ''
+  img: https://i.ibb.co/C7J6m5K/Processed-with-VSCO-with-b1-preset.jpg
 - role: IT Manager
   name: Helena Hunt
   email: itmanager
-  img: ''
+  img: https://i.ibb.co/nznvkY6/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
 - role: Health and Safety Officer
   name: Charlie Basley
   email: healthsafety
-  img: ''
+  img: https://i.ibb.co/3C59PXr/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
