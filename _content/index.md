@@ -18,7 +18,7 @@ We are really excited to be reopening our doors for in-person theatre and welcom
 
 **In other news...**
 
-In-House and Fringe Proposals are approaching! Click this [link](https://newtheatre.org.uk/show-resources/) to our show resources page to find out more information.  
+In-House and Fringe Proposals are approaching! Check out our [show resources page](https://newtheatre.org.uk/show-resources) to find out more information and **get involved!**
 
 If you have any questions, please contact us via our [Facebook page](https://www.facebook.com/thenottinghamnewtheatre), or contact the relevant member of [committee](/about/#committee "Committee").
 
