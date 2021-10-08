@@ -98,7 +98,6 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 | Selecon Rama 1k Fresnel | 12 |
 | Selecon Acclaim 750W Fresnel | 15 |
 | CCT Minuette 650W Fresnel | 2 |
-| Strand Patt 743 1k | 8 |
 | Strand Patt 123 1k | 2 |
 | ETC Source 4 Jr Zoom 575W | 10 |
 | ETC Source 4 750W | 1 |
@@ -110,6 +109,11 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 | Strand Patt 137 | 1 |
 | Chauvet Q Spot 460 LED | 4 |
 | Martin Atomic 3000 Strobe | 1 |
+| Strand Patt 223 | 7 |
+| Strand Batten | 2 |
+| Pulsar Strobe | 1 |
+| Old Acclaims | 4 |
+| Floods | 4 |
 
 </div>
 <div class="col-lg" markdown="1">
