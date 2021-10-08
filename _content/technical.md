@@ -105,7 +105,7 @@ There is no installed seating, and a rake can be achieved using [Prolyte StageDe
 | Selecon Acclaim Zoomspot | 5 |
 | Chauvet ColorDash PARQuad 18 | 6 |
 | PAR 64 | 14 |
-| PAR 6 | 14 |
+| PAR 16 | 14 |
 | Strand Patt 137 | 1 |
 | Chauvet Q Spot 460 LED | 4 |
 | Martin Atomic 3000 Strobe | 1 |
