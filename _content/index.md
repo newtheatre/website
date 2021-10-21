@@ -22,6 +22,8 @@ In-House and Fringe Proposals are approaching! Check out our [show resources pag
 
 If you have any questions, please contact us via our [Facebook page](https://www.facebook.com/thenottinghamnewtheatre), or contact the relevant member of [committee](/about/#committee "Committee").
 
+**To buy a membership please follow this** [**link**](https://su.nottingham.ac.uk/activities/view/new-theatre) **to the Student Union website!**
+
 Furthermore, make sure you sign up to our [mailing list](https://newtheatre.us3.list-manage.com/subscribe?u=ce5311ce46fe45638f90f4022&id=97e4899eb8) to keep up with all of our shows and news!
 
 <hr class="w-75">
