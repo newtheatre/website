@@ -16,13 +16,9 @@ Welcome to the Nottingham New Theatre! We are the only entirely student-run thea
 
 We are really excited to be reopening our doors for in-person theatre and welcoming in a whole new batch of exciting theatre makers. Click on this [link](https://drive.google.com/file/d/1abpUGZepgRZKwcLlMa31-is_4L27Nwt8/view?fbclid=IwAR1vAeK9X8JIQ_CV1ly1xhcliCa93xS5u8cyc3q14Qh3b12KlPP8NqWp98g) to see our reopening plans!
 
-**In other news...**
-
-In-House and Fringe Proposals are approaching! Check out our [show resources page](https://newtheatre.org.uk/show-resources) to find out more information and **get involved!**
+**To buy a membership please follow this** [**link**](https://su.nottingham.ac.uk/activities/view/new-theatre) **to the Student Union website!**
 
 If you have any questions, please contact us via our [Facebook page](https://www.facebook.com/thenottinghamnewtheatre), or contact the relevant member of [committee](/about/#committee "Committee").
-
-**To buy a membership please follow this** [**link**](https://su.nottingham.ac.uk/activities/view/new-theatre) **to the Student Union website!**
 
 Furthermore, make sure you sign up to our [mailing list](https://newtheatre.us3.list-manage.com/subscribe?u=ce5311ce46fe45638f90f4022&id=97e4899eb8) to keep up with all of our shows and news!
 
