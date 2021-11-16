@@ -22,7 +22,7 @@ We're easily accessible both by car and public transport. If you're driving you 
 
 The 34 bus takes you directly onto campus from the city centre. Alight at the Portland Hill stop and walk up the hill. You'll find us down the second road on the left.
 
-If taking the tram, get off at the University of Nottingham stop and enter the South Entrance of campus. Walk along East Drive until you reach the Trent Building car park, walk up the stes at the back and you'll find us on the left up the hill. 
+If taking the tram, get off at the University of Nottingham stop and enter the South Entrance of campus. Walk along East Drive until you reach the Trent Building car park, walk up the steps at the back and you'll find us on the left up the hill. 
 
 <iframe src="https://www.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;t=m&amp;msa=0&amp;msid=203809243894156050253.00047251533fd25ea073d&amp;source=embed&amp;ll=52.93819,-1.197166&amp;spn=0.018105,0.017166&amp;z=14&amp;output=embed" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
