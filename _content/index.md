@@ -20,4 +20,6 @@ If you have any questions, please contact us via our [Facebook page](https://www
 
 Furthermore, make sure you sign up to our [mailing list](https://newtheatre.us3.list-manage.com/subscribe?u=ce5311ce46fe45638f90f4022&id=97e4899eb8) to keep up with all of our shows and news!
 
+Due to our commitment to protecting our members and audiences please wear a mask unless exempt. Not everyone has a visible exemption, so please respect others.
+
 <hr class="w-75">
