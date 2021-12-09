@@ -15,7 +15,7 @@ mini_list: true
 
 <hr>
 
-The Nottingham New Theatre’s summer arts festival – StuFF – is celebrating its fifth year, with StuFF 2019 running on the {% include date.html date="stuff" %}. StuFF is an annual platform for student and professional theatre makers alike to showcase their work. We’re excited to have our biggest schedule to date on offer, with 18 shows across the two days ranging from stand-up to sketch comedy; from dramas to drag acts.
+The Nottingham New Theatre’s summer arts festival – StuFF – is celebrating its eighth year, with StuFF 2022 running on the {% include date.html date="stuff" %}. StuFF is an annual platform for student and professional theatre makers alike to showcase their work. We’re excited to have our biggest schedule to date on offer, with 18 shows across the two days ranging from stand-up to sketch comedy; from dramas to drag acts.
 
 Each show at StuFF is an hour long, at £3 a ticket, with Day and Festival passes available at £15 and £25 a person. With shows running from 11am-late on both days, there's something for everyone. The theatre bar will be open throughout the festival serving drinks and snacks, as well as additional food vendors around the venue.
 
@@ -38,11 +38,3 @@ We recommend that you reserve tickets to every show that you wish to see. Passes
 <iframe width="100%" height="80%" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/en/map/stuff-venue-map_333342?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/en/map/stuff-venue-map_333342">See full screen</a></p>
 
 </div><div class="col-md-4 mt-4 mt-md-0" markdown="1">
-
-## Books 
-
-![Anna's Book Lounge poster]({{ site.baseurl }}/static/images/anna-stuff-2019.jpg)
-
-In our Studio foyer, you will be able to peruse books alongside drinks and snacks from our bar with Anna's Book Lounge.
-
-</div></div>
