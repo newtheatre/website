@@ -2,7 +2,7 @@
 banner_text: Getting Involved with EdFringe
 layout: toc
 show_url: "/api/shows"
-title: EdFringe 2021
+title: EdFringe 2022
 permalink: "/edfringe/"
 redirect_from: []
 banner_image: "../../images/directing.jpg"
@@ -11,15 +11,11 @@ mini_list: false
 ---
 # How to Get Involved
 
-We take two shows up to the Edinburgh Fringe Festival who take turns to perform in our allocated slot each evening (5:20pm - 6:20pm). We are performing in [TheSpace venue: Perth Theatre.](https://www.thespaceuk.com/venue-specifications/thespace-on-north-bridge-perth/ "TheSpace venue: Perth Theatre")
-
-> The festival is currently planning to go ahead as usual and thus this is our approach too.
+We take two shows up to the Edinburgh Fringe Festival who take turns to perform in our allocated slot each evening (2pm - 3pm). We are performing in TheSpace venue: Perth Theatre from the 12th - 28th August.
 
 ## Proposals
 
-> **Deadline for Proposals: 28th April 2021**
-
-With the ever changing nature of government restrictions and COVID-19 itself, we cannot guarantee that things will go ahead as planned. **By proposing you are accepting this risk.** We guarantee that you will not be negatively impacted in any financial capacity. It is unclear which restrictions we may need to follow during a real life performance. **Currently the most likely option is an outside performance.** The venue director will advise us on the safest way to perform and we will need to make the necessary adjustments. We ask for **flexibility and adaptability** in all proposing teams. We want the chosen shows to have the best chance at going ahead regardless of changing restrictions.
+> **Deadline for Proposals: 6th March 2022**
 
 If you have any questions please get in touch with {% include committee.html role="external" format="inline" %}
 
@@ -34,48 +30,10 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ### Proposals Form
 
-{% include button.html text="Proposals Form" link="/static/edfringe-proposals-form-2021.docx" filetype= "word" %}
+Proposals Form - not yet available, will be released in February 2022
 
 </div>
 </div>
-
-## The Shows
-
-### It's not Rocket Science by Cecilia Alexander
-
-**Director:** Cecilia Alexander  
-**Producer:** Ylana Gibert
-
-Please send audition tapes to [itsnotrocketscience21@gmail.com](mailto:itsnotrocketscience21@gmail.com)
-
-> “It’s a man’s world” they say, looking around at Earth. But beyond that, in the vast expanse we call ‘space’, it’s largely unknown, unclaimed; a free for all. At least, that’s what it could be if my colleagues stopped calling me ‘sweetheart’.
->
-> Eve Jackson’s just finished her new book, _It’s Not Rocket Science: A Woman’s Journey Into the World of Space_, all about her experiences getting into the aerospace industry as a woman, which is, even in this day and age, not as easy as you’d hope. From being a child, to a student, to a professional whose job it is to plan the mission to Mars, she’s been pushed back in all kinds of ways, but that hasn’t stopped her one bit.
->
-> _It’s Not Rocket Science_ is a piece of verbatim theatre inspired by interviews with women who work in the aerospace industry and tells their real but powerful stories through the perspective of Eve.
-
-**This production includes mild language and discussions and depictions of sexism and misogyny. It also includes depictions of sexual harassment**.
-
-These might change as we are still writing the script, but if they do after casting and role distributions, all those involved will be able to say if they are uncomfortable with the new ones and if so, we are more than happy to take out that content.
-
-**Key Information**
-
-{% include button.html text="It's not Rocket Science" link="/static/it-s-not-rocket-science-key-information-docx.pdf" filetype= "pdf" %}
-
-### Madhouse by M Craig
-
-**Director:** Maddie Craig  
-**Producer:** Alex Hogg
-
-Please send audition tapes to [madhouse.edinburgh@hotmail.com](mailto:madhouse.edinburgh@hotmail.com)
-
-> Within the confines of a messy kitchen, six students grapple with modern struggles of youth. Overwhelmed by debt, perplexed by romance, and suffocated by chaos; for each student, life is an experiment, in which conflict is inevitable…Welcome to the Madhouse.
-
-**This production includes strong language, references to self-harm, questioning sexuality, sexual references, unwanted pregnancy and depiction of Marijuana.**
-
-**Key Information**
-
-{% include button.html text="Madhouse" link="/static/madhouse-key-information-docx.pdf" filetype= "pdf" %}
 
 ## Acting
 
@@ -88,30 +46,23 @@ Please send audition tapes to [madhouse.edinburgh@hotmail.com](mailto:madhouse.e
 
 ### Auditions
 
-Auditions will be carried out using self-tapes. You can do a maximum of two self-tapes for each show, any more than this will not be considered by the production team. You can audition for both shows.
+Auditions will be carried out on the 10th and 11th March, you can audition for both shows.
 
-> All the [Audition Extracts](https://drive.google.com/drive/folders/1AQaTjO3CosgeXE_xFKG9ccDJjiZ80HmM?usp=sharing) are available here.
+1\. When you arrive, you’ll be given a piece. Take this away and become familiar with it (most people take around 10-15 minutes). 
 
-**Please read all content warnings for each show before any extracts.** If you are uncomfortable with any aspect of the show you do not need to audition. If you have any questions about content warnings please contact the production team, {% include committee.html role="secretary" format="inline" %} or {% include committee.html role="external" format="inline" %}.
+2\. Come back and perform it for the team. You don’t need to learn it, just give it your best shot. 
 
-</div></div>
-
-The deadline for self-tapes is **Friday 7th May at 4pm**, any tapes sent after this will not be considered. Please be considerate towards our production teams and do not wait until the last minute to send your videos. The videos you send will not be used for any other purpose than that of casting and will not be distributed further than each production team. In your video please clearly state your name and the part you are auditioning for. We recommend that you use a site called WeTransfer to condense your video file if it is too large to send across email.
-
-In your email you must include:
-
-* Your availability for callbacks on Saturday 8th May
-* Your phone number and your availability to be called on Sunday 9th May. If you do not give us your phone number we will not be able to cast you as we conduct casting by calling actors throughout the day.
+3\. That’s it! Take a rest before heading to your next audition.
 
 If you are experiencing any difficulties do not hesitate to contact {% include committee.html role="external" format="inline" %}.
 
 ### Callbacks
 
-On Friday (07/05) night a callbacks list will be released onto the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre). Please consult this and note down when you have been called back and for which show. You may be called back twice for the same show but you should not be called back for different shows at the same time. If you have been double booked please get in contact with {% include committee.html role="secretary" format="inline" %} or {% include committee.html role="external" format="inline" %} as this would be a mistake. Callbacks will be conducted in 30 minute slots via zoom (video calling service). Please download this software prior to Saturday and ensure punctuality. You may still be cast even if you are not called back so please stay by your phone on the Sunday regardless.
+On Friday (11/03) night a callbacks list will be released onto the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre). Please consult this and note down when you have been called back and for which show. You may be called back twice for the same show but you should not be called back for different shows at the same time. If you have been double booked please get in contact with Pip Horn or Ylana Gibert immediately as this would be a mistake. Callbacks will be conducted on Saturday 12th. You may still be cast even if you are not called back so please stay by your phone on the Sunday regardless.
 
 ### Casting
 
-On Sunday 9th May a casting meeting will take place. We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. You can check the progression of the day on the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre). This is a lengthy process so **please stay by your phone all day.** If a team wants to cast you, you will receive a phone call. If you do not answer we will keep trying to contact you, but after 15 minutes will need to move on. You may be offered multiple parts so please take time after auditions / callbacks to consider which shows you would prefer to be in.
+On Sunday 13th a casting meeting will take place. We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. This is a lengthy process so please stay by your phone all day. We keep the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre) updated, stating which parts we’re casting and when we’re taking breaks. If a team wants to cast you, you will receive a phone call. If you do not answer we will keep trying to contact you, but after 15 minutes will need to move on and you will no longer be offered that role. You may be offered multiple parts so please take time after auditions / callbacks to consider which shows you would prefer to be in. 
 
 ## Production Team
 
@@ -126,7 +77,7 @@ Our teams are also looking for some Nottingham based roles. These individuals wi
 
 </div><div class="col-sm" markdown="1">
 
-Applications will open on Friday 7th May and close on Friday 21st May. If you are interested you should submit a **300-word application** by email, detailing why you are suitable for the role and why you want to take it on. Please consult the relevant committee member with any questions you have about the roles.
+Applications will open on Friday 11th March until Friday 18th March. If you are interested you should submit a **300-word application** by email, detailing why you are suitable for the role and why you want to take it on. Please consult the relevant committee member with any questions you have about the roles.
 
 * Publicity roles - {% include committee.html role="publicity" format="inline" %}
 * Technical roles - {% include committee.html role="techmanager" format="inline" %} & {% include committee.html role="tech" format="inline" %}
