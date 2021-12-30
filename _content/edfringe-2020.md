@@ -24,7 +24,7 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ### Proposals Pack
 
-{% include button.html text="Proposals Pack" link="/static/edfringe-proposal-pack-2021.pdf" filetype= "pdf" %}
+{% include button.html text="Proposals Pack" link="[https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?fbclid=IwAR1g_Su0YIIcmWsd8Sv4h6Sw0hUoUPEQub_kSH2QZ07QvAziCSG8l01si9I](https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?fbclid=IwAR1g_Su0YIIcmWsd8Sv4h6Sw0hUoUPEQub_kSH2QZ07QvAziCSG8l01si9I "https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?fbclid=IwAR1g_Su0YIIcmWsd8Sv4h6Sw0hUoUPEQub_kSH2QZ07QvAziCSG8l01si9I")" filetype= "pdf" %}
 
 </div><div class="col-sm" markdown="1">
 
@@ -84,8 +84,6 @@ Applications will open on Friday 11th March until Friday 18th March. If you are 
 * Show assistant - {% include committee.html role="external" format="inline" %}
 
 </div></div>
-
-{% include button.html text="Crew Application" link="/static/edfringe-2021-crew-application.docx" filetype= "word" %}
 
 ## The Process
 
