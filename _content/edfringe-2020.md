@@ -48,9 +48,9 @@ Proposals Form - not yet available, will be released in February 2022
 
 Auditions will be carried out on the 10th and 11th March, you can audition for both shows.
 
-1\. When you arrive, you’ll be given a piece. Take this away and become familiar with it (most people take around 10-15 minutes). 
+1\. When you arrive, you’ll be given a piece. Take this away and become familiar with it (most people take around 10-15 minutes).
 
-2\. Come back and perform it for the team. You don’t need to learn it, just give it your best shot. 
+2\. Come back and perform it for the team. You don’t need to learn it, just give it your best shot.
 
 3\. That’s it! Take a rest before heading to your next audition.
 
@@ -62,7 +62,7 @@ On Friday (11/03) night a callbacks list will be released onto the [NNT Facebook
 
 ### Casting
 
-On Sunday 13th a casting meeting will take place. We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. This is a lengthy process so please stay by your phone all day. We keep the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre) updated, stating which parts we’re casting and when we’re taking breaks. If a team wants to cast you, you will receive a phone call. If you do not answer we will keep trying to contact you, but after 15 minutes will need to move on and you will no longer be offered that role. You may be offered multiple parts so please take time after auditions / callbacks to consider which shows you would prefer to be in. 
+On Sunday 13th a casting meeting will take place. We cast parts by working through shows one at a time. We will flip a coin to determine which parts we start with (M, F, GN) and work through them one at a time. This is a lengthy process so please stay by your phone all day. We keep the [NNT Facebook page](https://www.facebook.com/thenottinghamnewtheatre) updated, stating which parts we’re casting and when we’re taking breaks. If a team wants to cast you, you will receive a phone call. If you do not answer we will keep trying to contact you, but after 15 minutes will need to move on and you will no longer be offered that role. You may be offered multiple parts so please take time after auditions / callbacks to consider which shows you would prefer to be in.
 
 ## Production Team
 
@@ -91,4 +91,4 @@ Applications will open on Friday 11th March until Friday 18th March. If you are 
 
 This pack details how the EdFringe process works and should answer any questions you have. Please contact {% include committee.html role="external" format="inline" %} if there is anything else you want to know.
 
-{% include button.html text="Getting Involved" link="/static/getting-involved-with-edfringe.pdf" filetype= "pdf" %}
+{% include button.html text="Getting Involved" link="[https://docs.google.com/document/d/1o_nFwpZYOJDvpf5xLUVsRKjZU_DxGsT6wt74QoKviNQ/edit?fbclid=IwAR2jQvoTsI1UG9yLcAiV10f2RUJ12ssDtJZP-U_z7F8UA_VQKyo5Wb_U43U](https://docs.google.com/document/d/1o_nFwpZYOJDvpf5xLUVsRKjZU_DxGsT6wt74QoKviNQ/edit?fbclid=IwAR2jQvoTsI1UG9yLcAiV10f2RUJ12ssDtJZP-U_z7F8UA_VQKyo5Wb_U43U "Getting Involved Pack Ed Fringe 2022")" filetype= "pdf" %}
