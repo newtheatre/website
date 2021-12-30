@@ -20,7 +20,7 @@ banner_image: get-involved.jpg
 
 {% include date.html date="launch" %}
 
-This season's launch was online, check it out on our Facebook page!
+To find out more about EdFringe 2022 please follow this [link](https://newtheatre.org.uk/edfringe/)!
 
 For all the latest updates, please do sign up to our [mailing list](/mailinglist/)!
 
