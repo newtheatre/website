@@ -24,7 +24,7 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ### Proposals Pack
 
-{% include button.html text="Proposals Pack" link="[https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?fbclid=IwAR1g_Su0YIIcmWsd8Sv4h6Sw0hUoUPEQub_kSH2QZ07QvAziCSG8l01si9I](https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?fbclid=IwAR1g_Su0YIIcmWsd8Sv4h6Sw0hUoUPEQub_kSH2QZ07QvAziCSG8l01si9I "https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?fbclid=IwAR1g_Su0YIIcmWsd8Sv4h6Sw0hUoUPEQub_kSH2QZ07QvAziCSG8l01si9I")" filetype= "pdf" %}
+{% include button.html text="Proposals Pack" title="EdFringe Proposals Pack" %}
 
 </div><div class="col-sm" markdown="1">
 
@@ -89,4 +89,4 @@ Applications will open on Friday 11th March until Friday 18th March. If you are 
 
 This pack details how the EdFringe process works and should answer any questions you have. Please contact {% include committee.html role="external" format="inline" %} if there is anything else you want to know.
 
-{% include button.html text="Getting Involved" link="[https://docs.google.com/document/d/1o_nFwpZYOJDvpf5xLUVsRKjZU_DxGsT6wt74QoKviNQ/edit?fbclid=IwAR2jQvoTsI1UG9yLcAiV10f2RUJ12ssDtJZP-U_z7F8UA_VQKyo5Wb_U43U](https://docs.google.com/document/d/1o_nFwpZYOJDvpf5xLUVsRKjZU_DxGsT6wt74QoKviNQ/edit?fbclid=IwAR2jQvoTsI1UG9yLcAiV10f2RUJ12ssDtJZP-U_z7F8UA_VQKyo5Wb_U43U "Getting Involved Pack Ed Fringe 2022")" filetype= "pdf" %}
+{% include button.html text="Getting Involved" title="Getting Involved Edinburgh Pack" %}
