@@ -89,4 +89,4 @@ Applications will open on Friday 11th March until Friday 18th March. If you are 
 
 This pack details how the EdFringe process works and should answer any questions you have. Please contact {% include committee.html role="external" format="inline" %} if there is anything else you want to know.
 
-{% include resource_card.html group="Getting Involved Ed Fringe 2022" columns=2 %}
+{% include resource_card.html group="Getting Involved Ed Fringe" columns=2 %}
