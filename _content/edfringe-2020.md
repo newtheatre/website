@@ -24,7 +24,7 @@ If you have any questions please get in touch with {% include committee.html rol
 
 ### Proposals Pack
 
-{% include button.html text="Proposals Pack" group="EdFringe 2022" %}
+{% include resource_card.html group="Ed Fringe 2022" columns=2 %}
 
 </div><div class="col-sm" markdown="1">
 
@@ -89,4 +89,4 @@ Applications will open on Friday 11th March until Friday 18th March. If you are 
 
 This pack details how the EdFringe process works and should answer any questions you have. Please contact {% include committee.html role="external" format="inline" %} if there is anything else you want to know.
 
-{% include button.html text="Getting Involved" group="Getting Involved EdFringe 2022" %}
+{% include resource_card.html group="Getting Involved Ed Fringe 2022" columns=2 %}
