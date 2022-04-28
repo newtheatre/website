@@ -51,7 +51,7 @@ GEM
     faraday-net_http (1.0.1)
     ffi (1.14.2)
     forwardable-extended (2.6.0)
-    git (1.8.1)
+    git (1.11.0)
       rchardet (~> 1.8)
     html-proofer (2.6.4)
       activesupport (~> 4.2)
