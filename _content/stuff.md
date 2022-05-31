@@ -17,7 +17,7 @@ mini_list: true
 
 The Nottingham New Theatre’s summer arts festival – the Student Fringe Festival (StuFF) is returning on the 13th and 14th June 2022! StuFF is an annual platform for student and professional theatre makers alike to showcase their work. We’re excited to reopen this year with 16 performances across the two days ranging from stand-up to sketch comedy; from sock puppetry to musicals. Each show at StuFF is an hour long, at £3 a ticket, with Day and Festival passes available at £15 and £25 a person. With shows running from 12am-late on both days, there’s something for everyone.
 
-Each show at StuFF is an hour long, at £3 a ticket, with Day and Festival passes available at £15 and £25 a person. With shows running from 12am-late on both days, there’s something for everyone. The theatre bar will be open throughout the festival serving drinks and snacks, as well as additional food vendors around the venue.
+Each show at StuFF is an hour long, at £3 a ticket, with Day and Festival passes available at £15 and £25 a person. With shows running from 12pm-late on both days, there’s something for everyone. The theatre bar will be open throughout the festival serving drinks and snacks, as well as additional food vendors around the venue.
 
 The festival is taking place at the Nottingham New Theatre, Cherry Tree Hill, University Park, Nottingham, NG7 2RD.
 
