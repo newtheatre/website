@@ -152,6 +152,8 @@ layout: default
     else if (the_shows[i - 1].end_date != the_shows[i].end_date) {
       mini_list_html += '</table></div><div class="col-md-6"><h2>' + date_string + '</h2><table class="table table-responsive table-borderless table-sm">'
     }
+    if (typeof(time_string)==='undefined'){ var time_string = '(Times below)' }
+      // Could use the_shows[i].occurrenes_formatted but the string is quite long. Quick fix for now.
     mini_list_html += '<tr><td>' + time_string + '</td><td><a href="#anchor_' + the_shows[i].id + '"><strong>' + the_shows[i].name + '</strong></a> <br /><em>' + the_shows[i].location + '</em></td></tr>'
     }
 
