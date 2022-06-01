@@ -36,8 +36,9 @@ layout: default
       var show_html = '';
       var mini_list_html = '';
       var programme_links = [];
+      var no_shows_text = "There are no shows coming up. Check back later or check our social media for more information!"
       if (the_shows.length == 0) {
-        show_html += '<div class="col w-80 mx-auto text-center text-muted"><p>There are no shows coming up. Check back later or check our social media for more information!</p></div>'
+        show_html += '<div class="col w-80 mx-auto text-center text-muted"><p>' + no_shows_text + '</p></div>'
         mini_list_html = show_html
       } 
       show_html = show_html + ('<div class="row">');
@@ -160,10 +161,13 @@ layout: default
     mini_list_html += '</table></div>';
     show_html = show_html + '</div>'; // End row 
     {% if page.mini_list %}
-      document.getElementById('mini_list').innerHTML = mini_list_html;
+        document.getElementById('mini_list').innerHTML = mini_list_html;
     {% endif %}
     {% unless page.hide_full_view %}
       document.getElementById('whats-on').innerHTML = show_html;
+      if ((the_shows.length == 0) && (document.getElementById('mini_list').innerHTML.includes(no_shows_text) === document.getElementById('whats-on').innerHTML.includes(no_shows_text))){
+        document.getElementById('whats-on').innerHTML = '';
+      }
     {% endunless %}
 
     $('a.reserve_button').click(function(event) {
