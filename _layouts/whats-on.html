@@ -8,11 +8,12 @@ layout: default
   <div id="mini_list" class="row">
     <div class="spinner mx-auto"></div>
   </div>
-{% else %}
+{% endif %}
+{% unless page.hide_full_view %}
   <div id="whats-on">
     <div class="spinner mx-auto"></div>
   </div>
-{% endif %}
+{% endunless %}
 <!-- The new Javascript bit --> 
 <script>
   $( document ).ready(function() {
@@ -158,9 +159,10 @@ layout: default
     show_html = show_html + '</div>'; // End row 
     {% if page.mini_list %}
       document.getElementById('mini_list').innerHTML = mini_list_html;
-    {% else %}
-      document.getElementById('whats-on').innerHTML = show_html;
     {% endif %}
+    {% unless page.hide_full_view %}
+      document.getElementById('whats-on').innerHTML = show_html;
+    {% endunless %}
 
     $('a.reserve_button').click(function(event) {
       document.getElementById('show_modal_iframe').src = ("{{ site.ticket_baseurl }}/book/"+this.id);
