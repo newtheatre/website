@@ -4,9 +4,9 @@
   email: president
   img: ''
   rollover: ''
-- role: Treasurer
-  name: Adam Phillips
-  email: treasurer
+- role: Secretary
+  name: Demi Idowu
+  email: secretary
   img: ''
   rollover: ''
 - role: Theatre Manager
@@ -15,10 +15,10 @@
   img: ''
   rollover: ''
   group: backstage
-- role: Secretary
-  name: Demi Idowu
-  email: secretary
-  img: ''
+- role: Treasurer
+  name: Adam Phillips
+  email: treasurer
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-V5M9ndr/0/6824f75b/X2/Adam-X2.jpg
   rollover: ''
 - role: In-House Coordinator
   name: Jenny Tucker
