@@ -20,4 +20,6 @@ If you have any questions, please contact us via our [Facebook page](https://www
 
 Furthermore, make sure you sign up to our [mailing list](https://newtheatre.us3.list-manage.com/subscribe?u=ce5311ce46fe45638f90f4022&id=97e4899eb8) to keep up with all of our shows and news!
 
+<iframe src="[https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%239E69AF&ctz=Europe%2FLondon&title=What](https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%239E69AF&ctz=Europe%2FLondon&title=What "Calendar")'s%20On&hl=en_GB&src=Y19hNDE3MjcxNzA1MDE0MzFlNjIwZTE0MjVlNTRmZDYxZjkwZmQ4MjM0OGFiNTlhZjQ5NWM5OTViNWEzNjYwNTljQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23795548" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 <hr class="w-75">
