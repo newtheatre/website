@@ -1,8 +1,8 @@
 ---
 - role: President
-  name: Jack Titley
+  name: Jasmine Butler
   email: president
-  img: https://i.ibb.co/f2qMd3x/Processed-with-VSCO-with-b1-preset.jpg
+  img: ''
   rollover: ''
 - role: Treasurer
   name: Max Nichols
