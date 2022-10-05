@@ -26,9 +26,9 @@
   group: coordinator
   img: ''
   rollover: ''
-- role: Fringe Coordinator
-  name: Abraham Botha
-  email: fringe
+- role: Studio Coordinator
+  name: Nay Dhanak
+  email: studio
   group: coordinator
   alias_email: stuff
   alias_role: StuFF Coordinator
