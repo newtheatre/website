@@ -42,11 +42,16 @@
   email: lb.csm
   group: backstage
   img: ''
+- role: Company Stage Manager
+  name: Abigail Kitwood
+  email: ak.csm
+  img: ''
+  rollover: ''
 - role: Company Master Carpenter
-  name: Nicholas Landon
+  name: Toby Russell
   email: cmc
   group: backstage
-  img: https://i.ibb.co/nz63mdC/Processed-with-VSCO-with-b1-preset.jpg
+  img: ''
   rollover: ''
 - role: Company Technical Director
   name: Annamarie Schooling
