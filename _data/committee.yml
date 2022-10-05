@@ -12,7 +12,7 @@
 - role: Theatre Manager
   name: William Morgan
   email: theatremanager
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-S3QKgXH/0/88128410/X2/Will-X2.jpg
   rollover: ''
   group: backstage
 - role: Treasurer
@@ -24,7 +24,7 @@
   name: Jenny Tucker
   email: inhouse
   group: coordinator
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-rd7HBCH/0/9e9487c8/X2/Jenny-X2.jpg
   rollover: ''
 - role: Studio Coordinator
   name: Nay Dhanak
@@ -32,16 +32,16 @@
   group: coordinator
   alias_email: stuff
   alias_role: StuFF Coordinator
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-NXG9ttx/0/d0929f5d/X2/Nay-X2.jpg
 - role: Front of House Manager
   name: Sophie Walters
   email: boxoffice
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-6789fDV/0/330d24e8/X2/Sophie-X2.jpg
 - role: Company Stage Manager
   name: Lauren Birks
   email: lb.csm
   group: backstage
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-7St9MSZ/0/e332314a/X2/Lauren-X2.jpg
 - role: Company Stage Manager
   name: Abigail Kitwood
   email: ak.csm
@@ -51,13 +51,13 @@
   name: Toby Russell
   email: cmc
   group: backstage
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-NtN9S4S/0/47bacc5c/X2/Toby-X2.jpg
   rollover: ''
 - role: Company Technical Director
   name: Sarina Rivlin-Sanders
   email: srs.techdirector
   group: backstage
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-QHknHWd/0/d2fd9498/X2/Sarina-X2.jpg
 - role: Company Technical Director
   name: Ellie Sugden
   email: es.techdirector
@@ -67,7 +67,7 @@
   name: James Appleby
   email: techmanager
   group: backstage
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-36L3j3p/0/c0c71222/X2/James-X2.jpg
   rollover: ''
 - role: Creatives Coordinator and Events Manager
   name: Izzy Kennedy-Grimes
@@ -82,7 +82,7 @@
 - role: Publicity Manager
   name: Katie Booth
   email: kb.publicity
-  img: ''
+  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-8PJT4hQ/0/4abbed1c/X2/Katie-X2.jpg
 - role: Publicity Manager
   name: Rosie Loader
   email: rl.publicity
