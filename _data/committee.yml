@@ -57,7 +57,7 @@
   name: Sarina Rivlin-Sanders
   email: srs.techdirector
   group: backstage
-  img: https://i.ibb.co/wSq5fJd/Processed-with-VSCO-with-b1-preset.jpg
+  img: ''
 - role: Company Technical Director
   name: Ellie Sugden
   email: es.techdirector
@@ -109,9 +109,4 @@
   name: Caetano Capurro
   email: itmanager
   img: ''
-  rollover: ''
-- role: Health and Safety Officer
-  name: Charlie Basley
-  email: healthsafety
-  img: https://i.ibb.co/3C59PXr/Processed-with-VSCO-with-b1-preset.jpg
   rollover: ''
