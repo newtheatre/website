@@ -48,6 +48,6 @@ The history of theatre at the University of Nottingham begins in the 1920s with 
 
 Our logo moved from swirls to two yellow squares in 2007, before moving to our beloved orange and purple in 2008. The Nottingham New Theatre brand has been tweaked and finessed over the past few years and is now consistently found on all of our publicity.
 
-More recently, our two Studio spaces were built in 2013 and our newest season – Unscripted – began in 2017.
+More recently, our two Studio spaces were built in 2013 and our newest season – Unscripted now known as Creatives– began in 2017.
 
 {% include button.html color="orange" link="https://history.newtheatre.org.uk" text="Read more about our past on the History Site" wide=true %}
