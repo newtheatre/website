@@ -2,29 +2,29 @@
 - role: President
   name: Jasmine Butler
   email: president
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-L9VdPrZ/0/e5982139/X2/Jaz-X2.jpg
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-zGRnd48/A
   rollover: ''
 - role: Secretary
   name: Demi Idowu
   email: secretary
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-HvkBrJJ/0/a71a1dd5/X2/Demi-X2.jpg
-  rollover: https://photos.smugmug.com/2022-23/Committee/Rollovers/i-qHDCK9P/0/859eebb0/X2/297181731_478340630312630_1026408743334443300_n-X2.jpg
-- role: Theatre Manager
-  name: William Morgan
-  email: theatremanager
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-S3QKgXH/0/88128410/X2/Will-X2.jpg
-  rollover: https://photos.smugmug.com/2022-23/Committee/Rollovers/i-T9PM78t/0/dfd88e64/X2/310026354_431296579090660_5770523603185626364_n-X2.jpg
-  group: backstage
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-kFF6BnQ/A
+  rollover: ''
 - role: Treasurer
   name: Adam Phillips
   email: treasurer
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-V5M9ndr/0/6824f75b/X2/Adam-X2.jpg
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-Ccqzh6P/A
   rollover: ''
+- role: Theatre Manager
+  name: William Morgan
+  email: theatremanager
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-ThLH5TV/A
+  rollover: ''
+  group: backstage
 - role: In-House Coordinator
   name: Jenny Tucker
   email: inhouse
   group: coordinator
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-rd7HBCH/0/9e9487c8/X2/Jenny-X2.jpg
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-kw64z8k/A
   rollover: ''
 - role: Studio Coordinator
   name: Nay Dhanak
@@ -32,62 +32,7 @@
   group: coordinator
   alias_email: stuff
   alias_role: StuFF Coordinator
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-NXG9ttx/0/d0929f5d/X2/Nay-X2.jpg
-- role: Front of House Manager
-  name: Sophie Walters
-  email: boxoffice
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-6789fDV/0/330d24e8/X2/Sophie-X2.jpg
-- role: Company Stage Manager
-  name: Lauren Birks
-  email: lb.csm
-  group: backstage
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-7St9MSZ/0/e332314a/X2/Lauren-X2.jpg
-- role: Company Stage Manager
-  name: Abigail Kitwood
-  email: ak.csm
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-XjnvMkD/0/a469e9b7/X2/Abi-X2.jpg
-  rollover: ''
-- role: Company Master Carpenter
-  name: Toby Russell
-  email: cmc
-  group: backstage
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-NtN9S4S/0/47bacc5c/X2/Toby-X2.jpg
-  rollover: ''
-- role: Company Technical Director
-  name: Sarina Rivlin-Sanders
-  email: srs.techdirector
-  group: backstage
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-QHknHWd/0/d2fd9498/X2/Sarina-X2.jpg
-- role: Company Technical Director
-  name: Ellie Sugden
-  email: es.techdirector
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-MD4pnpv/0/70c551f6/X2/Ellie-X2.jpg
-  rollover: ''
-- role: Technical Manager
-  name: James Appleby
-  email: techmanager
-  group: backstage
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-36L3j3p/0/c0c71222/X2/James-X2.jpg
-  rollover: ''
-- role: Creatives Coordinator and Events Manager
-  name: Isabelle Kennedy-Grimes
-  email: creatives
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-FNWqP3q/0/8f43c45c/X2/Izzy-X2.jpg
-  rollover: ''
-- role: Engagment Officer
-  name: Jess Beadle-Platt
-  email: 'engagement '
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-pbjbJ35/0/0208bab8/X2/Jess-X2.jpg
-  rollover: ''
-- role: Publicity Manager
-  name: Katie Booth
-  email: kb.publicity
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-8PJT4hQ/0/4abbed1c/X2/Katie-X2.jpg
-- role: Publicity Manager
-  name: Rosie Loader
-  email: rl.publicity
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-h2nXDKm/0/2687e27a/X2/image00009-X2.jpg
-  rollover: ''
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-Vw6SLcL/A
 - role: External Relations Manager
   name: Millie Rushworth
   email: external
@@ -96,17 +41,73 @@
   group: coordinator
   alias_email: edinburgh
   alias_role: Edinburgh Coordinator
+- role: Front of House Manager
+  name: Sophie Walters
+  email: boxoffice
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-82kCbfg/A
+- role: Company Stage Manager
+  name: Lauren Birks
+  email: lb.csm
+  group: backstage
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-mGjfcTX/A
+- role: Company Stage Manager
+  name: Abigail Kitwood
+  email: ak.csm
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-n9kjzPp/A
+  rollover: ''
+- role: Company Master Carpenter
+  name: Toby Russell
+  email: cmc
+  group: backstage
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-MKPVmDv/A
+  rollover: ''
+- role: Technical Manager
+  name: James Appleby
+  email: techmanager
+  group: backstage
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-RnTXRt8/A
+  rollover: ''
+- role: Company Technical Director
+  name: Sarina Rivlin-Sanders
+  email: srs.techdirector
+  group: backstage
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-BqDc5xN/A
+- role: Company Technical Director
+  name: Ellie Sugden
+  email: es.techdirector
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-hRdGFD5/A
+  rollover: ''
+- role: Publicity Manager
+  name: Katie Booth
+  email: kb.publicity
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-wknWZHf/A
+  rollover: ''
+- role: Publicity Manager
+  name: Rosie Loader
+  email: rl.publicity
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-DBJ4nkr/A
+  rollover: ''
+- role: Creatives Coordinator and Events Manager
+  name: Isabelle Kennedy-Grimes
+  email: creatives
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-4j3bDJ6/A
+  rollover: ''
+- role: Engagment Officer
+  name: Jess Beadle-Platt
+  email: engagement
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-rSdPgV7/A
+  rollover: ''
 - role: Costume, Props and Make-Up Manager
   name: Harry Berry
   email: costume
   group: backstage
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-hWp5frH/0/13236c87/X2/Harry-X2.jpg
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-rkkszTt/A
 - role: Social and Fundraising Coordinator
   name: Emily Stribbling
   email: social
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-C4XwdMh/0/cf609b93/X2/Emily-X2.jpg
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-JJt4dPL/A
 - role: IT Manager
   name: Caetano Capurro
   email: itmanager
-  img: https://photos.smugmug.com/2022-23/Committee/Headshots/i-RF8VcBj/0/ec192cb3/X2/Cae-X2.jpg
-  rollover: https://photos.smugmug.com/2022-23/Committee/Rollovers/i-9VDcnHq/0/4eecc299/Th/Cae%20rollover-Th.jpg
+  img: https://photos.newtheatre.org.uk/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-TBbRh4K/A
+  rollover: ''
