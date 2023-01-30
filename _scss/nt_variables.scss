@@ -46,6 +46,7 @@ $color-nnt: (
 $color-seasons: (
 	"in-house": map-get($color-nnt, "purple"),
 	"fringe": map-get($color-nnt, "orange"),
+	"studio": map-get($color-nnt, "orange"),
 	"external": map-get($color-nnt, "brand-alt"),
 	"stuff": map-get($color-nnt, "stuff-yellow"),
 );
