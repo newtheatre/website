@@ -13,7 +13,7 @@ pricing:
     type: fringe
   - stuff: 3
     type: stuff
-  - stuff-day-pass: 15
+  - stuff-day-pass: 10
     type: stuff 
-  - stuff-festival-pass: 25
+  - stuff-festival-pass: 15
     type: stuff 
