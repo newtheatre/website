@@ -1,107 +1,107 @@
----
-- title: Getting Involved Edinburgh Pack
-  link: https://docs.google.com/document/d/1o_nFwpZYOJDvpf5xLUVsRKjZU_DxGsT6wt74QoKviNQ/edit?fbclid=IwAR2jQvoTsI1UG9yLcAiV10f2RUJ12ssDtJZP-U_z7F8UA_VQKyo5Wb_U43U
-  description: ''
-  color: purple
-  file-type: pdf
-  group: GettingInvolvedEdFringe
-- description: ''
-  color: purple
-  title: EdFringe Proposals Pack
-  link: https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?usp=sharing/edit?usp=sharing
-  file-type: pdf
-  group: EdFringe2022
-- title: Autumn Online Season Proposal Pack
-  link: "/static/online-season-proposals-pack.pdf"
-  description: If you are looking to propose check out our Proposals Pack. It's a
-    handy guide to filling in the proposals form for this Autumn's Online Season
-  color: purple
-  file-type: pdf
-  group: Autumn-Online
-- title: Autumn Online Season Proposals form
-  description: Use this form to propose a show for the up-coming online Autumn season
-  color: purple
-  link: https://drive.google.com/file/d/1eCR6okB7kKW1zGM4qB8b7s5Gzh7Qzfct/view?usp=sharing
-  file-type: word
-  group: Autumn-Online
-- title: Quarantine Season Proposals Form
-  link: https://drive.google.com/file/d/1XfqyxDQaNcgwb4o1I-knOpsWRd8KAXjF/view?usp=sharing
-  description: Use this form to propose a show for the up-coming online Quarantine
-    season
-  color: purple
-  file-type: word
-  group: Quarantine-Season
-- title: Quarantine Season Proposal Pack
-  link: "/static/proposals-pack-summer-quarantine-2020-1.pdf"
-  description: If you’re looking to propose, check out our Proposals Pack. It’s a
-    handy guide to filling in the proposals form for this Summer's Quarantine Season
-  color: purple
-  file-type: pdf
-  group: Quarantine-Season
-- title: In House Proposals Form
-  link: https://docs.google.com/document/d/12ILYUcNs6V-Bk10vJVzSyrZelUIcsj0q/edit
-  color: purple
-  file-type: word
-  group: proposal-form
-  description: ''
-- title: Fringe Proposals Form
-  link: https://docs.google.com/document/d/1KnJ_Kd4QZn8KUVIXt-VmoxyoqydlBk6V/edit?fbclid=IwAR0j0HwPcTWHxyIlfFqSmIzi9ymspqsJlcgDQqXATCByAUS1PeGnol5xoi8
-  color: orange
-  file-type: word
-  group: proposal-form
-  description: ''
-- title: Proposals Pack
-  link: https://docs.google.com/document/d/1BPrg12Kh_ivuBpEfxfEdEPoooAjbQYz_fw5vyoiqMWc/edit?usp=sharing
-  color: purple
-  file-type: pdf
-  group: proposing-team
-  description: If you’re looking to propose, check out our Proposals Pack. It’s a
-    handy guide to filling in the proposals form for both the In House and Fringe
-    seasons.
-- title: External Venues Pack (coming soon!)
-  link: "#proposing-teams"
-  color: orange
-  file-type: pdf
-  group: proposing-team
-  description: If you’re proposing for the Fringe season, you may be interested in
-    our External Venues Pack, which has information about off-site venues that we’ve
-    worked in before. Don’t feel you’re limited to these though – just about anywhere
-    can be a performance venue!
-- title: Sample Questions
-  link: "/static/preproposal/Sample-Questions.pdf"
-  color: purple
-  file-type: pdf
-  group: proposing-team
-  description: During the Q&A part of the Proposals Day, the committee will be posing
-    questions to you. We’ve prepared a list of some of the most common – but by no
-    means the only ones you may face!
-- title: Show Pack
-  link: https://drive.google.com/file/d/1PPbfkNlSZtE47IgDgLBKNqPB2cAidvAY/view?usp=sharing
-  color: purple
-  file-type: pdf
-  group: production-team
-  description: To help put on your show, we’ve put together a Show Pack, which contains
-    information about publicity, front of house, tech, and lots of other things we
-    think will be useful. Whether you're a brand new team, or this is your fifth show,
-    take a look.
-- title: Code of Conduct
-  link: https://docs.google.com/document/d/13sBtxtMEjY_xr7qin6to6HkELop8eVbxhLO4AqBlQmM/edit?fbclid=IwAR3c1QpBAMWlAIjR1k7ebspjQWCNJjOtIwQsb8VgHDoQjSKhVdUkS5BzsYo
-  color: purple
-  file-type: pdf
-  group: production-team
-  description: This document must be read and signed by all production team members
-    as the very first thing you do for your show. It’s here in case you need a reminder.
-- title: Publicity Pack
-  link: https://drive.google.com/file/d/1ICVBk7aCpqt6miSaU-j3L-zjrIWo1Ul1/view?usp=sharing
-  color: purple
-  file-type: pdf
-  group: backstage
-  description: For everything you need to publicise your show, complete with deadlines
-    and guides for production shots, rehearsal videos, and social media tips.
-- title: Tech Team Pack
-  link: https://docs.google.com/file/d/1Fxc065cUUzlt2Vj7BboUNFOV-f7wl8lYJoCZhoQxJ6Q/edit
-  color: purple
-  file-type: doc
-  group: backstage
-  description: A wealth of resources and tips for being part of a tech team, covering
-    all roles before a show, during a get in, and once the run starts.
+resources: 
+  - title: Getting Involved Edinburgh Pack
+    link: https://docs.google.com/document/d/1o_nFwpZYOJDvpf5xLUVsRKjZU_DxGsT6wt74QoKviNQ/edit?fbclid=IwAR2jQvoTsI1UG9yLcAiV10f2RUJ12ssDtJZP-U_z7F8UA_VQKyo5Wb_U43U
+    description: ''
+    color: purple
+    file-type: pdf
+    group: GettingInvolvedEdFringe
+  - description: ''
+    color: purple
+    title: EdFringe Proposals Pack
+    link: https://docs.google.com/document/d/1MWPIWuKAqhUh6d5HIC7Cb0uFfdIx11f_ujrqGIAUc70/edit?usp=sharing/edit?usp=sharing
+    file-type: pdf
+    group: EdFringe2022
+  - title: Autumn Online Season Proposal Pack
+    link: "/static/online-season-proposals-pack.pdf"
+    description: If you are looking to propose check out our Proposals Pack. It's a
+      handy guide to filling in the proposals form for this Autumn's Online Season
+    color: purple
+    file-type: pdf
+    group: Autumn-Online
+  - title: Autumn Online Season Proposals form
+    description: Use this form to propose a show for the up-coming online Autumn season
+    color: purple
+    link: https://drive.google.com/file/d/1eCR6okB7kKW1zGM4qB8b7s5Gzh7Qzfct/view?usp=sharing
+    file-type: word
+    group: Autumn-Online
+  - title: Quarantine Season Proposals Form
+    link: https://drive.google.com/file/d/1XfqyxDQaNcgwb4o1I-knOpsWRd8KAXjF/view?usp=sharing
+    description: Use this form to propose a show for the up-coming online Quarantine
+      season
+    color: purple
+    file-type: word
+    group: Quarantine-Season
+  - title: Quarantine Season Proposal Pack
+    link: "/static/proposals-pack-summer-quarantine-2020-1.pdf"
+    description: If you’re looking to propose, check out our Proposals Pack. It’s a
+      handy guide to filling in the proposals form for this Summer's Quarantine Season
+    color: purple
+    file-type: pdf
+    group: Quarantine-Season
+  - title: In House Proposals Form
+    link: https://docs.google.com/document/d/12ILYUcNs6V-Bk10vJVzSyrZelUIcsj0q/edit
+    color: purple
+    file-type: word
+    group: proposal-form
+    description: ''
+  - title: Fringe Proposals Form
+    link: https://docs.google.com/document/d/1KnJ_Kd4QZn8KUVIXt-VmoxyoqydlBk6V/edit?fbclid=IwAR0j0HwPcTWHxyIlfFqSmIzi9ymspqsJlcgDQqXATCByAUS1PeGnol5xoi8
+    color: orange
+    file-type: word
+    group: proposal-form
+    description: ''
+  - title: Proposals Pack
+    link: https://docs.google.com/document/d/1BPrg12Kh_ivuBpEfxfEdEPoooAjbQYz_fw5vyoiqMWc/edit?usp=sharing
+    color: purple
+    file-type: pdf
+    group: proposing-team
+    description: If you’re looking to propose, check out our Proposals Pack. It’s a
+      handy guide to filling in the proposals form for both the In House and Fringe
+      seasons.
+  - title: External Venues Pack (coming soon!)
+    link: "#proposing-teams"
+    color: orange
+    file-type: pdf
+    group: proposing-team
+    description: If you’re proposing for the Fringe season, you may be interested in
+      our External Venues Pack, which has information about off-site venues that we’ve
+      worked in before. Don’t feel you’re limited to these though – just about anywhere
+      can be a performance venue!
+  - title: Sample Questions
+    link: "/static/preproposal/Sample-Questions.pdf"
+    color: purple
+    file-type: pdf
+    group: proposing-team
+    description: During the Q&A part of the Proposals Day, the committee will be posing
+      questions to you. We’ve prepared a list of some of the most common – but by no
+      means the only ones you may face!
+  - title: Show Pack
+    link: https://drive.google.com/file/d/1PPbfkNlSZtE47IgDgLBKNqPB2cAidvAY/view?usp=sharing
+    color: purple
+    file-type: pdf
+    group: production-team
+    description: To help put on your show, we’ve put together a Show Pack, which contains
+      information about publicity, front of house, tech, and lots of other things we
+      think will be useful. Whether you're a brand new team, or this is your fifth show,
+      take a look.
+  - title: Code of Conduct
+    link: https://docs.google.com/document/d/13sBtxtMEjY_xr7qin6to6HkELop8eVbxhLO4AqBlQmM/edit?fbclid=IwAR3c1QpBAMWlAIjR1k7ebspjQWCNJjOtIwQsb8VgHDoQjSKhVdUkS5BzsYo
+    color: purple
+    file-type: pdf
+    group: production-team
+    description: This document must be read and signed by all production team members
+      as the very first thing you do for your show. It’s here in case you need a reminder.
+  - title: Publicity Pack
+    link: https://drive.google.com/file/d/1ICVBk7aCpqt6miSaU-j3L-zjrIWo1Ul1/view?usp=sharing
+    color: purple
+    file-type: pdf
+    group: backstage
+    description: For everything you need to publicise your show, complete with deadlines
+      and guides for production shots, rehearsal videos, and social media tips.
+  - title: Tech Team Pack
+    link: https://docs.google.com/file/d/1Fxc065cUUzlt2Vj7BboUNFOV-f7wl8lYJoCZhoQxJ6Q/edit
+    color: purple
+    file-type: doc
+    group: backstage
+    description: A wealth of resources and tips for being part of a tech team, covering
+      all roles before a show, during a get in, and once the run starts.
