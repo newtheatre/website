@@ -16,7 +16,7 @@ collections:
         hint: 'The title of the page' 
       - label: 'Permalink'
         name: 'permalink'
-        hint: 'The link to this page (default is page title, lowercase with spaces replaced with dashes) **Add a / before and after, eg "/about/"" rather than simply "about"**'
+        hint: 'The link to this page (default is page title, lowercase with spaces replaced with dashes) **Add a / before and after, eg "/about/" rather than simply "about"**'
         required: false 
         widget: 'string'
       - label: 'Banner text'
@@ -143,8 +143,7 @@ collections:
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
-                hint: "Either /static/... for files on the website, or https:// ... for files hosted elsewhere (eg Google Drive)."
-              # File upload ?
+                hint: "Either /static/... for files on the website, or https:// ... for files hosted elsewhere (eg Google Drive)." # File upload?
               - label: 'Description'
                 name: 'description'
                 widget: 'markdown'
