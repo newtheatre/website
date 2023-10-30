@@ -3,13 +3,13 @@ title: Get Involved
 hide_title: false
 permalink: /get-involved/
 layout: toc
-pre_toc: >
-  Have you ever wondered what it would be like to rig lights in a
-  theatre? Ever toyed with the idea of directing a play? Pondered what it might
-  be like to get up on stage in front of hundreds of people? Longed to design
-  and build an entire set? The Nottingham New Theatre is one of the biggest
-  student-run groups at Nottingham, and the only student-run theatre in England,
-  and if any of the above is true for you, come and get involved!
+# pre_toc: >
+#   Have you ever wondered what it would be like to rig lights in a
+#   theatre? Ever toyed with the idea of directing a play? Pondered what it might
+#   be like to get up on stage in front of hundreds of people? Longed to design
+#   and build an entire set? The Nottingham New Theatre is one of the biggest
+#   student-run groups at Nottingham, and the only student-run theatre in England,
+#   and if any of the above is true for you, come and get involved!
 banner: true
 banner_text: Be a part of the Nottingham New Theatre
 banner_image: get-involved.jpg
