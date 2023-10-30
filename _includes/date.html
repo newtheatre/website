@@ -1,4 +1,4 @@
-{%- assign given_dates = site.data.dates | where_exp: "date", "date.alias contains include.date" -%}
+{%- assign given_dates = site.data.dates.dates | where_exp: "date", "date.alias contains include.date" -%}
 {%- assign given_dates_num = given_dates | size -%}
 
 {%- if given_dates_num == 1 -%}
