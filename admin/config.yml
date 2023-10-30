@@ -33,6 +33,11 @@ collections:
         options: ["default", "toc", "whats-on"]
         default: ["default"]
         hint: "How you would like the page to display? Without a Table of Contents; With ToC; or with show listings"
+      - label: "Advanced: Pre-Table of Contents"
+        name: 'pre_toc'
+        required: false
+        widget: 'text'
+        hint: "Text to appear above the Table of Contents box"
       - label: "Advanced: Show API URL"
         name: 'show_url'
         required: false 
