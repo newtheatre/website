@@ -52,6 +52,7 @@ resources:
     description: ''
   - title: Proposals Pack
     # link: https://docs.google.com/document/d/1BPrg12Kh_ivuBpEfxfEdEPoooAjbQYz_fw5vyoiqMWc/edit?usp=sharing
+    link: '#proposing-teams'
     color: purple
     file-type: pdf
     group: proposing-team
