@@ -56,40 +56,44 @@ collections:
         name: 'committee'
         file: '_data/committee.yml'
         fields:
-          - label: 'Role'
-            name: 'Role'
-            widget: 'string'
-          - label: 'Name'
-            name: 'name'
-            widget: 'string'
-          - label: 'email'
-            name: 'email'
-            widget: 'string'
-            hint: 'Everything before the @newtheatre.org.uk, eg for "president@newtheatre.org.uk" just use "president"'
-          - label: 'Headshot'
-            name: 'img'
-            widget: 'string'
-            hint: 'Images are stored in Smugmug under a year folder under Website Photos.'
-          - label: 'Headshot Rollover'
-            name: 'rollover'
-            widget: 'string'
-            hint: 'Images are stored in Smugmug under WebsitePhotos/Year/Rollover'
-            required: false
-          - label: 'Role Alias'
-            name: 'alias_role'
-            widget: 'string'
-            required: false 
-            hint: 'For committee members with multiple roles, eg External and Edinburgh, you can add their other role here'
-          - label: 'Email Alias'
-            name: 'alias_email'
-            widget: 'string'
-            hint: "For the other role, you can add that role's email here"
-            required: false 
-          - label: 'Group'
-            name: 'group'
-            widget: 'string'
-            required: false 
-            hint: "It can be worth grouping some committee members, eg all of backstage. You can do that here as a single word."
+          - label: "Committee Members"
+            name: 'committee'
+            widget: 'list'
+            fields:
+              - label: 'Role'
+                name: 'Role'
+                widget: 'string'
+              - label: 'Name'
+                name: 'name'
+                widget: 'string'
+              - label: 'email'
+                name: 'email'
+                widget: 'string'
+                hint: 'Everything before the @newtheatre.org.uk, eg for "president@newtheatre.org.uk" just use "president"'
+              - label: 'Headshot'
+                name: 'img'
+                widget: 'string'
+                hint: 'Images are stored in Smugmug under a year folder under Website Photos.'
+              - label: 'Headshot Rollover'
+                name: 'rollover'
+                widget: 'string'
+                hint: 'Images are stored in Smugmug under WebsitePhotos/Year/Rollover'
+                required: false
+              - label: 'Role Alias'
+                name: 'alias_role'
+                widget: 'string'
+                required: false 
+                hint: 'For committee members with multiple roles, eg External and Edinburgh, you can add their other role here'
+              - label: 'Email Alias'
+                name: 'alias_email'
+                widget: 'string'
+                hint: "For the other role, you can add that role's email here"
+                required: false 
+              - label: 'Group'
+                name: 'group'
+                widget: 'string'
+                required: false 
+                hint: "It can be worth grouping some committee members, eg all of backstage. You can do that here as a single word."
   - name: 'dates'
     label: 'Key Dates'
     editor:
@@ -99,18 +103,22 @@ collections:
         name: 'dates'
         file: '_data/dates.yml'
         fields:
-          - label: 'Code'
-            name: 'alias'
-            hint: 'Code to refer to this date in templates, use dashes for spaces'
-            widget: 'string'
-          - label: 'Name'
-            name: 'name'
-            hint: 'Display name for this date'
-            widget: 'string'
-          - label: 'Date'
-            name: 'date'
-            hint: 'The actual date, as you would like it to appear, eg. 28th October; 1st-2nd July 2020; TBC'
-            widget: 'string'
+          - label: "Key Dates"
+            name: 'dates'
+            widget: 'list'
+            fields: 
+              - label: 'Code'
+                name: 'alias'
+                hint: 'Code to refer to this date in templates, use dashes for spaces'
+                widget: 'string'
+              - label: 'Name'
+                name: 'name'
+                hint: 'Display name for this date'
+                widget: 'string'
+              - label: 'Date'
+                name: 'date'
+                hint: 'The actual date, as you would like it to appear, eg. 28th October; 1st-2nd July 2020; TBC'
+                widget: 'string'
   - name: 'show_resources'
     label: 'Show Resources'
     editor:
@@ -120,33 +128,37 @@ collections:
         name: 'show_resources'
         file: '_data/show-resources.yml'
         fields:
-          - label: 'Title'
-            name: 'title'
-            widget: 'string'
-          - label: 'Link'
-            name: 'link'
-            widget: 'string'
-            hint: "Either /static/... for files on the website, or https:// ... for files hosted elsewhere (eg Google Drive)."
-          # File upload ?
-          - label: 'Description'
-            name: 'description'
-            widget: 'markdown'
-            required: false 
-            hint: "(Optional) A little blurb about the resource"
-          - label: 'Colour'
-            name: 'color'
-            widget: 'string'
-            hint: 'What colour should the box be? Choice is any branded colour (typically purple or orange) ([Full list under $color-nnt here](https://github.com/newtheatre/website/blob/master/_scss/nt_variables.scss))'
-          - label: 'File type'
-            name: 'file-type'
-            widget: 'string'
-            hint: 'Should also correspond to an icon from [this list](https://fontawesome.com/icons?d=gallery&c=files&m=free)'
-            required: false 
-          - label: 'Group'
-            name: 'group'
-            widget: 'string'
-            required: false 
-            hint: "Which section does this belong to? (Proposing team; backstage; etc)"
+          - label: 'Show Resources'
+            name: 'resources'
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+                hint: "Either /static/... for files on the website, or https:// ... for files hosted elsewhere (eg Google Drive)."
+              # File upload ?
+              - label: 'Description'
+                name: 'description'
+                widget: 'markdown'
+                required: false 
+                hint: "(Optional) A little blurb about the resource"
+              - label: 'Colour'
+                name: 'color'
+                widget: 'string'
+                hint: 'What colour should the box be? Choice is any branded colour (typically purple or orange) ([Full list under $color-nnt here](https://github.com/newtheatre/website/blob/master/_scss/nt_variables.scss))'
+              - label: 'File type'
+                name: 'file-type'
+                widget: 'string'
+                hint: 'Should also correspond to an icon from [this list](https://fontawesome.com/icons?d=gallery&c=files&m=free)'
+                required: false 
+              - label: 'Group'
+                name: 'group'
+                widget: 'string'
+                required: false 
+                hint: "Which section does this belong to? (Proposing team; backstage; etc)"
   # Fix PR #98 for this to be implemented
   # - name: 'redirect'
   #   label: 'Redirects'
