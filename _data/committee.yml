@@ -1,8 +1,8 @@
 ---
 - role: President
-  name: Jasmine Butler
+  name: Ellie Sugden
   email: president
-  img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-zGRnd48/0/57dfcf09/X2/Jasmine%20Butler-X2.jpg
+  img: ''
   rollover: ''
 - role: Secretary
   name: Demi Idowu
