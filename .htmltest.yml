@@ -3,6 +3,7 @@ CheckDoctype: false
 EnforceHTML5: true 
 EnfroceHTTPS: true 
 IgnoreAltMissing: true 
+IgnoreInternalEmptyHash: true 
 IgnoreURLs:
 # CHECK: Feel like we do in fact want to check NT links...?
 # - "newtheatre.org.uk"
@@ -13,3 +14,4 @@ IgnoreURLs:
 - "twitter.com/thenewtheatre"
 - "instagram.com/nottinghamnewtheatre"
 - "newtheatre.us3.list-manage.com"
+- "calendar.google.com"
