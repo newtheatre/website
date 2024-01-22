@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+docker-compose exec app bundle exec jekyll server --host 0.0.0.0
