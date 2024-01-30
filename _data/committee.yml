@@ -46,7 +46,7 @@
   email: boxoffice
   img: ''
 - role: Company Stage Manager
-  name: Ana Balanici
+  name: Ana Bălănici
   email: ab.csm
   group: backstage
   img: ''
@@ -78,13 +78,13 @@
   img: ''
   rollover: ''
 - role: Marketing Coordinator
-  name: ''
-  email: publicity
+  name: Zoe Hopper
+  email: zoe.marketing
   img: ''
   rollover: ''
 - role: Marketing Coordinator
-  name: ''
-  email: publicity
+  name: Luanne Moses
+  email: luanne.marketing
   img: ''
   rollover: ''
 - role: Creatives Coordinator
@@ -103,11 +103,11 @@
   group: backstage
   img: ''
 - role: Social and Fundraising Coordinator
-  name: Dante Sidhu
+  name: Danté Sidhu
   email: social
   img: ''
 - role: Archivist
-  name: Meg Issac
+  name: Megan Isaac
   email: itmanager
   img: ''
   rollover: ''
