@@ -1,113 +1,113 @@
-committee:
-  - role: President
-    name: Jasmine Butler
-    email: president
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-zGRnd48/0/57dfcf09/X2/Jasmine%20Butler-X2.jpg
-    rollover: ''
-  - role: Secretary
-    name: Demi Idowu
-    email: secretary
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-kFF6BnQ/0/c9fcbf0f/X2/Demi%20Idowu-X2.jpg
-    rollover: ''
-  - role: Treasurer
-    name: Adam Phillips
-    email: treasurer
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-Ccqzh6P/0/017fad32/X2/Adam%20Phillips-X2.jpg
-    rollover: ''
-  - role: Theatre Manager
-    name: William Morgan
-    email: theatremanager
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-ThLH5TV/0/a786dcd7/X2/William%20Morgan-X2.jpg
-    rollover: ''
-    group: backstage
-  - role: In-House Coordinator
-    name: Jenny Tucker
-    email: inhouse
-    group: coordinator
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-kw64z8k/0/c8107c4c/X2/Jenny%20Tucker-X2.jpg
-    rollover: ''
-  - role: Studio Coordinator
-    name: Nay Dhanak
-    email: studio
-    group: coordinator
-    alias_email: stuff
-    alias_role: StuFF Coordinator
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-Vw6SLcL/0/8ec84805/X2/Nay%20Dhanak-X2.jpg
-  - role: External Relations Manager
-    name: Millie Rushworth
-    email: external
-    img: ''
-    rollover: ''
-    group: coordinator
-    alias_email: edinburgh
-    alias_role: Edinburgh Coordinator
-  - role: Front of House Manager
-    name: Sophie Walters
-    email: boxoffice
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-82kCbfg/0/3e86b250/X2/Sophie%20Walters-X2.jpg
-  - role: Company Stage Manager
-    name: Lauren Birks
-    email: lb.csm
-    group: backstage
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-mGjfcTX/0/84d48402/X2/Lauren%20Birks-X2.jpg
-  - role: Company Stage Manager
-    name: Abigail Kitwood
-    email: ak.csm
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-n9kjzPp/0/a2dd5631/X2/Abigail%20Kitwood-X2.jpg
-    rollover: ''
-  - role: Company Master Carpenter
-    name: Toby Russell
-    email: cmc
-    group: backstage
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-MKPVmDv/0/9b7b6598/X2/Toby%20Russell-X2.jpg
-    rollover: ''
-  - role: Technical Manager
-    name: James Appleby
-    email: techmanager
-    group: backstage
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-RnTXRt8/0/ac23f6cc/X2/James%20Appleby-X2.jpg
-    rollover: ''
-  - role: Company Technical Director
-    name: Sarina Rivlin-Sanders
-    email: srs.techdirector
-    group: backstage
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-BqDc5xN/0/de9c8a50/X2/Sarina%20Rivlin-Sanders-X2.jpg
-  - role: Company Technical Director
-    name: Ellie Sugden
-    email: es.techdirector
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-hRdGFD5/0/ffffbd5b/X2/Ellie%20Sugden-X2.jpg
-    rollover: ''
-  - role: Publicity Manager
-    name: Katie Booth
-    email: kb.publicity
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-wknWZHf/0/678817bd/X2/Katie%20Booth-X2.jpg
-    rollover: ''
-  - role: Publicity Manager
-    name: Rosie Loader
-    email: rl.publicity
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-DBJ4nkr/0/6527bd90/X2/Rosie%20Loader-X2.jpg
-    rollover: ''
-  - role: Creatives Coordinator and Events Manager
-    name: Isabelle Kennedy-Grimes
-    email: creatives
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-4j3bDJ6/0/4c5f633d/X2/Isabelle%20Kennedy-Grimes-X2.jpg
-    rollover: ''
-  - role: Engagment Officer
-    name: Jess Beadle-Platt
-    email: engagement
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-rSdPgV7/0/50727f74/X2/Jess%20Beadle-Platt-X2.jpg
-    rollover: ''
-  - role: Costume, Props and Make-Up Manager
-    name: Harry Berry
-    email: costume
-    group: backstage
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-rkkszTt/0/384338cf/X2/Harry%20Berry-X2.jpg
-  - role: Social and Fundraising Coordinator
-    name: Emily Stribbling
-    email: social
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-JJt4dPL/0/8d999518/X2/Emily%20Stribbling-X2.jpg
-  - role: Archivist
-    name: Caetano Capurro
-    email: itmanager
-    img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-TBbRh4K/0/de739581/X2/Caetano%20Cappuro-X2.jpg
-    rollover: ''
+---
+- role: President
+  name: Ellie Sugden
+  email: president
+  img: ''
+  rollover: ''
+- role: Secretary and Welfare Officer
+  name: Laura Denison
+  email: secretary
+  img: ''
+  rollover: ''
+- role: Treasurer
+  name: Oliver Kletz
+  email: treasurer
+  img: ''
+  rollover: ''
+- role: Theatre Manager
+  name: Lily Hagen
+  email: theatremanager
+  img: ''
+  rollover: ''
+  group: backstage
+- role: In-House Coordinator
+  name: Annabel Rumble
+  email: inhouse
+  group: coordinator
+  img: ''
+  rollover: ''
+- role: Studio Coordinator
+  name: Alessia Lowcock
+  email: studio
+  group: coordinator
+  alias_email: stuff
+  alias_role: StuFF Coordinator
+  img: ''
+- role: External Relations Manager
+  name: Maisie Jack
+  email: external
+  img: ''
+  rollover: ''
+  group: coordinator
+  alias_email: edinburgh
+  alias_role: Edinburgh Coordinator
+- role: Front of House Manager
+  name: Jake Evans
+  email: boxoffice
+  img: ''
+- role: Company Stage Manager
+  name: Ana Bălănici
+  email: ab.csm
+  group: backstage
+  img: ''
+- role: Company Stage Manager
+  name: Abigail Kitwood
+  email: ak.csm
+  img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-n9kjzPp/0/a2dd5631/X2/Abigail%20Kitwood-X2.jpg
+  rollover: ''
+- role: Company Workshop Manager
+  name: Farah Shah
+  email: cmc
+  group: backstage
+  img: ''
+  rollover: ''
+- role: Technical Manager
+  name: Rachel Hoddes
+  email: techmanager
+  group: backstage
+  img: ''
+  rollover: ''
+- role: Company Technical Director
+  name: Maggie Campion
+  email: mc.techdirector
+  group: backstage
+  img: ''
+- role: Company Technical Director
+  name: Charlotte Reese
+  email: cr.techdirector
+  img: ''
+  rollover: ''
+- role: Marketing Coordinator
+  name: Zoe Hopper
+  email: zoe.marketing
+  img: ''
+  rollover: ''
+- role: Marketing Coordinator
+  name: Luanne Moses
+  email: luanne.marketing
+  img: ''
+  rollover: ''
+- role: Creatives Coordinator
+  name: Ali Seaborne
+  email: creatives
+  img: ''
+  rollover: ''
+- role: Events and Engagment Officer
+  name: Molly Squires
+  email: engagement
+  img: ''
+  rollover: ''
+- role: Costume, Props and Make-Up Manager
+  name: ''
+  email: costume
+  group: backstage
+  img: ''
+- role: Social and Fundraising Coordinator
+  name: Danté Sidhu
+  email: social
+  img: ''
+- role: Archivist
+  name: Meg Isaac
+  email: itmanager
+  img: ''
+  rollover: ''
