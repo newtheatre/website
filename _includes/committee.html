@@ -1,11 +1,11 @@
 {%- unless include.role or include.group  -%}
-  {%- assign person = site.data.committee -%}
+  {%- assign person = site.data.committee.committee -%}
 {%- endunless -%}
 {%- if include.group -%}
-  {%- assign person = site.data.committee | where: "group", include.group -%}
+  {%- assign person = site.data.committee.committee | where: "group", include.group -%}
 {%- endif -%}
 {%- if include.role -%}
-  {%- assign person = site.data.committee | where: "email", include.role -%}
+  {%- assign person = site.data.committee.committee | where: "email", include.role -%}
 {%- endif -%}
 
 {%- if include.format == "inline" -%}

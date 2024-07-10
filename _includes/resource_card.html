@@ -5,7 +5,7 @@ Optional variables:
 - columns: integer. Number of columns of cards. Up to 3.
 {%- endcomment -%}
 
-{% assign resources = site.data.show-resources | where: "group", include.group %}
+{% assign resources = site.data.show-resources.resources | where: "group", include.group %}
 {% if include.columns >= 2 %}
 	{% assign columns = "col-md-6" %}
 {% else %}
