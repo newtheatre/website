@@ -1,27 +1,27 @@
 ---
 - role: President
-  name: Ellie Sugden
+  name: Lily Hagen
   email: president
   img: ''
   rollover: ''
 - role: Secretary and Welfare Officer
-  name: Laura Denison
+  name: Maggie Campion
   email: secretary
   img: ''
   rollover: ''
 - role: Treasurer
-  name: Oliver Kletz
+  name: T Kenyon
   email: treasurer
   img: ''
   rollover: ''
 - role: Theatre Manager
-  name: Lily Hagen
+  name: Charlotte Reese
   email: theatremanager
   img: ''
   rollover: ''
   group: backstage
 - role: In-House Coordinator
-  name: Annabel Rumble
+  name: Charlotte Reay
   email: inhouse
   group: coordinator
   img: ''
@@ -34,7 +34,7 @@
   alias_role: StuFF Coordinator
   img: ''
 - role: External Relations Manager
-  name: Maisie Jack
+  name: ''
   email: external
   img: ''
   rollover: ''
@@ -42,21 +42,21 @@
   alias_email: edinburgh
   alias_role: Edinburgh Coordinator
 - role: Front of House Manager
-  name: Jake Evans
+  name: Juhi Andon
   email: boxoffice
   img: ''
 - role: Company Stage Manager
-  name: Ana Bălănici
-  email: ab.csm
+  name: Bhavneeta Khodiyar
+  email: bk.csm
   group: backstage
   img: ''
 - role: Company Stage Manager
-  name: Abigail Kitwood
-  email: ak.csm
-  img: https://photos.smugmug.com/Website-Photos/2022-23/n-bzZLNx/Committee-Headshots-2022-23/i-n9kjzPp/0/a2dd5631/X2/Abigail%20Kitwood-X2.jpg
+  name: Lauren Isherwood
+  email: li.csm
+  img: ''
   rollover: ''
 - role: Company Workshop Manager
-  name: Farah Shah
+  name: ''
   email: cmc
   group: backstage
   img: ''
@@ -68,23 +68,23 @@
   img: ''
   rollover: ''
 - role: Company Technical Director
-  name: Maggie Campion
-  email: mc.techdirector
+  name: Ben Bromley
+  email: bb.techdirector
   group: backstage
   img: ''
 - role: Company Technical Director
-  name: Charlotte Reese
+  name: ''
   email: cr.techdirector
   img: ''
   rollover: ''
 - role: Marketing Coordinator
-  name: Zoe Hopper
-  email: zoe.marketing
+  name: Kieran Bell
+  email: kieran.marketing
   img: ''
   rollover: ''
 - role: Marketing Coordinator
-  name: Luanne Moses
-  email: luanne.marketing
+  name: Alex Vale
+  email: alex.marketing
   img: ''
   rollover: ''
 - role: Creatives Coordinator
@@ -93,17 +93,17 @@
   img: ''
   rollover: ''
 - role: Events and Engagment Officer
-  name: Molly Squires
+  name: ''
   email: engagement
   img: ''
   rollover: ''
 - role: Costume, Props and Make-Up Manager
-  name: ''
+  name: Tara Wynne-Edwards
   email: costume
   group: backstage
   img: ''
 - role: Social and Fundraising Coordinator
-  name: Danté Sidhu
+  name: Kayla Sibanda
   email: social
   img: ''
 - role: Archivist
