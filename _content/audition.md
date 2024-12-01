@@ -32,7 +32,7 @@ shows:
       - Producer: Melina Williams
     start_date: 2021-05-05
     content_warnings: "Missing/dead persons, strong language, threatening/distressing themes"
-    submission_form: "https://forms.gle/PJuUyZHf1UbEqm3T9"
+    submission_form: ""
     audition_link: "https://docs.google.com/document/d/1i7tvhDo9NWBy0PuUAelp81jpQETGPoTH6lC5XXNuahM/edit?usp=sharing"
     contact_email: digital-slot6@newtheatre.org.uk 
     crew_roles: "Shadow/Assistant Director/Producer; Creative Assistant; Video Editor, Sound Designer; Publicity Assistant; Poster Designer"
