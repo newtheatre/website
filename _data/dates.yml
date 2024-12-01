@@ -7,81 +7,81 @@
   date: tbc
 - alias: ef-auditions
   name: 'EdFringe Auditions '
-  date: 10th and 11th March
+  date: tbc
 - alias: 'ef-proposals-deadline '
   name: EdFringe Proposals Deadline
   date: tbc
 - alias: ih-proposal-deadline
   name: In House Proposal Deadline
-  date: 6th October, 2021
+  date: 9th October, 2024
 - alias: ih-auditions
   name: In House Auditions
-  date: 20th-21st October, 2022
+  date: 17th-18th October, 2024
 - alias: ih-auditions-callbacks
   name: In House Callbacks
-  date: 22nd October, 2022
+  date: 19th October, 2024
 - alias: ih-auditions-casting
   name: In House Casting
-  date: 23rd October, 2022
+  date: 20th October, 2024
 - alias: ih-season-launch
   name: In House Season Launch
-  date: 19th October, 2021
+  date: 16th October, 2024
 - alias: fringe-proposal-deadline
   name: Studio Proposal Deadline
-  date: 26th October, 2022
+  date: 27th October, 2024
 - alias: fr-auditions
   name: Studio Auditions
-  date: 3rd - 4th November, 2022
+  date: 31st October-1st November, 2024
 - alias: fr-auditions-callbacks
   name: Studio Callbacks
-  date: 5th November, 2022
+  date: 2nd November, 2024
 - alias: fr-auditions-casting
   name: Studio Casting
-  date: 6th November, 2022
+  date: 3rd November, 2024
 - alias: fr-season-launch
   name: Studio Season Launch
-  date: 2nd November, 2022
+  date: 30th October, 2024
 - alias: ih-slot-1
   name: In House Slot 1
-  date: 3rd November - 6th November, 2021
+  date: 14th-16th November, 2024
 - alias: ih-slot-2
   name: In House Slot 2
-  date: 10th-13th November, 2021
+  date: 21st-23rd November, 2024
 - alias: ih-slot-3
   name: In House Slot 3
-  date: 17th-20th November, 2021
+  date: 28th-30th November, 2024
 - alias: ih-slot-4
   name: In House Slot 4
-  date: 24th-27th November, 2021
+  date: 5th-7th December, 2024
 - alias: ih-slot-5
   name: In House Slot 5
-  date: 1st-4th December, 2021
+  date: ''
 - alias: ih-slot-6
   name: In House Slot 6
-  date: 8th-11th December, 2021
+  date: ''
 - alias: fr-slot-1
-  name: Fringe Slot 1
-  date: 14th-16th November, 2021
+  name: Studio Slot 1
+  date: 24th-26th November, 2024
 - alias: fr-slot-2
-  name: Fringe Slot 2
-  date: 21st-23rd November, 2021
+  name: Studio Slot 2
+  date: 1st-3rd December, 2024
 - alias: fr-slot-3
-  name: Fringe Slot 3
-  date: 28th-30th November, 2021
+  name: Studio Slot 3
+  date: 8th-10th December, 2024
 - alias: fr-slot-4
-  name: Fringe Slot 4
-  date: 5th-7th December, 2021
+  name: Studio Slot 4
+  date: ''
 - alias: fr-slot-5
-  name: Fringe Slot 5
-  date: 12th-14th November, 2021
+  name: Studio Slot 5
+  date: ''
 - alias: fr-slot-6
-  name: Fringe Slot 6
-  date: 16th-18th December, 2021
+  name: Studio Slot 6
+  date: 
 - alias: fr-slot-7
-  name: Fringe Slot 7
+  name: Studio Slot 7
   date: ''
 - alias: unscripted-1
-  name: Unscripted
+  name: Creatives
   date: ''
 - alias: external-spring
 - alias: external-summer
