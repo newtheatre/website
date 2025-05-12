@@ -19,7 +19,7 @@ The Nottingham New Theatre’s summer arts festival – the Student Fringe Festi
 
 Each show at StuFF is an hour long, at £3 a ticket, with Day and Festival passes available at £10 and £15 a person. With shows running from 11am-late on both days, there’s something for everyone. The theatre bar will be open throughout the festival serving drinks and snacks, as well as additional food vendors around the venue.
 
-The festival is taking place at the Nottingham New Theatre, Cherry Tree Hill, University Park, Nottingham, NG7 2RD.
+The festival is taking place in The Studio, Portland Building, University Park, Nottingham, NG7 2RD. ([///vibrates.rinse.often](https://w3w.co/vibrates.rinse.often))
 
 For more information, please contact {% include committee.html role="external" alias="stuff" format="inline" %}.
 
