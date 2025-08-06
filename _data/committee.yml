@@ -1,11 +1,11 @@
 ---
 - role: President
-  name: Lily Hagen
+  name: Charlotte Reay
   email: president
   img: ''
   rollover: ''
 - role: Secretary and Welfare Officer
-  name: Maggie Campion
+  name: Kieran Bell
   email: secretary
   img: ''
   rollover: ''
@@ -15,26 +15,26 @@
   img: ''
   rollover: ''
 - role: Theatre Manager
-  name: Charlotte Reese
+  name: Matt Adcock
   email: theatremanager
   img: ''
   rollover: ''
   group: backstage
 - role: In-House Coordinator
-  name: Charlotte Reay
+  name: Jimmy Pays
   email: inhouse
   group: coordinator
   img: ''
   rollover: ''
 - role: Studio Coordinator
-  name: Alessia Lowcock
+  name: Abbie Foster
   email: studio
   group: coordinator
   alias_email: stuff
   alias_role: StuFF Coordinator
   img: ''
 - role: External Relations Manager
-  name: ''
+  name: Harrison Martin
   email: external
   img: ''
   rollover: ''
@@ -42,44 +42,44 @@
   alias_email: edinburgh
   alias_role: Edinburgh Coordinator
 - role: Front of House Manager
-  name: Juhi Andon
+  name: Alessia Lowcock
   email: boxoffice
   img: ''
 - role: Company Stage Manager
-  name: Bhavneeta Khodiyar
-  email: bk.csm
+  name: Lily Hagen
+  email:
   group: backstage
   img: ''
 - role: Company Stage Manager
-  name: Lauren Isherwood
-  email: li.csm
+  name: Bridey Mounteney
+  email:
   img: ''
   rollover: ''
 - role: Company Workshop Manager
-  name: ''
+  name: Xuan Saw
   email: cmc
   group: backstage
   img: ''
   rollover: ''
 - role: Technical Manager
-  name: Rachel Hoddes
+  name: Ben Bromley
   email: techmanager
   group: backstage
   img: ''
   rollover: ''
 - role: Company Technical Director
-  name: Ben Bromley
-  email: bb.techdirector
+  name: Hope Somers
+  email:
   group: backstage
   img: ''
 - role: Company Technical Director
-  name: ''
-  email: cr.techdirector
+  name: Isabel Ilett
+  email:
   img: ''
   rollover: ''
 - role: Marketing Coordinator
-  name: Kieran Bell
-  email: kieran.marketing
+  name: Grace Cannon
+  email: 
   img: ''
   rollover: ''
 - role: Marketing Coordinator
@@ -88,17 +88,17 @@
   img: ''
   rollover: ''
 - role: Creatives Coordinator
-  name: Ali Seaborne
+  name: Issy Bladen
   email: creatives
   img: ''
   rollover: ''
 - role: Events and Engagment Officer
-  name: ''
+  name: Molly Squires
   email: engagement
   img: ''
   rollover: ''
 - role: Costume, Props and Make-Up Manager
-  name: Tara Wynne-Edwards
+  name: Rose Bardell
   email: costume
   group: backstage
   img: ''
@@ -108,6 +108,6 @@
   img: ''
 - role: Archivist
   name: Meg Isaac
-  email: itmanager
+  email: archive
   img: ''
   rollover: ''
