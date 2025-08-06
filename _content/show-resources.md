@@ -54,7 +54,7 @@ It's not just production teams who can get their hands on some great resources. 
 
 * [New Theatre Room Booking Website](https://nntroombooking.skedda.com/booking?viewtype=1)
 * [UoNSU Room Booking Website](https://eu.jotform.com/uonsusocs/roombookings)
-* [Training Site](https://training.newtheatre.org.uk)
+* [Training Site](https://training.newtheatre.org.uk/)
 * [Technical Specification]({{ site.baseurl }}/technical/)
 * [Lighting Site](http://lx.newtheatre.org.uk)
 * Backstage Catalogue
