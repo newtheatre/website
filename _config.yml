@@ -7,7 +7,7 @@ instagram: nottinghamnewtheatre
 uonsu: "https://su.nottingham.ac.uk/activities/view/new-theatre"
 baseurl: "" # the subpath of your site, e.g. /blog/
 repository: newtheatre/website
-url: "https://newtheatre.org.uk" # the base hostname & protocol for your site
+url: "https://old.newtheatre.org.uk" # the base hostname & protocol for your site
 description: "The Nottingham New Theatre is England's only fully student-run theatre producing over 30 productions annually across two venues."
 ntbot_endpoint: "https://ntbot.flatcar.xyz/post_issue" # For issue posting
 
@@ -81,6 +81,6 @@ prose:
     - lib
     - package.json
     - robots.txt
-  siteurl: "https://newtheatre.org.uk"
+  siteurl: "https://old.newtheatre.org.uk"
   media: "images"
   # metadata:

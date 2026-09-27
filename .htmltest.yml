@@ -16,3 +16,13 @@ IgnoreURLs:
 - "newtheatre.us3.list-manage.com"
 - "calendar.google.com"
 - "training.newtheatre.org.uk"
+# Block automated requests (what3words 403s bots; the audition form needs a
+# Google sign-in and returns 401) but work for visitors.
+- "w3w.co"
+- "forms.gle/aCmng7SA2DvtBmVr6"
+# The site's own absolute URLs (canonical links, redirect_from pages) point at
+# the live copy of this site, so checking them is circular: new pages fail
+# until they have been deployed. Internal links are still checked relatively.
+- "old.newtheatre.org.uk"
+# External ticketing service; its availability shouldn't block deploys.
+- "ticketing.newtheatre.org.uk"

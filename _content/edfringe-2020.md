@@ -68,7 +68,7 @@ On Sunday 13th a casting meeting will take place. We cast parts by working throu
 
 For each show going to Edinburgh, there are three compulsory roles: **Publicity Manager**, **Technical Stage Manager**, and **Show Assistant**. These individuals will travel up to Edinburgh with the cast, director and producer. The specifics of the show assistant role is dependent on the show _(please see the key information packs)._
 
-Our teams are also looking for some Nottingham based roles. These individuals will not travel to Edinburgh. They will help the show get up on its feet and help prep for [StuFF](https://newtheatre.org.uk/stuff/). This is perfect for anyone who wants to get involved but does not want  to commit to the time or expense. The roles being looked for are different in each show _(please see the key information packs)._
+Our teams are also looking for some Nottingham based roles. These individuals will not travel to Edinburgh. They will help the show get up on its feet and help prep for [StuFF](/stuff/). This is perfect for anyone who wants to get involved but does not want  to commit to the time or expense. The roles being looked for are different in each show _(please see the key information packs)._
 
 <div class="row">
 <div class="col-sm" markdown="1">
